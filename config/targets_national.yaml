@@ -4484,6 +4484,3941 @@ council_news:
     label: Bassetlaw
     url: https://bassetlaw.moderngov.co.uk/mgRss.aspx?Type=2&CId=279
     status: verified
+  - name: brent-cabinet
+    kind: council_agenda
+    label: Brent
+    url: https://democracy.brent.gov.uk/mgRss.aspx?Type=2&CId=455
+    status: verified
+  - name: brent-community-and-wellbeing-scrutiny-committ
+    kind: council_agenda
+    label: Brent
+    url: https://democracy.brent.gov.uk/mgRss.aspx?Type=2&CId=548
+    status: verified
+  - name: brent-joint-health-overview-and-scrutiny-commi
+    kind: council_agenda
+    label: Brent
+    url: https://democracy.brent.gov.uk/mgRss.aspx?Type=2&CId=849
+    status: verified
+  - name: brent-north-west-london-joint-health-overview-
+    kind: council_agenda
+    label: Brent
+    url: https://democracy.brent.gov.uk/mgRss.aspx?Type=2&CId=363
+    status: verified
+  - name: brent-resources-and-public-realm-scrutiny-comm
+    kind: council_agenda
+    label: Brent
+    url: https://democracy.brent.gov.uk/mgRss.aspx?Type=2&CId=551
+    status: verified
+  - name: brent-planning-committee
+    kind: council_agenda
+    label: Brent
+    url: https://democracy.brent.gov.uk/mgRss.aspx?Type=2&CId=115
+    status: verified
+  - name: bexley-cabinet-committee
+    kind: council_agenda
+    label: Bexley
+    url: https://democracy.bexley.gov.uk/mgRss.aspx?Type=2&CId=1872
+    status: verified
+  - name: bexley-public-cabinet
+    kind: council_agenda
+    label: Bexley
+    url: https://democracy.bexley.gov.uk/mgRss.aspx?Type=2&CId=149
+    status: verified
+  - name: bexley-planning-committee
+    kind: council_agenda
+    label: Bexley
+    url: https://democracy.bexley.gov.uk/mgRss.aspx?Type=2&CId=144
+    status: verified
+  - name: bexley-adult-social-care-health-overview-and-sc
+    kind: council_agenda
+    label: Bexley
+    url: https://democracy.bexley.gov.uk/mgRss.aspx?Type=2&CId=1960
+    status: verified
+  - name: bexley-children-s-services-and-education-overvi
+    kind: council_agenda
+    label: Bexley
+    url: https://democracy.bexley.gov.uk/mgRss.aspx?Type=2&CId=1546
+    status: verified
+  - name: bexley-finance-corporate-services-overview-and-
+    kind: council_agenda
+    label: Bexley
+    url: https://democracy.bexley.gov.uk/mgRss.aspx?Type=2&CId=155
+    status: verified
+  - name: blaenaugwent-adults-communities-wellbeing-scrutiny-co
+    kind: council_agenda
+    label: Blaenau Gwent
+    url: https://democracy.blaenau-gwent.gov.uk/mgRss.aspx?Type=2&CId=1266
+    status: verified
+  - name: blaenaugwent-children-young-people-and-families-scrut
+    kind: council_agenda
+    label: Blaenau Gwent
+    url: https://democracy.blaenau-gwent.gov.uk/mgRss.aspx?Type=2&CId=1269
+    status: verified
+  - name: blaenaugwent-corporate-governance-and-resources-scrut
+    kind: council_agenda
+    label: Blaenau Gwent
+    url: https://democracy.blaenau-gwent.gov.uk/mgRss.aspx?Type=2&CId=1267
+    status: verified
+  - name: blaenaugwent-economic-development-and-environmental-m
+    kind: council_agenda
+    label: Blaenau Gwent
+    url: https://democracy.blaenau-gwent.gov.uk/mgRss.aspx?Type=2&CId=1268
+    status: verified
+  - name: blaenaugwent-gwent-public-services-board-scrutiny-com
+    kind: council_agenda
+    label: Blaenau Gwent
+    url: https://democracy.blaenau-gwent.gov.uk/mgRss.aspx?Type=2&CId=1258
+    status: verified
+  - name: blaenaugwent-planning-committee
+    kind: council_agenda
+    label: Blaenau Gwent
+    url: https://democracy.blaenau-gwent.gov.uk/mgRss.aspx?Type=2&CId=1251
+    status: verified
+  - name: blaby-cabinet-executive
+    kind: council_agenda
+    label: Blaby
+    url: https://democracy.blaby.gov.uk/mgRss.aspx?Type=2&CId=286
+    status: verified
+  - name: blaby-planning-committee
+    kind: council_agenda
+    label: Blaby
+    url: https://democracy.blaby.gov.uk/mgRss.aspx?Type=2&CId=285
+    status: verified
+  - name: blaby-joint-community-safety-partnership-overv
+    kind: council_agenda
+    label: Blaby
+    url: https://democracy.blaby.gov.uk/mgRss.aspx?Type=2&CId=811
+    status: verified
+  - name: blaby-scrutiny-commission
+    kind: council_agenda
+    label: Blaby
+    url: https://democracy.blaby.gov.uk/mgRss.aspx?Type=2&CId=288
+    status: verified
+  - name: blaby-scrutiny-commissioners
+    kind: council_agenda
+    label: Blaby
+    url: https://democracy.blaby.gov.uk/mgRss.aspx?Type=2&CId=289
+    status: verified
+  - name: blaby-scrutiny-of-the-administration-s-budget-
+    kind: council_agenda
+    label: Blaby
+    url: https://democracy.blaby.gov.uk/mgRss.aspx?Type=2&CId=746
+    status: verified
+  - name: barnet-cabinet-forward-plan
+    kind: council_agenda
+    label: Barnet
+    url: https://barnet.moderngov.co.uk/mgRss.aspx?Type=2&CId=1010
+    status: verified
+  - name: barnet-council-constitution
+    kind: council_agenda
+    label: Barnet
+    url: https://barnet.moderngov.co.uk/mgRss.aspx?Type=2&CId=11503
+    status: verified
+  - name: barnet-adults-and-health-overview-and-scrutiny-
+    kind: council_agenda
+    label: Barnet
+    url: https://barnet.moderngov.co.uk/mgRss.aspx?Type=2&CId=1005
+    status: verified
+  - name: barnet-children-and-education-overview-and-scru
+    kind: council_agenda
+    label: Barnet
+    url: https://barnet.moderngov.co.uk/mgRss.aspx?Type=2&CId=1007
+    status: verified
+  - name: barnet-environment-overview-and-scrutiny-sub-co
+    kind: council_agenda
+    label: Barnet
+    url: https://barnet.moderngov.co.uk/mgRss.aspx?Type=2&CId=1132
+    status: verified
+  - name: barnet-finance-and-growth-overview-and-scrutiny
+    kind: council_agenda
+    label: Barnet
+    url: https://barnet.moderngov.co.uk/mgRss.aspx?Type=2&CId=1131
+    status: verified
+  - name: bolton-cabinet
+    kind: council_agenda
+    label: Bolton
+    url: https://bolton.moderngov.co.uk/mgRss.aspx?Type=2&CId=142
+    status: verified
+  - name: bolton-executive-cabinet-member-deputy-leader
+    kind: council_agenda
+    label: Bolton
+    url: https://bolton.moderngov.co.uk/mgRss.aspx?Type=2&CId=174
+    status: verified
+  - name: bolton-executive-cabinet-member-for-children-s-
+    kind: council_agenda
+    label: Bolton
+    url: https://bolton.moderngov.co.uk/mgRss.aspx?Type=2&CId=175
+    status: verified
+  - name: bolton-executive-cabinet-member-for-climate-cha
+    kind: council_agenda
+    label: Bolton
+    url: https://bolton.moderngov.co.uk/mgRss.aspx?Type=2&CId=173
+    status: verified
+  - name: bolton-executive-cabinet-member-for-culture
+    kind: council_agenda
+    label: Bolton
+    url: https://bolton.moderngov.co.uk/mgRss.aspx?Type=2&CId=176
+    status: verified
+  - name: bolton-executive-cabinet-member-for-health-and-
+    kind: council_agenda
+    label: Bolton
+    url: https://bolton.moderngov.co.uk/mgRss.aspx?Type=2&CId=320
+    status: verified
+  - name: bolsover-climate-change-and-communities-scrutiny-
+    kind: council_agenda
+    label: Bolsover
+    url: https://committees.bolsover.gov.uk/mgRss.aspx?Type=2&CId=1371
+    status: verified
+  - name: bolsover-customer-services-scrutiny-committee
+    kind: council_agenda
+    label: Bolsover
+    url: https://committees.bolsover.gov.uk/mgRss.aspx?Type=2&CId=1376
+    status: verified
+  - name: bolsover-finance-and-corporate-overview-scrutiny-
+    kind: council_agenda
+    label: Bolsover
+    url: https://committees.bolsover.gov.uk/mgRss.aspx?Type=2&CId=1400
+    status: verified
+  - name: bolsover-local-growth-scrutiny-committee
+    kind: council_agenda
+    label: Bolsover
+    url: https://committees.bolsover.gov.uk/mgRss.aspx?Type=2&CId=1370
+    status: verified
+  - name: bolsover-planning-committee
+    kind: council_agenda
+    label: Bolsover
+    url: https://committees.bolsover.gov.uk/mgRss.aspx?Type=2&CId=1148
+    status: verified
+  - name: boston-full-council
+    kind: council_agenda
+    label: Boston
+    url: https://democracy.boston.gov.uk/mgRss.aspx?Type=2&CId=132
+    status: verified
+  - name: boston-cabinet
+    kind: council_agenda
+    label: Boston
+    url: https://democracy.boston.gov.uk/mgRss.aspx?Type=2&CId=130
+    status: verified
+  - name: boston-overview-scrutiny-committee
+    kind: council_agenda
+    label: Boston
+    url: https://democracy.boston.gov.uk/mgRss.aspx?Type=2&CId=339
+    status: verified
+  - name: boston-planning-committee
+    kind: council_agenda
+    label: Boston
+    url: https://democracy.boston.gov.uk/mgRss.aspx?Type=2&CId=170
+    status: verified
+  - name: boston-south-east-lincolnshire-joint-strategic-
+    kind: council_agenda
+    label: Boston
+    url: https://democracy.boston.gov.uk/mgRss.aspx?Type=2&CId=229
+    status: verified
+  - name: blackpool-planning-committee
+    kind: council_agenda
+    label: Blackpool
+    url: https://democracy.blackpool.gov.uk/mgRss.aspx?Type=2&CId=127
+    status: verified
+  - name: blackpool-adult-social-care-and-health-scrutiny-co
+    kind: council_agenda
+    label: Blackpool
+    url: https://democracy.blackpool.gov.uk/mgRss.aspx?Type=2&CId=325
+    status: verified
+  - name: blackpool-children-and-young-people-s-scrutiny-com
+    kind: council_agenda
+    label: Blackpool
+    url: https://democracy.blackpool.gov.uk/mgRss.aspx?Type=2&CId=363
+    status: verified
+  - name: blackpool-climate-change-and-environment-scrutiny-
+    kind: council_agenda
+    label: Blackpool
+    url: https://democracy.blackpool.gov.uk/mgRss.aspx?Type=2&CId=427
+    status: verified
+  - name: blackpool-scrutiny-leadership-board
+    kind: council_agenda
+    label: Blackpool
+    url: https://democracy.blackpool.gov.uk/mgRss.aspx?Type=2&CId=362
+    status: verified
+  - name: blackpool-tourism-economy-and-communities-scrutiny
+    kind: council_agenda
+    label: Blackpool
+    url: https://democracy.blackpool.gov.uk/mgRss.aspx?Type=2&CId=426
+    status: verified
+  - name: bracknellforest-cabinet
+    kind: council_agenda
+    label: Bracknell Forest
+    url: https://bracknell-forest.moderngov.co.uk/mgRss.aspx?Type=2&CId=1052
+    status: verified
+  - name: bracknellforest-planning-committee
+    kind: council_agenda
+    label: Bracknell Forest
+    url: https://bracknell-forest.moderngov.co.uk/mgRss.aspx?Type=2&CId=585
+    status: verified
+  - name: bracknellforest-education-skills-and-growth-overview-and
+    kind: council_agenda
+    label: Bracknell Forest
+    url: https://bracknell-forest.moderngov.co.uk/mgRss.aspx?Type=2&CId=918
+    status: verified
+  - name: bracknellforest-environment-and-communities-overview-and
+    kind: council_agenda
+    label: Bracknell Forest
+    url: https://bracknell-forest.moderngov.co.uk/mgRss.aspx?Type=2&CId=917
+    status: verified
+  - name: bracknellforest-health-and-care-overview-and-scrutiny-pa
+    kind: council_agenda
+    label: Bracknell Forest
+    url: https://bracknell-forest.moderngov.co.uk/mgRss.aspx?Type=2&CId=920
+    status: verified
+  - name: bracknellforest-overview-and-scrutiny-commission
+    kind: council_agenda
+    label: Bracknell Forest
+    url: https://bracknell-forest.moderngov.co.uk/mgRss.aspx?Type=2&CId=151
+    status: verified
+  - name: bradford-bradford-district-planning-panel
+    kind: council_agenda
+    label: Bradford
+    url: https://bradford.moderngov.co.uk/mgRss.aspx?Type=2&CId=434
+    status: verified
+  - name: bradford-children-s-services-overview-and-scrutin
+    kind: council_agenda
+    label: Bradford
+    url: https://bradford.moderngov.co.uk/mgRss.aspx?Type=2&CId=136
+    status: verified
+  - name: bradford-corporate-overview-and-scrutiny-committe
+    kind: council_agenda
+    label: Bradford
+    url: https://bradford.moderngov.co.uk/mgRss.aspx?Type=2&CId=139
+    status: verified
+  - name: bradford-health-and-social-care-overview-and-scru
+    kind: council_agenda
+    label: Bradford
+    url: https://bradford.moderngov.co.uk/mgRss.aspx?Type=2&CId=145
+    status: verified
+  - name: bradford-regeneration-and-environment-overview-an
+    kind: council_agenda
+    label: Bradford
+    url: https://bradford.moderngov.co.uk/mgRss.aspx?Type=2&CId=402
+    status: verified
+  - name: breckland-cabinet
+    kind: council_agenda
+    label: Breckland
+    url: https://democracy.breckland.gov.uk/mgRss.aspx?Type=2&CId=116
+    status: verified
+  - name: breckland-overview-and-scrutiny-commission
+    kind: council_agenda
+    label: Breckland
+    url: https://democracy.breckland.gov.uk/mgRss.aspx?Type=2&CId=143
+    status: verified
+  - name: breckland-planning-committee
+    kind: council_agenda
+    label: Breckland
+    url: https://democracy.breckland.gov.uk/mgRss.aspx?Type=2&CId=124
+    status: verified
+  - name: broxtowe-cabinet
+    kind: council_agenda
+    label: Broxtowe
+    url: https://democracy.broxtowe.gov.uk/mgRss.aspx?Type=2&CId=229
+    status: verified
+  - name: broxtowe-overview-and-scrutiny-committee
+    kind: council_agenda
+    label: Broxtowe
+    url: https://democracy.broxtowe.gov.uk/mgRss.aspx?Type=2&CId=230
+    status: verified
+  - name: broxtowe-planning-committee
+    kind: council_agenda
+    label: Broxtowe
+    url: https://democracy.broxtowe.gov.uk/mgRss.aspx?Type=2&CId=137
+    status: verified
+  - name: broxtowe-greater-nottingham-joint-planning-adviso
+    kind: council_agenda
+    label: Broxtowe
+    url: https://democracy.broxtowe.gov.uk/mgRss.aspx?Type=2&CId=261
+    status: verified
+  - name: brentwood-planning-committee
+    kind: council_agenda
+    label: Brentwood
+    url: https://brentwood.moderngov.co.uk/mgRss.aspx?Type=2&CId=409
+    status: verified
+  - name: cityofbristol-full-council
+    kind: council_agenda
+    label: City of Bristol
+    url: https://democracy.bristol.gov.uk/mgRss.aspx?Type=2&CId=142
+    status: verified
+  - name: cityofbristol-health-overview-scrutiny-committee-sub-c
+    kind: council_agenda
+    label: City of Bristol
+    url: https://democracy.bristol.gov.uk/mgRss.aspx?Type=2&CId=611
+    status: verified
+  - name: cityofbristol-planning-committee-a
+    kind: council_agenda
+    label: City of Bristol
+    url: https://democracy.bristol.gov.uk/mgRss.aspx?Type=2&CId=138
+    status: verified
+  - name: cityofbristol-planning-committee-b
+    kind: council_agenda
+    label: City of Bristol
+    url: https://democracy.bristol.gov.uk/mgRss.aspx?Type=2&CId=141
+    status: verified
+  - name: cityofbristol-joint-health-overview-and-scrutiny-commi
+    kind: council_agenda
+    label: City of Bristol
+    url: https://democracy.bristol.gov.uk/mgRss.aspx?Type=2&CId=399
+    status: verified
+  - name: cityofbristol-west-of-england-joint-scrutiny-committee
+    kind: council_agenda
+    label: City of Bristol
+    url: https://democracy.bristol.gov.uk/mgRss.aspx?Type=2&CId=287
+    status: verified
+  - name: buckinghamshire-cabinet
+    kind: council_agenda
+    label: Buckinghamshire
+    url: https://buckinghamshire.moderngov.co.uk/mgRss.aspx?Type=2&CId=337
+    status: verified
+  - name: buckinghamshire-central-north-buckinghamshire-area-plann
+    kind: council_agenda
+    label: Buckinghamshire
+    url: https://buckinghamshire.moderngov.co.uk/mgRss.aspx?Type=2&CId=1168
+    status: verified
+  - name: buckinghamshire-east-south-buckinghamshire-area-planning
+    kind: council_agenda
+    label: Buckinghamshire
+    url: https://buckinghamshire.moderngov.co.uk/mgRss.aspx?Type=2&CId=1169
+    status: verified
+  - name: buckinghamshire-west-buckinghamshire-area-planning-commi
+    kind: council_agenda
+    label: Buckinghamshire
+    url: https://buckinghamshire.moderngov.co.uk/mgRss.aspx?Type=2&CId=849
+    status: verified
+  - name: buckinghamshire-budget-scrutiny-inquiry-task-and-finish-
+    kind: council_agenda
+    label: Buckinghamshire
+    url: https://buckinghamshire.moderngov.co.uk/mgRss.aspx?Type=2&CId=1051
+    status: verified
+  - name: buckinghamshire-bmkfa-overview-audit-committee
+    kind: council_agenda
+    label: Buckinghamshire
+    url: https://buckinghamshire.moderngov.co.uk/mgRss.aspx?Type=2&CId=887
+    status: verified
+  - name: burnley-council-officer-decision-delegated-for-p
+    kind: council_agenda
+    label: Burnley
+    url: https://burnley.moderngov.co.uk/mgRss.aspx?Type=2&CId=258
+    status: verified
+  - name: burnley-full-council
+    kind: council_agenda
+    label: Burnley
+    url: https://burnley.moderngov.co.uk/mgRss.aspx?Type=2&CId=151
+    status: verified
+  - name: burnley-scrutiny-committee
+    kind: council_agenda
+    label: Burnley
+    url: https://burnley.moderngov.co.uk/mgRss.aspx?Type=2&CId=137
+    status: verified
+  - name: burnley-urgent-officer-decisions-council-decisio
+    kind: council_agenda
+    label: Burnley
+    url: https://burnley.moderngov.co.uk/mgRss.aspx?Type=2&CId=211
+    status: verified
+  - name: cambridge-cabinet
+    kind: council_agenda
+    label: Cambridge
+    url: https://democracy.cambridge.gov.uk/mgRss.aspx?Type=2&CId=532
+    status: verified
+  - name: cambridge-performance-assets-and-strategy-overview
+    kind: council_agenda
+    label: Cambridge
+    url: https://democracy.cambridge.gov.uk/mgRss.aspx?Type=2&CId=534
+    status: verified
+  - name: cambridge-services-climate-and-communities-overvie
+    kind: council_agenda
+    label: Cambridge
+    url: https://democracy.cambridge.gov.uk/mgRss.aspx?Type=2&CId=535
+    status: verified
+  - name: cambridge-planning
+    kind: council_agenda
+    label: Cambridge
+    url: https://democracy.cambridge.gov.uk/mgRss.aspx?Type=2&CId=181
+    status: verified
+  - name: cambridge-cambridgeshire-and-peterborough-combined
+    kind: council_agenda
+    label: Cambridge
+    url: https://democracy.cambridge.gov.uk/mgRss.aspx?Type=2&CId=480
+    status: verified
+  - name: cambridge-joint-planning-advisory-group
+    kind: council_agenda
+    label: Cambridge
+    url: https://democracy.cambridge.gov.uk/mgRss.aspx?Type=2&CId=492
+    status: verified
+  - name: canterbury-cabinet
+    kind: council_agenda
+    label: Canterbury
+    url: https://democracy.canterbury.gov.uk/mgRss.aspx?Type=2&CId=755
+    status: verified
+  - name: canterbury-cabinet-committee-companies-expired-now-
+    kind: council_agenda
+    label: Canterbury
+    url: https://democracy.canterbury.gov.uk/mgRss.aspx?Type=2&CId=781
+    status: verified
+  - name: canterbury-planning-committee
+    kind: council_agenda
+    label: Canterbury
+    url: https://democracy.canterbury.gov.uk/mgRss.aspx?Type=2&CId=553
+    status: verified
+  - name: canterbury-planning-sub-committee
+    kind: council_agenda
+    label: Canterbury
+    url: https://democracy.canterbury.gov.uk/mgRss.aspx?Type=2&CId=554
+    status: verified
+  - name: canterbury-cabinet-advisory-committee-housing
+    kind: council_agenda
+    label: Canterbury
+    url: https://democracy.canterbury.gov.uk/mgRss.aspx?Type=2&CId=807
+    status: verified
+  - name: caerphilly-cabinet
+    kind: council_agenda
+    label: Caerphilly
+    url: https://democracy.caerphilly.gov.uk/mgRss.aspx?Type=2&CId=128
+    status: verified
+  - name: caerphilly-cabinet-as-trustee-of-cwmcarn-memorial-c
+    kind: council_agenda
+    label: Caerphilly
+    url: https://democracy.caerphilly.gov.uk/mgRss.aspx?Type=2&CId=491
+    status: verified
+  - name: caerphilly-cabinet-as-trustees-for-various-educatio
+    kind: council_agenda
+    label: Caerphilly
+    url: https://democracy.caerphilly.gov.uk/mgRss.aspx?Type=2&CId=654
+    status: verified
+  - name: caerphilly-cabinet-as-trustees-of-blackwood-miners-
+    kind: council_agenda
+    label: Caerphilly
+    url: https://democracy.caerphilly.gov.uk/mgRss.aspx?Type=2&CId=498
+    status: verified
+  - name: caerphilly-cabinet-as-trustees-of-dafydd-williams-p
+    kind: council_agenda
+    label: Caerphilly
+    url: https://democracy.caerphilly.gov.uk/mgRss.aspx?Type=2&CId=509
+    status: verified
+  - name: caerphilly-cabinet-decision-notices
+    kind: council_agenda
+    label: Caerphilly
+    url: https://democracy.caerphilly.gov.uk/mgRss.aspx?Type=2&CId=457
+    status: verified
+  - name: cumberland-planning-committee
+    kind: council_agenda
+    label: Cumberland
+    url: https://cumberland.moderngov.co.uk/mgRss.aspx?Type=2&CId=169
+    status: verified
+  - name: cumberland-business-and-resources-overview-and-scru
+    kind: council_agenda
+    label: Cumberland
+    url: https://cumberland.moderngov.co.uk/mgRss.aspx?Type=2&CId=172
+    status: verified
+  - name: cumberland-health-overview-and-scrutiny-committee
+    kind: council_agenda
+    label: Cumberland
+    url: https://cumberland.moderngov.co.uk/mgRss.aspx?Type=2&CId=173
+    status: verified
+  - name: cumberland-people-overview-and-scrutiny-committee
+    kind: council_agenda
+    label: Cumberland
+    url: https://cumberland.moderngov.co.uk/mgRss.aspx?Type=2&CId=174
+    status: verified
+  - name: cumberland-place-overview-and-scrutiny-committee
+    kind: council_agenda
+    label: Cumberland
+    url: https://cumberland.moderngov.co.uk/mgRss.aspx?Type=2&CId=175
+    status: verified
+  - name: cumberland-joint-overview-and-scrutiny-committee
+    kind: council_agenda
+    label: Cumberland
+    url: https://cumberland.moderngov.co.uk/mgRss.aspx?Type=2&CId=607
+    status: verified
+  - name: charnwood-cabinet
+    kind: council_agenda
+    label: Charnwood
+    url: https://charnwood.moderngov.co.uk/mgRss.aspx?Type=2&CId=137
+    status: verified
+  - name: charnwood-budget-scrutiny-panel
+    kind: council_agenda
+    label: Charnwood
+    url: https://charnwood.moderngov.co.uk/mgRss.aspx?Type=2&CId=136
+    status: verified
+  - name: charnwood-digital-transformation-scrutiny-panel
+    kind: council_agenda
+    label: Charnwood
+    url: https://charnwood.moderngov.co.uk/mgRss.aspx?Type=2&CId=251
+    status: verified
+  - name: charnwood-finance-performance-scrutiny-committee
+    kind: council_agenda
+    label: Charnwood
+    url: https://charnwood.moderngov.co.uk/mgRss.aspx?Type=2&CId=249
+    status: verified
+  - name: charnwood-flooding-scrutiny-panel
+    kind: council_agenda
+    label: Charnwood
+    url: https://charnwood.moderngov.co.uk/mgRss.aspx?Type=2&CId=286
+    status: verified
+  - name: charnwood-houses-of-multiple-occupancy-scrutiny-pa
+    kind: council_agenda
+    label: Charnwood
+    url: https://charnwood.moderngov.co.uk/mgRss.aspx?Type=2&CId=315
+    status: verified
+  - name: cheshireeast-cabinet
+    kind: council_agenda
+    label: Cheshire East
+    url: https://moderngov.cheshireeast.gov.uk/mgRss.aspx?Type=2&CId=1160
+    status: verified
+  - name: cheshireeast-adults-overview-and-scrutiny-committee
+    kind: council_agenda
+    label: Cheshire East
+    url: https://moderngov.cheshireeast.gov.uk/mgRss.aspx?Type=2&CId=1163
+    status: verified
+  - name: cheshireeast-childrens-overview-and-scrutiny-committe
+    kind: council_agenda
+    label: Cheshire East
+    url: https://moderngov.cheshireeast.gov.uk/mgRss.aspx?Type=2&CId=1162
+    status: verified
+  - name: cheshireeast-corporate-governance-overview-and-scruti
+    kind: council_agenda
+    label: Cheshire East
+    url: https://moderngov.cheshireeast.gov.uk/mgRss.aspx?Type=2&CId=1165
+    status: verified
+  - name: cheshireeast-place-overview-and-scrutiny-committee
+    kind: council_agenda
+    label: Cheshire East
+    url: https://moderngov.cheshireeast.gov.uk/mgRss.aspx?Type=2&CId=1164
+    status: verified
+  - name: cheshireeast-northern-planning-committee
+    kind: council_agenda
+    label: Cheshire East
+    url: https://moderngov.cheshireeast.gov.uk/mgRss.aspx?Type=2&CId=285
+    status: verified
+  - name: chichester-cabinet
+    kind: council_agenda
+    label: Chichester
+    url: https://chichester.moderngov.co.uk/mgRss.aspx?Type=2&CId=135
+    status: verified
+  - name: chichester-overview-scrutiny-committee
+    kind: council_agenda
+    label: Chichester
+    url: https://chichester.moderngov.co.uk/mgRss.aspx?Type=2&CId=133
+    status: verified
+  - name: chichester-planning-committee
+    kind: council_agenda
+    label: Chichester
+    url: https://chichester.moderngov.co.uk/mgRss.aspx?Type=2&CId=134
+    status: verified
+  - name: chorley-executive-cabinet
+    kind: council_agenda
+    label: Chorley
+    url: https://democracy.chorley.gov.uk/mgRss.aspx?Type=2&CId=115
+    status: verified
+  - name: chorley-planning-committee
+    kind: council_agenda
+    label: Chorley
+    url: https://democracy.chorley.gov.uk/mgRss.aspx?Type=2&CId=975
+    status: verified
+  - name: chorley-overview-and-scrutiny-committee
+    kind: council_agenda
+    label: Chorley
+    url: https://democracy.chorley.gov.uk/mgRss.aspx?Type=2&CId=117
+    status: verified
+  - name: chorley-overview-and-scrutiny-performance-panel
+    kind: council_agenda
+    label: Chorley
+    url: https://democracy.chorley.gov.uk/mgRss.aspx?Type=2&CId=689
+    status: verified
+  - name: chorley-overview-and-scrutiny-task-group-underst
+    kind: council_agenda
+    label: Chorley
+    url: https://democracy.chorley.gov.uk/mgRss.aspx?Type=2&CId=1120
+    status: verified
+  - name: chesterfield-cabinet
+    kind: council_agenda
+    label: Chesterfield
+    url: https://chesterfield.moderngov.co.uk/mgRss.aspx?Type=2&CId=134
+    status: verified
+  - name: chesterfield-joint-cabinet-and-employment-general-com
+    kind: council_agenda
+    label: Chesterfield
+    url: https://chesterfield.moderngov.co.uk/mgRss.aspx?Type=2&CId=153
+    status: verified
+  - name: chesterfield-scrutiny-select-committee-economic-growt
+    kind: council_agenda
+    label: Chesterfield
+    url: https://chesterfield.moderngov.co.uk/mgRss.aspx?Type=2&CId=469
+    status: verified
+  - name: chesterfield-scrutiny-select-committee-resilient-coun
+    kind: council_agenda
+    label: Chesterfield
+    url: https://chesterfield.moderngov.co.uk/mgRss.aspx?Type=2&CId=468
+    status: verified
+  - name: chesterfield-planning-committee
+    kind: council_agenda
+    label: Chesterfield
+    url: https://chesterfield.moderngov.co.uk/mgRss.aspx?Type=2&CId=179
+    status: verified
+  - name: chesterfield-planning-sub-committee
+    kind: council_agenda
+    label: Chesterfield
+    url: https://chesterfield.moderngov.co.uk/mgRss.aspx?Type=2&CId=180
+    status: verified
+  - name: cheltenham-cabinet
+    kind: council_agenda
+    label: Cheltenham
+    url: https://democracy.cheltenham.gov.uk/mgRss.aspx?Type=2&CId=166
+    status: verified
+  - name: cheltenham-cabinet-housing-committee
+    kind: council_agenda
+    label: Cheltenham
+    url: https://democracy.cheltenham.gov.uk/mgRss.aspx?Type=2&CId=448
+    status: verified
+  - name: cheltenham-joint-overview-and-scrutiny-review-panel
+    kind: council_agenda
+    label: Cheltenham
+    url: https://democracy.cheltenham.gov.uk/mgRss.aspx?Type=2&CId=460
+    status: verified
+  - name: cheltenham-overview-scrutiny-committee
+    kind: council_agenda
+    label: Cheltenham
+    url: https://democracy.cheltenham.gov.uk/mgRss.aspx?Type=2&CId=267
+    status: verified
+  - name: cheltenham-planning-committee
+    kind: council_agenda
+    label: Cheltenham
+    url: https://democracy.cheltenham.gov.uk/mgRss.aspx?Type=2&CId=119
+    status: verified
+  - name: calderdale-cabinet
+    kind: council_agenda
+    label: Calderdale
+    url: https://calderdale.moderngov.co.uk/mgRss.aspx?Type=2&CId=140
+    status: verified
+  - name: calderdale-calderdale-and-kirklees-joint-health-ove
+    kind: council_agenda
+    label: Calderdale
+    url: https://calderdale.moderngov.co.uk/mgRss.aspx?Type=2&CId=218
+    status: verified
+  - name: calderdale-overview-and-scrutiny-committee
+    kind: council_agenda
+    label: Calderdale
+    url: https://calderdale.moderngov.co.uk/mgRss.aspx?Type=2&CId=302
+    status: verified
+  - name: calderdale-west-yorkshire-joint-health-overview-and
+    kind: council_agenda
+    label: Calderdale
+    url: https://calderdale.moderngov.co.uk/mgRss.aspx?Type=2&CId=150
+    status: verified
+  - name: calderdale-planning-committee
+    kind: council_agenda
+    label: Calderdale
+    url: https://calderdale.moderngov.co.uk/mgRss.aspx?Type=2&CId=144
+    status: verified
+  - name: camden-cabinet-member-for-best-start-for-childr
+    kind: council_agenda
+    label: Camden
+    url: https://camden.moderngov.co.uk/mgRss.aspx?Type=2&CId=748
+    status: verified
+  - name: camden-cabinet-member-for-better-homes-and-home
+    kind: council_agenda
+    label: Camden
+    url: https://camden.moderngov.co.uk/mgRss.aspx?Type=2&CId=745
+    status: verified
+  - name: camden-cabinet-member-for-community-resilience
+    kind: council_agenda
+    label: Camden
+    url: https://camden.moderngov.co.uk/mgRss.aspx?Type=2&CId=860
+    status: verified
+  - name: camden-cabinet-member-for-finance-and-cost-of-l
+    kind: council_agenda
+    label: Camden
+    url: https://camden.moderngov.co.uk/mgRss.aspx?Type=2&CId=746
+    status: verified
+  - name: camden-cabinet-member-for-health-wellbeing-and-
+    kind: council_agenda
+    label: Camden
+    url: https://camden.moderngov.co.uk/mgRss.aspx?Type=2&CId=802
+    status: verified
+  - name: camden-cabinet-member-for-jobs-young-people-and
+    kind: council_agenda
+    label: Camden
+    url: https://camden.moderngov.co.uk/mgRss.aspx?Type=2&CId=804
+    status: verified
+  - name: carmarthenshire-cabinet
+    kind: council_agenda
+    label: Carmarthenshire
+    url: https://carmarthenshire.moderngov.co.uk/mgRss.aspx?Type=2&CId=131
+    status: verified
+  - name: carmarthenshire-cabinet-member-leader
+    kind: council_agenda
+    label: Carmarthenshire
+    url: https://carmarthenshire.moderngov.co.uk/mgRss.aspx?Type=2&CId=392
+    status: verified
+  - name: carmarthenshire-cabinet-member-for-climate-change-decarb
+    kind: council_agenda
+    label: Carmarthenshire
+    url: https://carmarthenshire.moderngov.co.uk/mgRss.aspx?Type=2&CId=388
+    status: verified
+  - name: carmarthenshire-cabinet-member-for-deputy-leader-and-reg
+    kind: council_agenda
+    label: Carmarthenshire
+    url: https://carmarthenshire.moderngov.co.uk/mgRss.aspx?Type=2&CId=394
+    status: verified
+  - name: carmarthenshire-cabinet-member-for-education
+    kind: council_agenda
+    label: Carmarthenshire
+    url: https://carmarthenshire.moderngov.co.uk/mgRss.aspx?Type=2&CId=390
+    status: verified
+  - name: carmarthenshire-cabinet-member-for-homes
+    kind: council_agenda
+    label: Carmarthenshire
+    url: https://carmarthenshire.moderngov.co.uk/mgRss.aspx?Type=2&CId=384
+    status: verified
+  - name: cornwall-cabinet
+    kind: council_agenda
+    label: Cornwall
+    url: https://democracy.cornwall.gov.uk/mgRss.aspx?Type=2&CId=577
+    status: verified
+  - name: cornwall-central-sub-area-planning-committee
+    kind: council_agenda
+    label: Cornwall
+    url: https://democracy.cornwall.gov.uk/mgRss.aspx?Type=2&CId=578
+    status: verified
+  - name: cornwall-east-sub-area-planning-committee
+    kind: council_agenda
+    label: Cornwall
+    url: https://democracy.cornwall.gov.uk/mgRss.aspx?Type=2&CId=593
+    status: verified
+  - name: cornwall-strategic-planning-committee
+    kind: council_agenda
+    label: Cornwall
+    url: https://democracy.cornwall.gov.uk/mgRss.aspx?Type=2&CId=618
+    status: verified
+  - name: cornwall-west-sub-area-planning-committee
+    kind: council_agenda
+    label: Cornwall
+    url: https://democracy.cornwall.gov.uk/mgRss.aspx?Type=2&CId=621
+    status: verified
+  - name: cornwall-budget-development-overview-and-scrutiny
+    kind: council_agenda
+    label: Cornwall
+    url: https://democracy.cornwall.gov.uk/mgRss.aspx?Type=2&CId=2358
+    status: verified
+  - name: cardiff-cabinet
+    kind: council_agenda
+    label: Cardiff
+    url: https://cardiff.moderngov.co.uk/mgRss.aspx?Type=2&CId=151
+    status: verified
+  - name: cardiff-council-constitution
+    kind: council_agenda
+    label: Cardiff
+    url: https://cardiff.moderngov.co.uk/mgRss.aspx?Type=2&CId=262
+    status: verified
+  - name: cardiff-cabinet-trustee-maindy-park-trust
+    kind: council_agenda
+    label: Cardiff
+    url: https://cardiff.moderngov.co.uk/mgRss.aspx?Type=2&CId=420
+    status: verified
+  - name: cardiff-cabinet-trust-committee
+    kind: council_agenda
+    label: Cardiff
+    url: https://cardiff.moderngov.co.uk/mgRss.aspx?Type=2&CId=435
+    status: verified
+  - name: cardiff-council-appeals-committee
+    kind: council_agenda
+    label: Cardiff
+    url: https://cardiff.moderngov.co.uk/mgRss.aspx?Type=2&CId=136
+    status: verified
+  - name: cardiff-children-and-young-people-scrutiny-commi
+    kind: council_agenda
+    label: Cardiff
+    url: https://cardiff.moderngov.co.uk/mgRss.aspx?Type=2&CId=140
+    status: verified
+  - name: crawley-cabinet
+    kind: council_agenda
+    label: Crawley
+    url: https://democracy.crawley.gov.uk/mgRss.aspx?Type=2&CId=162
+    status: verified
+  - name: crawley-full-council
+    kind: council_agenda
+    label: Crawley
+    url: https://democracy.crawley.gov.uk/mgRss.aspx?Type=2&CId=161
+    status: verified
+  - name: crawley-planning-committee
+    kind: council_agenda
+    label: Crawley
+    url: https://democracy.crawley.gov.uk/mgRss.aspx?Type=2&CId=139
+    status: verified
+  - name: crawley-overview-and-scrutiny-commission
+    kind: council_agenda
+    label: Crawley
+    url: https://democracy.crawley.gov.uk/mgRss.aspx?Type=2&CId=138
+    status: verified
+  - name: crawley-support-for-armed-forces-scrutiny-panel
+    kind: council_agenda
+    label: Crawley
+    url: https://democracy.crawley.gov.uk/mgRss.aspx?Type=2&CId=376
+    status: verified
+  - name: dacorum-finance-and-resources-overview-and-scrut
+    kind: council_agenda
+    label: Dacorum
+    url: https://democracy.dacorum.gov.uk/mgRss.aspx?Type=2&CId=130
+    status: verified
+  - name: dacorum-housing-and-community-overview-and-scrut
+    kind: council_agenda
+    label: Dacorum
+    url: https://democracy.dacorum.gov.uk/mgRss.aspx?Type=2&CId=133
+    status: verified
+  - name: dacorum-strategic-planning-environment-overview-
+    kind: council_agenda
+    label: Dacorum
+    url: https://democracy.dacorum.gov.uk/mgRss.aspx?Type=2&CId=177
+    status: verified
+  - name: dacorum-cabinet
+    kind: council_agenda
+    label: Dacorum
+    url: https://democracy.dacorum.gov.uk/mgRss.aspx?Type=2&CId=157
+    status: verified
+  - name: darlington-cabinet
+    kind: council_agenda
+    label: Darlington
+    url: https://democracy.darlington.gov.uk/mgRss.aspx?Type=2&CId=137
+    status: verified
+  - name: darlington-adults-scrutiny-committee
+    kind: council_agenda
+    label: Darlington
+    url: https://democracy.darlington.gov.uk/mgRss.aspx?Type=2&CId=353
+    status: verified
+  - name: darlington-children-and-young-people-scrutiny-commi
+    kind: council_agenda
+    label: Darlington
+    url: https://democracy.darlington.gov.uk/mgRss.aspx?Type=2&CId=143
+    status: verified
+  - name: darlington-communities-and-local-services-scrutiny-
+    kind: council_agenda
+    label: Darlington
+    url: https://democracy.darlington.gov.uk/mgRss.aspx?Type=2&CId=345
+    status: verified
+  - name: darlington-economy-and-resources-scrutiny-committee
+    kind: council_agenda
+    label: Darlington
+    url: https://democracy.darlington.gov.uk/mgRss.aspx?Type=2&CId=343
+    status: verified
+  - name: darlington-health-and-housing-scrutiny-committee
+    kind: council_agenda
+    label: Darlington
+    url: https://democracy.darlington.gov.uk/mgRss.aspx?Type=2&CId=344
+    status: verified
+  - name: dartford-cabinet
+    kind: council_agenda
+    label: Dartford
+    url: https://dartford.moderngov.co.uk/mgRss.aspx?Type=2&CId=105
+    status: verified
+  - name: dartford-cabinet-advisory-panel-a
+    kind: council_agenda
+    label: Dartford
+    url: https://dartford.moderngov.co.uk/mgRss.aspx?Type=2&CId=136
+    status: verified
+  - name: dartford-cabinet-advisory-panel-b
+    kind: council_agenda
+    label: Dartford
+    url: https://dartford.moderngov.co.uk/mgRss.aspx?Type=2&CId=137
+    status: verified
+  - name: dartford-crime-and-disorder-overview-and-scrutiny
+    kind: council_agenda
+    label: Dartford
+    url: https://dartford.moderngov.co.uk/mgRss.aspx?Type=2&CId=348
+    status: verified
+  - name: dartford-general-assembly-of-the-council-budget
+    kind: council_agenda
+    label: Dartford
+    url: https://dartford.moderngov.co.uk/mgRss.aspx?Type=2&CId=139
+    status: verified
+  - name: dartford-overview-scrutiny-committee
+    kind: council_agenda
+    label: Dartford
+    url: https://dartford.moderngov.co.uk/mgRss.aspx?Type=2&CId=116
+    status: verified
+  - name: derbyshiredales-planning-committee
+    kind: council_agenda
+    label: Derbyshire Dales
+    url: https://democracy.derbyshiredales.gov.uk/mgRss.aspx?Type=2&CId=144
+    status: verified
+  - name: derbyshiredales-scrutiny-committee
+    kind: council_agenda
+    label: Derbyshire Dales
+    url: https://democracy.derbyshiredales.gov.uk/mgRss.aspx?Type=2&CId=276
+    status: verified
+  - name: denbighshire-cabinet
+    kind: council_agenda
+    label: Denbighshire
+    url: https://moderngov.denbighshire.gov.uk/mgRss.aspx?Type=2&CId=281
+    status: verified
+  - name: denbighshire-communities-scrutiny-committee
+    kind: council_agenda
+    label: Denbighshire
+    url: https://moderngov.denbighshire.gov.uk/mgRss.aspx?Type=2&CId=271
+    status: verified
+  - name: denbighshire-conwy-and-denbighshire-public-services-b
+    kind: council_agenda
+    label: Denbighshire
+    url: https://moderngov.denbighshire.gov.uk/mgRss.aspx?Type=2&CId=540
+    status: verified
+  - name: denbighshire-partnerships-scrutiny-committee
+    kind: council_agenda
+    label: Denbighshire
+    url: https://moderngov.denbighshire.gov.uk/mgRss.aspx?Type=2&CId=268
+    status: verified
+  - name: denbighshire-performance-scrutiny-committee
+    kind: council_agenda
+    label: Denbighshire
+    url: https://moderngov.denbighshire.gov.uk/mgRss.aspx?Type=2&CId=269
+    status: verified
+  - name: denbighshire-planning-committee
+    kind: council_agenda
+    label: Denbighshire
+    url: https://moderngov.denbighshire.gov.uk/mgRss.aspx?Type=2&CId=183
+    status: verified
+  - name: doncaster-cabinet
+    kind: council_agenda
+    label: Doncaster
+    url: https://doncaster.moderngov.co.uk/mgRss.aspx?Type=2&CId=131
+    status: verified
+  - name: doncaster-planning-committee
+    kind: council_agenda
+    label: Doncaster
+    url: https://doncaster.moderngov.co.uk/mgRss.aspx?Type=2&CId=133
+    status: verified
+  - name: doncaster-planning-committee-visits
+    kind: council_agenda
+    label: Doncaster
+    url: https://doncaster.moderngov.co.uk/mgRss.aspx?Type=2&CId=309
+    status: verified
+  - name: doncaster-children-and-young-people-overview-and-s
+    kind: council_agenda
+    label: Doncaster
+    url: https://doncaster.moderngov.co.uk/mgRss.aspx?Type=2&CId=140
+    status: verified
+  - name: doncaster-communities-and-environment-crime-disord
+    kind: council_agenda
+    label: Doncaster
+    url: https://doncaster.moderngov.co.uk/mgRss.aspx?Type=2&CId=138
+    status: verified
+  - name: doncaster-communities-and-environment-overview-and
+    kind: council_agenda
+    label: Doncaster
+    url: https://doncaster.moderngov.co.uk/mgRss.aspx?Type=2&CId=313
+    status: verified
+  - name: dover-notice-of-exempt-cabinet-meetings
+    kind: council_agenda
+    label: Dover
+    url: https://dover.moderngov.co.uk/mgRss.aspx?Type=2&CId=398
+    status: verified
+  - name: dover-cabinet
+    kind: council_agenda
+    label: Dover
+    url: https://dover.moderngov.co.uk/mgRss.aspx?Type=2&CId=121
+    status: verified
+  - name: dover-planning-committee
+    kind: council_agenda
+    label: Dover
+    url: https://dover.moderngov.co.uk/mgRss.aspx?Type=2&CId=136
+    status: verified
+  - name: dover-overview-and-scrutiny-committee
+    kind: council_agenda
+    label: Dover
+    url: https://dover.moderngov.co.uk/mgRss.aspx?Type=2&CId=399
+    status: verified
+  - name: dorsetcouncil-cabinet
+    kind: council_agenda
+    label: Dorset Council
+    url: https://moderngov.dorsetcouncil.gov.uk/mgRss.aspx?Type=2&CId=152
+    status: verified
+  - name: dorsetcouncil-joint-overview-committee
+    kind: council_agenda
+    label: Dorset Council
+    url: https://moderngov.dorsetcouncil.gov.uk/mgRss.aspx?Type=2&CId=664
+    status: verified
+  - name: dorsetcouncil-joint-scrutiny-committee
+    kind: council_agenda
+    label: Dorset Council
+    url: https://moderngov.dorsetcouncil.gov.uk/mgRss.aspx?Type=2&CId=677
+    status: verified
+  - name: dorsetcouncil-people-and-health-overview-committee
+    kind: council_agenda
+    label: Dorset Council
+    url: https://moderngov.dorsetcouncil.gov.uk/mgRss.aspx?Type=2&CId=652
+    status: verified
+  - name: dorsetcouncil-people-and-health-scrutiny-committee
+    kind: council_agenda
+    label: Dorset Council
+    url: https://moderngov.dorsetcouncil.gov.uk/mgRss.aspx?Type=2&CId=653
+    status: verified
+  - name: dorsetcouncil-place-and-resources-overview-committee
+    kind: council_agenda
+    label: Dorset Council
+    url: https://moderngov.dorsetcouncil.gov.uk/mgRss.aspx?Type=2&CId=651
+    status: verified
+  - name: eastbourne-lewes-district-council-appointments-and-
+    kind: council_agenda
+    label: Eastbourne
+    url: https://eastbourne.moderngov.co.uk/mgRss.aspx?Type=2&CId=499
+    status: verified
+  - name: eastbourne-lewes-district-council-audit-and-governa
+    kind: council_agenda
+    label: Eastbourne
+    url: https://eastbourne.moderngov.co.uk/mgRss.aspx?Type=2&CId=423
+    status: verified
+  - name: eastbourne-lewes-district-council-cabinet
+    kind: council_agenda
+    label: Eastbourne
+    url: https://eastbourne.moderngov.co.uk/mgRss.aspx?Type=2&CId=417
+    status: verified
+  - name: eastbourne-lewes-district-council-full-council
+    kind: council_agenda
+    label: Eastbourne
+    url: https://eastbourne.moderngov.co.uk/mgRss.aspx?Type=2&CId=431
+    status: verified
+  - name: eastbourne-lewes-district-council-licensing-committ
+    kind: council_agenda
+    label: Eastbourne
+    url: https://eastbourne.moderngov.co.uk/mgRss.aspx?Type=2&CId=429
+    status: verified
+  - name: eastbourne-lewes-district-council-licensing-sub-com
+    kind: council_agenda
+    label: Eastbourne
+    url: https://eastbourne.moderngov.co.uk/mgRss.aspx?Type=2&CId=430
+    status: verified
+  - name: eastleigh-cabinet
+    kind: council_agenda
+    label: Eastleigh
+    url: https://eastleigh.moderngov.co.uk/mgRss.aspx?Type=2&CId=254
+    status: verified
+  - name: eastleigh-policy-and-performance-scrutiny-panel
+    kind: council_agenda
+    label: Eastleigh
+    url: https://eastleigh.moderngov.co.uk/mgRss.aspx?Type=2&CId=486
+    status: verified
+  - name: eastdevon-cabinet
+    kind: council_agenda
+    label: East Devon
+    url: https://democracy.eastdevon.gov.uk/mgRss.aspx?Type=2&CId=136
+    status: verified
+  - name: eastdevon-housing-overview-and-scrutiny-committee-
+    kind: council_agenda
+    label: East Devon
+    url: https://democracy.eastdevon.gov.uk/mgRss.aspx?Type=2&CId=152
+    status: verified
+  - name: eastdevon-overview-committee
+    kind: council_agenda
+    label: East Devon
+    url: https://democracy.eastdevon.gov.uk/mgRss.aspx?Type=2&CId=135
+    status: verified
+  - name: eastdevon-scrutiny-committee
+    kind: council_agenda
+    label: East Devon
+    url: https://democracy.eastdevon.gov.uk/mgRss.aspx?Type=2&CId=148
+    status: verified
+  - name: eastdevon-planning-committee
+    kind: council_agenda
+    label: East Devon
+    url: https://democracy.eastdevon.gov.uk/mgRss.aspx?Type=2&CId=308
+    status: verified
+  - name: eastdevon-strategic-planning-committee
+    kind: council_agenda
+    label: East Devon
+    url: https://democracy.eastdevon.gov.uk/mgRss.aspx?Type=2&CId=154
+    status: verified
+  - name: cityofedinburgh-planning-committee
+    kind: council_agenda
+    label: City of Edinburgh
+    url: https://democracy.edinburgh.gov.uk/mgRss.aspx?Type=2&CId=147
+    status: verified
+  - name: cityofedinburgh-planning-local-review-body-panel-1
+    kind: council_agenda
+    label: City of Edinburgh
+    url: https://democracy.edinburgh.gov.uk/mgRss.aspx?Type=2&CId=151
+    status: verified
+  - name: cityofedinburgh-planning-local-review-body-panel-2
+    kind: council_agenda
+    label: City of Edinburgh
+    url: https://democracy.edinburgh.gov.uk/mgRss.aspx?Type=2&CId=152
+    status: verified
+  - name: cityofedinburgh-sesplan-joint-committee-south-east-scotl
+    kind: council_agenda
+    label: City of Edinburgh
+    url: https://democracy.edinburgh.gov.uk/mgRss.aspx?Type=2&CId=170
+    status: verified
+  - name: enfield-cabinet
+    kind: council_agenda
+    label: Enfield
+    url: https://enfield.moderngov.co.uk/mgRss.aspx?Type=2&CId=107
+    status: verified
+  - name: enfield-planning-committee
+    kind: council_agenda
+    label: Enfield
+    url: https://enfield.moderngov.co.uk/mgRss.aspx?Type=2&CId=124
+    status: verified
+  - name: enfield-planning-panel
+    kind: council_agenda
+    label: Enfield
+    url: https://enfield.moderngov.co.uk/mgRss.aspx?Type=2&CId=125
+    status: verified
+  - name: enfield-culture-and-environment-scrutiny-panel
+    kind: council_agenda
+    label: Enfield
+    url: https://enfield.moderngov.co.uk/mgRss.aspx?Type=2&CId=899
+    status: verified
+  - name: enfield-healthy-and-safe-communities-scrutiny-pa
+    kind: council_agenda
+    label: Enfield
+    url: https://enfield.moderngov.co.uk/mgRss.aspx?Type=2&CId=900
+    status: verified
+  - name: enfield-housing-and-regeneration-scrutiny-panel
+    kind: council_agenda
+    label: Enfield
+    url: https://enfield.moderngov.co.uk/mgRss.aspx?Type=2&CId=902
+    status: verified
+  - name: eppingforest-planning-committee-a
+    kind: council_agenda
+    label: Epping Forest
+    url: https://eppingforest.moderngov.co.uk/mgRss.aspx?Type=2&CId=875
+    status: verified
+  - name: eppingforest-planning-committee-b
+    kind: council_agenda
+    label: Epping Forest
+    url: https://eppingforest.moderngov.co.uk/mgRss.aspx?Type=2&CId=876
+    status: verified
+  - name: eppingforest-overview-scrutiny-committee
+    kind: council_agenda
+    label: Epping Forest
+    url: https://eppingforest.moderngov.co.uk/mgRss.aspx?Type=2&CId=395
+    status: verified
+  - name: eppingforest-communities-scrutiny-committee
+    kind: council_agenda
+    label: Epping Forest
+    url: https://eppingforest.moderngov.co.uk/mgRss.aspx?Type=2&CId=859
+    status: verified
+  - name: eppingforest-place-scrutiny-committee
+    kind: council_agenda
+    label: Epping Forest
+    url: https://eppingforest.moderngov.co.uk/mgRss.aspx?Type=2&CId=860
+    status: verified
+  - name: erewash-council-executive
+    kind: council_agenda
+    label: Erewash
+    url: https://erewash.moderngov.co.uk/mgRss.aspx?Type=2&CId=104
+    status: verified
+  - name: erewash-scrutiny-committee
+    kind: council_agenda
+    label: Erewash
+    url: https://erewash.moderngov.co.uk/mgRss.aspx?Type=2&CId=327
+    status: verified
+  - name: erewash-planning-committee
+    kind: council_agenda
+    label: Erewash
+    url: https://erewash.moderngov.co.uk/mgRss.aspx?Type=2&CId=106
+    status: verified
+  - name: exeter-combined-strategic-scrutiny-and-customer
+    kind: council_agenda
+    label: Exeter
+    url: https://committees.exeter.gov.uk/mgRss.aspx?Type=2&CId=779
+    status: verified
+  - name: exeter-customer-focus-scrutiny-committee
+    kind: council_agenda
+    label: Exeter
+    url: https://committees.exeter.gov.uk/mgRss.aspx?Type=2&CId=747
+    status: verified
+  - name: exeter-strata-joint-scrutiny-committee
+    kind: council_agenda
+    label: Exeter
+    url: https://committees.exeter.gov.uk/mgRss.aspx?Type=2&CId=606
+    status: verified
+  - name: exeter-strategic-scrutiny-committee
+    kind: council_agenda
+    label: Exeter
+    url: https://committees.exeter.gov.uk/mgRss.aspx?Type=2&CId=750
+    status: verified
+  - name: exeter-planning-committee
+    kind: council_agenda
+    label: Exeter
+    url: https://committees.exeter.gov.uk/mgRss.aspx?Type=2&CId=116
+    status: verified
+  - name: fareham-executive-portfolio-for-planning-and-dev
+    kind: council_agenda
+    label: Fareham
+    url: https://fareham.moderngov.co.uk/mgRss.aspx?Type=2&CId=267
+    status: verified
+  - name: fareham-planning-committee
+    kind: council_agenda
+    label: Fareham
+    url: https://fareham.moderngov.co.uk/mgRss.aspx?Type=2&CId=122
+    status: verified
+  - name: fareham-overview-and-scrutiny-board
+    kind: council_agenda
+    label: Fareham
+    url: https://fareham.moderngov.co.uk/mgRss.aspx?Type=2&CId=404
+    status: verified
+  - name: fareham-planning-strategy-advisory-panel
+    kind: council_agenda
+    label: Fareham
+    url: https://fareham.moderngov.co.uk/mgRss.aspx?Type=2&CId=407
+    status: verified
+  - name: fareham-pfsh-overview-and-scrutiny-committee-dat
+    kind: council_agenda
+    label: Fareham
+    url: https://fareham.moderngov.co.uk/mgRss.aspx?Type=2&CId=403
+    status: verified
+  - name: fareham-planning-inquiry
+    kind: council_agenda
+    label: Fareham
+    url: https://fareham.moderngov.co.uk/mgRss.aspx?Type=2&CId=363
+    status: verified
+  - name: fenland-cabinet
+    kind: council_agenda
+    label: Fenland
+    url: https://moderngov.fenland.gov.uk/mgRss.aspx?Type=2&CId=136
+    status: verified
+  - name: fenland-overview-and-scrutiny-panel
+    kind: council_agenda
+    label: Fenland
+    url: https://moderngov.fenland.gov.uk/mgRss.aspx?Type=2&CId=135
+    status: verified
+  - name: fenland-planning-committee
+    kind: council_agenda
+    label: Fenland
+    url: https://moderngov.fenland.gov.uk/mgRss.aspx?Type=2&CId=137
+    status: verified
+  - name: gateshead-cabinet
+    kind: council_agenda
+    label: Gateshead
+    url: https://democracy.gateshead.gov.uk/mgRss.aspx?Type=2&CId=138
+    status: verified
+  - name: gateshead-care-health-and-wellbeing-overview-and-s
+    kind: council_agenda
+    label: Gateshead
+    url: https://democracy.gateshead.gov.uk/mgRss.aspx?Type=2&CId=136
+    status: verified
+  - name: gateshead-corporate-resources-overview-and-scrutin
+    kind: council_agenda
+    label: Gateshead
+    url: https://democracy.gateshead.gov.uk/mgRss.aspx?Type=2&CId=135
+    status: verified
+  - name: gateshead-families-overview-and-scrutiny-committee
+    kind: council_agenda
+    label: Gateshead
+    url: https://democracy.gateshead.gov.uk/mgRss.aspx?Type=2&CId=137
+    status: verified
+  - name: gateshead-housing-environment-and-healthy-communit
+    kind: council_agenda
+    label: Gateshead
+    url: https://democracy.gateshead.gov.uk/mgRss.aspx?Type=2&CId=210
+    status: verified
+  - name: gateshead-planning-and-development-committee
+    kind: council_agenda
+    label: Gateshead
+    url: https://democracy.gateshead.gov.uk/mgRss.aspx?Type=2&CId=134
+    status: verified
+  - name: gedling-cabinet
+    kind: council_agenda
+    label: Gedling
+    url: https://democracy.gedling.gov.uk/mgRss.aspx?Type=2&CId=127
+    status: verified
+  - name: gedling-overview-and-scrutiny-committee
+    kind: council_agenda
+    label: Gedling
+    url: https://democracy.gedling.gov.uk/mgRss.aspx?Type=2&CId=135
+    status: verified
+  - name: gedling-planning-committee
+    kind: council_agenda
+    label: Gedling
+    url: https://democracy.gedling.gov.uk/mgRss.aspx?Type=2&CId=138
+    status: verified
+  - name: gloucester-joint-overview-and-scrutiny-review-panel
+    kind: council_agenda
+    label: Gloucester
+    url: https://democracy.gloucester.gov.uk/mgRss.aspx?Type=2&CId=603
+    status: verified
+  - name: gloucester-overview-and-scrutiny-committee
+    kind: council_agenda
+    label: Gloucester
+    url: https://democracy.gloucester.gov.uk/mgRss.aspx?Type=2&CId=408
+    status: verified
+  - name: gloucester-planning-committee
+    kind: council_agenda
+    label: Gloucester
+    url: https://democracy.gloucester.gov.uk/mgRss.aspx?Type=2&CId=111
+    status: verified
+  - name: gravesham-cabinet
+    kind: council_agenda
+    label: Gravesham
+    url: https://democracy.gravesham.gov.uk/mgRss.aspx?Type=2&CId=149
+    status: verified
+  - name: gravesham-crime-disorder-scrutiny-committee
+    kind: council_agenda
+    label: Gravesham
+    url: https://democracy.gravesham.gov.uk/mgRss.aspx?Type=2&CId=355
+    status: verified
+  - name: gravesham-overview-scrutiny-committee
+    kind: council_agenda
+    label: Gravesham
+    url: https://democracy.gravesham.gov.uk/mgRss.aspx?Type=2&CId=105
+    status: verified
+  - name: gravesham-planning-committee
+    kind: council_agenda
+    label: Gravesham
+    url: https://democracy.gravesham.gov.uk/mgRss.aspx?Type=2&CId=106
+    status: verified
+  - name: greenwich-council-annual-meeting
+    kind: council_agenda
+    label: Greenwich
+    url: https://greenwich.moderngov.co.uk/mgRss.aspx?Type=2&CId=150
+    status: verified
+  - name: greenwich-council-special-meeting
+    kind: council_agenda
+    label: Greenwich
+    url: https://greenwich.moderngov.co.uk/mgRss.aspx?Type=2&CId=151
+    status: verified
+  - name: greenwich-cabinet
+    kind: council_agenda
+    label: Greenwich
+    url: https://greenwich.moderngov.co.uk/mgRss.aspx?Type=2&CId=157
+    status: verified
+  - name: greenwich-local-planning-committee
+    kind: council_agenda
+    label: Greenwich
+    url: https://greenwich.moderngov.co.uk/mgRss.aspx?Type=2&CId=270
+    status: verified
+  - name: greenwich-planning-board
+    kind: council_agenda
+    label: Greenwich
+    url: https://greenwich.moderngov.co.uk/mgRss.aspx?Type=2&CId=168
+    status: verified
+  - name: greenwich-children-and-young-people-scrutiny-panel
+    kind: council_agenda
+    label: Greenwich
+    url: https://greenwich.moderngov.co.uk/mgRss.aspx?Type=2&CId=295
+    status: verified
+  - name: guildford-guildford-and-waverley-joint-overview-sc
+    kind: council_agenda
+    label: Guildford
+    url: https://democracy.guildford.gov.uk/mgRss.aspx?Type=2&CId=1392
+    status: verified
+  - name: guildford-overview-scrutiny-committee-new
+    kind: council_agenda
+    label: Guildford
+    url: https://democracy.guildford.gov.uk/mgRss.aspx?Type=2&CId=1391
+    status: verified
+  - name: guildford-overview-and-scrutiny-committee-resource
+    kind: council_agenda
+    label: Guildford
+    url: https://democracy.guildford.gov.uk/mgRss.aspx?Type=2&CId=1372
+    status: verified
+  - name: guildford-overview-and-scrutiny-committee-services
+    kind: council_agenda
+    label: Guildford
+    url: https://democracy.guildford.gov.uk/mgRss.aspx?Type=2&CId=1373
+    status: verified
+  - name: guildford-planning-committee
+    kind: council_agenda
+    label: Guildford
+    url: https://democracy.guildford.gov.uk/mgRss.aspx?Type=2&CId=130
+    status: verified
+  - name: guildford-west-surrey-shadow-authority-overview-an
+    kind: council_agenda
+    label: Guildford
+    url: https://democracy.guildford.gov.uk/mgRss.aspx?Type=2&CId=1406
+    status: verified
+  - name: havant-annual-council-mayor-making
+    kind: council_agenda
+    label: Havant
+    url: https://havant.moderngov.co.uk/mgRss.aspx?Type=2&CId=212
+    status: verified
+  - name: havant-cabinet
+    kind: council_agenda
+    label: Havant
+    url: https://havant.moderngov.co.uk/mgRss.aspx?Type=2&CId=128
+    status: verified
+  - name: havant-planning-committee
+    kind: council_agenda
+    label: Havant
+    url: https://havant.moderngov.co.uk/mgRss.aspx?Type=2&CId=530
+    status: verified
+  - name: havant-overview-and-scrutiny-committee
+    kind: council_agenda
+    label: Havant
+    url: https://havant.moderngov.co.uk/mgRss.aspx?Type=2&CId=532
+    status: verified
+  - name: havant-joint-west-of-waterlooville-major-develo
+    kind: council_agenda
+    label: Havant
+    url: https://havant.moderngov.co.uk/mgRss.aspx?Type=2&CId=375
+    status: verified
+  - name: havant-cabinet-forward-plan
+    kind: council_agenda
+    label: Havant
+    url: https://havant.moderngov.co.uk/mgRss.aspx?Type=2&CId=452
+    status: verified
+  - name: harlow-cabinet
+    kind: council_agenda
+    label: Harlow
+    url: https://harlow.moderngov.co.uk/mgRss.aspx?Type=2&CId=121
+    status: verified
+  - name: harlow-scrutiny-committee
+    kind: council_agenda
+    label: Harlow
+    url: https://harlow.moderngov.co.uk/mgRss.aspx?Type=2&CId=119
+    status: verified
+  - name: hastings-full-council
+    kind: council_agenda
+    label: Hastings
+    url: https://hastings.moderngov.co.uk/mgRss.aspx?Type=2&CId=168
+    status: verified
+  - name: hastings-cabinet
+    kind: council_agenda
+    label: Hastings
+    url: https://hastings.moderngov.co.uk/mgRss.aspx?Type=2&CId=130
+    status: verified
+  - name: hastings-overview-and-scrutiny-committee
+    kind: council_agenda
+    label: Hastings
+    url: https://hastings.moderngov.co.uk/mgRss.aspx?Type=2&CId=391
+    status: verified
+  - name: hastings-planning-committee
+    kind: council_agenda
+    label: Hastings
+    url: https://hastings.moderngov.co.uk/mgRss.aspx?Type=2&CId=129
+    status: verified
+  - name: hastings-council-appointments-committee
+    kind: council_agenda
+    label: Hastings
+    url: https://hastings.moderngov.co.uk/mgRss.aspx?Type=2&CId=173
+    status: verified
+  - name: havering-cabinet
+    kind: council_agenda
+    label: Havering
+    url: https://democracy.havering.gov.uk/mgRss.aspx?Type=2&CId=153
+    status: verified
+  - name: havering-health-overview-scrutiny-sub-committee
+    kind: council_agenda
+    label: Havering
+    url: https://democracy.havering.gov.uk/mgRss.aspx?Type=2&CId=142
+    status: verified
+  - name: havering-joint-health-overview-scrutiny-committee
+    kind: council_agenda
+    label: Havering
+    url: https://democracy.havering.gov.uk/mgRss.aspx?Type=2&CId=273
+    status: verified
+  - name: havering-overview-scrutiny-board
+    kind: council_agenda
+    label: Havering
+    url: https://democracy.havering.gov.uk/mgRss.aspx?Type=2&CId=532
+    status: verified
+  - name: havering-people-overview-scrutiny-sub-committee
+    kind: council_agenda
+    label: Havering
+    url: https://democracy.havering.gov.uk/mgRss.aspx?Type=2&CId=656
+    status: verified
+  - name: havering-place-overview-scrutiny-sub-committee
+    kind: council_agenda
+    label: Havering
+    url: https://democracy.havering.gov.uk/mgRss.aspx?Type=2&CId=657
+    status: verified
+  - name: hertsmere-cabinet
+    kind: council_agenda
+    label: Hertsmere
+    url: https://hertsmere.moderngov.co.uk/mgRss.aspx?Type=2&CId=565
+    status: verified
+  - name: hertsmere-planning-committee
+    kind: council_agenda
+    label: Hertsmere
+    url: https://hertsmere.moderngov.co.uk/mgRss.aspx?Type=2&CId=418
+    status: verified
+  - name: hertsmere-member-planning-panel
+    kind: council_agenda
+    label: Hertsmere
+    url: https://hertsmere.moderngov.co.uk/mgRss.aspx?Type=2&CId=473
+    status: verified
+  - name: highpeak-council-hpbc
+    kind: council_agenda
+    label: High Peak
+    url: https://democracy.highpeak.gov.uk/mgRss.aspx?Type=2&CId=211
+    status: verified
+  - name: highpeak-cabinet
+    kind: council_agenda
+    label: High Peak
+    url: https://democracy.highpeak.gov.uk/mgRss.aspx?Type=2&CId=137
+    status: verified
+  - name: highpeak-cabinet-delegated-decisions
+    kind: council_agenda
+    label: High Peak
+    url: https://democracy.highpeak.gov.uk/mgRss.aspx?Type=2&CId=301
+    status: verified
+  - name: highpeak-community-overview-scrutiny-panel-pre-ma
+    kind: council_agenda
+    label: High Peak
+    url: https://democracy.highpeak.gov.uk/mgRss.aspx?Type=2&CId=190
+    status: verified
+  - name: highpeak-community-overview-and-scrutiny-panel
+    kind: council_agenda
+    label: High Peak
+    url: https://democracy.highpeak.gov.uk/mgRss.aspx?Type=2&CId=393
+    status: verified
+  - name: highpeak-council-smdc
+    kind: council_agenda
+    label: High Peak
+    url: https://democracy.highpeak.gov.uk/mgRss.aspx?Type=2&CId=133
+    status: verified
+  - name: horsham-cabinet
+    kind: council_agenda
+    label: Horsham
+    url: https://horsham.moderngov.co.uk/mgRss.aspx?Type=2&CId=132
+    status: verified
+  - name: horsham-communities-and-place-policy-and-scrutin
+    kind: council_agenda
+    label: Horsham
+    url: https://horsham.moderngov.co.uk/mgRss.aspx?Type=2&CId=365
+    status: verified
+  - name: horsham-finance-and-performance-policy-and-scrut
+    kind: council_agenda
+    label: Horsham
+    url: https://horsham.moderngov.co.uk/mgRss.aspx?Type=2&CId=364
+    status: verified
+  - name: horsham-planning-committee
+    kind: council_agenda
+    label: Horsham
+    url: https://horsham.moderngov.co.uk/mgRss.aspx?Type=2&CId=363
+    status: verified
+  - name: harrow-cabinet
+    kind: council_agenda
+    label: Harrow
+    url: https://harrow.moderngov.co.uk/mgRss.aspx?Type=2&CId=249
+    status: verified
+  - name: harrow-planning-policy-advisory-panel
+    kind: council_agenda
+    label: Harrow
+    url: https://harrow.moderngov.co.uk/mgRss.aspx?Type=2&CId=1487
+    status: verified
+  - name: harrow-health-and-social-care-scrutiny-sub-comm
+    kind: council_agenda
+    label: Harrow
+    url: https://harrow.moderngov.co.uk/mgRss.aspx?Type=2&CId=1037
+    status: verified
+  - name: harrow-mount-vernon-cancer-centre-joint-health-
+    kind: council_agenda
+    label: Harrow
+    url: https://harrow.moderngov.co.uk/mgRss.aspx?Type=2&CId=1531
+    status: verified
+  - name: harrow-north-west-london-joint-health-overview-
+    kind: council_agenda
+    label: Harrow
+    url: https://harrow.moderngov.co.uk/mgRss.aspx?Type=2&CId=1102
+    status: verified
+  - name: harrow-overview-and-scrutiny-committee
+    kind: council_agenda
+    label: Harrow
+    url: https://harrow.moderngov.co.uk/mgRss.aspx?Type=2&CId=276
+    status: verified
+  - name: ipswich-planning-development-committee
+    kind: council_agenda
+    label: Ipswich
+    url: https://democracy.ipswich.gov.uk/mgRss.aspx?Type=2&CId=138
+    status: verified
+  - name: ipswich-strategic-overview-scrutiny-committee
+    kind: council_agenda
+    label: Ipswich
+    url: https://democracy.ipswich.gov.uk/mgRss.aspx?Type=2&CId=136
+    status: verified
+  - name: hyndburn-cabinet
+    kind: council_agenda
+    label: Hyndburn
+    url: https://hyndburn.moderngov.co.uk/mgRss.aspx?Type=2&CId=133
+    status: verified
+  - name: hyndburn-cabinet-committee-scrap-metal-dealers-ac
+    kind: council_agenda
+    label: Hyndburn
+    url: https://hyndburn.moderngov.co.uk/mgRss.aspx?Type=2&CId=150
+    status: verified
+  - name: hyndburn-cabinet-committee-street-naming
+    kind: council_agenda
+    label: Hyndburn
+    url: https://hyndburn.moderngov.co.uk/mgRss.aspx?Type=2&CId=303
+    status: verified
+  - name: hyndburn-planning-trees-sub-committee
+    kind: council_agenda
+    label: Hyndburn
+    url: https://hyndburn.moderngov.co.uk/mgRss.aspx?Type=2&CId=302
+    status: verified
+  - name: hyndburn-planning-committee
+    kind: council_agenda
+    label: Hyndburn
+    url: https://hyndburn.moderngov.co.uk/mgRss.aspx?Type=2&CId=131
+    status: verified
+  - name: hyndburn-communities-and-wellbeing-overview-and-s
+    kind: council_agenda
+    label: Hyndburn
+    url: https://hyndburn.moderngov.co.uk/mgRss.aspx?Type=2&CId=129
+    status: verified
+  - name: islington-planning-committee
+    kind: council_agenda
+    label: Islington
+    url: https://democracy.islington.gov.uk/mgRss.aspx?Type=2&CId=165
+    status: verified
+  - name: islington-planning-sub-committee-a
+    kind: council_agenda
+    label: Islington
+    url: https://democracy.islington.gov.uk/mgRss.aspx?Type=2&CId=166
+    status: verified
+  - name: islington-planning-sub-committee-b
+    kind: council_agenda
+    label: Islington
+    url: https://democracy.islington.gov.uk/mgRss.aspx?Type=2&CId=167
+    status: verified
+  - name: islington-children-and-young-people-scrutiny-commi
+    kind: council_agenda
+    label: Islington
+    url: https://democracy.islington.gov.uk/mgRss.aspx?Type=2&CId=407
+    status: verified
+  - name: islington-environment-climate-and-transport-scruti
+    kind: council_agenda
+    label: Islington
+    url: https://democracy.islington.gov.uk/mgRss.aspx?Type=2&CId=409
+    status: verified
+  - name: islington-health-wellbeing-and-adult-social-care-s
+    kind: council_agenda
+    label: Islington
+    url: https://democracy.islington.gov.uk/mgRss.aspx?Type=2&CId=406
+    status: verified
+  - name: kirklees-cabinet
+    kind: council_agenda
+    label: Kirklees
+    url: https://democracy.kirklees.gov.uk/mgRss.aspx?Type=2&CId=139
+    status: verified
+  - name: kirklees-cabinet-committee-local-issues
+    kind: council_agenda
+    label: Kirklees
+    url: https://democracy.kirklees.gov.uk/mgRss.aspx?Type=2&CId=142
+    status: verified
+  - name: kirklees-calderdale-and-kirklees-joint-health-scr
+    kind: council_agenda
+    label: Kirklees
+    url: https://democracy.kirklees.gov.uk/mgRss.aspx?Type=2&CId=144
+    status: verified
+  - name: kirklees-children-s-scrutiny-panel
+    kind: council_agenda
+    label: Kirklees
+    url: https://democracy.kirklees.gov.uk/mgRss.aspx?Type=2&CId=571
+    status: verified
+  - name: kirklees-environment-and-climate-change-scrutiny-
+    kind: council_agenda
+    label: Kirklees
+    url: https://democracy.kirklees.gov.uk/mgRss.aspx?Type=2&CId=797
+    status: verified
+  - name: kirklees-growth-and-regeneration-scrutiny-panel
+    kind: council_agenda
+    label: Kirklees
+    url: https://democracy.kirklees.gov.uk/mgRss.aspx?Type=2&CId=798
+    status: verified
+  - name: leeds-scrutiny-board-adults-health-and-active-
+    kind: council_agenda
+    label: Leeds
+    url: https://democracy.leeds.gov.uk/mgRss.aspx?Type=2&CId=1190
+    status: verified
+  - name: leeds-scrutiny-board-adults-health-active-life
+    kind: council_agenda
+    label: Leeds
+    url: https://democracy.leeds.gov.uk/mgRss.aspx?Type=2&CId=1090
+    status: verified
+  - name: leeds-scrutiny-board-children-and-families
+    kind: council_agenda
+    label: Leeds
+    url: https://democracy.leeds.gov.uk/mgRss.aspx?Type=2&CId=1089
+    status: verified
+  - name: leeds-scrutiny-board-communities
+    kind: council_agenda
+    label: Leeds
+    url: https://democracy.leeds.gov.uk/mgRss.aspx?Type=2&CId=1258
+    status: verified
+  - name: leeds-scrutiny-board-economy-inclusive-growth
+    kind: council_agenda
+    label: Leeds
+    url: https://democracy.leeds.gov.uk/mgRss.aspx?Type=2&CId=1260
+    status: verified
+  - name: leeds-scrutiny-board-environment-housing
+    kind: council_agenda
+    label: Leeds
+    url: https://democracy.leeds.gov.uk/mgRss.aspx?Type=2&CId=1261
+    status: verified
+  - name: lichfield-cabinet
+    kind: council_agenda
+    label: Lichfield
+    url: https://lichfield.moderngov.co.uk/mgRss.aspx?Type=2&CId=138
+    status: verified
+  - name: lichfield-cabinet-member-decision
+    kind: council_agenda
+    label: Lichfield
+    url: https://lichfield.moderngov.co.uk/mgRss.aspx?Type=2&CId=229
+    status: verified
+  - name: lichfield-planning-committee
+    kind: council_agenda
+    label: Lichfield
+    url: https://lichfield.moderngov.co.uk/mgRss.aspx?Type=2&CId=135
+    status: verified
+  - name: lichfield-overview-scrutiny-committee
+    kind: council_agenda
+    label: Lichfield
+    url: https://lichfield.moderngov.co.uk/mgRss.aspx?Type=2&CId=268
+    status: verified
+  - name: cityoflincoln-planning-committee
+    kind: council_agenda
+    label: City of Lincoln
+    url: https://lincoln.moderngov.co.uk/mgRss.aspx?Type=2&CId=128
+    status: verified
+  - name: cityoflincoln-community-leadership-scrutiny-committee
+    kind: council_agenda
+    label: City of Lincoln
+    url: https://lincoln.moderngov.co.uk/mgRss.aspx?Type=2&CId=152
+    status: verified
+  - name: cityoflincoln-housing-scrutiny-sub-committee
+    kind: council_agenda
+    label: City of Lincoln
+    url: https://lincoln.moderngov.co.uk/mgRss.aspx?Type=2&CId=150
+    status: verified
+  - name: cityoflincoln-performance-scrutiny-committee
+    kind: council_agenda
+    label: City of Lincoln
+    url: https://lincoln.moderngov.co.uk/mgRss.aspx?Type=2&CId=151
+    status: verified
+  - name: cityoflincoln-policy-scrutiny-committee
+    kind: council_agenda
+    label: City of Lincoln
+    url: https://lincoln.moderngov.co.uk/mgRss.aspx?Type=2&CId=143
+    status: verified
+  - name: cityoflincoln-select-scrutiny-committee
+    kind: council_agenda
+    label: City of Lincoln
+    url: https://lincoln.moderngov.co.uk/mgRss.aspx?Type=2&CId=155
+    status: verified
+  - name: lewisham-mayor-and-cabinet
+    kind: council_agenda
+    label: Lewisham
+    url: https://lewisham.moderngov.co.uk/mgRss.aspx?Type=2&CId=139
+    status: verified
+  - name: lewisham-overview-and-scrutiny-committee
+    kind: council_agenda
+    label: Lewisham
+    url: https://lewisham.moderngov.co.uk/mgRss.aspx?Type=2&CId=119
+    status: verified
+  - name: lewisham-south-east-london-joint-health-overview-
+    kind: council_agenda
+    label: Lewisham
+    url: https://lewisham.moderngov.co.uk/mgRss.aspx?Type=2&CId=363
+    status: verified
+  - name: lewisham-planning-committee-a
+    kind: council_agenda
+    label: Lewisham
+    url: https://lewisham.moderngov.co.uk/mgRss.aspx?Type=2&CId=183
+    status: verified
+  - name: lewisham-planning-committee-b
+    kind: council_agenda
+    label: Lewisham
+    url: https://lewisham.moderngov.co.uk/mgRss.aspx?Type=2&CId=184
+    status: verified
+  - name: lewisham-strategic-planning-committee
+    kind: council_agenda
+    label: Lewisham
+    url: https://lewisham.moderngov.co.uk/mgRss.aspx?Type=2&CId=194
+    status: verified
+  - name: maidstone-cabinet
+    kind: council_agenda
+    label: Maidstone
+    url: https://maidstone.moderngov.co.uk/mgRss.aspx?Type=2&CId=748
+    status: verified
+  - name: maidstone-planning-and-healthier-stronger-communit
+    kind: council_agenda
+    label: Maidstone
+    url: https://maidstone.moderngov.co.uk/mgRss.aspx?Type=2&CId=762
+    status: verified
+  - name: maidstone-overview-scrutiny-committee
+    kind: council_agenda
+    label: Maidstone
+    url: https://maidstone.moderngov.co.uk/mgRss.aspx?Type=2&CId=699
+    status: verified
+  - name: maidstone-planning-committee
+    kind: council_agenda
+    label: Maidstone
+    url: https://maidstone.moderngov.co.uk/mgRss.aspx?Type=2&CId=112
+    status: verified
+  - name: maldon-overview-and-scrutiny-committee
+    kind: council_agenda
+    label: Maldon
+    url: https://democracy.maldon.gov.uk/mgRss.aspx?Type=2&CId=134
+    status: verified
+  - name: maldon-overview-and-scrutiny-committee-meeting-
+    kind: council_agenda
+    label: Maldon
+    url: https://democracy.maldon.gov.uk/mgRss.aspx?Type=2&CId=155
+    status: verified
+  - name: maldon-central-area-planning-committee
+    kind: council_agenda
+    label: Maldon
+    url: https://democracy.maldon.gov.uk/mgRss.aspx?Type=2&CId=149
+    status: verified
+  - name: maldon-district-planning-committee
+    kind: council_agenda
+    label: Maldon
+    url: https://democracy.maldon.gov.uk/mgRss.aspx?Type=2&CId=277
+    status: verified
+  - name: maldon-north-western-area-planning-committee
+    kind: council_agenda
+    label: Maldon
+    url: https://democracy.maldon.gov.uk/mgRss.aspx?Type=2&CId=150
+    status: verified
+  - name: maldon-south-eastern-area-planning-committee
+    kind: council_agenda
+    label: Maldon
+    url: https://democracy.maldon.gov.uk/mgRss.aspx?Type=2&CId=151
+    status: verified
+  - name: manchester-planning-committee
+    kind: council_agenda
+    label: Manchester
+    url: https://democracy.manchester.gov.uk/mgRss.aspx?Type=2&CId=151
+    status: verified
+  - name: manchester-children-and-young-people-scrutiny-commi
+    kind: council_agenda
+    label: Manchester
+    url: https://democracy.manchester.gov.uk/mgRss.aspx?Type=2&CId=145
+    status: verified
+  - name: manchester-communities-and-equalities-scrutiny-comm
+    kind: council_agenda
+    label: Manchester
+    url: https://democracy.manchester.gov.uk/mgRss.aspx?Type=2&CId=149
+    status: verified
+  - name: manchester-economy-scrutiny-committee
+    kind: council_agenda
+    label: Manchester
+    url: https://democracy.manchester.gov.uk/mgRss.aspx?Type=2&CId=136
+    status: verified
+  - name: manchester-health-scrutiny-committee
+    kind: council_agenda
+    label: Manchester
+    url: https://democracy.manchester.gov.uk/mgRss.aspx?Type=2&CId=142
+    status: verified
+  - name: manchester-neighbourhoods-environment-and-climate-c
+    kind: council_agenda
+    label: Manchester
+    url: https://democracy.manchester.gov.uk/mgRss.aspx?Type=2&CId=358
+    status: verified
+  - name: lambeth-planning-applications-committee
+    kind: council_agenda
+    label: Lambeth
+    url: https://moderngov.lambeth.gov.uk/mgRss.aspx?Type=2&CId=600
+    status: verified
+  - name: lambeth-cabinet
+    kind: council_agenda
+    label: Lambeth
+    url: https://moderngov.lambeth.gov.uk/mgRss.aspx?Type=2&CId=225
+    status: verified
+  - name: lambeth-ownership-and-stewardship-cabinet-adviso
+    kind: council_agenda
+    label: Lambeth
+    url: https://moderngov.lambeth.gov.uk/mgRss.aspx?Type=2&CId=791
+    status: verified
+  - name: lambeth-adult-social-care-and-health-scrutiny-su
+    kind: council_agenda
+    label: Lambeth
+    url: https://moderngov.lambeth.gov.uk/mgRss.aspx?Type=2&CId=893
+    status: verified
+  - name: lambeth-children-s-services-scrutiny-sub-committ
+    kind: council_agenda
+    label: Lambeth
+    url: https://moderngov.lambeth.gov.uk/mgRss.aspx?Type=2&CId=778
+    status: verified
+  - name: lambeth-housing-scrutiny-sub-committee
+    kind: council_agenda
+    label: Lambeth
+    url: https://moderngov.lambeth.gov.uk/mgRss.aspx?Type=2&CId=865
+    status: verified
+  - name: mansfield-cabinet
+    kind: council_agenda
+    label: Mansfield
+    url: https://mansfield.moderngov.co.uk/mgRss.aspx?Type=2&CId=164
+    status: verified
+  - name: mansfield-assistant-director-of-planning-chief-pla
+    kind: council_agenda
+    label: Mansfield
+    url: https://mansfield.moderngov.co.uk/mgRss.aspx?Type=2&CId=265
+    status: verified
+  - name: mansfield-elected-mayor
+    kind: council_agenda
+    label: Mansfield
+    url: https://mansfield.moderngov.co.uk/mgRss.aspx?Type=2&CId=167
+    status: verified
+  - name: mansfield-overview-and-scrutiny-committee-communit
+    kind: council_agenda
+    label: Mansfield
+    url: https://mansfield.moderngov.co.uk/mgRss.aspx?Type=2&CId=142
+    status: verified
+  - name: mansfield-overview-and-scrutiny-committee-corporat
+    kind: council_agenda
+    label: Mansfield
+    url: https://mansfield.moderngov.co.uk/mgRss.aspx?Type=2&CId=163
+    status: verified
+  - name: mansfield-overview-and-scrutiny-committee-place
+    kind: council_agenda
+    label: Mansfield
+    url: https://mansfield.moderngov.co.uk/mgRss.aspx?Type=2&CId=161
+    status: verified
+  - name: cityoflondon-planning-and-transportation-committee
+    kind: council_agenda
+    label: City of London
+    url: https://democracy.cityoflondon.gov.uk/mgRss.aspx?Type=2&CId=143
+    status: verified
+  - name: cityoflondon-local-plans-sub-planning-and-transportat
+    kind: council_agenda
+    label: City of London
+    url: https://democracy.cityoflondon.gov.uk/mgRss.aspx?Type=2&CId=392
+    status: verified
+  - name: cityoflondon-planning-applications-sub-committee
+    kind: council_agenda
+    label: City of London
+    url: https://democracy.cityoflondon.gov.uk/mgRss.aspx?Type=2&CId=1395
+    status: verified
+  - name: cityoflondon-streets-and-walkways-sub-planning-and-tr
+    kind: council_agenda
+    label: City of London
+    url: https://democracy.cityoflondon.gov.uk/mgRss.aspx?Type=2&CId=389
+    status: verified
+  - name: cityoflondon-crime-and-disorder-scrutiny-committee
+    kind: council_agenda
+    label: City of London
+    url: https://democracy.cityoflondon.gov.uk/mgRss.aspx?Type=2&CId=173
+    status: verified
+  - name: cityoflondon-health-and-social-care-scrutiny-committe
+    kind: council_agenda
+    label: City of London
+    url: https://democracy.cityoflondon.gov.uk/mgRss.aspx?Type=2&CId=185
+    status: verified
+  - name: medway-cabinet
+    kind: council_agenda
+    label: Medway
+    url: https://democracy.medway.gov.uk/mgRss.aspx?Type=2&CId=115
+    status: verified
+  - name: medway-cabinet-sub-committee-kyndi-ltd-sharehol
+    kind: council_agenda
+    label: Medway
+    url: https://democracy.medway.gov.uk/mgRss.aspx?Type=2&CId=591
+    status: verified
+  - name: medway-cabinet-sub-committee-medway-development
+    kind: council_agenda
+    label: Medway
+    url: https://democracy.medway.gov.uk/mgRss.aspx?Type=2&CId=592
+    status: verified
+  - name: medway-cabinet-sub-committee-medway-norse-ltd-s
+    kind: council_agenda
+    label: Medway
+    url: https://democracy.medway.gov.uk/mgRss.aspx?Type=2&CId=596
+    status: verified
+  - name: medway-business-support-and-digital-overview-an
+    kind: council_agenda
+    label: Medway
+    url: https://democracy.medway.gov.uk/mgRss.aspx?Type=2&CId=585
+    status: verified
+  - name: medway-children-and-young-people-overview-and-s
+    kind: council_agenda
+    label: Medway
+    url: https://democracy.medway.gov.uk/mgRss.aspx?Type=2&CId=378
+    status: verified
+  - name: melton-cabinet
+    kind: council_agenda
+    label: Melton
+    url: https://democracy.melton.gov.uk/mgRss.aspx?Type=2&CId=202
+    status: verified
+  - name: melton-scrutiny-committee
+    kind: council_agenda
+    label: Melton
+    url: https://democracy.melton.gov.uk/mgRss.aspx?Type=2&CId=203
+    status: verified
+  - name: melton-planning-committee
+    kind: council_agenda
+    label: Melton
+    url: https://democracy.melton.gov.uk/mgRss.aspx?Type=2&CId=134
+    status: verified
+  - name: middevon-planning-committee
+    kind: council_agenda
+    label: Mid Devon
+    url: https://democracy.middevon.gov.uk/mgRss.aspx?Type=2&CId=132
+    status: verified
+  - name: middevon-scrutiny-committee
+    kind: council_agenda
+    label: Mid Devon
+    url: https://democracy.middevon.gov.uk/mgRss.aspx?Type=2&CId=131
+    status: verified
+  - name: middevon-planning-environment-sustainability-poli
+    kind: council_agenda
+    label: Mid Devon
+    url: https://democracy.middevon.gov.uk/mgRss.aspx?Type=2&CId=135
+    status: verified
+  - name: middlesbrough-deputy-mayor-and-executive-member-educat
+    kind: council_agenda
+    label: Middlesbrough
+    url: https://middlesbrough.moderngov.co.uk/mgRss.aspx?Type=2&CId=1483
+    status: verified
+  - name: middlesbrough-executive-member-the-mayor
+    kind: council_agenda
+    label: Middlesbrough
+    url: https://middlesbrough.moderngov.co.uk/mgRss.aspx?Type=2&CId=1160
+    status: verified
+  - name: middlesbrough-planning-and-development-committee
+    kind: council_agenda
+    label: Middlesbrough
+    url: https://middlesbrough.moderngov.co.uk/mgRss.aspx?Type=2&CId=1144
+    status: verified
+  - name: middlesbrough-durham-darlington-teesside-hambleton-ric
+    kind: council_agenda
+    label: Middlesbrough
+    url: https://middlesbrough.moderngov.co.uk/mgRss.aspx?Type=2&CId=1167
+    status: verified
+  - name: middlesbrough-south-tees-health-scrutiny-joint-committ
+    kind: council_agenda
+    label: Middlesbrough
+    url: https://middlesbrough.moderngov.co.uk/mgRss.aspx?Type=2&CId=1165
+    status: verified
+  - name: middlesbrough-tees-valley-joint-health-scrutiny-commit
+    kind: council_agenda
+    label: Middlesbrough
+    url: https://middlesbrough.moderngov.co.uk/mgRss.aspx?Type=2&CId=1166
+    status: verified
+  - name: miltonkeynes-cabinet
+    kind: council_agenda
+    label: Milton Keynes
+    url: https://milton-keynes.moderngov.co.uk/mgRss.aspx?Type=2&CId=139
+    status: verified
+  - name: miltonkeynes-planning-committee
+    kind: council_agenda
+    label: Milton Keynes
+    url: https://milton-keynes.moderngov.co.uk/mgRss.aspx?Type=2&CId=141
+    status: verified
+  - name: miltonkeynes-planning-panel
+    kind: council_agenda
+    label: Milton Keynes
+    url: https://milton-keynes.moderngov.co.uk/mgRss.aspx?Type=2&CId=144
+    status: verified
+  - name: miltonkeynes-budget-resources-scrutiny-committee
+    kind: council_agenda
+    label: Milton Keynes
+    url: https://milton-keynes.moderngov.co.uk/mgRss.aspx?Type=2&CId=150
+    status: verified
+  - name: miltonkeynes-budget-and-resources-scrutiny-sub-commit
+    kind: council_agenda
+    label: Milton Keynes
+    url: https://milton-keynes.moderngov.co.uk/mgRss.aspx?Type=2&CId=548
+    status: verified
+  - name: miltonkeynes-children-young-people-scrutiny-committee
+    kind: council_agenda
+    label: Milton Keynes
+    url: https://milton-keynes.moderngov.co.uk/mgRss.aspx?Type=2&CId=142
+    status: verified
+  - name: merton-development-and-planning-applications-co
+    kind: council_agenda
+    label: Merton
+    url: https://democracy.merton.gov.uk/mgRss.aspx?Type=2&CId=155
+    status: verified
+  - name: merton-children-and-young-people-overview-and-s
+    kind: council_agenda
+    label: Merton
+    url: https://democracy.merton.gov.uk/mgRss.aspx?Type=2&CId=153
+    status: verified
+  - name: merton-healthier-communities-and-older-people-o
+    kind: council_agenda
+    label: Merton
+    url: https://democracy.merton.gov.uk/mgRss.aspx?Type=2&CId=151
+    status: verified
+  - name: merton-overview-and-scrutiny-committee
+    kind: council_agenda
+    label: Merton
+    url: https://democracy.merton.gov.uk/mgRss.aspx?Type=2&CId=148
+    status: verified
+  - name: merton-south-west-london-and-surrey-joint-healt
+    kind: council_agenda
+    label: Merton
+    url: https://democracy.merton.gov.uk/mgRss.aspx?Type=2&CId=382
+    status: verified
+  - name: merton-sustainable-communities-overview-and-scr
+    kind: council_agenda
+    label: Merton
+    url: https://democracy.merton.gov.uk/mgRss.aspx?Type=2&CId=157
+    status: verified
+  - name: monmouthshire-cabinet
+    kind: council_agenda
+    label: Monmouthshire
+    url: https://democracy.monmouthshire.gov.uk/mgRss.aspx?Type=2&CId=144
+    status: verified
+  - name: monmouthshire-individual-cabinet-member-decisions
+    kind: council_agenda
+    label: Monmouthshire
+    url: https://democracy.monmouthshire.gov.uk/mgRss.aspx?Type=2&CId=147
+    status: verified
+  - name: monmouthshire-planning-committee
+    kind: council_agenda
+    label: Monmouthshire
+    url: https://democracy.monmouthshire.gov.uk/mgRss.aspx?Type=2&CId=141
+    status: verified
+  - name: monmouthshire-standing-advisory-council-for-religion-v
+    kind: council_agenda
+    label: Monmouthshire
+    url: https://democracy.monmouthshire.gov.uk/mgRss.aspx?Type=2&CId=146
+    status: verified
+  - name: monmouthshire-people-scrutiny-committee
+    kind: council_agenda
+    label: Monmouthshire
+    url: https://democracy.monmouthshire.gov.uk/mgRss.aspx?Type=2&CId=304
+    status: verified
+  - name: monmouthshire-performance-and-overview-scrutiny-commit
+    kind: council_agenda
+    label: Monmouthshire
+    url: https://democracy.monmouthshire.gov.uk/mgRss.aspx?Type=2&CId=305
+    status: verified
+  - name: malvernhills-overview-and-scrutiny-committee
+    kind: council_agenda
+    label: Malvern Hills
+    url: https://moderngov.malvernhills.gov.uk/mgRss.aspx?Type=2&CId=113
+    status: verified
+  - name: malvernhills-northern-area-planning-committee
+    kind: council_agenda
+    label: Malvern Hills
+    url: https://moderngov.malvernhills.gov.uk/mgRss.aspx?Type=2&CId=413
+    status: verified
+  - name: malvernhills-southern-area-planning-committee
+    kind: council_agenda
+    label: Malvern Hills
+    url: https://moderngov.malvernhills.gov.uk/mgRss.aspx?Type=2&CId=414
+    status: verified
+  - name: midsussex-cabinet
+    kind: council_agenda
+    label: Mid Sussex
+    url: https://midsussex.moderngov.co.uk/mgRss.aspx?Type=2&CId=137
+    status: verified
+  - name: midsussex-district-planning-committee
+    kind: council_agenda
+    label: Mid Sussex
+    url: https://midsussex.moderngov.co.uk/mgRss.aspx?Type=2&CId=138
+    status: verified
+  - name: midsussex-planning-committee
+    kind: council_agenda
+    label: Mid Sussex
+    url: https://midsussex.moderngov.co.uk/mgRss.aspx?Type=2&CId=285
+    status: verified
+  - name: midsussex-scrutiny-committee-people-and-communitie
+    kind: council_agenda
+    label: Mid Sussex
+    url: https://midsussex.moderngov.co.uk/mgRss.aspx?Type=2&CId=320
+    status: verified
+  - name: midsussex-scrutiny-committee-place-and-environment
+    kind: council_agenda
+    label: Mid Sussex
+    url: https://midsussex.moderngov.co.uk/mgRss.aspx?Type=2&CId=321
+    status: verified
+  - name: northdevon-joint-planning-committee
+    kind: council_agenda
+    label: North Devon
+    url: https://democracy.northdevon.gov.uk/mgRss.aspx?Type=2&CId=413
+    status: verified
+  - name: northdevon-planning-committee
+    kind: council_agenda
+    label: North Devon
+    url: https://democracy.northdevon.gov.uk/mgRss.aspx?Type=2&CId=153
+    status: verified
+  - name: northdevon-scrutiny-and-policy-development-committe
+    kind: council_agenda
+    label: North Devon
+    url: https://democracy.northdevon.gov.uk/mgRss.aspx?Type=2&CId=299
+    status: verified
+  - name: northdevon-joint-planning-policy-committee
+    kind: council_agenda
+    label: North Devon
+    url: https://democracy.northdevon.gov.uk/mgRss.aspx?Type=2&CId=390
+    status: verified
+  - name: newforest-cabinet
+    kind: council_agenda
+    label: New Forest
+    url: https://democracy.newforest.gov.uk/mgRss.aspx?Type=2&CId=133
+    status: verified
+  - name: newforest-planning-committee
+    kind: council_agenda
+    label: New Forest
+    url: https://democracy.newforest.gov.uk/mgRss.aspx?Type=2&CId=504
+    status: verified
+  - name: newforest-housing-and-communities-overview-and-scr
+    kind: council_agenda
+    label: New Forest
+    url: https://democracy.newforest.gov.uk/mgRss.aspx?Type=2&CId=613
+    status: verified
+  - name: newforest-place-and-sustainability-overview-and-sc
+    kind: council_agenda
+    label: New Forest
+    url: https://democracy.newforest.gov.uk/mgRss.aspx?Type=2&CId=615
+    status: verified
+  - name: newforest-resources-and-transformation-overview-an
+    kind: council_agenda
+    label: New Forest
+    url: https://democracy.newforest.gov.uk/mgRss.aspx?Type=2&CId=614
+    status: verified
+  - name: northlincolnshire-cabinet
+    kind: council_agenda
+    label: North Lincolnshire
+    url: https://northlincolnshire.moderngov.co.uk/mgRss.aspx?Type=2&CId=165
+    status: verified
+  - name: northlincolnshire-adults-health-and-care-cabinet-member
+    kind: council_agenda
+    label: North Lincolnshire
+    url: https://northlincolnshire.moderngov.co.uk/mgRss.aspx?Type=2&CId=433
+    status: verified
+  - name: northlincolnshire-ashby-bottesford-and-scunthorpe-cabinet-
+    kind: council_agenda
+    label: North Lincolnshire
+    url: https://northlincolnshire.moderngov.co.uk/mgRss.aspx?Type=2&CId=440
+    status: verified
+  - name: northlincolnshire-children-families-and-young-people-cabin
+    kind: council_agenda
+    label: North Lincolnshire
+    url: https://northlincolnshire.moderngov.co.uk/mgRss.aspx?Type=2&CId=434
+    status: verified
+  - name: northlincolnshire-customer-services-cabinet-member
+    kind: council_agenda
+    label: North Lincolnshire
+    url: https://northlincolnshire.moderngov.co.uk/mgRss.aspx?Type=2&CId=438
+    status: verified
+  - name: northlincolnshire-deputy-leader-roads-waste-and-flooding-c
+    kind: council_agenda
+    label: North Lincolnshire
+    url: https://northlincolnshire.moderngov.co.uk/mgRss.aspx?Type=2&CId=432
+    status: verified
+  - name: northtyneside-cabinet
+    kind: council_agenda
+    label: North Tyneside
+    url: https://democracy.northtyneside.gov.uk/mgRss.aspx?Type=2&CId=174
+    status: verified
+  - name: northtyneside-overview-scrutiny-co-ordination-finance-
+    kind: council_agenda
+    label: North Tyneside
+    url: https://democracy.northtyneside.gov.uk/mgRss.aspx?Type=2&CId=271
+    status: verified
+  - name: northtyneside-planning-committee
+    kind: council_agenda
+    label: North Tyneside
+    url: https://democracy.northtyneside.gov.uk/mgRss.aspx?Type=2&CId=141
+    status: verified
+  - name: newport-formal-council-questions-and-responses
+    kind: council_agenda
+    label: Newport
+    url: https://democracy.newport.gov.uk/mgRss.aspx?Type=2&CId=525
+    status: verified
+  - name: newport-cabinet
+    kind: council_agenda
+    label: Newport
+    url: https://democracy.newport.gov.uk/mgRss.aspx?Type=2&CId=139
+    status: verified
+  - name: newport-capital-region-city-deal-joint-cabinet
+    kind: council_agenda
+    label: Newport
+    url: https://democracy.newport.gov.uk/mgRss.aspx?Type=2&CId=442
+    status: verified
+  - name: newport-delegated-decisions-cabinet-member-for-h
+    kind: council_agenda
+    label: Newport
+    url: https://democracy.newport.gov.uk/mgRss.aspx?Type=2&CId=616
+    status: verified
+  - name: newport-delegated-decisions-cabinet-member-for-a
+    kind: council_agenda
+    label: Newport
+    url: https://democracy.newport.gov.uk/mgRss.aspx?Type=2&CId=619
+    status: verified
+  - name: newport-delegated-decisions-cabinet-member-for-c
+    kind: council_agenda
+    label: Newport
+    url: https://democracy.newport.gov.uk/mgRss.aspx?Type=2&CId=618
+    status: verified
+  - name: oldham-cabinet
+    kind: council_agenda
+    label: Oldham
+    url: https://committees.oldham.gov.uk/mgRss.aspx?Type=2&CId=144
+    status: verified
+  - name: oldham-planning-committee
+    kind: council_agenda
+    label: Oldham
+    url: https://committees.oldham.gov.uk/mgRss.aspx?Type=2&CId=133
+    status: verified
+  - name: oldham-adults-social-care-and-health-scrutiny-b
+    kind: council_agenda
+    label: Oldham
+    url: https://committees.oldham.gov.uk/mgRss.aspx?Type=2&CId=596
+    status: verified
+  - name: oldham-children-and-young-people-scrutiny-board
+    kind: council_agenda
+    label: Oldham
+    url: https://committees.oldham.gov.uk/mgRss.aspx?Type=2&CId=595
+    status: verified
+  - name: oldham-governance-strategy-and-resources-scruti
+    kind: council_agenda
+    label: Oldham
+    url: https://committees.oldham.gov.uk/mgRss.aspx?Type=2&CId=598
+    status: verified
+  - name: oldham-joint-health-overview-and-scrutiny-commi
+    kind: council_agenda
+    label: Oldham
+    url: https://committees.oldham.gov.uk/mgRss.aspx?Type=2&CId=609
+    status: verified
+  - name: portsmouth-full-council
+    kind: council_agenda
+    label: Portsmouth
+    url: https://democracy.portsmouth.gov.uk/mgRss.aspx?Type=2&CId=146
+    status: verified
+  - name: portsmouth-cabinet
+    kind: council_agenda
+    label: Portsmouth
+    url: https://democracy.portsmouth.gov.uk/mgRss.aspx?Type=2&CId=126
+    status: verified
+  - name: portsmouth-cabinet-member-the-leader
+    kind: council_agenda
+    label: Portsmouth
+    url: https://democracy.portsmouth.gov.uk/mgRss.aspx?Type=2&CId=380
+    status: verified
+  - name: portsmouth-cabinet-member-the-leader-culture-regene
+    kind: council_agenda
+    label: Portsmouth
+    url: https://democracy.portsmouth.gov.uk/mgRss.aspx?Type=2&CId=563
+    status: verified
+  - name: portsmouth-cabinet-member-for-central-services
+    kind: council_agenda
+    label: Portsmouth
+    url: https://democracy.portsmouth.gov.uk/mgRss.aspx?Type=2&CId=564
+    status: verified
+  - name: portsmouth-cabinet-member-for-children-families-and
+    kind: council_agenda
+    label: Portsmouth
+    url: https://democracy.portsmouth.gov.uk/mgRss.aspx?Type=2&CId=499
+    status: verified
+  - name: plymouth-cabinet
+    kind: council_agenda
+    label: Plymouth
+    url: https://democracy.plymouth.gov.uk/mgRss.aspx?Type=2&CId=254
+    status: verified
+  - name: plymouth-planning-committee
+    kind: council_agenda
+    label: Plymouth
+    url: https://democracy.plymouth.gov.uk/mgRss.aspx?Type=2&CId=251
+    status: verified
+  - name: plymouth-children-young-people-and-families-scrut
+    kind: council_agenda
+    label: Plymouth
+    url: https://democracy.plymouth.gov.uk/mgRss.aspx?Type=2&CId=1250
+    status: verified
+  - name: plymouth-health-and-adult-social-care-scrutiny-pa
+    kind: council_agenda
+    label: Plymouth
+    url: https://democracy.plymouth.gov.uk/mgRss.aspx?Type=2&CId=1249
+    status: verified
+  - name: plymouth-housing-and-community-services-scrutiny-
+    kind: council_agenda
+    label: Plymouth
+    url: https://democracy.plymouth.gov.uk/mgRss.aspx?Type=2&CId=1252
+    status: verified
+  - name: plymouth-natural-infrastructure-and-growth-scruti
+    kind: council_agenda
+    label: Plymouth
+    url: https://democracy.plymouth.gov.uk/mgRss.aspx?Type=2&CId=1251
+    status: verified
+  - name: preston-cabinet
+    kind: council_agenda
+    label: Preston
+    url: https://preston.moderngov.co.uk/mgRss.aspx?Type=2&CId=104
+    status: verified
+  - name: preston-overview-and-scrutiny-management-committ
+    kind: council_agenda
+    label: Preston
+    url: https://preston.moderngov.co.uk/mgRss.aspx?Type=2&CId=425
+    status: verified
+  - name: preston-central-lancashire-strategic-planning-jo
+    kind: council_agenda
+    label: Preston
+    url: https://preston.moderngov.co.uk/mgRss.aspx?Type=2&CId=462
+    status: verified
+  - name: preston-planning-committee
+    kind: council_agenda
+    label: Preston
+    url: https://preston.moderngov.co.uk/mgRss.aspx?Type=2&CId=107
+    status: verified
+  - name: powys-council-constitution
+    kind: council_agenda
+    label: Powys
+    url: https://powys.moderngov.co.uk/mgRss.aspx?Type=2&CId=668
+    status: verified
+  - name: powys-questions-at-any-time-to-cabinet-portfol
+    kind: council_agenda
+    label: Powys
+    url: https://powys.moderngov.co.uk/mgRss.aspx?Type=2&CId=867
+    status: verified
+  - name: powys-cabinet-portfolio-holder-responsibilitie
+    kind: council_agenda
+    label: Powys
+    url: https://powys.moderngov.co.uk/mgRss.aspx?Type=2&CId=137
+    status: verified
+  - name: powys-council-tax-appeal-hearing
+    kind: council_agenda
+    label: Powys
+    url: https://powys.moderngov.co.uk/mgRss.aspx?Type=2&CId=649
+    status: verified
+  - name: powys-cabinet-member-for-a-caring-powys
+    kind: council_agenda
+    label: Powys
+    url: https://powys.moderngov.co.uk/mgRss.aspx?Type=2&CId=933
+    status: verified
+  - name: powys-cabinet-member-for-a-greener-powys
+    kind: council_agenda
+    label: Powys
+    url: https://powys.moderngov.co.uk/mgRss.aspx?Type=2&CId=936
+    status: verified
+  - name: reading-council-annual-meeting
+    kind: council_agenda
+    label: Reading
+    url: https://democracy.reading.gov.uk/mgRss.aspx?Type=2&CId=342
+    status: verified
+  - name: reading-strategic-environment-planning-and-trans
+    kind: council_agenda
+    label: Reading
+    url: https://democracy.reading.gov.uk/mgRss.aspx?Type=2&CId=139
+    status: verified
+  - name: reading-planning-applications-committee
+    kind: council_agenda
+    label: Reading
+    url: https://democracy.reading.gov.uk/mgRss.aspx?Type=2&CId=143
+    status: verified
+  - name: peterborough-cabinet
+    kind: council_agenda
+    label: Peterborough
+    url: https://democracy.peterborough.gov.uk/mgRss.aspx?Type=2&CId=116
+    status: verified
+  - name: peterborough-shareholder-cabinet-committee
+    kind: council_agenda
+    label: Peterborough
+    url: https://democracy.peterborough.gov.uk/mgRss.aspx?Type=2&CId=721
+    status: verified
+  - name: peterborough-appeals-and-planning-review-committee
+    kind: council_agenda
+    label: Peterborough
+    url: https://democracy.peterborough.gov.uk/mgRss.aspx?Type=2&CId=651
+    status: verified
+  - name: peterborough-planning-and-environmental-protection-co
+    kind: council_agenda
+    label: Peterborough
+    url: https://democracy.peterborough.gov.uk/mgRss.aspx?Type=2&CId=117
+    status: verified
+  - name: peterborough-children-and-young-people-scrutiny-commi
+    kind: council_agenda
+    label: Peterborough
+    url: https://democracy.peterborough.gov.uk/mgRss.aspx?Type=2&CId=824
+    status: verified
+  - name: peterborough-economy-inclusive-growth-and-environment
+    kind: council_agenda
+    label: Peterborough
+    url: https://democracy.peterborough.gov.uk/mgRss.aspx?Type=2&CId=826
+    status: verified
+  - name: rochdale-cabinet
+    kind: council_agenda
+    label: Rochdale
+    url: https://democracy.rochdale.gov.uk/mgRss.aspx?Type=2&CId=116
+    status: verified
+  - name: rochdale-communities-regeneration-and-environment
+    kind: council_agenda
+    label: Rochdale
+    url: https://democracy.rochdale.gov.uk/mgRss.aspx?Type=2&CId=673
+    status: verified
+  - name: rochdale-corporate-overview-and-scrutiny-committe
+    kind: council_agenda
+    label: Rochdale
+    url: https://democracy.rochdale.gov.uk/mgRss.aspx?Type=2&CId=671
+    status: verified
+  - name: rochdale-health-schools-and-care-overview-and-scr
+    kind: council_agenda
+    label: Rochdale
+    url: https://democracy.rochdale.gov.uk/mgRss.aspx?Type=2&CId=672
+    status: verified
+  - name: rochdale-planning-committee
+    kind: council_agenda
+    label: Rochdale
+    url: https://democracy.rochdale.gov.uk/mgRss.aspx?Type=2&CId=674
+    status: verified
+  - name: rochdale-atom-valley-northern-gateway-mayoral-dev
+    kind: council_agenda
+    label: Rochdale
+    url: https://democracy.rochdale.gov.uk/mgRss.aspx?Type=2&CId=839
+    status: verified
+  - name: rochford-planning-policy-committee
+    kind: council_agenda
+    label: Rochford
+    url: https://rochford.moderngov.co.uk/mgRss.aspx?Type=2&CId=143
+    status: verified
+  - name: redbridge-cabinet
+    kind: council_agenda
+    label: Redbridge
+    url: https://moderngov.redbridge.gov.uk/mgRss.aspx?Type=2&CId=267
+    status: verified
+  - name: redbridge-external-scrutiny-committee
+    kind: council_agenda
+    label: Redbridge
+    url: https://moderngov.redbridge.gov.uk/mgRss.aspx?Type=2&CId=822
+    status: verified
+  - name: redbridge-outer-nel-joint-health-overview-and-scru
+    kind: council_agenda
+    label: Redbridge
+    url: https://moderngov.redbridge.gov.uk/mgRss.aspx?Type=2&CId=800
+    status: verified
+  - name: redbridge-overview-and-scrutiny-committee
+    kind: council_agenda
+    label: Redbridge
+    url: https://moderngov.redbridge.gov.uk/mgRss.aspx?Type=2&CId=823
+    status: verified
+  - name: redbridge-whipps-cross-joint-health-overview-and-s
+    kind: council_agenda
+    label: Redbridge
+    url: https://moderngov.redbridge.gov.uk/mgRss.aspx?Type=2&CId=818
+    status: verified
+  - name: rother-council-tax
+    kind: council_agenda
+    label: Rother
+    url: https://rother.moderngov.co.uk/mgRss.aspx?Type=2&CId=127
+    status: verified
+  - name: rother-cabinet
+    kind: council_agenda
+    label: Rother
+    url: https://rother.moderngov.co.uk/mgRss.aspx?Type=2&CId=153
+    status: verified
+  - name: rother-shareholder-executive-committee-sub-comm
+    kind: council_agenda
+    label: Rother
+    url: https://rother.moderngov.co.uk/mgRss.aspx?Type=2&CId=328
+    status: verified
+  - name: rother-planning-committee
+    kind: council_agenda
+    label: Rother
+    url: https://rother.moderngov.co.uk/mgRss.aspx?Type=2&CId=135
+    status: verified
+  - name: rother-overview-and-scrutiny-committee
+    kind: council_agenda
+    label: Rother
+    url: https://rother.moderngov.co.uk/mgRss.aspx?Type=2&CId=154
+    status: verified
+  - name: ribblevalley-planning-and-development
+    kind: council_agenda
+    label: Ribble Valley
+    url: https://democracy.ribblevalley.gov.uk/mgRss.aspx?Type=2&CId=144
+    status: verified
+  - name: rushmoor-cabinet
+    kind: council_agenda
+    label: Rushmoor
+    url: https://democracy.rushmoor.gov.uk/mgRss.aspx?Type=2&CId=138
+    status: verified
+  - name: rushmoor-overview-and-scrutiny-committee
+    kind: council_agenda
+    label: Rushmoor
+    url: https://democracy.rushmoor.gov.uk/mgRss.aspx?Type=2&CId=255
+    status: verified
+  - name: rushmoor-joint-crime-and-disorder-overview-and-sc
+    kind: council_agenda
+    label: Rushmoor
+    url: https://democracy.rushmoor.gov.uk/mgRss.aspx?Type=2&CId=261
+    status: verified
+  - name: runnymede-full-council
+    kind: council_agenda
+    label: Runnymede
+    url: https://democracy.runnymede.gov.uk/mgRss.aspx?Type=2&CId=163
+    status: verified
+  - name: runnymede-overview-and-scrutiny-select-committee
+    kind: council_agenda
+    label: Runnymede
+    url: https://democracy.runnymede.gov.uk/mgRss.aspx?Type=2&CId=151
+    status: verified
+  - name: runnymede-planning-committee
+    kind: council_agenda
+    label: Runnymede
+    url: https://democracy.runnymede.gov.uk/mgRss.aspx?Type=2&CId=153
+    status: verified
+  - name: runnymede-west-surrey-shadow-authority-overview-sc
+    kind: council_agenda
+    label: Runnymede
+    url: https://democracy.runnymede.gov.uk/mgRss.aspx?Type=2&CId=257
+    status: verified
+  - name: rushcliffe-cabinet
+    kind: council_agenda
+    label: Rushcliffe
+    url: https://democracy.rushcliffe.gov.uk/mgRss.aspx?Type=2&CId=137
+    status: verified
+  - name: rushcliffe-communities-scrutiny-group
+    kind: council_agenda
+    label: Rushcliffe
+    url: https://democracy.rushcliffe.gov.uk/mgRss.aspx?Type=2&CId=271
+    status: verified
+  - name: rushcliffe-corporate-overview-group
+    kind: council_agenda
+    label: Rushcliffe
+    url: https://democracy.rushcliffe.gov.uk/mgRss.aspx?Type=2&CId=270
+    status: verified
+  - name: rushcliffe-governance-scrutiny-group
+    kind: council_agenda
+    label: Rushcliffe
+    url: https://democracy.rushcliffe.gov.uk/mgRss.aspx?Type=2&CId=272
+    status: verified
+  - name: rushcliffe-growth-and-development-scrutiny-group
+    kind: council_agenda
+    label: Rushcliffe
+    url: https://democracy.rushcliffe.gov.uk/mgRss.aspx?Type=2&CId=269
+    status: verified
+  - name: rushcliffe-planning-committee
+    kind: council_agenda
+    label: Rushcliffe
+    url: https://democracy.rushcliffe.gov.uk/mgRss.aspx?Type=2&CId=140
+    status: verified
+  - name: sandwell-cabinet
+    kind: council_agenda
+    label: Sandwell
+    url: https://sandwell.moderngov.co.uk/mgRss.aspx?Type=2&CId=143
+    status: verified
+  - name: sandwell-cabinet-petitions-committee
+    kind: council_agenda
+    label: Sandwell
+    url: https://sandwell.moderngov.co.uk/mgRss.aspx?Type=2&CId=174
+    status: verified
+  - name: sandwell-executive-decisions-of-the-cabinet-membe
+    kind: council_agenda
+    label: Sandwell
+    url: https://sandwell.moderngov.co.uk/mgRss.aspx?Type=2&CId=671
+    status: verified
+  - name: sandwell-budget-and-corporate-scrutiny-management
+    kind: council_agenda
+    label: Sandwell
+    url: https://sandwell.moderngov.co.uk/mgRss.aspx?Type=2&CId=140
+    status: verified
+  - name: sandwell-children-s-services-and-education-scruti
+    kind: council_agenda
+    label: Sandwell
+    url: https://sandwell.moderngov.co.uk/mgRss.aspx?Type=2&CId=144
+    status: verified
+  - name: sandwell-economy-skills-transport-and-environment
+    kind: council_agenda
+    label: Sandwell
+    url: https://sandwell.moderngov.co.uk/mgRss.aspx?Type=2&CId=138
+    status: verified
+  - name: rotherham-council-meeting
+    kind: council_agenda
+    label: Rotherham
+    url: https://moderngov.rotherham.gov.uk/mgRss.aspx?Type=2&CId=491
+    status: verified
+  - name: rotherham-cabinet
+    kind: council_agenda
+    label: Rotherham
+    url: https://moderngov.rotherham.gov.uk/mgRss.aspx?Type=2&CId=1103
+    status: verified
+  - name: rotherham-cabinet-pre-intervention-2nd-june-2004-t
+    kind: council_agenda
+    label: Rotherham
+    url: https://moderngov.rotherham.gov.uk/mgRss.aspx?Type=2&CId=415
+    status: verified
+  - name: rotherham-cabinet-and-commissioners-decision-makin
+    kind: council_agenda
+    label: Rotherham
+    url: https://moderngov.rotherham.gov.uk/mgRss.aspx?Type=2&CId=1003
+    status: verified
+  - name: rotherham-planning-board
+    kind: council_agenda
+    label: Rotherham
+    url: https://moderngov.rotherham.gov.uk/mgRss.aspx?Type=2&CId=290
+    status: verified
+  - name: rotherham-overview-and-scrutiny-management-board
+    kind: council_agenda
+    label: Rotherham
+    url: https://moderngov.rotherham.gov.uk/mgRss.aspx?Type=2&CId=894
+    status: verified
+  - name: sevenoaks-cabinet
+    kind: council_agenda
+    label: Sevenoaks
+    url: https://sevenoaks.moderngov.co.uk/mgRss.aspx?Type=2&CId=120
+    status: verified
+  - name: sevenoaks-scrutiny-committee
+    kind: council_agenda
+    label: Sevenoaks
+    url: https://sevenoaks.moderngov.co.uk/mgRss.aspx?Type=2&CId=297
+    status: verified
+  - name: stalbans-planning-policy-climate-committee
+    kind: council_agenda
+    label: St Albans
+    url: https://stalbans.moderngov.co.uk/mgRss.aspx?Type=2&CId=615
+    status: verified
+  - name: thescottishborders-community-planning-strategic-board
+    kind: council_agenda
+    label: The Scottish Borders
+    url: https://scottishborders.moderngov.co.uk/mgRss.aspx?Type=2&CId=185
+    status: verified
+  - name: thescottishborders-planning-and-building-standards-committe
+    kind: council_agenda
+    label: The Scottish Borders
+    url: https://scottishborders.moderngov.co.uk/mgRss.aspx?Type=2&CId=136
+    status: verified
+  - name: thescottishborders-scottish-borders-community-council-schem
+    kind: council_agenda
+    label: The Scottish Borders
+    url: https://scottishborders.moderngov.co.uk/mgRss.aspx?Type=2&CId=463
+    status: verified
+  - name: thescottishborders-scrutiny-petitions-committee
+    kind: council_agenda
+    label: The Scottish Borders
+    url: https://scottishborders.moderngov.co.uk/mgRss.aspx?Type=2&CId=501
+    status: verified
+  - name: sheffield-health-scrutiny-sub-committee
+    kind: council_agenda
+    label: Sheffield
+    url: https://democracy.sheffield.gov.uk/mgRss.aspx?Type=2&CId=659
+    status: verified
+  - name: sheffield-planning-and-highways-committee
+    kind: council_agenda
+    label: Sheffield
+    url: https://democracy.sheffield.gov.uk/mgRss.aspx?Type=2&CId=373
+    status: verified
+  - name: sheffield-south-yorkshire-derbyshire-and-nottingha
+    kind: council_agenda
+    label: Sheffield
+    url: https://democracy.sheffield.gov.uk/mgRss.aspx?Type=2&CId=520
+    status: verified
+  - name: stockport-council-meeting
+    kind: council_agenda
+    label: Stockport
+    url: https://democracy.stockport.gov.uk/mgRss.aspx?Type=2&CId=140
+    status: verified
+  - name: stockport-cabinet
+    kind: council_agenda
+    label: Stockport
+    url: https://democracy.stockport.gov.uk/mgRss.aspx?Type=2&CId=1015
+    status: verified
+  - name: stockport-cabinet-housing-committee
+    kind: council_agenda
+    label: Stockport
+    url: https://democracy.stockport.gov.uk/mgRss.aspx?Type=2&CId=1175
+    status: verified
+  - name: stockport-adult-social-care-health-scrutiny-commit
+    kind: council_agenda
+    label: Stockport
+    url: https://democracy.stockport.gov.uk/mgRss.aspx?Type=2&CId=1004
+    status: verified
+  - name: stockport-children-families-scrutiny-committee
+    kind: council_agenda
+    label: Stockport
+    url: https://democracy.stockport.gov.uk/mgRss.aspx?Type=2&CId=1009
+    status: verified
+  - name: stockport-communities-transport-scrutiny-committee
+    kind: council_agenda
+    label: Stockport
+    url: https://democracy.stockport.gov.uk/mgRss.aspx?Type=2&CId=1008
+    status: verified
+  - name: slough-cabinet
+    kind: council_agenda
+    label: Slough
+    url: https://democracy.slough.gov.uk/mgRss.aspx?Type=2&CId=109
+    status: verified
+  - name: slough-corporate-improvement-scrutiny-committee
+    kind: council_agenda
+    label: Slough
+    url: https://democracy.slough.gov.uk/mgRss.aspx?Type=2&CId=714
+    status: verified
+  - name: slough-planning-committee
+    kind: council_agenda
+    label: Slough
+    url: https://democracy.slough.gov.uk/mgRss.aspx?Type=2&CId=111
+    status: verified
+  - name: salford-cabinet
+    kind: council_agenda
+    label: Salford
+    url: https://salford.moderngov.co.uk/mgRss.aspx?Type=2&CId=133
+    status: verified
+  - name: salford-lead-member-briefing-for-planning-transp
+    kind: council_agenda
+    label: Salford
+    url: https://salford.moderngov.co.uk/mgRss.aspx?Type=2&CId=198
+    status: verified
+  - name: salford-planning-and-transportation-regulatory-p
+    kind: council_agenda
+    label: Salford
+    url: https://salford.moderngov.co.uk/mgRss.aspx?Type=2&CId=153
+    status: verified
+  - name: salford-children-s-scrutiny-panel
+    kind: council_agenda
+    label: Salford
+    url: https://salford.moderngov.co.uk/mgRss.aspx?Type=2&CId=132
+    status: verified
+  - name: salford-community-and-neighbourhoods-scrutiny-pa
+    kind: council_agenda
+    label: Salford
+    url: https://salford.moderngov.co.uk/mgRss.aspx?Type=2&CId=154
+    status: verified
+  - name: salford-growth-prosperity-scrutiny-panel
+    kind: council_agenda
+    label: Salford
+    url: https://salford.moderngov.co.uk/mgRss.aspx?Type=2&CId=135
+    status: verified
+  - name: st.helens-cabinet
+    kind: council_agenda
+    label: St. Helens
+    url: https://sthelens.moderngov.co.uk/mgRss.aspx?Type=2&CId=193
+    status: verified
+  - name: st.helens-adult-social-care-and-health-scrutiny-co
+    kind: council_agenda
+    label: St. Helens
+    url: https://sthelens.moderngov.co.uk/mgRss.aspx?Type=2&CId=630
+    status: verified
+  - name: st.helens-children-and-young-people-services-scrut
+    kind: council_agenda
+    label: St. Helens
+    url: https://sthelens.moderngov.co.uk/mgRss.aspx?Type=2&CId=631
+    status: verified
+  - name: st.helens-overview-and-scrutiny-commission
+    kind: council_agenda
+    label: St. Helens
+    url: https://sthelens.moderngov.co.uk/mgRss.aspx?Type=2&CId=114
+    status: verified
+  - name: st.helens-place-services-scrutiny-committee
+    kind: council_agenda
+    label: St. Helens
+    url: https://sthelens.moderngov.co.uk/mgRss.aspx?Type=2&CId=632
+    status: verified
+  - name: st.helens-planning-committee
+    kind: council_agenda
+    label: St. Helens
+    url: https://sthelens.moderngov.co.uk/mgRss.aspx?Type=2&CId=119
+    status: verified
+  - name: somerset-somerset-council-constitution
+    kind: council_agenda
+    label: Somerset
+    url: https://democracy.somerset.gov.uk/mgRss.aspx?Type=2&CId=137
+    status: verified
+  - name: somerset-full-council
+    kind: council_agenda
+    label: Somerset
+    url: https://democracy.somerset.gov.uk/mgRss.aspx?Type=2&CId=214
+    status: verified
+  - name: somerset-planning-and-transport-policy-executive-
+    kind: council_agenda
+    label: Somerset
+    url: https://democracy.somerset.gov.uk/mgRss.aspx?Type=2&CId=934
+    status: verified
+  - name: somerset-scrutiny-committee-adults-health-and-hou
+    kind: council_agenda
+    label: Somerset
+    url: https://democracy.somerset.gov.uk/mgRss.aspx?Type=2&CId=962
+    status: verified
+  - name: somerset-scrutiny-committee-children-and-educatio
+    kind: council_agenda
+    label: Somerset
+    url: https://democracy.somerset.gov.uk/mgRss.aspx?Type=2&CId=961
+    status: verified
+  - name: somerset-scrutiny-committee-climate-environment-a
+    kind: council_agenda
+    label: Somerset
+    url: https://democracy.somerset.gov.uk/mgRss.aspx?Type=2&CId=960
+    status: verified
+  - name: southkesteven-budget-joint-overview-and-scrutiny
+    kind: council_agenda
+    label: South Kesteven
+    url: https://southkesteven.moderngov.co.uk/mgRss.aspx?Type=2&CId=640
+    status: verified
+  - name: southkesteven-culture-and-leisure-overview-and-scrutin
+    kind: council_agenda
+    label: South Kesteven
+    url: https://southkesteven.moderngov.co.uk/mgRss.aspx?Type=2&CId=727
+    status: verified
+  - name: southkesteven-environment-overview-and-scrutiny-commit
+    kind: council_agenda
+    label: South Kesteven
+    url: https://southkesteven.moderngov.co.uk/mgRss.aspx?Type=2&CId=630
+    status: verified
+  - name: southkesteven-finance-and-economic-overview-and-scruti
+    kind: council_agenda
+    label: South Kesteven
+    url: https://southkesteven.moderngov.co.uk/mgRss.aspx?Type=2&CId=729
+    status: verified
+  - name: southkesteven-housing-overview-and-scrutiny-committee
+    kind: council_agenda
+    label: South Kesteven
+    url: https://southkesteven.moderngov.co.uk/mgRss.aspx?Type=2&CId=731
+    status: verified
+  - name: southkesteven-joint-meeting-of-the-environment-overvie
+    kind: council_agenda
+    label: South Kesteven
+    url: https://southkesteven.moderngov.co.uk/mgRss.aspx?Type=2&CId=719
+    status: verified
+  - name: spelthorne-planning-committee
+    kind: council_agenda
+    label: Spelthorne
+    url: https://democracy.spelthorne.gov.uk/mgRss.aspx?Type=2&CId=140
+    status: verified
+  - name: solihull-cabinet
+    kind: council_agenda
+    label: Solihull
+    url: https://democracy.solihull.gov.uk/mgRss.aspx?Type=2&CId=130
+    status: verified
+  - name: solihull-cph-climate-change-planning-decision-ses
+    kind: council_agenda
+    label: Solihull
+    url: https://democracy.solihull.gov.uk/mgRss.aspx?Type=2&CId=700
+    status: verified
+  - name: solihull-children-s-services-education-scrutiny-b
+    kind: council_agenda
+    label: Solihull
+    url: https://democracy.solihull.gov.uk/mgRss.aspx?Type=2&CId=529
+    status: verified
+  - name: solihull-economic-development-managed-growth-and-
+    kind: council_agenda
+    label: Solihull
+    url: https://democracy.solihull.gov.uk/mgRss.aspx?Type=2&CId=528
+    status: verified
+  - name: solihull-health-and-adult-social-care-scrutiny-bo
+    kind: council_agenda
+    label: Solihull
+    url: https://democracy.solihull.gov.uk/mgRss.aspx?Type=2&CId=530
+    status: verified
+  - name: solihull-joint-health-overview-and-scrutiny-commi
+    kind: council_agenda
+    label: Solihull
+    url: https://democracy.solihull.gov.uk/mgRss.aspx?Type=2&CId=412
+    status: verified
+  - name: southribble-cabinet
+    kind: council_agenda
+    label: South Ribble
+    url: https://southribble.moderngov.co.uk/mgRss.aspx?Type=2&CId=140
+    status: verified
+  - name: southribble-community-and-external-scrutiny-committe
+    kind: council_agenda
+    label: South Ribble
+    url: https://southribble.moderngov.co.uk/mgRss.aspx?Type=2&CId=614
+    status: verified
+  - name: southribble-corporate-performance-and-budget-scrutin
+    kind: council_agenda
+    label: South Ribble
+    url: https://southribble.moderngov.co.uk/mgRss.aspx?Type=2&CId=613
+    status: verified
+  - name: southribble-central-lancashire-strategic-planning-jo
+    kind: council_agenda
+    label: South Ribble
+    url: https://southribble.moderngov.co.uk/mgRss.aspx?Type=2&CId=199
+    status: verified
+  - name: southribble-planning-committee
+    kind: council_agenda
+    label: South Ribble
+    url: https://southribble.moderngov.co.uk/mgRss.aspx?Type=2&CId=139
+    status: verified
+  - name: sutton-planning-committee
+    kind: council_agenda
+    label: Sutton
+    url: https://sutton.moderngov.co.uk/mgRss.aspx?Type=2&CId=483
+    status: verified
+  - name: sutton-planning-sub-committee
+    kind: council_agenda
+    label: Sutton
+    url: https://sutton.moderngov.co.uk/mgRss.aspx?Type=2&CId=658
+    status: verified
+  - name: sutton-joint-surrey-and-swl-health-overview-and
+    kind: council_agenda
+    label: Sutton
+    url: https://sutton.moderngov.co.uk/mgRss.aspx?Type=2&CId=674
+    status: verified
+  - name: sutton-scrutiny-committee
+    kind: council_agenda
+    label: Sutton
+    url: https://sutton.moderngov.co.uk/mgRss.aspx?Type=2&CId=443
+    status: verified
+  - name: sutton-south-west-london-and-surrey-county-coun
+    kind: council_agenda
+    label: Sutton
+    url: https://sutton.moderngov.co.uk/mgRss.aspx?Type=2&CId=626
+    status: verified
+  - name: stevenage-cabinet
+    kind: council_agenda
+    label: Stevenage
+    url: https://democracy.stevenage.gov.uk/mgRss.aspx?Type=2&CId=768
+    status: verified
+  - name: stevenage-overview-and-scrutiny-committee
+    kind: council_agenda
+    label: Stevenage
+    url: https://democracy.stevenage.gov.uk/mgRss.aspx?Type=2&CId=133
+    status: verified
+  - name: stevenage-planning-and-development-committee
+    kind: council_agenda
+    label: Stevenage
+    url: https://democracy.stevenage.gov.uk/mgRss.aspx?Type=2&CId=134
+    status: verified
+  - name: swansea-cabinet
+    kind: council_agenda
+    label: Swansea
+    url: https://democracy.swansea.gov.uk/mgRss.aspx?Type=2&CId=124
+    status: verified
+  - name: swansea-planning-committee
+    kind: council_agenda
+    label: Swansea
+    url: https://democracy.swansea.gov.uk/mgRss.aspx?Type=2&CId=493
+    status: verified
+  - name: swansea-scrutiny-programme-committee
+    kind: council_agenda
+    label: Swansea
+    url: https://democracy.swansea.gov.uk/mgRss.aspx?Type=2&CId=188
+    status: verified
+  - name: swansea-scrutiny-inquiry-panel-community-assets
+    kind: council_agenda
+    label: Swansea
+    url: https://democracy.swansea.gov.uk/mgRss.aspx?Type=2&CId=744
+    status: verified
+  - name: swansea-scrutiny-inquiry-panel-cost-of-living
+    kind: council_agenda
+    label: Swansea
+    url: https://democracy.swansea.gov.uk/mgRss.aspx?Type=2&CId=764
+    status: verified
+  - name: swansea-scrutiny-inquiry-panel-grants
+    kind: council_agenda
+    label: Swansea
+    url: https://democracy.swansea.gov.uk/mgRss.aspx?Type=2&CId=755
+    status: verified
+  - name: swale-policy-finance-and-housing-cabinet-advis
+    kind: council_agenda
+    label: Swale
+    url: https://democracy.swale.gov.uk/mgRss.aspx?Type=2&CId=344
+    status: verified
+  - name: swale-planning-committee
+    kind: council_agenda
+    label: Swale
+    url: https://democracy.swale.gov.uk/mgRss.aspx?Type=2&CId=130
+    status: verified
+  - name: swale-planning-working-group
+    kind: council_agenda
+    label: Swale
+    url: https://democracy.swale.gov.uk/mgRss.aspx?Type=2&CId=153
+    status: verified
+  - name: swale-cabinet-decommissioned-18-05-2022
+    kind: council_agenda
+    label: Swale
+    url: https://democracy.swale.gov.uk/mgRss.aspx?Type=2&CId=129
+    status: verified
+  - name: swale-planning-and-transportation-policy-worki
+    kind: council_agenda
+    label: Swale
+    url: https://democracy.swale.gov.uk/mgRss.aspx?Type=2&CId=354
+    status: verified
+  - name: surreyheath-council-minute-book
+    kind: council_agenda
+    label: Surrey Heath
+    url: https://surreyheath.moderngov.co.uk/mgRss.aspx?Type=2&CId=265
+    status: verified
+  - name: surreyheath-planning-applications-committee
+    kind: council_agenda
+    label: Surrey Heath
+    url: https://surreyheath.moderngov.co.uk/mgRss.aspx?Type=2&CId=129
+    status: verified
+  - name: surreyheath-performance-and-finance-scrutiny-committ
+    kind: council_agenda
+    label: Surrey Heath
+    url: https://surreyheath.moderngov.co.uk/mgRss.aspx?Type=2&CId=309
+    status: verified
+  - name: tandridge-full-council
+    kind: council_agenda
+    label: Tandridge
+    url: https://tandridge.moderngov.co.uk/mgRss.aspx?Type=2&CId=138
+    status: verified
+  - name: tandridge-planning-policy-committee
+    kind: council_agenda
+    label: Tandridge
+    url: https://tandridge.moderngov.co.uk/mgRss.aspx?Type=2&CId=148
+    status: verified
+  - name: tandridge-planning-committee
+    kind: council_agenda
+    label: Tandridge
+    url: https://tandridge.moderngov.co.uk/mgRss.aspx?Type=2&CId=139
+    status: verified
+  - name: tandridge-audit-scrutiny-committee
+    kind: council_agenda
+    label: Tandridge
+    url: https://tandridge.moderngov.co.uk/mgRss.aspx?Type=2&CId=147
+    status: verified
+  - name: tameside-executive-cabinet
+    kind: council_agenda
+    label: Tameside
+    url: https://tameside.moderngov.co.uk/mgRss.aspx?Type=2&CId=134
+    status: verified
+  - name: tameside-speakers-panel-planning
+    kind: council_agenda
+    label: Tameside
+    url: https://tameside.moderngov.co.uk/mgRss.aspx?Type=2&CId=161
+    status: verified
+  - name: tameside-children-s-services-scrutiny-panel
+    kind: council_agenda
+    label: Tameside
+    url: https://tameside.moderngov.co.uk/mgRss.aspx?Type=2&CId=822
+    status: verified
+  - name: tameside-health-and-adult-social-care-scrutiny-pa
+    kind: council_agenda
+    label: Tameside
+    url: https://tameside.moderngov.co.uk/mgRss.aspx?Type=2&CId=317
+    status: verified
+  - name: tameside-place-and-external-relations-scrutiny-pa
+    kind: council_agenda
+    label: Tameside
+    url: https://tameside.moderngov.co.uk/mgRss.aspx?Type=2&CId=316
+    status: verified
+  - name: tameside-scrutiny-co-ordination-and-strategic-imp
+    kind: council_agenda
+    label: Tameside
+    url: https://tameside.moderngov.co.uk/mgRss.aspx?Type=2&CId=934
+    status: verified
+  - name: southwark-council-assembly
+    kind: council_agenda
+    label: Southwark
+    url: https://moderngov.southwark.gov.uk/mgRss.aspx?Type=2&CId=132
+    status: verified
+  - name: southwark-planning-committee-major-applications-a
+    kind: council_agenda
+    label: Southwark
+    url: https://moderngov.southwark.gov.uk/mgRss.aspx?Type=2&CId=649
+    status: verified
+  - name: southwark-planning-committee-major-applications-b
+    kind: council_agenda
+    label: Southwark
+    url: https://moderngov.southwark.gov.uk/mgRss.aspx?Type=2&CId=650
+    status: verified
+  - name: southwark-planning-committee-smaller-applications
+    kind: council_agenda
+    label: Southwark
+    url: https://moderngov.southwark.gov.uk/mgRss.aspx?Type=2&CId=651
+    status: verified
+  - name: southwark-education-and-local-economy-scrutiny-com
+    kind: council_agenda
+    label: Southwark
+    url: https://moderngov.southwark.gov.uk/mgRss.aspx?Type=2&CId=550
+    status: verified
+  - name: southwark-environment-scrutiny-commission
+    kind: council_agenda
+    label: Southwark
+    url: https://moderngov.southwark.gov.uk/mgRss.aspx?Type=2&CId=715
+    status: verified
+  - name: teignbridge-full-council
+    kind: council_agenda
+    label: Teignbridge
+    url: https://democracy.teignbridge.gov.uk/mgRss.aspx?Type=2&CId=165
+    status: verified
+  - name: teignbridge-overview-and-scrutiny-committee
+    kind: council_agenda
+    label: Teignbridge
+    url: https://democracy.teignbridge.gov.uk/mgRss.aspx?Type=2&CId=418
+    status: verified
+  - name: teignbridge-strata-joint-scrutiny-committee
+    kind: council_agenda
+    label: Teignbridge
+    url: https://democracy.teignbridge.gov.uk/mgRss.aspx?Type=2&CId=292
+    status: verified
+  - name: teignbridge-planning-committee
+    kind: council_agenda
+    label: Teignbridge
+    url: https://democracy.teignbridge.gov.uk/mgRss.aspx?Type=2&CId=134
+    status: verified
+  - name: teignbridge-overview-and-scrutiny-committee-1-until-
+    kind: council_agenda
+    label: Teignbridge
+    url: https://democracy.teignbridge.gov.uk/mgRss.aspx?Type=2&CId=391
+    status: verified
+  - name: teignbridge-overview-and-scrutiny-committee-2-until-
+    kind: council_agenda
+    label: Teignbridge
+    url: https://democracy.teignbridge.gov.uk/mgRss.aspx?Type=2&CId=393
+    status: verified
+  - name: thanet-cabinet
+    kind: council_agenda
+    label: Thanet
+    url: https://democracy.thanet.gov.uk/mgRss.aspx?Type=2&CId=151
+    status: verified
+  - name: thanet-overview-scrutiny-panel
+    kind: council_agenda
+    label: Thanet
+    url: https://democracy.thanet.gov.uk/mgRss.aspx?Type=2&CId=119
+    status: verified
+  - name: thanet-planning-committee
+    kind: council_agenda
+    label: Thanet
+    url: https://democracy.thanet.gov.uk/mgRss.aspx?Type=2&CId=115
+    status: verified
+  - name: thanet-equalities-cabinet-advisory-group
+    kind: council_agenda
+    label: Thanet
+    url: https://democracy.thanet.gov.uk/mgRss.aspx?Type=2&CId=757
+    status: verified
+  - name: thanet-local-plan-cabinet-advisory-group
+    kind: council_agenda
+    label: Thanet
+    url: https://democracy.thanet.gov.uk/mgRss.aspx?Type=2&CId=752
+    status: verified
+  - name: tamworth-cabinet
+    kind: council_agenda
+    label: Tamworth
+    url: https://tamworth.moderngov.co.uk/mgRss.aspx?Type=2&CId=120
+    status: verified
+  - name: tamworth-community-wellbeing-overview-and-scrutin
+    kind: council_agenda
+    label: Tamworth
+    url: https://tamworth.moderngov.co.uk/mgRss.aspx?Type=2&CId=328
+    status: verified
+  - name: tamworth-corporate-and-finance-overview-and-scrut
+    kind: council_agenda
+    label: Tamworth
+    url: https://tamworth.moderngov.co.uk/mgRss.aspx?Type=2&CId=327
+    status: verified
+  - name: tamworth-joint-scrutiny-budgets
+    kind: council_agenda
+    label: Tamworth
+    url: https://tamworth.moderngov.co.uk/mgRss.aspx?Type=2&CId=140
+    status: verified
+  - name: tamworth-prosperity-place-and-environment-overvie
+    kind: council_agenda
+    label: Tamworth
+    url: https://tamworth.moderngov.co.uk/mgRss.aspx?Type=2&CId=317
+    status: verified
+  - name: tamworth-planning-committee
+    kind: council_agenda
+    label: Tamworth
+    url: https://tamworth.moderngov.co.uk/mgRss.aspx?Type=2&CId=117
+    status: verified
+  - name: thurrock-cabinet
+    kind: council_agenda
+    label: Thurrock
+    url: https://democracy.thurrock.gov.uk/mgRss.aspx?Type=2&CId=129
+    status: verified
+  - name: thurrock-adult-and-health-services-overview-and-s
+    kind: council_agenda
+    label: Thurrock
+    url: https://democracy.thurrock.gov.uk/mgRss.aspx?Type=2&CId=524
+    status: verified
+  - name: thurrock-children-s-services-overview-and-scrutin
+    kind: council_agenda
+    label: Thurrock
+    url: https://democracy.thurrock.gov.uk/mgRss.aspx?Type=2&CId=131
+    status: verified
+  - name: thurrock-corporate-overview-and-scrutiny-committe
+    kind: council_agenda
+    label: Thurrock
+    url: https://democracy.thurrock.gov.uk/mgRss.aspx?Type=2&CId=163
+    status: verified
+  - name: thurrock-place-overview-and-scrutiny-committee
+    kind: council_agenda
+    label: Thurrock
+    url: https://democracy.thurrock.gov.uk/mgRss.aspx?Type=2&CId=488
+    status: verified
+  - name: thurrock-planning-committee
+    kind: council_agenda
+    label: Thurrock
+    url: https://democracy.thurrock.gov.uk/mgRss.aspx?Type=2&CId=136
+    status: verified
+  - name: testvalley-cabinet
+    kind: council_agenda
+    label: Test Valley
+    url: https://democracy.testvalley.gov.uk/mgRss.aspx?Type=2&CId=137
+    status: verified
+  - name: testvalley-northern-area-planning-committee
+    kind: council_agenda
+    label: Test Valley
+    url: https://democracy.testvalley.gov.uk/mgRss.aspx?Type=2&CId=160
+    status: verified
+  - name: testvalley-southern-area-planning-committee
+    kind: council_agenda
+    label: Test Valley
+    url: https://democracy.testvalley.gov.uk/mgRss.aspx?Type=2&CId=161
+    status: verified
+  - name: testvalley-overview-and-scrutiny-committee
+    kind: council_agenda
+    label: Test Valley
+    url: https://democracy.testvalley.gov.uk/mgRss.aspx?Type=2&CId=162
+    status: verified
+  - name: torbay-cabinet
+    kind: council_agenda
+    label: Torbay
+    url: https://torbay.moderngov.co.uk/mgRss.aspx?Type=2&CId=741
+    status: verified
+  - name: torbay-planning-committee
+    kind: council_agenda
+    label: Torbay
+    url: https://torbay.moderngov.co.uk/mgRss.aspx?Type=2&CId=760
+    status: verified
+  - name: torbay-adult-social-care-and-health-overview-an
+    kind: council_agenda
+    label: Torbay
+    url: https://torbay.moderngov.co.uk/mgRss.aspx?Type=2&CId=1901
+    status: verified
+  - name: torbay-children-and-young-people-s-overview-and
+    kind: council_agenda
+    label: Torbay
+    url: https://torbay.moderngov.co.uk/mgRss.aspx?Type=2&CId=1862
+    status: verified
+  - name: torbay-overview-and-scrutiny-board
+    kind: council_agenda
+    label: Torbay
+    url: https://torbay.moderngov.co.uk/mgRss.aspx?Type=2&CId=218
+    status: verified
+  - name: torbay-council-redesign-programme-and-accessibi
+    kind: council_agenda
+    label: Torbay
+    url: https://torbay.moderngov.co.uk/mgRss.aspx?Type=2&CId=1879
+    status: verified
+  - name: torfaen-cabinet
+    kind: council_agenda
+    label: Torfaen
+    url: https://moderngov.torfaen.gov.uk/mgRss.aspx?Type=2&CId=134
+    status: verified
+  - name: torfaen-planning-committee
+    kind: council_agenda
+    label: Torfaen
+    url: https://moderngov.torfaen.gov.uk/mgRss.aspx?Type=2&CId=136
+    status: verified
+  - name: torfaen-adults-communities-overview-scrutiny-com
+    kind: council_agenda
+    label: Torfaen
+    url: https://moderngov.torfaen.gov.uk/mgRss.aspx?Type=2&CId=443
+    status: verified
+  - name: torfaen-children-families-overview-scrutiny-comm
+    kind: council_agenda
+    label: Torfaen
+    url: https://moderngov.torfaen.gov.uk/mgRss.aspx?Type=2&CId=439
+    status: verified
+  - name: torfaen-council-overview-and-scrutiny-committee
+    kind: council_agenda
+    label: Torfaen
+    url: https://moderngov.torfaen.gov.uk/mgRss.aspx?Type=2&CId=355
+    status: verified
+  - name: torfaen-cross-cutting-resources-and-business-ove
+    kind: council_agenda
+    label: Torfaen
+    url: https://moderngov.torfaen.gov.uk/mgRss.aspx?Type=2&CId=149
+    status: verified
+  - name: torridge-external-overview-scrutiny
+    kind: council_agenda
+    label: Torridge
+    url: https://democracy.torridge.gov.uk/mgRss.aspx?Type=2&CId=152
+    status: verified
+  - name: torridge-full-council
+    kind: council_agenda
+    label: Torridge
+    url: https://democracy.torridge.gov.uk/mgRss.aspx?Type=2&CId=135
+    status: verified
+  - name: torridge-internal-overview-scrutiny
+    kind: council_agenda
+    label: Torridge
+    url: https://democracy.torridge.gov.uk/mgRss.aspx?Type=2&CId=153
+    status: verified
+  - name: torridge-joint-planning-policy-committee
+    kind: council_agenda
+    label: Torridge
+    url: https://democracy.torridge.gov.uk/mgRss.aspx?Type=2&CId=382
+    status: verified
+  - name: uttlesford-cabinet
+    kind: council_agenda
+    label: Uttlesford
+    url: https://uttlesford.moderngov.co.uk/mgRss.aspx?Type=2&CId=136
+    status: verified
+  - name: uttlesford-planning-committee
+    kind: council_agenda
+    label: Uttlesford
+    url: https://uttlesford.moderngov.co.uk/mgRss.aspx?Type=2&CId=138
+    status: verified
+  - name: uttlesford-scrutiny-committee
+    kind: council_agenda
+    label: Uttlesford
+    url: https://uttlesford.moderngov.co.uk/mgRss.aspx?Type=2&CId=139
+    status: verified
+  - name: uttlesford-planning-committee-working-group
+    kind: council_agenda
+    label: Uttlesford
+    url: https://uttlesford.moderngov.co.uk/mgRss.aspx?Type=2&CId=531
+    status: verified
+  - name: threerivers-full-council
+    kind: council_agenda
+    label: Three Rivers
+    url: https://moderngov.threerivers.gov.uk/mgRss.aspx?Type=2&CId=1139
+    status: verified
+  - name: threerivers-planning-committee
+    kind: council_agenda
+    label: Three Rivers
+    url: https://moderngov.threerivers.gov.uk/mgRss.aspx?Type=2&CId=1137
+    status: verified
+  - name: watford-cabinet
+    kind: council_agenda
+    label: Watford
+    url: https://watford.moderngov.co.uk/mgRss.aspx?Type=2&CId=121
+    status: verified
+  - name: watford-finance-scrutiny-committee
+    kind: council_agenda
+    label: Watford
+    url: https://watford.moderngov.co.uk/mgRss.aspx?Type=2&CId=410
+    status: verified
+  - name: watford-overview-and-scrutiny-committee
+    kind: council_agenda
+    label: Watford
+    url: https://watford.moderngov.co.uk/mgRss.aspx?Type=2&CId=146
+    status: verified
+  - name: watford-council-functions-committee
+    kind: council_agenda
+    label: Watford
+    url: https://watford.moderngov.co.uk/mgRss.aspx?Type=2&CId=128
+    status: verified
+  - name: watford-watford-borough-council-and-west-herts-g
+    kind: council_agenda
+    label: Watford
+    url: https://watford.moderngov.co.uk/mgRss.aspx?Type=2&CId=199
+    status: verified
+  - name: tunbridgewells-full-council
+    kind: council_agenda
+    label: Tunbridge Wells
+    url: https://democracy.tunbridgewells.gov.uk/mgRss.aspx?Type=2&CId=134
+    status: verified
+  - name: tunbridgewells-cabinet
+    kind: council_agenda
+    label: Tunbridge Wells
+    url: https://democracy.tunbridgewells.gov.uk/mgRss.aspx?Type=2&CId=118
+    status: verified
+  - name: tunbridgewells-overview-and-scrutiny-committee
+    kind: council_agenda
+    label: Tunbridge Wells
+    url: https://democracy.tunbridgewells.gov.uk/mgRss.aspx?Type=2&CId=359
+    status: verified
+  - name: tunbridgewells-planning-committee
+    kind: council_agenda
+    label: Tunbridge Wells
+    url: https://democracy.tunbridgewells.gov.uk/mgRss.aspx?Type=2&CId=377
+    status: verified
+  - name: tunbridgewells-communities-housing-and-environment-cabi
+    kind: council_agenda
+    label: Tunbridge Wells
+    url: https://democracy.tunbridgewells.gov.uk/mgRss.aspx?Type=2&CId=456
+    status: verified
+  - name: tunbridgewells-finance-innovation-and-transformation-ca
+    kind: council_agenda
+    label: Tunbridge Wells
+    url: https://democracy.tunbridgewells.gov.uk/mgRss.aspx?Type=2&CId=455
+    status: verified
+  - name: towerhamlets-cabinet
+    kind: council_agenda
+    label: Tower Hamlets
+    url: https://democracy.towerhamlets.gov.uk/mgRss.aspx?Type=2&CId=720
+    status: verified
+  - name: towerhamlets-grants-determination-cabinet-sub-committ
+    kind: council_agenda
+    label: Tower Hamlets
+    url: https://democracy.towerhamlets.gov.uk/mgRss.aspx?Type=2&CId=812
+    status: verified
+  - name: towerhamlets-housing-management-cabinet-sub-committee
+    kind: council_agenda
+    label: Tower Hamlets
+    url: https://democracy.towerhamlets.gov.uk/mgRss.aspx?Type=2&CId=1157
+    status: verified
+  - name: towerhamlets-mayor-s-executive-decision-making
+    kind: council_agenda
+    label: Tower Hamlets
+    url: https://democracy.towerhamlets.gov.uk/mgRss.aspx?Type=2&CId=434
+    status: verified
+  - name: towerhamlets-children-and-education-scrutiny-sub-comm
+    kind: council_agenda
+    label: Tower Hamlets
+    url: https://democracy.towerhamlets.gov.uk/mgRss.aspx?Type=2&CId=973
+    status: verified
+  - name: towerhamlets-health-and-adult-scrutiny-sub-committee
+    kind: council_agenda
+    label: Tower Hamlets
+    url: https://democracy.towerhamlets.gov.uk/mgRss.aspx?Type=2&CId=314
+    status: verified
+  - name: westmorlandandfurness-cabinet
+    kind: council_agenda
+    label: Westmorland and Furness
+    url: https://westmorlandandfurness.moderngov.co.uk/mgRss.aspx?Type=2&CId=223
+    status: verified
+  - name: westmorlandandfurness-barrow-in-furness-local-area-planning-co
+    kind: council_agenda
+    label: Westmorland and Furness
+    url: https://westmorlandandfurness.moderngov.co.uk/mgRss.aspx?Type=2&CId=263
+    status: verified
+  - name: westmorlandandfurness-eden-local-area-planning-committee
+    kind: council_agenda
+    label: Westmorland and Furness
+    url: https://westmorlandandfurness.moderngov.co.uk/mgRss.aspx?Type=2&CId=264
+    status: verified
+  - name: westmorlandandfurness-south-lakeland-local-area-planning-commi
+    kind: council_agenda
+    label: Westmorland and Furness
+    url: https://westmorlandandfurness.moderngov.co.uk/mgRss.aspx?Type=2&CId=265
+    status: verified
+  - name: westmorlandandfurness-strategic-planning-committee
+    kind: council_agenda
+    label: Westmorland and Furness
+    url: https://westmorlandandfurness.moderngov.co.uk/mgRss.aspx?Type=2&CId=262
+    status: verified
+  - name: westmorlandandfurness-children-young-people-and-families-scrut
+    kind: council_agenda
+    label: Westmorland and Furness
+    url: https://westmorlandandfurness.moderngov.co.uk/mgRss.aspx?Type=2&CId=259
+    status: verified
+  - name: wigan-cabinet
+    kind: council_agenda
+    label: Wigan
+    url: https://democracy.wigan.gov.uk/mgRss.aspx?Type=2&CId=130
+    status: verified
+  - name: wigan-planning-committee
+    kind: council_agenda
+    label: Wigan
+    url: https://democracy.wigan.gov.uk/mgRss.aspx?Type=2&CId=120
+    status: verified
+  - name: wigan-fair-opportunities-for-all-children-and-
+    kind: council_agenda
+    label: Wigan
+    url: https://democracy.wigan.gov.uk/mgRss.aspx?Type=2&CId=500
+    status: verified
+  - name: wigan-fair-opportunities-for-all-health-and-so
+    kind: council_agenda
+    label: Wigan
+    url: https://democracy.wigan.gov.uk/mgRss.aspx?Type=2&CId=499
+    status: verified
+  - name: wigan-fair-opportunities-for-all-place-and-env
+    kind: council_agenda
+    label: Wigan
+    url: https://democracy.wigan.gov.uk/mgRss.aspx?Type=2&CId=467
+    status: verified
+  - name: wigan-progress-with-unity-scrutiny-committee
+    kind: council_agenda
+    label: Wigan
+    url: https://democracy.wigan.gov.uk/mgRss.aspx?Type=2&CId=465
+    status: verified
+  - name: winchester-cabinet
+    kind: council_agenda
+    label: Winchester
+    url: https://democracy.winchester.gov.uk/mgRss.aspx?Type=2&CId=136
+    status: verified
+  - name: winchester-cabinet-committee-housing
+    kind: council_agenda
+    label: Winchester
+    url: https://democracy.winchester.gov.uk/mgRss.aspx?Type=2&CId=426
+    status: verified
+  - name: winchester-cabinet-committee-local-plan
+    kind: council_agenda
+    label: Winchester
+    url: https://democracy.winchester.gov.uk/mgRss.aspx?Type=2&CId=445
+    status: verified
+  - name: winchester-cabinet-committee-regeneration
+    kind: council_agenda
+    label: Winchester
+    url: https://democracy.winchester.gov.uk/mgRss.aspx?Type=2&CId=427
+    status: verified
+  - name: winchester-cabinet-member-for-business-culture-deci
+    kind: council_agenda
+    label: Winchester
+    url: https://democracy.winchester.gov.uk/mgRss.aspx?Type=2&CId=424
+    status: verified
+  - name: winchester-cabinet-member-for-good-homes-decision-d
+    kind: council_agenda
+    label: Winchester
+    url: https://democracy.winchester.gov.uk/mgRss.aspx?Type=2&CId=448
+    status: verified
+  - name: westlindsey-thriving-council-committee
+    kind: council_agenda
+    label: West Lindsey
+    url: https://democracy.west-lindsey.gov.uk/mgRss.aspx?Type=2&CId=435
+    status: verified
+  - name: westlindsey-planning-committee
+    kind: council_agenda
+    label: West Lindsey
+    url: https://democracy.west-lindsey.gov.uk/mgRss.aspx?Type=2&CId=173
+    status: verified
+  - name: westlindsey-overview-and-scrutiny-committee
+    kind: council_agenda
+    label: West Lindsey
+    url: https://democracy.west-lindsey.gov.uk/mgRss.aspx?Type=2&CId=386
+    status: verified
+  - name: westlindsey-central-lincolnshire-joint-strategic-pla
+    kind: council_agenda
+    label: West Lindsey
+    url: https://democracy.west-lindsey.gov.uk/mgRss.aspx?Type=2&CId=425
+    status: verified
+  - name: wakefield-cabinet
+    kind: council_agenda
+    label: Wakefield
+    url: https://wakefield.moderngov.co.uk/mgRss.aspx?Type=2&CId=222
+    status: verified
+  - name: wakefield-planning-and-highways-committee
+    kind: council_agenda
+    label: Wakefield
+    url: https://wakefield.moderngov.co.uk/mgRss.aspx?Type=2&CId=308
+    status: verified
+  - name: wakefield-adult-services-and-health-overview-and-s
+    kind: council_agenda
+    label: Wakefield
+    url: https://wakefield.moderngov.co.uk/mgRss.aspx?Type=2&CId=922
+    status: verified
+  - name: wakefield-children-and-young-people-overview-and-s
+    kind: council_agenda
+    label: Wakefield
+    url: https://wakefield.moderngov.co.uk/mgRss.aspx?Type=2&CId=921
+    status: verified
+  - name: wakefield-corporate-and-resources-overview-and-scr
+    kind: council_agenda
+    label: Wakefield
+    url: https://wakefield.moderngov.co.uk/mgRss.aspx?Type=2&CId=994
+    status: verified
+  - name: wakefield-regeneration-and-communities-overview-an
+    kind: council_agenda
+    label: Wakefield
+    url: https://wakefield.moderngov.co.uk/mgRss.aspx?Type=2&CId=977
+    status: verified
+  - name: wolverhampton-adults-scrutiny-panel
+    kind: council_agenda
+    label: Wolverhampton
+    url: https://wolverhampton.moderngov.co.uk/mgRss.aspx?Type=2&CId=504
+    status: verified
+  - name: wolverhampton-children-young-and-people-scrutiny-panel
+    kind: council_agenda
+    label: Wolverhampton
+    url: https://wolverhampton.moderngov.co.uk/mgRss.aspx?Type=2&CId=506
+    status: verified
+  - name: wolverhampton-community-safety-residents-and-environme
+    kind: council_agenda
+    label: Wolverhampton
+    url: https://wolverhampton.moderngov.co.uk/mgRss.aspx?Type=2&CId=507
+    status: verified
+  - name: wolverhampton-economy-and-growth-scrutiny-panel
+    kind: council_agenda
+    label: Wolverhampton
+    url: https://wolverhampton.moderngov.co.uk/mgRss.aspx?Type=2&CId=505
+    status: verified
+  - name: wolverhampton-health-scrutiny-panel
+    kind: council_agenda
+    label: Wolverhampton
+    url: https://wolverhampton.moderngov.co.uk/mgRss.aspx?Type=2&CId=146
+    status: verified
+  - name: wolverhampton-resources-and-equality-scrutiny-panel
+    kind: council_agenda
+    label: Wolverhampton
+    url: https://wolverhampton.moderngov.co.uk/mgRss.aspx?Type=2&CId=149
+    status: verified
+  - name: wandsworth-children-s-overview-and-scrutiny-committ
+    kind: council_agenda
+    label: Wandsworth
+    url: https://democracy.wandsworth.gov.uk/mgRss.aspx?Type=2&CId=767
+    status: verified
+  - name: wandsworth-environment-overview-and-scrutiny-commit
+    kind: council_agenda
+    label: Wandsworth
+    url: https://democracy.wandsworth.gov.uk/mgRss.aspx?Type=2&CId=761
+    status: verified
+  - name: wandsworth-finance-overview-and-scrutiny-committee
+    kind: council_agenda
+    label: Wandsworth
+    url: https://democracy.wandsworth.gov.uk/mgRss.aspx?Type=2&CId=766
+    status: verified
+  - name: wandsworth-general-overview-and-scrutiny-committee
+    kind: council_agenda
+    label: Wandsworth
+    url: https://democracy.wandsworth.gov.uk/mgRss.aspx?Type=2&CId=803
+    status: verified
+  - name: wandsworth-grants-overview-and-scrutiny-sub-committ
+    kind: council_agenda
+    label: Wandsworth
+    url: https://democracy.wandsworth.gov.uk/mgRss.aspx?Type=2&CId=763
+    status: verified
+  - name: wandsworth-health-overview-and-scrutiny-committee
+    kind: council_agenda
+    label: Wandsworth
+    url: https://democracy.wandsworth.gov.uk/mgRss.aspx?Type=2&CId=764
+    status: verified
+  - name: woking-planning-committee
+    kind: council_agenda
+    label: Woking
+    url: https://woking.moderngov.co.uk/mgRss.aspx?Type=2&CId=134
+    status: verified
+  - name: woking-communities-and-housing-scrutiny-committ
+    kind: council_agenda
+    label: Woking
+    url: https://woking.moderngov.co.uk/mgRss.aspx?Type=2&CId=434
+    status: verified
+  - name: woking-environment-and-place-scrutiny-committee
+    kind: council_agenda
+    label: Woking
+    url: https://woking.moderngov.co.uk/mgRss.aspx?Type=2&CId=435
+    status: verified
+  - name: woking-resource-and-finance-scrutiny-committee
+    kind: council_agenda
+    label: Woking
+    url: https://woking.moderngov.co.uk/mgRss.aspx?Type=2&CId=436
+    status: verified
+  - name: wokingham-mayor
+    kind: council_agenda
+    label: Wokingham
+    url: https://wokingham.moderngov.co.uk/mgRss.aspx?Type=2&CId=301
+    status: verified
+  - name: wokingham-special-council-committee
+    kind: council_agenda
+    label: Wokingham
+    url: https://wokingham.moderngov.co.uk/mgRss.aspx?Type=2&CId=130
+    status: verified
+  - name: wokingham-children-s-services-overview-and-scrutin
+    kind: council_agenda
+    label: Wokingham
+    url: https://wokingham.moderngov.co.uk/mgRss.aspx?Type=2&CId=137
+    status: verified
+  - name: wokingham-climate-emergency-overview-and-scrutiny-
+    kind: council_agenda
+    label: Wokingham
+    url: https://wokingham.moderngov.co.uk/mgRss.aspx?Type=2&CId=514
+    status: verified
+  - name: wokingham-community-and-corporate-overview-and-scr
+    kind: council_agenda
+    label: Wokingham
+    url: https://wokingham.moderngov.co.uk/mgRss.aspx?Type=2&CId=306
+    status: verified
+  - name: wokingham-health-overview-and-scrutiny-committee
+    kind: council_agenda
+    label: Wokingham
+    url: https://wokingham.moderngov.co.uk/mgRss.aspx?Type=2&CId=141
+    status: verified
+  - name: wirral-planning-committee
+    kind: council_agenda
+    label: Wirral
+    url: https://democracy.wirral.gov.uk/mgRss.aspx?Type=2&CId=157
+    status: verified
+  - name: westminster-council-annual-meeting-meeting-of-standi
+    kind: council_agenda
+    label: Westminster
+    url: https://westminster.moderngov.co.uk/mgRss.aspx?Type=2&CId=180
+    status: verified
+  - name: westminster-cabinet
+    kind: council_agenda
+    label: Westminster
+    url: https://westminster.moderngov.co.uk/mgRss.aspx?Type=2&CId=130
+    status: verified
+  - name: westminster-committee-of-the-cabinet
+    kind: council_agenda
+    label: Westminster
+    url: https://westminster.moderngov.co.uk/mgRss.aspx?Type=2&CId=178
+    status: verified
+  - name: westminster-planning-sub-committee-1
+    kind: council_agenda
+    label: Westminster
+    url: https://westminster.moderngov.co.uk/mgRss.aspx?Type=2&CId=566
+    status: verified
+  - name: westminster-planning-sub-committee-2
+    kind: council_agenda
+    label: Westminster
+    url: https://westminster.moderngov.co.uk/mgRss.aspx?Type=2&CId=567
+    status: verified
+  - name: westminster-planning-sub-committee-3
+    kind: council_agenda
+    label: Westminster
+    url: https://westminster.moderngov.co.uk/mgRss.aspx?Type=2&CId=584
+    status: verified
+  - name: wyre-cabinet
+    kind: council_agenda
+    label: Wyre
+    url: https://wyre.moderngov.co.uk/mgRss.aspx?Type=2&CId=136
+    status: verified
+  - name: wyre-planning-committee
+    kind: council_agenda
+    label: Wyre
+    url: https://wyre.moderngov.co.uk/mgRss.aspx?Type=2&CId=144
+    status: verified
+  - name: wyre-overview-and-scrutiny-climate-change-sub
+    kind: council_agenda
+    label: Wyre
+    url: https://wyre.moderngov.co.uk/mgRss.aspx?Type=2&CId=262
+    status: verified
+  - name: wyre-overview-and-scrutiny-committee
+    kind: council_agenda
+    label: Wyre
+    url: https://wyre.moderngov.co.uk/mgRss.aspx?Type=2&CId=143
+    status: verified
+  - name: wrexham-customers-performance-resources-and-gove
+    kind: council_agenda
+    label: Wrexham
+    url: https://moderngov.wrexham.gov.uk/mgRss.aspx?Type=2&CId=138
+    status: verified
+  - name: wrexham-employment-business-and-investment-scrut
+    kind: council_agenda
+    label: Wrexham
+    url: https://moderngov.wrexham.gov.uk/mgRss.aspx?Type=2&CId=139
+    status: verified
+  - name: wrexham-homes-and-environment-scrutiny-committee
+    kind: council_agenda
+    label: Wrexham
+    url: https://moderngov.wrexham.gov.uk/mgRss.aspx?Type=2&CId=173
+    status: verified
+  - name: wrexham-lifelong-learning-scrutiny-committee
+    kind: council_agenda
+    label: Wrexham
+    url: https://moderngov.wrexham.gov.uk/mgRss.aspx?Type=2&CId=172
+    status: verified
+  - name: wrexham-safeguarding-communities-and-wellbeing-s
+    kind: council_agenda
+    label: Wrexham
+    url: https://moderngov.wrexham.gov.uk/mgRss.aspx?Type=2&CId=174
+    status: verified
+  - name: wrexham-planning-committee
+    kind: council_agenda
+    label: Wrexham
+    url: https://moderngov.wrexham.gov.uk/mgRss.aspx?Type=2&CId=137
+    status: verified
+  - name: york-planning-policy-and-local-plan-advisory-
+    kind: council_agenda
+    label: York
+    url: https://democracy.york.gov.uk/mgRss.aspx?Type=2&CId=1119
+    status: verified
+  - name: york-corporate-scrutiny-committee
+    kind: council_agenda
+    label: York
+    url: https://democracy.york.gov.uk/mgRss.aspx?Type=2&CId=1117
+    status: verified
+  - name: york-people-scrutiny-committee
+    kind: council_agenda
+    label: York
+    url: https://democracy.york.gov.uk/mgRss.aspx?Type=2&CId=1120
+    status: verified
+  - name: york-place-scrutiny-committee
+    kind: council_agenda
+    label: York
+    url: https://democracy.york.gov.uk/mgRss.aspx?Type=2&CId=1122
+    status: verified
+  - name: york-scrutiny-working-group-local-government-
+    kind: council_agenda
+    label: York
+    url: https://democracy.york.gov.uk/mgRss.aspx?Type=2&CId=1127
+    status: verified
+  - name: york-planning-committee
+    kind: council_agenda
+    label: York
+    url: https://democracy.york.gov.uk/mgRss.aspx?Type=2&CId=1130
+    status: verified
+  - name: westsuffolk-cabinet
+    kind: council_agenda
+    label: West Suffolk
+    url: https://democracy.westsuffolk.gov.uk/mgRss.aspx?Type=2&CId=521
+    status: verified
+  - name: westsuffolk-overview-and-scrutiny-committee
+    kind: council_agenda
+    label: West Suffolk
+    url: https://democracy.westsuffolk.gov.uk/mgRss.aspx?Type=2&CId=522
+    status: verified
+  - name: westsuffolk-performance-and-audit-scrutiny-committee
+    kind: council_agenda
+    label: West Suffolk
+    url: https://democracy.westsuffolk.gov.uk/mgRss.aspx?Type=2&CId=526
+    status: verified
+  - name: westsuffolk-west-suffolk-council-constitution
+    kind: council_agenda
+    label: West Suffolk
+    url: https://democracy.westsuffolk.gov.uk/mgRss.aspx?Type=2&CId=523
+    status: verified
 planit:
   boroughs:
   - Aberdeen City
@@ -4854,3 +8789,139 @@ limits:
   max_classify_per_run: 300
   top_n: 40
   max_items_per_source: 120
+cmis_agendas:
+  sites:
+  - name: dudley
+    kind: council_agenda_cmis
+    label: Dudley
+    base: https://cmis.dudley.gov.uk/cmis5
+    pages:
+    - Committees.aspx
+    - Meetings.aspx
+    status: verified
+  - name: braintree
+    kind: council_agenda_cmis
+    label: Braintree
+    base: https://braintree.cmis.uk.com/braintree
+    pages:
+    - Committees.aspx
+    - Meetings.aspx
+    status: verified
+  - name: birmingham
+    kind: council_agenda_cmis
+    label: Birmingham
+    base: https://birmingham.cmis.uk.com/birmingham
+    pages:
+    - Committee.aspx
+    - Committees.aspx
+    - Meetings.aspx
+    status: verified
+  - name: castle-point
+    kind: council_agenda_cmis
+    label: Castle Point
+    base: https://castlepoint.cmis.uk.com/castlepoint
+    pages:
+    - Committees.aspx
+    - Meetings.aspx
+    status: verified
+  - name: colchester
+    kind: council_agenda_cmis
+    label: Colchester
+    base: https://colchester.cmis.uk.com/colchester
+    pages:
+    - Committees.aspx
+    - MeetingCalendar.aspx
+    status: verified
+  - name: east-suffolk
+    kind: council_agenda_cmis
+    label: East Suffolk
+    base: https://eastsuffolk.cmis.uk.com/eastsuffolk
+    pages:
+    - Committees.aspx
+    - Meetings.aspx
+    status: verified
+  - name: fylde
+    kind: council_agenda_cmis
+    label: Fylde
+    base: https://fylde.cmis.uk.com/fylde
+    pages:
+    - Committees.aspx
+    - MeetingsCalendar.aspx
+    status: verified
+  - name: great-yarmouth
+    kind: council_agenda_cmis
+    label: Great Yarmouth
+    base: https://great-yarmouth.cmis.uk.com/great-yarmouth
+    pages:
+    - Committees.aspx
+    - Meetings.aspx
+    status: verified
+  - name: harborough
+    kind: council_agenda_cmis
+    label: Harborough
+    base: https://cmis.harborough.gov.uk/cmis5
+    pages:
+    - Committees.aspx
+    - Meetings.aspx
+    status: verified
+  - name: midlothian
+    kind: council_agenda_cmis
+    label: Midlothian
+    base: https://midlothian.cmis.uk.com/Live
+    pages:
+    - Meetings.aspx
+    status: verified
+  - name: north-ayrshire
+    kind: council_agenda_cmis
+    label: North Ayrshire
+    base: https://north-ayrshire.cmis.uk.com/north-ayrshire
+    pages:
+    - Meetings.aspx
+    status: candidate
+    note: page loads but no calendar module
+  - name: norwich
+    kind: council_agenda_cmis
+    label: Norwich
+    base: https://cmis.norwich.gov.uk/Live
+    pages:
+    - Committees.aspx
+    - MeetingsCalendar.aspx
+    status: verified
+  - name: perth-and-kinross
+    kind: council_agenda_cmis
+    label: Perth and Kinross
+    base: https://perth-and-kinross.cmis.uk.com/perth-and-kinross
+    pages:
+    - Committees.aspx
+    - Meetings.aspx
+    status: verified
+  - name: renfrewshire
+    kind: council_agenda_cmis
+    label: Renfrewshire
+    base: https://renfrewshire.cmis.uk.com/renfrewshire
+    pages:
+    - Meetings.aspx
+    status: verified
+  - name: south-derbyshire
+    kind: council_agenda_cmis
+    label: South Derbyshire
+    base: https://southderbyshire.cmis.uk.com/southderbyshire
+    pages:
+    - Committees.aspx
+    - Meetings.aspx
+    status: verified
+  - name: south-lanarkshire
+    kind: council_agenda_cmis
+    label: South Lanarkshire
+    base: https://southlanarkshire.cmis.uk.com/southlanarkshire
+    pages:
+    - MeetingsCalendar.aspx
+    status: verified
+  - name: warrington
+    kind: council_agenda_cmis
+    label: Warrington
+    base: https://cmis.warrington.gov.uk/cmis5
+    pages:
+    - Committees.aspx
+    - MeetingsCalendar.aspx
+    status: verified

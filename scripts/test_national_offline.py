@@ -253,5 +253,134 @@ ok("region: unresolved London council label",
 cl.load_targets = orig_load
 conn.close()
 
+
+# --- cmis_source: calendar parser + post shape -------------------------------
+import cmis_source as cs
+from datetime import date as _date
+
+_CAL = ('''<td><div class="rsDateBox"><a href="#2026-06-01" title="01/06/2026"
+ class="rsDateHeader">1 Jun</a></div>
+<div id="x_0_0" title="14:00 Valuation Joint Board : Room 1" class="rsApt">
+</div></td>
+<td><div class="rsDateBox"><a href="#2026-06-09" title="09/06/2026"
+ class="rsDateHeader">9</a></div>
+<div id="x_1_0" title="10:00 Planning Committee : Committee Room 1 &amp; 2"
+ class="rsApt"></div>
+<div id="x_2_0" title="Education Committee" class="rsApt"></div></td>''')
+_ms = cs.parse_calendar(_CAL)
+ok("cmis: parses dated appointments incl. untimed + html entities",
+   len(_ms) == 3 and _ms[0]["time"] == "14:00"
+   and _ms[1] == {"date": "2026-06-09", "time": "10:00",
+                  "committee": "Planning Committee",
+                  "location": "Committee Room 1 & 2"}
+   and _ms[2]["time"] == "" and _ms[2]["committee"] == "Education Committee")
+_site = {"name": "testville", "label": "Testville",
+         "base": "https://testville.cmis.uk.com/testville",
+         "pages": ["Committees.aspx", "Meetings.aspx"]}
+_cfg = {"days_ahead": 8, "max_per_site": 6}
+_items = cs._items_for(_site, _ms, _cfg, today=_date(2026, 6, 1))
+ok("cmis: key-committee filter + window -> standard post shape",
+   len(_items) == 1
+   and _items[0]["source_type"] == "council_agenda"
+   and _items[0]["city"] == "Testville"
+   and _items[0]["id"].startswith("cmis:testville:2026-06-09:planning")
+   and "Committee Room 1" in _items[0]["body"])
+ok("cmis: out-of-window meetings dropped",
+   cs._items_for(_site, _ms, _cfg, today=_date(2026, 6, 15)) == [])
+ok("cmis: meetings url prefers the calendar page",
+   cs.meetings_url(_site).endswith("/Meetings.aspx"))
+
+# --- discover_cmis_feeds: worker + page detection ----------------------------
+import discover_cmis_feeds as dc
+_dc_saved = (dc.time.sleep, dc.get, dc.head_alive)
+dc.time.sleep = lambda s: None
+
+class _Resp:
+    def __init__(self, url, text, status=200):
+        self.url, self.text, self.status_code = url, text, status
+        self.ok = status < 400
+
+_CMIS_HTML = ('<html><form><input id="__VIEWSTATE"/>'
+              '<a href="Committee.aspx?id=1">Planning Committee</a></form></html>')
+
+def _dc_alive(url):
+    if url == "https://testborough.cmis.uk.com/":
+        return _Resp("https://testborough.cmis.uk.com/TestBorough/Default.aspx", "x")
+    if url == "https://birmingham.cmis.uk.com/":
+        return _Resp(url, "not found", 404)   # alive host, broken root
+    return None
+
+dc.head_alive = _dc_alive
+
+def _dc_get(url, timeout=15):
+    if url in ("https://testborough.cmis.uk.com/TestBorough/Committee.aspx",
+               "https://testborough.cmis.uk.com/TestBorough/Meetings.aspx"):
+        return _Resp(url, _CMIS_HTML)
+    raise Exception("404")
+
+dc.get = _dc_get
+_n, _r = dc._probe_council({"nice-name": "Testborough",
+                            "gov-uk-slug": "testborough"})
+ok("cmis worker: host + path learned from root redirect",
+   _r["host"] == "https://testborough.cmis.uk.com"
+   and _r["path"] == "TestBorough")
+ok("cmis worker: verified pages + sample captured",
+   _r["pages"] == ["Committee.aspx", "Meetings.aspx"]
+   and "__VIEWSTATE" in _r["_sample"])
+def _dc_get_bham(url, timeout=15):
+    if url == "https://birmingham.cmis.uk.com/birmingham/Committee.aspx":
+        return _Resp(url, _CMIS_HTML)
+    import requests as _rq
+    raise _rq.exceptions.HTTPError(response=_Resp(url, "", 404))
+
+dc.get = _dc_get_bham
+_, _rb = dc._probe_council({"nice-name": "Birmingham",
+                            "gov-uk-slug": "birmingham"})
+ok("cmis worker: 404 root no longer kills a live host (Birmingham case)",
+   _rb["host"] == "https://birmingham.cmis.uk.com"
+   and _rb["path"] == "birmingham" and _rb["pages"] == ["Committee.aspx"])
+dc.head_alive = lambda url: None
+_, _r2 = dc._probe_council({"nice-name": "Nowhere", "gov-uk-slug": "nowhere"})
+ok("cmis worker: no host -> empty result",
+   _r2["host"] is None and not _r2["pages"])
+dc.head_alive = _dc_alive
+dc.get = lambda url, timeout=15: _Resp(url, "<html>parked domain</html>")
+_, _r3 = dc._probe_council({"nice-name": "Testborough",
+                            "gov-uk-slug": "testborough"})
+ok("cmis worker: live host without CMIS pages is rejected",
+   _r3["host"] is None and "no CMIS pages" in _r3.get("note", ""))
+ok("cmis: looks_cmis accepts real markers, rejects plain html",
+   dc.looks_cmis('<a href="x.aspx">meeting</a> cmis')
+   and not dc.looks_cmis("<html>committee</html>"))
+dc.time.sleep, dc.get, dc.head_alive = _dc_saved
+
+# --- discover_council_feeds: parallel worker --------------------------------
+import discover_council_feeds as d
+_saved = (d.time.sleep, d._find_host, d.probe_template, d.get)
+d.time.sleep = lambda s: None
+d._find_host = lambda c, hosts: ("https://democracy.testville.gov.uk",
+                                 [("1", "Planning Committee"), ("2", "Cabinet"),
+                                  ("3", "Allotments Panel")])
+d.probe_template = lambda base, comms=None: "Type=2&CId={cid}"
+d.get = lambda url, timeout=30: '<rss version="2.0"><channel/></rss>'
+_, _base, _res, _feeds = d._probe_council({"nice-name": "Testville"}, set(), set())
+ok("discover worker: 2 key feeds verified (Allotments excluded)",
+   _res["feeds"] == 2 and len(_feeds) == 2)
+ok("discover worker: feed url uses learned template",
+   _feeds[0]["url"] ==
+   "https://democracy.testville.gov.uk/mgRss.aspx?Type=2&CId=1")
+_, _, _r2, _f2 = d._probe_council({"nice-name": "Testville"}, set(),
+                                  {_feeds[0]["url"]})
+ok("discover worker: existing url deduped", _r2["feeds"] == 1 and len(_f2) == 1)
+d._find_host = lambda c, hosts: ("https://democracy.testville.gov.uk", [])
+_, _, _r3, _f3 = d._probe_council({"nice-name": "Testville"}, set(), set())
+ok("discover worker: already-covered host short-circuits",
+   _r3.get("note") == "already covered" and not _f3)
+d._find_host = lambda c, hosts: ("", [])
+_, _b4, _r4, _f4 = d._probe_council({"nice-name": "Nowhere"}, set(), set())
+ok("discover worker: no host -> empty result",
+   not _b4 and _r4["host"] is None and not _f4)
+d.time.sleep, d._find_host, d.probe_template, d.get = _saved
+
 print(f"\n{sum(PASS)}/{len(PASS)} checks passed")
 sys.exit(0 if all(PASS) else 1)

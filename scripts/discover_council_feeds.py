@@ -14,17 +14,23 @@ patterns (democracy.{slug}.gov.uk, {slug}.moderngov.co.uk, ...), confirm by
 fetching mgListCommittees.aspx, then probe the standard RSS patterns and
 verify each key-committee feed live before writing it. Progress is saved to
 data/reference/modgov_discovery.json after every council, so the run is safe
-to interrupt and resume (already-decided councils are skipped). Politeness is
-per-host: failed DNS guesses cost nothing; real hosts get 1 req/s.
+to interrupt and resume (already-decided councils are skipped).
+
+Speed & politeness: councils are probed WORKERS at a time in parallel — this
+is polite because each worker talks to a DIFFERENT council's server; within
+one council everything stays sequential at 1 req/s. Failed DNS guesses cost
+nothing; most wall-time goes on slow/hanging hosts (15s timeout each), which
+parallelism hides. Expect ~10-20 min for the full national run, not 1-2h.
 
 Run on the Mac (needs open internet):
     python scripts/discover_council_feeds.py                # pilot, once
-    python scripts/discover_council_feeds.py --national     # allow 1-2 hours
+    python scripts/discover_council_feeds.py --national     # ~10-20 min
     python scripts/discover_council_feeds.py --national --limit 10   # test run
 """
 from __future__ import annotations   # py3.9: allow `list | None` annotations
 
 import argparse
+import concurrent.futures
 import csv
 import html as html_mod
 import json
@@ -177,6 +183,7 @@ HOST_PATTERNS = ("https://democracy.{s}.gov.uk",
                  "https://moderngov.{s}.gov.uk",
                  "https://committees.{s}.gov.uk")
 HOST_PROBE_TIMEOUT = 15
+WORKERS = 8   # councils probed in parallel (each worker = a different server)
 
 
 def _slug_variants(council: dict) -> list[str]:
@@ -209,6 +216,40 @@ def _find_host(council: dict, existing_hosts: set) -> tuple[str, list]:
     return "", []
 
 
+def _probe_council(c: dict, existing_hosts: set, existing_urls: set
+                   ) -> tuple[str, str, dict, list]:
+    """One council's full unit of work (runs in a worker thread): find host,
+    pick key committees, learn the RSS pattern, verify each feed live.
+    Sequential within the council (1 req/s to that one host) — the politeness
+    contract; parallelism only happens ACROSS councils/hosts. Pure function:
+    no shared state is written here, the main thread merges results."""
+    name = c["nice-name"].strip()
+    base, comms = _find_host(c, existing_hosts)
+    result = {"host": base or None, "feeds": 0}
+    feeds = []
+    if base and not comms:
+        result["note"] = "already covered"
+    elif base:
+        time.sleep(SLEEP)
+        key_comms = [(cid, n) for cid, n in comms if _key(n)][:MAX_PER_HOST]
+        template = probe_template(base, comms=key_comms or comms)
+        for cid, cname in (key_comms if template else []):
+            url = f"{base}/mgRss.aspx?{template.format(cid=cid)}"
+            if url in existing_urls:
+                continue
+            time.sleep(SLEEP)
+            try:
+                ok = is_feed(get(url))
+            except Exception:
+                ok = False
+            if ok:
+                feeds.append({"name": _slug(name, cname),
+                              "kind": "council_agenda", "label": name,
+                              "url": url, "status": "verified"})
+                result["feeds"] += 1
+    return name, base, result, feeds
+
+
 def main_national(limit: int | None = None):
     if not REF_COUNCILS.exists():
         sys.exit("Reference data missing — run scripts/fetch_national_data.py first.")
@@ -232,44 +273,43 @@ def main_national(limit: int | None = None):
     print(f"ModernGov national discovery: {len(todo)} councils to probe "
           f"({len(progress)} already decided — delete {PROGRESS.name} to redo).")
 
+    # WORKERS councils probed at once — each worker hits a different council's
+    # server, so per-host politeness (1 req/s) is unchanged. All shared-state
+    # writes (progress file, yaml, the seen-sets) happen here in the main
+    # thread as each council completes, keeping resume/idempotency intact.
     added_total = found_hosts = 0
-    for i, c in enumerate(todo, 1):
-        name = c["nice-name"].strip()
-        base, comms = _find_host(c, existing_hosts)
-        result = {"host": base or None, "feeds": 0}
-        if base and not comms:
-            result["note"] = "already covered"
-        elif base:
-            found_hosts += 1
-            time.sleep(SLEEP)
-            key_comms = [(cid, n) for cid, n in comms if _key(n)][:MAX_PER_HOST]
-            template = probe_template(base, comms=key_comms or comms)
-            for cid, cname in (key_comms if template else []):
-                url = f"{base}/mgRss.aspx?{template.format(cid=cid)}"
-                if url in existing_urls:
-                    continue
-                time.sleep(SLEEP)
-                try:
-                    ok = is_feed(get(url))
-                except Exception:
-                    ok = False
-                if ok:
-                    nat["council_news"]["feeds"].append(
-                        {"name": _slug(name, cname), "kind": "council_agenda",
-                         "label": name, "url": url, "status": "verified"})
-                    existing_urls.add(url)
-                    result["feeds"] += 1
-            existing_hosts.add(urlparse(base).netloc)
+    PROGRESS.parent.mkdir(parents=True, exist_ok=True)
+    pool = concurrent.futures.ThreadPoolExecutor(max_workers=WORKERS)
+    futures = [pool.submit(_probe_council, c, existing_hosts, existing_urls)
+               for c in todo]
+    try:
+        for i, fut in enumerate(concurrent.futures.as_completed(futures), 1):
+            name, base, result, feeds = fut.result()
+            if base and "note" not in result:
+                found_hosts += 1
+                existing_hosts.add(urlparse(base).netloc)
+            # re-check dedupe here: another worker may have added the same url
+            fresh = [f for f in feeds if f["url"] not in existing_urls]
+            result["feeds"] = len(fresh)
+            for f in fresh:
+                nat["council_news"]["feeds"].append(f)
+                existing_urls.add(f["url"])
             added_total += result["feeds"]
-        progress[name] = result
-        PROGRESS.parent.mkdir(parents=True, exist_ok=True)
-        PROGRESS.write_text(json.dumps(progress, indent=1))
-        if result["feeds"]:
-            NATIONAL.write_text(yaml.safe_dump(nat, sort_keys=False,
-                                               allow_unicode=True, width=1000))
-        tag = (f"{result['feeds']} feeds @ {base}" if result["feeds"]
-               else result.get("note") or base or "no ModernGov host found")
-        print(f"[{i}/{len(todo)}] {name}: {tag}")
+            progress[name] = result
+            PROGRESS.write_text(json.dumps(progress, indent=1))
+            if result["feeds"]:
+                NATIONAL.write_text(yaml.safe_dump(nat, sort_keys=False,
+                                                   allow_unicode=True, width=1000))
+            tag = (f"{result['feeds']} feeds @ {base}" if result["feeds"]
+                   else result.get("note") or base or "no ModernGov host found")
+            print(f"[{i}/{len(todo)}] {name}: {tag}", flush=True)
+    except KeyboardInterrupt:
+        # progress for every COMPLETED council is already on disk; drop the
+        # queued ones so Ctrl-C actually stops instead of draining the queue.
+        print("\nInterrupted — completed councils are saved; re-run to resume.")
+        pool.shutdown(wait=False, cancel_futures=True)
+        sys.exit(130)
+    pool.shutdown()
 
     print(f"\nDone: {found_hosts} new ModernGov hosts, {added_total} verified "
           f"agenda feeds written to {NATIONAL.name}.")

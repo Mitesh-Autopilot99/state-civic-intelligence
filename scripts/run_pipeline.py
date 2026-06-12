@@ -26,6 +26,7 @@ import petitions_source        # noqa: E402
 import planit_source           # noqa: E402
 import fixmystreet_source      # noqa: E402
 import council_news_source     # noqa: E402
+import cmis_source             # noqa: E402
 import classifier              # noqa: E402
 import constituency_mapper     # noqa: E402
 import scorer                  # noqa: E402
@@ -50,6 +51,7 @@ SOURCES = [
     ("planning", planit_source.scrape),
     ("fixmystreet", fixmystreet_source.scrape),
     ("council_news", council_news_source.scrape),
+    ("cmis", cmis_source.scrape),
 ]
 
 
