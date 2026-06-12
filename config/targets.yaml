@@ -1,0 +1,107 @@
+# Target subreddits. Status starts as "candidate"; scripts/verify_targets.py
+# checks each one (exists, public, >=3 posts in 48h) and sets "verified" or "dropped".
+# The pipeline ONLY scrapes subs with status: verified.
+#
+# constituencies: which Westminster constituencies a sub covers. City subs cover
+# several; the classifier's "area" field narrows items down where possible.
+
+subreddits:
+  - name: london
+    status: candidate
+    constituencies: []          # city-wide; resolved per-item via area text
+    city: London
+  - name: manchester
+    status: candidate
+    constituencies: []
+    city: Manchester
+  - name: birmingham
+    status: candidate
+    constituencies: []
+    city: Birmingham
+  - name: bristol
+    status: candidate
+    constituencies: []
+    city: Bristol
+  - name: leeds
+    status: candidate
+    constituencies: []
+    city: Leeds
+  - name: glasgow
+    status: candidate
+    constituencies: []
+    city: Glasgow
+  - name: edinburgh
+    status: candidate
+    constituencies: []
+    city: Edinburgh
+  - name: liverpool
+    status: candidate
+    constituencies: []
+    city: Liverpool
+  - name: sheffield
+    status: candidate
+    constituencies: []
+    city: Sheffield
+  - name: nottingham
+    status: candidate
+    constituencies: []
+    city: Nottingham
+  - name: leicester
+    status: candidate
+    constituencies: []
+    city: Leicester
+  - name: Cardiff
+    status: candidate
+    constituencies: []
+    city: Cardiff
+  - name: brighton
+    status: candidate
+    constituencies: []
+    city: Brighton
+  - name: newcastleupontyne
+    status: candidate
+    constituencies: []
+    city: Newcastle upon Tyne
+  - name: croydon
+    status: candidate
+    constituencies: []
+    city: Croydon (London)
+  - name: lewisham
+    status: candidate
+    constituencies: []
+    city: Lewisham (London)
+  - name: hackney
+    status: candidate
+    constituencies: []
+    city: Hackney (London)
+  - name: walthamstow
+    status: candidate
+    constituencies: []
+    city: Walthamstow (London)
+  - name: Ealing
+    status: candidate
+    constituencies: []
+    city: Ealing (London)
+
+# Public Facebook groups, scraped via Apify (free tier, README §3b).
+# MANUAL verification: Facebook shows a login wall to logged-out visitors even
+# for public groups, so check the group's privacy LABEL instead: open the group
+# while logged in (browsing as a human is fine — only scraping must be logged
+# out, and Apify handles that) and look under the group name. "Public group"
+# -> set status: verified. "Private group" -> leave it out; the scraper cannot
+# and must not access it.
+# The pipeline only scrapes groups with status: verified, and only when
+# APIFY_TOKEN is set in .env. Keep the list small (~5-10) to stay in free credit.
+facebook_groups:
+  - name: croydon-community-uk
+    url: https://www.facebook.com/groups/croydoncommunity/
+    city: Croydon (London)
+    status: verified
+  - name: lewisham-noticeboard
+    url: https://www.facebook.com/groups/thelewishamnoticeboard/
+    city: Lewisham (London)
+    status: verified
+  - name: hackney-community-uk
+    url: https://www.facebook.com/groups/414081830766223/
+    city: Hackney (London)
+    status: verified

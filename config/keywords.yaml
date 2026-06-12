@@ -1,0 +1,65 @@
+# Keyword pre-filter: a post must contain at least one of these (case-insensitive,
+# title or body) to be sent to the classifier. Keeps token spend low.
+keywords:
+  # roads & transport
+  - pothole
+  - roadworks
+  - traffic
+  - parking
+  - bus route
+  - bus service
+  - train service
+  - cycle lane
+  - crossing
+  - speed limit
+  - ltn
+  - low traffic
+  # waste & environment
+  - bins
+  - bin collection
+  - fly-tipping
+  - fly tipping
+  - flytipping
+  - litter
+  - recycling
+  - dog fouling
+  - air quality
+  # housing & planning
+  - housing
+  - rent
+  - landlord
+  - planning permission
+  - planning application
+  - development
+  - new flats
+  - empty shop
+  - high street
+  # safety & ASB
+  - antisocial
+  - anti-social
+  - crime
+  - vandalism
+  - graffiti
+  - street drinking
+  - drug dealing
+  - police
+  - unsafe
+  # services
+  - nhs
+  - gp appointment
+  - dentist
+  - school places
+  - library
+  - leisure centre
+  - park
+  - playground
+  - streetlight
+  - street light
+  - flooding
+  - drainage
+  # civic
+  - council
+  - councillor
+  - mp
+  - petition
+  - consultation
