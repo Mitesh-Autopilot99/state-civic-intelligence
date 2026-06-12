@@ -4,8 +4,10 @@ import hashlib
 import logging
 from difflib import SequenceMatcher
 
+import config_loader
+
 log = logging.getLogger("scorer")
-TOP_N = 15
+TOP_N = 15                     # default; overridden by limits.top_n in config
 SIMILARITY = 0.75      # summary similarity above this = same issue as a prior one
 LOOKBACK_DAYS = 21
 
@@ -98,7 +100,12 @@ def group_and_score(conn, items: list[dict]) -> list[dict]:
             else "watch")
 
     issues.sort(key=lambda i: i["score"], reverse=True)
-    top = issues[:TOP_N]
+    try:
+        top_n = int((config_loader.load_targets().get("limits") or {})
+                    .get("top_n") or TOP_N)
+    except Exception:
+        top_n = TOP_N
+    top = issues[:top_n]
 
     # 4. persist aggregates (update volume/engagement if issue already known)
     for iss in top:

@@ -29,6 +29,7 @@ import yaml
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(PROJECT_ROOT / "scripts"))
 import db  # noqa: E402
+import config_loader  # noqa: E402
 
 log = logging.getLogger("fixmystreet")
 HTTP_TIMEOUT = 30
@@ -63,7 +64,7 @@ CATEGORY_KEYWORDS = {
 
 
 def load_config() -> dict:
-    cfg = yaml.safe_load((PROJECT_ROOT / "config" / "targets.yaml").read_text())
+    cfg = config_loader.load_targets()
     f = cfg.get("fixmystreet") or {}
     return {
         "enabled": f.get("enabled", True),

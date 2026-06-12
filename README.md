@@ -138,6 +138,59 @@ is queried with a field list that never requests applicant/agent/officer
 names; FixMyStreet stores only (day, council, category, count); news feeds are
 read title+link only — bylines and bodies are never fetched.
 
+## 3d. National mode — all 650 constituencies (Phase 4)
+
+The pilot config (`config/targets.yaml`) stays hand-maintained and untouched.
+National coverage lives in a second, GENERATED file
+(`config/targets_national.yaml`); `scripts/config_loader.py` merges the two at
+runtime — pilot values win any conflict, duplicate feeds are removed, and with
+no national file present the pipeline behaves exactly as the pilot.
+
+**One-time national setup, in this order (all on the Mac, open internet):**
+
+```bash
+source .venv/bin/activate
+python scripts/fetch_national_data.py        # 1. mySociety open data: all UK councils
+                                             #    + 650 constituencies -> data/reference/
+python scripts/build_national_targets.py     # 2. generates targets_national.yaml:
+                                             #    FMS feed per council, Google News feed
+                                             #    per planning authority, all PlanIt
+                                             #    authorities, all 650 constituencies
+python scripts/verify_feeds.py               # 3. probes ~700 candidate feeds at 1/s —
+                                             #    allow 25-30 min; saves progress every
+                                             #    25 probes, safe to interrupt + re-run
+python scripts/discover_council_feeds.py --national   # 4. guesses + verifies ModernGov
+                                             #    agenda feeds per council — allow 1-2 h,
+                                             #    resumable (progress in data/reference/
+                                             #    modgov_discovery.json). Optional but
+                                             #    recommended. Test first with --limit 10
+python scripts/seed_local_news.py            # 5. ICNN independent local titles (~125):
+                                             #    finds each outlet's RSS, auto-labels by
+                                             #    council; unmatched ones get
+                                             #    status: needs_label for hand-labelling
+python scripts/run_pipeline.py               # 6. first national run
+```
+
+Re-running any step is safe: generators preserve statuses and hand edits,
+verify only re-probes undecided feeds, discovery skips councils already
+decided.
+
+**Volume controls** (set in `targets_national.yaml`, pilot-overridable):
+`limits.max_classify_per_run: 300` caps what reaches the free-tier classifier
+each day — shared fairly round-robin across source types so one noisy source
+can't starve the rest (highest-engagement items first; what's cut isn't marked
+seen, so it gets another chance tomorrow). `limits.max_items_per_source: 120`
+caps each source; `limits.top_n: 40` sets brief length. Petitions run in
+national mode (`petitions.national: true`): no constituency filter, but only
+the top `max_constituencies_per_petition: 5` most over-indexing seats per
+petition. PlanIt areas that fail 3+ days running are retried weekly, not daily.
+
+**The brief is grouped by region** (London, Scotland, ...; constituency →
+region from the reference CSV) and only constituencies that actually have
+items appear — never a 650-row list.
+
+Offline test for all of this: `python scripts/test_national_offline.py`.
+
 ## 4. Telegram bot (~5 minutes)
 
 1. In Telegram, message **@BotFather** → send `/newbot` → pick a display name

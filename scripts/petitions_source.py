@@ -28,6 +28,7 @@ import yaml
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(PROJECT_ROOT / "scripts"))
 import db  # noqa: E402
+import config_loader  # noqa: E402
 
 log = logging.getLogger("petitions")
 
@@ -48,7 +49,7 @@ CREATE TABLE IF NOT EXISTS petition_checks (
 
 
 def load_config() -> dict:
-    cfg = yaml.safe_load((PROJECT_ROOT / "config" / "targets.yaml").read_text())
+    cfg = config_loader.load_targets()
     pcfg = cfg.get("petitions") or {}
     return {
         "enabled": pcfg.get("enabled", True),
@@ -56,6 +57,11 @@ def load_config() -> dict:
         "over_index_ratio": float(pcfg.get("over_index_ratio", 2.0)),
         "min_local_signatures": int(pcfg.get("min_local_signatures", 25)),
         "max_detail_fetches": int(pcfg.get("max_detail_fetches", 150)),
+        # national mode: every constituency is a target — skip the name filter
+        # and instead keep only the top-N most over-indexing constituencies
+        # per petition, so one viral petition can't flood the brief.
+        "national": bool(pcfg.get("national", False)),
+        "max_per_petition": int(pcfg.get("max_constituencies_per_petition", 5)),
         "targets": [t.lower() for t in cfg.get("target_constituencies", [])],
     }
 
@@ -108,8 +114,8 @@ def scrape(conn) -> list:
     if not cfg["enabled"]:
         log.info("Petitions source disabled in config — skipping.")
         return []
-    if not cfg["targets"]:
-        log.warning("No target_constituencies in config/targets.yaml — skipping.")
+    if not cfg["national"] and not cfg["targets"]:
+        log.warning("No target_constituencies in config — skipping.")
         return []
     conn.executescript(CHECKS_SCHEMA)
 
@@ -136,17 +142,27 @@ def scrape(conn) -> list:
         total = int(attrs.get("signature_count") or c["count"])
         avg = total / N_CONSTITUENCIES
         by_const = attrs.get("signatures_by_constituency") or []
+
+        # collect every qualifying constituency row first, then (national mode)
+        # keep only the most over-indexing few so one petition can't flood the brief
+        qualifying = []
         for row in by_const:
             name = (row.get("name") or "").strip()
-            if name.lower() not in cfg["targets"]:
+            if not cfg["national"] and name.lower() not in cfg["targets"]:
                 continue
             local = int(row.get("signature_count") or 0)
             if local < cfg["min_local_signatures"] or local < avg * cfg["over_index_ratio"]:
                 continue
+            qualifying.append((local / max(avg, 0.01), local, name, row))
+        if cfg["national"]:
+            qualifying.sort(key=lambda q: q[0], reverse=True)
+            qualifying = qualifying[:cfg["max_per_petition"]]
+
+        for raw_ratio, local, name, row in qualifying:
             post_id = f"petition:{c['id']}:{row.get('ons_code') or name}"
             if post_id in seen:
                 continue
-            ratio = round(local / max(avg, 0.01), 1)
+            ratio = round(raw_ratio, 1)
             action = attrs.get("action", "")
             background = (attrs.get("background") or "")[:600]
             out.append({

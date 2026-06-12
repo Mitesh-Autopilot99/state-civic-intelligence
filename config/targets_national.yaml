@@ -1,0 +1,4856 @@
+target_constituencies:
+- Aberafan Maesteg
+- Aberdeen North
+- Aberdeen South
+- Aberdeenshire North and Moray East
+- Airdrie and Shotts
+- Aldershot
+- Aldridge-Brownhills
+- Alloa and Grangemouth
+- Altrincham and Sale West
+- Alyn and Deeside
+- Amber Valley
+- Angus and Perthshire Glens
+- Arbroath and Broughty Ferry
+- Argyll, Bute and South Lochaber
+- Arundel and South Downs
+- Ashfield
+- Ashford
+- Ashton-under-Lyne
+- Aylesbury
+- Ayr, Carrick and Cumnock
+- Banbury
+- Bangor Aberconwy
+- Barking
+- Barnsley North
+- Barnsley South
+- Barrow and Furness
+- Basildon and Billericay
+- Basingstoke
+- Bassetlaw
+- Bath
+- Bathgate and Linlithgow
+- Battersea
+- Beaconsfield
+- Beckenham and Penge
+- Bedford
+- Belfast East
+- Belfast North
+- Belfast South and Mid Down
+- Belfast West
+- Bermondsey and Old Southwark
+- Berwickshire, Roxburgh and Selkirk
+- Bethnal Green and Stepney
+- Beverley and Holderness
+- Bexhill and Battle
+- Bexleyheath and Crayford
+- Bicester and Woodstock
+- Birkenhead
+- Birmingham Edgbaston
+- Birmingham Erdington
+- Birmingham Hall Green and Moseley
+- Birmingham Hodge Hill and Solihull North
+- Birmingham Ladywood
+- Birmingham Northfield
+- Birmingham Perry Barr
+- Birmingham Selly Oak
+- Birmingham Yardley
+- Bishop Auckland
+- Blackburn
+- Blackley and Middleton South
+- Blackpool North and Fleetwood
+- Blackpool South
+- Blaenau Gwent and Rhymney
+- Blaydon and Consett
+- Blyth and Ashington
+- Bognor Regis and Littlehampton
+- Bolsover
+- Bolton North East
+- Bolton South and Walkden
+- Bolton West
+- Bootle
+- Boston and Skegness
+- Bournemouth East
+- Bournemouth West
+- Bracknell
+- Bradford East
+- Bradford South
+- Bradford West
+- Braintree
+- Brecon, Radnor and Cwm Tawe
+- Brent East
+- Brent West
+- Brentford and Isleworth
+- Brentwood and Ongar
+- Bridgend
+- Bridgwater
+- Bridlington and The Wolds
+- Brigg and Immingham
+- Brighton Kemptown and Peacehaven
+- Brighton Pavilion
+- Bristol Central
+- Bristol East
+- Bristol North East
+- Bristol North West
+- Bristol South
+- Broadland and Fakenham
+- Bromley and Biggin Hill
+- Bromsgrove
+- Broxbourne
+- Broxtowe
+- Buckingham and Bletchley
+- Burnley
+- Burton and Uttoxeter
+- Bury North
+- Bury South
+- Bury St Edmunds and Stowmarket
+- Caerfyrddin
+- Caerphilly
+- Caithness, Sutherland and Easter Ross
+- Calder Valley
+- Camborne and Redruth
+- Cambridge
+- Cannock Chase
+- Canterbury
+- Cardiff East
+- Cardiff North
+- Cardiff South and Penarth
+- Cardiff West
+- Carlisle
+- Carshalton and Wallington
+- Castle Point
+- Central Ayrshire
+- Central Devon
+- Central Suffolk and North Ipswich
+- Ceredigion Preseli
+- Chatham and Aylesford
+- Cheadle
+- Chelmsford
+- Chelsea and Fulham
+- Cheltenham
+- Chesham and Amersham
+- Chester North and Neston
+- Chester South and Eddisbury
+- Chesterfield
+- Chichester
+- Chingford and Woodford Green
+- Chippenham
+- Chipping Barnet
+- Chorley
+- Christchurch
+- Cities of London and Westminster
+- City of Durham
+- Clacton
+- Clapham and Brixton Hill
+- Clwyd East
+- Clwyd North
+- Coatbridge and Bellshill
+- Colchester
+- Colne Valley
+- Congleton
+- Corby and East Northamptonshire
+- Coventry East
+- Coventry North West
+- Coventry South
+- Cowdenbeath and Kirkcaldy
+- Cramlington and Killingworth
+- Crawley
+- Crewe and Nantwich
+- Croydon East
+- Croydon South
+- Croydon West
+- Cumbernauld and Kirkintilloch
+- Dagenham and Rainham
+- Darlington
+- Dartford
+- Daventry
+- Derby North
+- Derby South
+- Derbyshire Dales
+- Dewsbury and Batley
+- Didcot and Wantage
+- Doncaster Central
+- Doncaster East and the Isle of Axholme
+- Doncaster North
+- Dorking and Horley
+- Dover and Deal
+- Droitwich and Evesham
+- Dudley
+- Dulwich and West Norwood
+- Dumfries and Galloway
+- Dumfriesshire, Clydesdale and Tweeddale
+- Dundee Central
+- Dunfermline and Dollar
+- Dunstable and Leighton Buzzard
+- Dwyfor Meirionnydd
+- Ealing Central and Acton
+- Ealing North
+- Ealing Southall
+- Earley and Woodley
+- Easington
+- East Antrim
+- East Grinstead and Uckfield
+- East Ham
+- East Hampshire
+- East Kilbride and Strathaven
+- East Londonderry
+- East Renfrewshire
+- East Surrey
+- East Thanet
+- East Wiltshire
+- East Worthing and Shoreham
+- Eastbourne
+- Eastleigh
+- Edinburgh East and Musselburgh
+- Edinburgh North and Leith
+- Edinburgh South
+- Edinburgh South West
+- Edinburgh West
+- Edmonton and Winchmore Hill
+- Ellesmere Port and Bromborough
+- Eltham and Chislehurst
+- Ely and East Cambridgeshire
+- Enfield North
+- Epping Forest
+- Epsom and Ewell
+- Erewash
+- Erith and Thamesmead
+- Esher and Walton
+- Exeter
+- Exmouth and Exeter East
+- Falkirk
+- Fareham and Waterlooville
+- Farnham and Bordon
+- Faversham and Mid Kent
+- Feltham and Heston
+- Fermanagh and South Tyrone
+- Filton and Bradley Stoke
+- Finchley and Golders Green
+- Folkestone and Hythe
+- Forest of Dean
+- Foyle
+- Frome and East Somerset
+- Fylde
+- Gainsborough
+- Gateshead Central and Whickham
+- Gedling
+- Gillingham and Rainham
+- Glasgow East
+- Glasgow North
+- Glasgow North East
+- Glasgow South
+- Glasgow South West
+- Glasgow West
+- Glastonbury and Somerton
+- Glenrothes and Mid Fife
+- Gloucester
+- Godalming and Ash
+- Goole and Pocklington
+- Gordon and Buchan
+- Gorton and Denton
+- Gosport
+- Gower
+- Grantham and Bourne
+- Gravesham
+- Great Grimsby and Cleethorpes
+- Great Yarmouth
+- Greenwich and Woolwich
+- Guildford
+- Hackney North and Stoke Newington
+- Hackney South and Shoreditch
+- Halesowen
+- Halifax
+- Hamble Valley
+- Hamilton and Clyde Valley
+- Hammersmith and Chiswick
+- Hampstead and Highgate
+- Harborough, Oadby and Wigston
+- Harlow
+- Harpenden and Berkhamsted
+- Harrogate and Knaresborough
+- Harrow East
+- Harrow West
+- Hartlepool
+- Harwich and North Essex
+- Hastings and Rye
+- Havant
+- Hayes and Harlington
+- Hazel Grove
+- Hemel Hempstead
+- Hendon
+- Henley and Thame
+- Hereford and South Herefordshire
+- Herne Bay and Sandwich
+- Hertford and Stortford
+- Hertsmere
+- Hexham
+- Heywood and Middleton North
+- High Peak
+- Hinckley and Bosworth
+- Hitchin
+- Holborn and St Pancras
+- Honiton and Sidmouth
+- Hornchurch and Upminster
+- Hornsey and Friern Barnet
+- Horsham
+- Houghton and Sunderland South
+- Hove and Portslade
+- Huddersfield
+- Huntingdon
+- Hyndburn
+- Ilford North
+- Ilford South
+- Inverclyde and Renfrewshire West
+- Inverness, Skye and West Ross-shire
+- Ipswich
+- Isle of Wight East
+- Isle of Wight West
+- Islington North
+- Islington South and Finsbury
+- Jarrow and Gateshead East
+- Keighley and Ilkley
+- Kenilworth and Southam
+- Kensington and Bayswater
+- Kettering
+- Kilmarnock and Loudoun
+- Kingston and Surbiton
+- Kingston upon Hull East
+- Kingston upon Hull North and Cottingham
+- Kingston upon Hull West and Haltemprice
+- Kingswinford and South Staffordshire
+- Knowsley
+- Lagan Valley
+- Lancaster and Wyre
+- Leeds Central and Headingley
+- Leeds East
+- Leeds North East
+- Leeds North West
+- Leeds South
+- Leeds South West and Morley
+- Leeds West and Pudsey
+- Leicester East
+- Leicester South
+- Leicester West
+- Leigh and Atherton
+- Lewes
+- Lewisham East
+- Lewisham North
+- Lewisham West and East Dulwich
+- Leyton and Wanstead
+- Lichfield
+- Lincoln
+- Liverpool Garston
+- Liverpool Riverside
+- Liverpool Walton
+- Liverpool Wavertree
+- Liverpool West Derby
+- Livingston
+- Llanelli
+- Lothian East
+- Loughborough
+- Louth and Horncastle
+- Lowestoft
+- Luton North
+- Luton South and South Bedfordshire
+- Macclesfield
+- Maidenhead
+- Maidstone and Malling
+- Makerfield
+- Maldon
+- Manchester Central
+- Manchester Rusholme
+- Manchester Withington
+- Mansfield
+- Melksham and Devizes
+- Melton and Syston
+- Meriden and Solihull East
+- Merthyr Tydfil and Aberdare
+- Mid Bedfordshire
+- Mid Buckinghamshire
+- Mid Cheshire
+- Mid Derbyshire
+- Mid Dorset and North Poole
+- Mid Dunbartonshire
+- Mid Leicestershire
+- Mid Norfolk
+- Mid Sussex
+- Mid Ulster
+- Mid and South Pembrokeshire
+- Middlesbrough South and East Cleveland
+- Middlesbrough and Thornaby East
+- Midlothian
+- Milton Keynes Central
+- Milton Keynes North
+- Mitcham and Morden
+- Monmouthshire
+- Montgomeryshire and Glyndŵr
+- Moray West, Nairn and Strathspey
+- Morecambe and Lunesdale
+- Motherwell, Wishaw and Carluke
+- Na h-Eileanan an Iar
+- Neath and Swansea East
+- New Forest East
+- New Forest West
+- Newark
+- Newbury
+- Newcastle upon Tyne Central and West
+- Newcastle upon Tyne East and Wallsend
+- Newcastle upon Tyne North
+- Newcastle-under-Lyme
+- Newport East
+- Newport West and Islwyn
+- Newry and Armagh
+- Newton Abbot
+- Newton Aycliffe and Spennymoor
+- Normanton and Hemsworth
+- North Antrim
+- North Ayrshire and Arran
+- North Bedfordshire
+- North Cornwall
+- North Cotswolds
+- North Devon
+- North Dorset
+- North Down
+- North Durham
+- North East Cambridgeshire
+- North East Derbyshire
+- North East Fife
+- North East Hampshire
+- North East Hertfordshire
+- North East Somerset and Hanham
+- North Herefordshire
+- North Norfolk
+- North Northumberland
+- North Shropshire
+- North Somerset
+- North Warwickshire and Bedworth
+- North West Cambridgeshire
+- North West Essex
+- North West Hampshire
+- North West Leicestershire
+- North West Norfolk
+- Northampton North
+- Northampton South
+- Norwich North
+- Norwich South
+- Nottingham East
+- Nottingham North and Kimberley
+- Nottingham South
+- Nuneaton
+- Old Bexley and Sidcup
+- Oldham East and Saddleworth
+- Oldham West, Chadderton and Royton
+- Orkney and Shetland
+- Orpington
+- Ossett and Denby Dale
+- Oxford East
+- Oxford West and Abingdon
+- Paisley and Renfrewshire North
+- Paisley and Renfrewshire South
+- Peckham
+- Pendle and Clitheroe
+- Penistone and Stocksbridge
+- Penrith and Solway
+- Perth and Kinross-shire
+- Peterborough
+- Plymouth Moor View
+- Plymouth Sutton and Devonport
+- Pontefract, Castleford and Knottingley
+- Pontypridd
+- Poole
+- Poplar and Limehouse
+- Portsmouth North
+- Portsmouth South
+- Preston
+- Putney
+- Queen's Park and Maida Vale
+- Rawmarsh and Conisbrough
+- Rayleigh and Wickford
+- Reading Central
+- Reading West and Mid Berkshire
+- Redcar
+- Redditch
+- Reigate
+- Rhondda and Ogmore
+- Ribble Valley
+- Richmond Park
+- Richmond and Northallerton
+- Rochdale
+- Rochester and Strood
+- Romford
+- Romsey and Southampton North
+- Rossendale and Darwen
+- Rother Valley
+- Rotherham
+- Rugby
+- Ruislip, Northwood and Pinner
+- Runcorn and Helsby
+- Runnymede and Weybridge
+- Rushcliffe
+- Rutherglen
+- Rutland and Stamford
+- Salford
+- Salisbury
+- Scarborough and Whitby
+- Scunthorpe
+- Sefton Central
+- Selby
+- Sevenoaks
+- Sheffield Brightside and Hillsborough
+- Sheffield Central
+- Sheffield Hallam
+- Sheffield Heeley
+- Sheffield South East
+- Sherwood Forest
+- Shipley
+- Shrewsbury
+- Sittingbourne and Sheppey
+- Skipton and Ripon
+- Sleaford and North Hykeham
+- Slough
+- Smethwick
+- Solihull West and Shirley
+- South Antrim
+- South Basildon and East Thurrock
+- South Cambridgeshire
+- South Cotswolds
+- South Derbyshire
+- South Devon
+- South Dorset
+- South Down
+- South East Cornwall
+- South Holland and The Deepings
+- South Leicestershire
+- South Norfolk
+- South Northamptonshire
+- South Ribble
+- South Shields
+- South Shropshire
+- South Suffolk
+- South West Devon
+- South West Hertfordshire
+- South West Norfolk
+- South West Wiltshire
+- Southampton Itchen
+- Southampton Test
+- Southend East and Rochford
+- Southend West and Leigh
+- Southgate and Wood Green
+- Southport
+- Spelthorne
+- Spen Valley
+- St Albans
+- St Austell and Newquay
+- St Helens North
+- St Helens South and Whiston
+- St Ives
+- St Neots and Mid Cambridgeshire
+- Stafford
+- Staffordshire Moorlands
+- Stalybridge and Hyde
+- Stevenage
+- Stirling and Strathallan
+- Stockport
+- Stockton North
+- Stockton West
+- Stoke-on-Trent Central
+- Stoke-on-Trent North
+- Stoke-on-Trent South
+- Stone, Great Wyrley and Penkridge
+- Stourbridge
+- Strangford
+- Stratford and Bow
+- Stratford-on-Avon
+- Streatham and Croydon North
+- Stretford and Urmston
+- Stroud
+- Suffolk Coastal
+- Sunderland Central
+- Surrey Heath
+- Sussex Weald
+- Sutton Coldfield
+- Sutton and Cheam
+- Swansea West
+- Swindon North
+- Swindon South
+- Tamworth
+- Tatton
+- Taunton and Wellington
+- Telford
+- Tewkesbury
+- The Wrekin
+- Thirsk and Malton
+- Thornbury and Yate
+- Thurrock
+- Tipton and Wednesbury
+- Tiverton and Minehead
+- Tonbridge
+- Tooting
+- Torbay
+- Torfaen
+- Torridge and Tavistock
+- Tottenham
+- Truro and Falmouth
+- Tunbridge Wells
+- Twickenham
+- Tynemouth
+- Upper Bann
+- Uxbridge and South Ruislip
+- Vale of Glamorgan
+- Vauxhall and Camberwell Green
+- Wakefield and Rothwell
+- Wallasey
+- Walsall and Bloxwich
+- Walthamstow
+- Warrington North
+- Warrington South
+- Warwick and Leamington
+- Washington and Gateshead South
+- Watford
+- Waveney Valley
+- Weald of Kent
+- Wellingborough and Rushden
+- Wells and Mendip Hills
+- Welwyn Hatfield
+- West Aberdeenshire and Kincardine
+- West Bromwich
+- West Dorset
+- West Dunbartonshire
+- West Ham and Beckton
+- West Lancashire
+- West Suffolk
+- West Tyrone
+- West Worcestershire
+- Westmorland and Lonsdale
+- Weston-super-Mare
+- Wetherby and Easingwold
+- Whitehaven and Workington
+- Widnes and Halewood
+- Wigan
+- Wimbledon
+- Winchester
+- Windsor
+- Wirral West
+- Witham
+- Witney
+- Woking
+- Wokingham
+- Wolverhampton North East
+- Wolverhampton South East
+- Wolverhampton West
+- Worcester
+- Worsley and Eccles
+- Worthing West
+- Wrexham
+- Wycombe
+- Wyre Forest
+- Wythenshawe and Sale East
+- Yeovil
+- Ynys Môn
+- York Central
+- York Outer
+regions:
+  Armagh City, Banbridge and Craigavon: Northern Ireland
+  Aberdeenshire: Scotland
+  Aberdeen City: Scotland
+  Adur: South East
+  Argyll and Bute: Scotland
+  Isle of Anglesey: Wales
+  Amber Valley: East Midlands
+  Ards and North Down: Northern Ireland
+  Antrim and Newtownabbey: Northern Ireland
+  Angus: Scotland
+  Arun: South East
+  Ashford: South East
+  Ashfield: East Midlands
+  Babergh: East of England
+  Bassetlaw: East Midlands
+  Basildon: East of England
+  Basingstoke and Deane: South East
+  Bath and North East Somerset: South West
+  Blackburn with Darwen: North West
+  Bedford: East of England
+  Barking and Dagenham: London
+  Brent: London
+  Bexley: London
+  Belfast: Northern Ireland
+  Bridgend: Wales
+  Blaenau Gwent: Wales
+  Birmingham: West Midlands
+  Blaby: East Midlands
+  Barnet: London
+  Brighton and Hove: South East
+  Barnsley: Yorkshire and The Humber
+  Bolton: North West
+  Bolsover: East Midlands
+  Boston: East Midlands
+  Bournemouth, Christchurch and Poole: South West
+  Blackpool: North West
+  Braintree: East of England
+  Bracknell Forest: South East
+  Bradford: Yorkshire and The Humber
+  Breckland: East of England
+  Bromsgrove: West Midlands
+  Broadland: East of England
+  Broxtowe: East Midlands
+  Brentwood: East of England
+  Broxbourne: East of England
+  Bromley: London
+  City of Bristol: South West
+  Buckinghamshire: South East
+  Burnley: North West
+  Bury: North West
+  Cambridge: East of England
+  Cambridgeshire: East of England
+  Cannock Chase: West Midlands
+  Castle Point: East of England
+  Canterbury: South East
+  Caerphilly: Wales
+  Cumberland: North West
+  Central Bedfordshire: East of England
+  Causeway Coast and Glens: Northern Ireland
+  Ceredigion: Wales
+  Charnwood: East Midlands
+  Cheshire East: North West
+  Chichester: South East
+  Chelmsford: East of England
+  Chorley: North West
+  Cherwell: South East
+  Chesterfield: East Midlands
+  Cheltenham: South West
+  Cheshire West and Chester: North West
+  Calderdale: Yorkshire and The Humber
+  Clackmannanshire: Scotland
+  Camden: London
+  Carmarthenshire: Wales
+  Colchester: East of England
+  Cornwall: South West
+  Cotswold: South West
+  Coventry: West Midlands
+  Cambridgeshire and Peterborough: East of England
+  Cardiff: Wales
+  Crawley: South East
+  Croydon: London
+  Conwy: Wales
+  Dacorum: East of England
+  Darlington: North East
+  Dartford: South East
+  Derbyshire: West Midlands
+  Derbyshire Dales: East Midlands
+  Denbighshire: Wales
+  Derby: East Midlands
+  Devon: South West
+  Dumfries and Galloway: Scotland
+  Doncaster: Yorkshire and The Humber
+  Dundee City: Scotland
+  Dover: South East
+  Derry City and Strabane: Northern Ireland
+  Dorset Council: South West
+  Dudley: West Midlands
+  County Durham: North East
+  Ealing: London
+  Eastbourne: South East
+  Eastleigh: South East
+  East Ayrshire: Scotland
+  East Cambridgeshire: East of England
+  East Devon: South West
+  City of Edinburgh: Scotland
+  East Dunbartonshire: Scotland
+  East Hampshire: South East
+  East Hertfordshire: East of England
+  East Lindsey: East Midlands
+  Elmbridge: South East
+  East Lothian: Scotland
+  Eilean Siar: Scotland
+  East Midlands CCA: East Midlands
+  Enfield: London
+  Epping Forest: East of England
+  Epsom and Ewell: South East
+  Erewash: East Midlands
+  East Renfrewshire: Scotland
+  East Riding of Yorkshire: Yorkshire and The Humber
+  East Suffolk: East of England
+  Essex: East of England
+  East Staffordshire: West Midlands
+  East Sussex: South East
+  Exeter: South West
+  Falkirk: Scotland
+  Fareham: South East
+  Fenland: East of England
+  Fife: Scotland
+  Flintshire: Wales
+  Fermanagh and Omagh: Northern Ireland
+  Forest of Dean: South West
+  Fylde: North West
+  Gateshead: North East
+  Gedling: East Midlands
+  Greater London: London
+  Greater Lincolnshire CCA: Yorkshire and The Humber
+  Glasgow City: Scotland
+  Gloucester: South West
+  Gloucestershire: South West
+  Greater Manchester: North West
+  Gosport: South East
+  Gravesham: South East
+  Greenwich: London
+  Guildford: South East
+  Great Yarmouth: East of England
+  Gwynedd: Wales
+  Havant: South East
+  Halton: North West
+  Hampshire: South East
+  Harborough: East Midlands
+  Harlow: East of England
+  Hastings: South East
+  Hart: South East
+  Havering: London
+  Hackney: London
+  Herefordshire: West Midlands
+  Hertsmere: East of England
+  High Peak: East Midlands
+  Hillingdon: London
+  Hinckley and Bosworth: East Midlands
+  Highland: Scotland
+  Hammersmith and Fulham: London
+  Hounslow: London
+  Horsham: South East
+  Hartlepool: North East
+  Hertfordshire: East of England
+  Harrow: London
+  Haringey: London
+  Huntingdonshire: East of England
+  Yorkshire and The Humber MCA: Yorkshire and The Humber
+  Hyndburn: North West
+  Isles of Scilly: South West
+  Isle of Wight: South East
+  Ipswich: East of England
+  Islington: London
+  Inverclyde: Scotland
+  Kensington and Chelsea: London
+  Kent: South East
+  Kingston upon Hull: Yorkshire and The Humber
+  Kings Lynn and West Norfolk: East of England
+  Kirklees: Yorkshire and The Humber
+  Kingston upon Thames: London
+  Knowsley: North West
+  Lancaster: North West
+  Lancashire: North West
+  Lisburn and Castlereagh: Northern Ireland
+  Lambeth: London
+  Leicester: East Midlands
+  Liverpool City Region: North West
+  Leeds: Yorkshire and The Humber
+  Leicestershire: East Midlands
+  Lewes: South East
+  Lewisham: London
+  City of Lincoln: East Midlands
+  Lichfield: West Midlands
+  Lincolnshire: Yorkshire and The Humber
+  Liverpool: North West
+  City of London: London
+  Luton: East of England
+  Maidstone: South East
+  Maldon: East of England
+  Manchester: North West
+  Mansfield: East Midlands
+  Malvern Hills: West Midlands
+  Middlesbrough: North East
+  Mid Devon: South West
+  Medway: South East
+  Mid and East Antrim: Northern Ireland
+  Melton: East Midlands
+  Milton Keynes: South East
+  Midlothian: Scotland
+  Mole Valley: South East
+  Monmouthshire: Wales
+  Merton: London
+  Moray: Scotland
+  Mid Sussex: South East
+  Mid Suffolk: East of England
+  Merthyr Tydfil: Wales
+  Mid Ulster: Northern Ireland
+  North Ayrshire: Scotland
+  Northumberland: North East
+  North Devon: South West
+  Newark and Sherwood: East Midlands
+  Newcastle-under-Lyme: West Midlands
+  North East: North East
+  North East Derbyshire: East Midlands
+  North East Lincolnshire: Yorkshire and The Humber
+  Newcastle upon Tyne: North East
+  New Forest: South East
+  Norfolk: East of England
+  Nottingham: East Midlands
+  North Hertfordshire: East of England
+  North Kesteven: East Midlands
+  North Lanarkshire: Scotland
+  North Lincolnshire: Yorkshire and The Humber
+  Newry, Mourne and Down: Northern Ireland
+  North Norfolk: East of England
+  North Northamptonshire: East Midlands
+  Norwich: East of England
+  North Somerset: South West
+  North of Tyne: North East
+  Neath Port Talbot: Wales
+  Nottinghamshire: East Midlands
+  North Tyneside: North East
+  Nuneaton and Bedworth: West Midlands
+  North Warwickshire: West Midlands
+  North West Leicestershire: East Midlands
+  Newham: London
+  Newport: Wales
+  North Yorkshire: Yorkshire and The Humber
+  Oadby and Wigston: East Midlands
+  Oldham: North West
+  Orkney Islands: Scotland
+  Oxfordshire: South East
+  Oxford: South East
+  Pembrokeshire: Wales
+  Pendle: North West
+  Perth and Kinross: Scotland
+  Plymouth: South West
+  Portsmouth: South East
+  Powys: Wales
+  Preston: North West
+  Peterborough: East of England
+  Redcar and Cleveland: North East
+  Rochdale: North West
+  Rhondda Cynon Taff: Wales
+  Redbridge: London
+  Reading: South East
+  Redditch: West Midlands
+  Reigate and Banstead: South East
+  Renfrewshire: Scotland
+  Ribble Valley: North West
+  Richmond upon Thames: London
+  Rochford: East of England
+  Rother: South East
+  Rossendale: North West
+  Rotherham: Yorkshire and The Humber
+  Rugby: West Midlands
+  Rushmoor: South East
+  Runnymede: South East
+  Rushcliffe: East Midlands
+  Rutland: East Midlands
+  St Albans: East of England
+  Sandwell: West Midlands
+  South Ayrshire: Scotland
+  South Cambridgeshire: East of England
+  The Scottish Borders: Scotland
+  South Yorkshire Mayoral Combined Authority: Yorkshire and The Humber
+  South Derbyshire: East Midlands
+  Sevenoaks: South East
+  Suffolk: East of England
+  Sefton: North West
+  South Gloucestershire: South West
+  South Hams: South West
+  Folkestone and Hythe: South East
+  Sheffield: Yorkshire and The Humber
+  St. Helens: North West
+  South Holland: East Midlands
+  Shropshire: West Midlands
+  South Kesteven: East Midlands
+  Stockport: North West
+  Salford: North West
+  Slough: South East
+  South Lanarkshire: Scotland
+  Somerset: South West
+  Sunderland: North East
+  South Norfolk: East of England
+  Solihull: West Midlands
+  Southend-on-Sea: East of England
+  South Oxfordshire: South East
+  Spelthorne: South East
+  South Ribble: North West
+  Surrey: South East
+  South Staffordshire: West Midlands
+  Stafford: West Midlands
+  Stoke-on-Trent: West Midlands
+  Staffordshire Moorlands: West Midlands
+  Stirling: Scotland
+  Southampton: South East
+  Sutton: London
+  Stroud: South West
+  Stratford-on-Avon: West Midlands
+  Staffordshire: West Midlands
+  Stockton-on-Tees: North East
+  Stevenage: East of England
+  South Tyneside: North East
+  Surrey Heath: South East
+  Swansea: Wales
+  Swindon: South West
+  Southwark: London
+  Swale: South East
+  Tameside: North West
+  Tandridge: South East
+  Tamworth: West Midlands
+  Teignbridge: South West
+  Tendring: East of England
+  Test Valley: South East
+  Tewkesbury: South West
+  Telford and Wrekin: West Midlands
+  Thanet: South East
+  Three Rivers: East of England
+  Thurrock: East of England
+  Torbay: South West
+  Torfaen: Wales
+  Tonbridge and Malling: South East
+  Torridge: South West
+  Trafford: North West
+  Tunbridge Wells: South East
+  Tees Valley: North East
+  Tower Hamlets: London
+  Uttlesford: East of England
+  Vale of White Horse: South East
+  The Vale of Glamorgan: Wales
+  Waverley: South East
+  Westmorland and Furness: North West
+  Warwickshire: West Midlands
+  Watford: East of England
+  Warwick: West Midlands
+  West Berkshire: South East
+  West Devon: South West
+  West Dunbartonshire: Scotland
+  Wealden: South East
+  West of England: South West
+  Welwyn Hatfield: East of England
+  Waltham Forest: London
+  Wigan: North West
+  Wiltshire: South West
+  Winchester: South East
+  Wakefield: Yorkshire and The Humber
+  West Lancashire: North West
+  West Lindsey: East Midlands
+  Walsall: West Midlands
+  West Lothian: Scotland
+  Wolverhampton: West Midlands
+  West Midlands: West Midlands
+  Wandsworth: London
+  Windsor and Maidenhead: South East
+  West Northamptonshire: East Midlands
+  Worcester: West Midlands
+  Woking: South East
+  Wokingham: South East
+  Worcestershire: West Midlands
+  Worthing: South East
+  West Oxfordshire: South East
+  Wirral: North West
+  Warrington: North West
+  Wrexham: Wales
+  West Suffolk: East of England
+  Westminster: London
+  West Sussex: South East
+  Wychavon: West Midlands
+  West Yorkshire: Yorkshire and The Humber
+  Wyre Forest: West Midlands
+  Wyre: North West
+  York and North Yorkshire: Yorkshire and The Humber
+  York: Yorkshire and The Humber
+  Shetland Islands: Scotland
+fixmystreet:
+  councils:
+  - name: Armagh City, Banbridge and Craigavon
+    label: Armagh City, Banbridge and Craigavon
+    feed: https://www.fixmystreet.com/rss/reports/Armagh+City%2C+Banbridge+and+Craigavon
+    status: verified
+  - name: Aberdeenshire
+    label: Aberdeenshire
+    feed: https://www.fixmystreet.com/rss/reports/Aberdeenshire
+    status: verified
+  - name: Aberdeen City
+    label: Aberdeen City
+    feed: https://www.fixmystreet.com/rss/reports/Aberdeen+City
+    status: verified
+  - name: Adur
+    label: Adur
+    feed: https://www.fixmystreet.com/rss/reports/Adur
+    status: verified
+  - name: Argyll and Bute
+    label: Argyll and Bute
+    feed: https://www.fixmystreet.com/rss/reports/Argyll+and+Bute
+    status: verified
+  - name: Isle of Anglesey
+    label: Isle of Anglesey
+    feed: https://www.fixmystreet.com/rss/reports/Isle+of+Anglesey
+    status: verified
+  - name: Amber Valley
+    label: Amber Valley
+    feed: https://www.fixmystreet.com/rss/reports/Amber+Valley
+    status: verified
+  - name: Ards and North Down
+    label: Ards and North Down
+    feed: https://www.fixmystreet.com/rss/reports/Ards+and+North+Down
+    status: verified
+  - name: Antrim and Newtownabbey
+    label: Antrim and Newtownabbey
+    feed: https://www.fixmystreet.com/rss/reports/Antrim+and+Newtownabbey
+    status: verified
+  - name: Angus
+    label: Angus
+    feed: https://www.fixmystreet.com/rss/reports/Angus
+    status: verified
+  - name: Arun
+    label: Arun
+    feed: https://www.fixmystreet.com/rss/reports/Arun
+    status: verified
+  - name: Ashford
+    label: Ashford
+    feed: https://www.fixmystreet.com/rss/reports/Ashford
+    status: verified
+  - name: Ashfield
+    label: Ashfield
+    feed: https://www.fixmystreet.com/rss/reports/Ashfield
+    status: verified
+  - name: Babergh
+    label: Babergh
+    feed: https://www.fixmystreet.com/rss/reports/Babergh
+    status: verified
+  - name: Bassetlaw
+    label: Bassetlaw
+    feed: https://www.fixmystreet.com/rss/reports/Bassetlaw
+    status: verified
+  - name: Basildon
+    label: Basildon
+    feed: https://www.fixmystreet.com/rss/reports/Basildon
+    status: verified
+  - name: Basingstoke and Deane
+    label: Basingstoke and Deane
+    feed: https://www.fixmystreet.com/rss/reports/Basingstoke+and+Deane
+    status: verified
+  - name: Bath and North East Somerset
+    label: Bath and North East Somerset
+    feed: https://www.fixmystreet.com/rss/reports/Bath+and+North+East+Somerset
+    status: verified
+  - name: Blackburn with Darwen
+    label: Blackburn with Darwen
+    feed: https://www.fixmystreet.com/rss/reports/Blackburn+with+Darwen
+    status: verified
+  - name: Bedford
+    label: Bedford
+    feed: https://www.fixmystreet.com/rss/reports/Bedford
+    status: verified
+  - name: Barking and Dagenham
+    label: Barking and Dagenham
+    feed: https://www.fixmystreet.com/rss/reports/Barking+and+Dagenham
+    status: verified
+  - name: Brent
+    label: Brent
+    feed: https://www.fixmystreet.com/rss/reports/Brent
+    status: verified
+  - name: Bexley
+    label: Bexley
+    feed: https://www.fixmystreet.com/rss/reports/Bexley
+    status: verified
+  - name: Belfast
+    label: Belfast
+    feed: https://www.fixmystreet.com/rss/reports/Belfast
+    status: verified
+  - name: Bridgend
+    label: Bridgend
+    feed: https://www.fixmystreet.com/rss/reports/Bridgend
+    status: verified
+  - name: Blaenau Gwent
+    label: Blaenau Gwent
+    feed: https://www.fixmystreet.com/rss/reports/Blaenau+Gwent
+    status: verified
+  - name: Birmingham
+    label: Birmingham
+    feed: https://www.fixmystreet.com/rss/reports/Birmingham
+    status: verified
+  - name: Blaby
+    label: Blaby
+    feed: https://www.fixmystreet.com/rss/reports/Blaby
+    status: verified
+  - name: Barnet
+    label: Barnet
+    feed: https://www.fixmystreet.com/rss/reports/Barnet
+    status: verified
+  - name: Brighton and Hove
+    label: Brighton and Hove
+    feed: https://www.fixmystreet.com/rss/reports/Brighton+and+Hove
+    status: verified
+  - name: Barnsley
+    label: Barnsley
+    feed: https://www.fixmystreet.com/rss/reports/Barnsley
+    status: verified
+  - name: Bolton
+    label: Bolton
+    feed: https://www.fixmystreet.com/rss/reports/Bolton
+    status: verified
+  - name: Bolsover
+    label: Bolsover
+    feed: https://www.fixmystreet.com/rss/reports/Bolsover
+    status: verified
+  - name: Boston
+    label: Boston
+    feed: https://www.fixmystreet.com/rss/reports/Boston
+    status: verified
+  - name: Bournemouth, Christchurch and Poole
+    label: Bournemouth, Christchurch and Poole
+    feed: https://www.fixmystreet.com/rss/reports/Bournemouth%2C+Christchurch+and+Poole
+    status: verified
+  - name: Blackpool
+    label: Blackpool
+    feed: https://www.fixmystreet.com/rss/reports/Blackpool
+    status: verified
+  - name: Braintree
+    label: Braintree
+    feed: https://www.fixmystreet.com/rss/reports/Braintree
+    status: verified
+  - name: Bracknell Forest
+    label: Bracknell Forest
+    feed: https://www.fixmystreet.com/rss/reports/Bracknell+Forest
+    status: verified
+  - name: Bradford
+    label: Bradford
+    feed: https://www.fixmystreet.com/rss/reports/Bradford
+    status: verified
+  - name: Breckland
+    label: Breckland
+    feed: https://www.fixmystreet.com/rss/reports/Breckland
+    status: verified
+  - name: Bromsgrove
+    label: Bromsgrove
+    feed: https://www.fixmystreet.com/rss/reports/Bromsgrove
+    status: verified
+  - name: Broadland
+    label: Broadland
+    feed: https://www.fixmystreet.com/rss/reports/Broadland
+    status: verified
+  - name: Broxtowe
+    label: Broxtowe
+    feed: https://www.fixmystreet.com/rss/reports/Broxtowe
+    status: verified
+  - name: Brentwood
+    label: Brentwood
+    feed: https://www.fixmystreet.com/rss/reports/Brentwood
+    status: verified
+  - name: Broxbourne
+    label: Broxbourne
+    feed: https://www.fixmystreet.com/rss/reports/Broxbourne
+    status: verified
+  - name: Bromley
+    label: Bromley
+    feed: https://www.fixmystreet.com/rss/reports/Bromley
+    status: verified
+  - name: City of Bristol
+    label: City of Bristol
+    feed: https://www.fixmystreet.com/rss/reports/City+of+Bristol
+    status: dead
+  - name: Buckinghamshire
+    label: Buckinghamshire
+    feed: https://www.fixmystreet.com/rss/reports/Buckinghamshire
+    status: verified
+  - name: Burnley
+    label: Burnley
+    feed: https://www.fixmystreet.com/rss/reports/Burnley
+    status: verified
+  - name: Bury
+    label: Bury
+    feed: https://www.fixmystreet.com/rss/reports/Bury
+    status: verified
+  - name: Cambridge
+    label: Cambridge
+    feed: https://www.fixmystreet.com/rss/reports/Cambridge
+    status: verified
+  - name: Cambridgeshire
+    label: Cambridgeshire
+    feed: https://www.fixmystreet.com/rss/reports/Cambridgeshire
+    status: verified
+  - name: Cannock Chase
+    label: Cannock Chase
+    feed: https://www.fixmystreet.com/rss/reports/Cannock+Chase
+    status: verified
+  - name: Castle Point
+    label: Castle Point
+    feed: https://www.fixmystreet.com/rss/reports/Castle+Point
+    status: verified
+  - name: Canterbury
+    label: Canterbury
+    feed: https://www.fixmystreet.com/rss/reports/Canterbury
+    status: verified
+  - name: Caerphilly
+    label: Caerphilly
+    feed: https://www.fixmystreet.com/rss/reports/Caerphilly
+    status: verified
+  - name: Cumberland
+    label: Cumberland
+    feed: https://www.fixmystreet.com/rss/reports/Cumberland
+    status: verified
+  - name: Central Bedfordshire
+    label: Central Bedfordshire
+    feed: https://www.fixmystreet.com/rss/reports/Central+Bedfordshire
+    status: verified
+  - name: Causeway Coast and Glens
+    label: Causeway Coast and Glens
+    feed: https://www.fixmystreet.com/rss/reports/Causeway+Coast+and+Glens
+    status: verified
+  - name: Ceredigion
+    label: Ceredigion
+    feed: https://www.fixmystreet.com/rss/reports/Ceredigion
+    status: verified
+  - name: Charnwood
+    label: Charnwood
+    feed: https://www.fixmystreet.com/rss/reports/Charnwood
+    status: verified
+  - name: Cheshire East
+    label: Cheshire East
+    feed: https://www.fixmystreet.com/rss/reports/Cheshire+East
+    status: verified
+  - name: Chichester
+    label: Chichester
+    feed: https://www.fixmystreet.com/rss/reports/Chichester
+    status: verified
+  - name: Chelmsford
+    label: Chelmsford
+    feed: https://www.fixmystreet.com/rss/reports/Chelmsford
+    status: verified
+  - name: Chorley
+    label: Chorley
+    feed: https://www.fixmystreet.com/rss/reports/Chorley
+    status: verified
+  - name: Cherwell
+    label: Cherwell
+    feed: https://www.fixmystreet.com/rss/reports/Cherwell
+    status: verified
+  - name: Chesterfield
+    label: Chesterfield
+    feed: https://www.fixmystreet.com/rss/reports/Chesterfield
+    status: verified
+  - name: Cheltenham
+    label: Cheltenham
+    feed: https://www.fixmystreet.com/rss/reports/Cheltenham
+    status: verified
+  - name: Cheshire West and Chester
+    label: Cheshire West and Chester
+    feed: https://www.fixmystreet.com/rss/reports/Cheshire+West+and+Chester
+    status: verified
+  - name: Calderdale
+    label: Calderdale
+    feed: https://www.fixmystreet.com/rss/reports/Calderdale
+    status: verified
+  - name: Clackmannanshire
+    label: Clackmannanshire
+    feed: https://www.fixmystreet.com/rss/reports/Clackmannanshire
+    status: verified
+  - name: Camden
+    label: Camden
+    feed: https://www.fixmystreet.com/rss/reports/Camden
+    status: verified
+  - name: Carmarthenshire
+    label: Carmarthenshire
+    feed: https://www.fixmystreet.com/rss/reports/Carmarthenshire
+    status: verified
+  - name: Colchester
+    label: Colchester
+    feed: https://www.fixmystreet.com/rss/reports/Colchester
+    status: verified
+  - name: Cornwall
+    label: Cornwall
+    feed: https://www.fixmystreet.com/rss/reports/Cornwall
+    status: verified
+  - name: Cotswold
+    label: Cotswold
+    feed: https://www.fixmystreet.com/rss/reports/Cotswold
+    status: verified
+  - name: Coventry
+    label: Coventry
+    feed: https://www.fixmystreet.com/rss/reports/Coventry
+    status: verified
+  - name: Cambridgeshire and Peterborough
+    label: Cambridgeshire and Peterborough
+    feed: https://www.fixmystreet.com/rss/reports/Cambridgeshire+and+Peterborough
+    status: dead
+  - name: Cardiff
+    label: Cardiff
+    feed: https://www.fixmystreet.com/rss/reports/Cardiff
+    status: verified
+  - name: Crawley
+    label: Crawley
+    feed: https://www.fixmystreet.com/rss/reports/Crawley
+    status: verified
+  - name: Conwy
+    label: Conwy
+    feed: https://www.fixmystreet.com/rss/reports/Conwy
+    status: verified
+  - name: Dacorum
+    label: Dacorum
+    feed: https://www.fixmystreet.com/rss/reports/Dacorum
+    status: verified
+  - name: Darlington
+    label: Darlington
+    feed: https://www.fixmystreet.com/rss/reports/Darlington
+    status: verified
+  - name: Dartford
+    label: Dartford
+    feed: https://www.fixmystreet.com/rss/reports/Dartford
+    status: verified
+  - name: Derbyshire
+    label: Derbyshire
+    feed: https://www.fixmystreet.com/rss/reports/Derbyshire
+    status: verified
+  - name: Derbyshire Dales
+    label: Derbyshire Dales
+    feed: https://www.fixmystreet.com/rss/reports/Derbyshire+Dales
+    status: verified
+  - name: Denbighshire
+    label: Denbighshire
+    feed: https://www.fixmystreet.com/rss/reports/Denbighshire
+    status: verified
+  - name: Derby
+    label: Derby
+    feed: https://www.fixmystreet.com/rss/reports/Derby
+    status: verified
+  - name: Devon
+    label: Devon
+    feed: https://www.fixmystreet.com/rss/reports/Devon
+    status: verified
+  - name: Dumfries and Galloway
+    label: Dumfries and Galloway
+    feed: https://www.fixmystreet.com/rss/reports/Dumfries+and+Galloway
+    status: verified
+  - name: Doncaster
+    label: Doncaster
+    feed: https://www.fixmystreet.com/rss/reports/Doncaster
+    status: dead
+  - name: Dundee City
+    label: Dundee City
+    feed: https://www.fixmystreet.com/rss/reports/Dundee+City
+    status: verified
+  - name: Dover
+    label: Dover
+    feed: https://www.fixmystreet.com/rss/reports/Dover
+    status: verified
+  - name: Derry City and Strabane
+    label: Derry City and Strabane
+    feed: https://www.fixmystreet.com/rss/reports/Derry+City+and+Strabane
+    status: verified
+  - name: Dorset Council
+    label: Dorset Council
+    feed: https://www.fixmystreet.com/rss/reports/Dorset+Council
+    status: verified
+  - name: Dudley
+    label: Dudley
+    feed: https://www.fixmystreet.com/rss/reports/Dudley
+    status: verified
+  - name: County Durham
+    label: County Durham
+    feed: https://www.fixmystreet.com/rss/reports/County+Durham
+    status: dead
+  - name: Eastbourne
+    label: Eastbourne
+    feed: https://www.fixmystreet.com/rss/reports/Eastbourne
+    status: verified
+  - name: Eastleigh
+    label: Eastleigh
+    feed: https://www.fixmystreet.com/rss/reports/Eastleigh
+    status: verified
+  - name: East Ayrshire
+    label: East Ayrshire
+    feed: https://www.fixmystreet.com/rss/reports/East+Ayrshire
+    status: verified
+  - name: East Cambridgeshire
+    label: East Cambridgeshire
+    feed: https://www.fixmystreet.com/rss/reports/East+Cambridgeshire
+    status: verified
+  - name: East Devon
+    label: East Devon
+    feed: https://www.fixmystreet.com/rss/reports/East+Devon
+    status: verified
+  - name: City of Edinburgh
+    label: City of Edinburgh
+    feed: https://www.fixmystreet.com/rss/reports/City+of+Edinburgh
+    status: dead
+  - name: East Dunbartonshire
+    label: East Dunbartonshire
+    feed: https://www.fixmystreet.com/rss/reports/East+Dunbartonshire
+    status: verified
+  - name: East Hampshire
+    label: East Hampshire
+    feed: https://www.fixmystreet.com/rss/reports/East+Hampshire
+    status: verified
+  - name: East Hertfordshire
+    label: East Hertfordshire
+    feed: https://www.fixmystreet.com/rss/reports/East+Hertfordshire
+    status: verified
+  - name: East Lindsey
+    label: East Lindsey
+    feed: https://www.fixmystreet.com/rss/reports/East+Lindsey
+    status: verified
+  - name: Elmbridge
+    label: Elmbridge
+    feed: https://www.fixmystreet.com/rss/reports/Elmbridge
+    status: verified
+  - name: East Lothian
+    label: East Lothian
+    feed: https://www.fixmystreet.com/rss/reports/East+Lothian
+    status: verified
+  - name: Eilean Siar
+    label: Eilean Siar
+    feed: https://www.fixmystreet.com/rss/reports/Eilean+Siar
+    status: dead
+  - name: East Midlands CCA
+    label: East Midlands CCA
+    feed: https://www.fixmystreet.com/rss/reports/East+Midlands+CCA
+    status: dead
+  - name: Enfield
+    label: Enfield
+    feed: https://www.fixmystreet.com/rss/reports/Enfield
+    status: verified
+  - name: Epping Forest
+    label: Epping Forest
+    feed: https://www.fixmystreet.com/rss/reports/Epping+Forest
+    status: verified
+  - name: Epsom and Ewell
+    label: Epsom and Ewell
+    feed: https://www.fixmystreet.com/rss/reports/Epsom+and+Ewell
+    status: verified
+  - name: Erewash
+    label: Erewash
+    feed: https://www.fixmystreet.com/rss/reports/Erewash
+    status: verified
+  - name: East Renfrewshire
+    label: East Renfrewshire
+    feed: https://www.fixmystreet.com/rss/reports/East+Renfrewshire
+    status: verified
+  - name: East Riding of Yorkshire
+    label: East Riding of Yorkshire
+    feed: https://www.fixmystreet.com/rss/reports/East+Riding+of+Yorkshire
+    status: verified
+  - name: East Suffolk
+    label: East Suffolk
+    feed: https://www.fixmystreet.com/rss/reports/East+Suffolk
+    status: verified
+  - name: Essex
+    label: Essex
+    feed: https://www.fixmystreet.com/rss/reports/Essex
+    status: verified
+  - name: East Staffordshire
+    label: East Staffordshire
+    feed: https://www.fixmystreet.com/rss/reports/East+Staffordshire
+    status: verified
+  - name: East Sussex
+    label: East Sussex
+    feed: https://www.fixmystreet.com/rss/reports/East+Sussex
+    status: verified
+  - name: Exeter
+    label: Exeter
+    feed: https://www.fixmystreet.com/rss/reports/Exeter
+    status: verified
+  - name: Falkirk
+    label: Falkirk
+    feed: https://www.fixmystreet.com/rss/reports/Falkirk
+    status: verified
+  - name: Fareham
+    label: Fareham
+    feed: https://www.fixmystreet.com/rss/reports/Fareham
+    status: verified
+  - name: Fenland
+    label: Fenland
+    feed: https://www.fixmystreet.com/rss/reports/Fenland
+    status: verified
+  - name: Fife
+    label: Fife
+    feed: https://www.fixmystreet.com/rss/reports/Fife
+    status: verified
+  - name: Flintshire
+    label: Flintshire
+    feed: https://www.fixmystreet.com/rss/reports/Flintshire
+    status: verified
+  - name: Fermanagh and Omagh
+    label: Fermanagh and Omagh
+    feed: https://www.fixmystreet.com/rss/reports/Fermanagh+and+Omagh
+    status: verified
+  - name: Forest of Dean
+    label: Forest of Dean
+    feed: https://www.fixmystreet.com/rss/reports/Forest+of+Dean
+    status: verified
+  - name: Fylde
+    label: Fylde
+    feed: https://www.fixmystreet.com/rss/reports/Fylde
+    status: verified
+  - name: Gateshead
+    label: Gateshead
+    feed: https://www.fixmystreet.com/rss/reports/Gateshead
+    status: verified
+  - name: Gedling
+    label: Gedling
+    feed: https://www.fixmystreet.com/rss/reports/Gedling
+    status: verified
+  - name: Greater London
+    label: Greater London
+    feed: https://www.fixmystreet.com/rss/reports/Greater+London
+    status: dead
+  - name: Greater Lincolnshire CCA
+    label: Greater Lincolnshire CCA
+    feed: https://www.fixmystreet.com/rss/reports/Greater+Lincolnshire+CCA
+    status: dead
+  - name: Glasgow City
+    label: Glasgow City
+    feed: https://www.fixmystreet.com/rss/reports/Glasgow+City
+    status: verified
+  - name: Gloucester
+    label: Gloucester
+    feed: https://www.fixmystreet.com/rss/reports/Gloucester
+    status: verified
+  - name: Gloucestershire
+    label: Gloucestershire
+    feed: https://www.fixmystreet.com/rss/reports/Gloucestershire
+    status: verified
+  - name: Greater Manchester
+    label: Greater Manchester
+    feed: https://www.fixmystreet.com/rss/reports/Greater+Manchester
+    status: dead
+  - name: Gosport
+    label: Gosport
+    feed: https://www.fixmystreet.com/rss/reports/Gosport
+    status: verified
+  - name: Gravesham
+    label: Gravesham
+    feed: https://www.fixmystreet.com/rss/reports/Gravesham
+    status: verified
+  - name: Greenwich
+    label: Greenwich
+    feed: https://www.fixmystreet.com/rss/reports/Greenwich
+    status: verified
+  - name: Guildford
+    label: Guildford
+    feed: https://www.fixmystreet.com/rss/reports/Guildford
+    status: verified
+  - name: Great Yarmouth
+    label: Great Yarmouth
+    feed: https://www.fixmystreet.com/rss/reports/Great+Yarmouth
+    status: verified
+  - name: Gwynedd
+    label: Gwynedd
+    feed: https://www.fixmystreet.com/rss/reports/Gwynedd
+    status: verified
+  - name: Havant
+    label: Havant
+    feed: https://www.fixmystreet.com/rss/reports/Havant
+    status: verified
+  - name: Halton
+    label: Halton
+    feed: https://www.fixmystreet.com/rss/reports/Halton
+    status: verified
+  - name: Hampshire
+    label: Hampshire
+    feed: https://www.fixmystreet.com/rss/reports/Hampshire
+    status: verified
+  - name: Harborough
+    label: Harborough
+    feed: https://www.fixmystreet.com/rss/reports/Harborough
+    status: verified
+  - name: Harlow
+    label: Harlow
+    feed: https://www.fixmystreet.com/rss/reports/Harlow
+    status: verified
+  - name: Hastings
+    label: Hastings
+    feed: https://www.fixmystreet.com/rss/reports/Hastings
+    status: verified
+  - name: Hart
+    label: Hart
+    feed: https://www.fixmystreet.com/rss/reports/Hart
+    status: verified
+  - name: Havering
+    label: Havering
+    feed: https://www.fixmystreet.com/rss/reports/Havering
+    status: verified
+  - name: Herefordshire
+    label: Herefordshire
+    feed: https://www.fixmystreet.com/rss/reports/Herefordshire
+    status: verified
+  - name: Hertsmere
+    label: Hertsmere
+    feed: https://www.fixmystreet.com/rss/reports/Hertsmere
+    status: verified
+  - name: High Peak
+    label: High Peak
+    feed: https://www.fixmystreet.com/rss/reports/High+Peak
+    status: verified
+  - name: Hillingdon
+    label: Hillingdon
+    feed: https://www.fixmystreet.com/rss/reports/Hillingdon
+    status: verified
+  - name: Hinckley and Bosworth
+    label: Hinckley and Bosworth
+    feed: https://www.fixmystreet.com/rss/reports/Hinckley+and+Bosworth
+    status: verified
+  - name: Highland
+    label: Highland
+    feed: https://www.fixmystreet.com/rss/reports/Highland
+    status: verified
+  - name: Hammersmith and Fulham
+    label: Hammersmith and Fulham
+    feed: https://www.fixmystreet.com/rss/reports/Hammersmith+and+Fulham
+    status: verified
+  - name: Hounslow
+    label: Hounslow
+    feed: https://www.fixmystreet.com/rss/reports/Hounslow
+    status: verified
+  - name: Horsham
+    label: Horsham
+    feed: https://www.fixmystreet.com/rss/reports/Horsham
+    status: verified
+  - name: Hartlepool
+    label: Hartlepool
+    feed: https://www.fixmystreet.com/rss/reports/Hartlepool
+    status: verified
+  - name: Hertfordshire
+    label: Hertfordshire
+    feed: https://www.fixmystreet.com/rss/reports/Hertfordshire
+    status: verified
+  - name: Harrow
+    label: Harrow
+    feed: https://www.fixmystreet.com/rss/reports/Harrow
+    status: verified
+  - name: Haringey
+    label: Haringey
+    feed: https://www.fixmystreet.com/rss/reports/Haringey
+    status: verified
+  - name: Huntingdonshire
+    label: Huntingdonshire
+    feed: https://www.fixmystreet.com/rss/reports/Huntingdonshire
+    status: verified
+  - name: Yorkshire and The Humber MCA
+    label: Yorkshire and The Humber MCA
+    feed: https://www.fixmystreet.com/rss/reports/Yorkshire+and+The+Humber+MCA
+    status: dead
+  - name: Hyndburn
+    label: Hyndburn
+    feed: https://www.fixmystreet.com/rss/reports/Hyndburn
+    status: verified
+  - name: Isles of Scilly
+    label: Isles of Scilly
+    feed: https://www.fixmystreet.com/rss/reports/Isles+of+Scilly
+    status: verified
+  - name: Isle of Wight
+    label: Isle of Wight
+    feed: https://www.fixmystreet.com/rss/reports/Isle+of+Wight
+    status: verified
+  - name: Ipswich
+    label: Ipswich
+    feed: https://www.fixmystreet.com/rss/reports/Ipswich
+    status: verified
+  - name: Islington
+    label: Islington
+    feed: https://www.fixmystreet.com/rss/reports/Islington
+    status: verified
+  - name: Inverclyde
+    label: Inverclyde
+    feed: https://www.fixmystreet.com/rss/reports/Inverclyde
+    status: verified
+  - name: Kensington and Chelsea
+    label: Kensington and Chelsea
+    feed: https://www.fixmystreet.com/rss/reports/Kensington+and+Chelsea
+    status: verified
+  - name: Kent
+    label: Kent
+    feed: https://www.fixmystreet.com/rss/reports/Kent
+    status: verified
+  - name: Kingston upon Hull
+    label: Kingston upon Hull
+    feed: https://www.fixmystreet.com/rss/reports/Kingston+upon+Hull
+    status: dead
+  - name: Kings Lynn and West Norfolk
+    label: Kings Lynn and West Norfolk
+    feed: https://www.fixmystreet.com/rss/reports/Kings+Lynn+and+West+Norfolk
+    status: dead
+  - name: Kirklees
+    label: Kirklees
+    feed: https://www.fixmystreet.com/rss/reports/Kirklees
+    status: verified
+  - name: Kingston upon Thames
+    label: Kingston upon Thames
+    feed: https://www.fixmystreet.com/rss/reports/Kingston+upon+Thames
+    status: verified
+  - name: Knowsley
+    label: Knowsley
+    feed: https://www.fixmystreet.com/rss/reports/Knowsley
+    status: verified
+  - name: Lancaster
+    label: Lancaster
+    feed: https://www.fixmystreet.com/rss/reports/Lancaster
+    status: verified
+  - name: Lancashire
+    label: Lancashire
+    feed: https://www.fixmystreet.com/rss/reports/Lancashire
+    status: verified
+  - name: Lisburn and Castlereagh
+    label: Lisburn and Castlereagh
+    feed: https://www.fixmystreet.com/rss/reports/Lisburn+and+Castlereagh
+    status: verified
+  - name: Lambeth
+    label: Lambeth
+    feed: https://www.fixmystreet.com/rss/reports/Lambeth
+    status: verified
+  - name: Leicester
+    label: Leicester
+    feed: https://www.fixmystreet.com/rss/reports/Leicester
+    status: verified
+  - name: Liverpool City Region
+    label: Liverpool City Region
+    feed: https://www.fixmystreet.com/rss/reports/Liverpool+City+Region
+    status: dead
+  - name: Leeds
+    label: Leeds
+    feed: https://www.fixmystreet.com/rss/reports/Leeds
+    status: verified
+  - name: Leicestershire
+    label: Leicestershire
+    feed: https://www.fixmystreet.com/rss/reports/Leicestershire
+    status: verified
+  - name: Lewes
+    label: Lewes
+    feed: https://www.fixmystreet.com/rss/reports/Lewes
+    status: verified
+  - name: City of Lincoln
+    label: City of Lincoln
+    feed: https://www.fixmystreet.com/rss/reports/City+of+Lincoln
+    status: dead
+  - name: Lichfield
+    label: Lichfield
+    feed: https://www.fixmystreet.com/rss/reports/Lichfield
+    status: verified
+  - name: Lincolnshire
+    label: Lincolnshire
+    feed: https://www.fixmystreet.com/rss/reports/Lincolnshire
+    status: verified
+  - name: Liverpool
+    label: Liverpool
+    feed: https://www.fixmystreet.com/rss/reports/Liverpool
+    status: verified
+  - name: City of London
+    label: City of London
+    feed: https://www.fixmystreet.com/rss/reports/City+of+London
+    status: verified
+  - name: Luton
+    label: Luton
+    feed: https://www.fixmystreet.com/rss/reports/Luton
+    status: verified
+  - name: Maidstone
+    label: Maidstone
+    feed: https://www.fixmystreet.com/rss/reports/Maidstone
+    status: verified
+  - name: Maldon
+    label: Maldon
+    feed: https://www.fixmystreet.com/rss/reports/Maldon
+    status: verified
+  - name: Manchester
+    label: Manchester
+    feed: https://www.fixmystreet.com/rss/reports/Manchester
+    status: verified
+  - name: Mansfield
+    label: Mansfield
+    feed: https://www.fixmystreet.com/rss/reports/Mansfield
+    status: verified
+  - name: Malvern Hills
+    label: Malvern Hills
+    feed: https://www.fixmystreet.com/rss/reports/Malvern+Hills
+    status: verified
+  - name: Middlesbrough
+    label: Middlesbrough
+    feed: https://www.fixmystreet.com/rss/reports/Middlesbrough
+    status: verified
+  - name: Mid Devon
+    label: Mid Devon
+    feed: https://www.fixmystreet.com/rss/reports/Mid+Devon
+    status: verified
+  - name: Medway
+    label: Medway
+    feed: https://www.fixmystreet.com/rss/reports/Medway
+    status: verified
+  - name: Mid and East Antrim
+    label: Mid and East Antrim
+    feed: https://www.fixmystreet.com/rss/reports/Mid+and+East+Antrim
+    status: verified
+  - name: Melton
+    label: Melton
+    feed: https://www.fixmystreet.com/rss/reports/Melton
+    status: verified
+  - name: Milton Keynes
+    label: Milton Keynes
+    feed: https://www.fixmystreet.com/rss/reports/Milton+Keynes
+    status: verified
+  - name: Midlothian
+    label: Midlothian
+    feed: https://www.fixmystreet.com/rss/reports/Midlothian
+    status: verified
+  - name: Mole Valley
+    label: Mole Valley
+    feed: https://www.fixmystreet.com/rss/reports/Mole+Valley
+    status: verified
+  - name: Monmouthshire
+    label: Monmouthshire
+    feed: https://www.fixmystreet.com/rss/reports/Monmouthshire
+    status: verified
+  - name: Merton
+    label: Merton
+    feed: https://www.fixmystreet.com/rss/reports/Merton
+    status: verified
+  - name: Moray
+    label: Moray
+    feed: https://www.fixmystreet.com/rss/reports/Moray
+    status: verified
+  - name: Mid Sussex
+    label: Mid Sussex
+    feed: https://www.fixmystreet.com/rss/reports/Mid+Sussex
+    status: verified
+  - name: Mid Suffolk
+    label: Mid Suffolk
+    feed: https://www.fixmystreet.com/rss/reports/Mid+Suffolk
+    status: verified
+  - name: Merthyr Tydfil
+    label: Merthyr Tydfil
+    feed: https://www.fixmystreet.com/rss/reports/Merthyr+Tydfil
+    status: verified
+  - name: Mid Ulster
+    label: Mid Ulster
+    feed: https://www.fixmystreet.com/rss/reports/Mid+Ulster
+    status: verified
+  - name: North Ayrshire
+    label: North Ayrshire
+    feed: https://www.fixmystreet.com/rss/reports/North+Ayrshire
+    status: verified
+  - name: Northumberland
+    label: Northumberland
+    feed: https://www.fixmystreet.com/rss/reports/Northumberland
+    status: verified
+  - name: North Devon
+    label: North Devon
+    feed: https://www.fixmystreet.com/rss/reports/North+Devon
+    status: verified
+  - name: Newark and Sherwood
+    label: Newark and Sherwood
+    feed: https://www.fixmystreet.com/rss/reports/Newark+and+Sherwood
+    status: verified
+  - name: Newcastle-under-Lyme
+    label: Newcastle-under-Lyme
+    feed: https://www.fixmystreet.com/rss/reports/Newcastle-under-Lyme
+    status: verified
+  - name: North East
+    label: North East
+    feed: https://www.fixmystreet.com/rss/reports/North+East
+    status: dead
+  - name: North East Derbyshire
+    label: North East Derbyshire
+    feed: https://www.fixmystreet.com/rss/reports/North+East+Derbyshire
+    status: verified
+  - name: North East Lincolnshire
+    label: North East Lincolnshire
+    feed: https://www.fixmystreet.com/rss/reports/North+East+Lincolnshire
+    status: verified
+  - name: Newcastle upon Tyne
+    label: Newcastle upon Tyne
+    feed: https://www.fixmystreet.com/rss/reports/Newcastle+upon+Tyne
+    status: dead
+  - name: New Forest
+    label: New Forest
+    feed: https://www.fixmystreet.com/rss/reports/New+Forest
+    status: verified
+  - name: Norfolk
+    label: Norfolk
+    feed: https://www.fixmystreet.com/rss/reports/Norfolk
+    status: verified
+  - name: Nottingham
+    label: Nottingham
+    feed: https://www.fixmystreet.com/rss/reports/Nottingham
+    status: verified
+  - name: North Hertfordshire
+    label: North Hertfordshire
+    feed: https://www.fixmystreet.com/rss/reports/North+Hertfordshire
+    status: verified
+  - name: North Kesteven
+    label: North Kesteven
+    feed: https://www.fixmystreet.com/rss/reports/North+Kesteven
+    status: verified
+  - name: North Lanarkshire
+    label: North Lanarkshire
+    feed: https://www.fixmystreet.com/rss/reports/North+Lanarkshire
+    status: verified
+  - name: North Lincolnshire
+    label: North Lincolnshire
+    feed: https://www.fixmystreet.com/rss/reports/North+Lincolnshire
+    status: verified
+  - name: Newry, Mourne and Down
+    label: Newry, Mourne and Down
+    feed: https://www.fixmystreet.com/rss/reports/Newry%2C+Mourne+and+Down
+    status: verified
+  - name: North Norfolk
+    label: North Norfolk
+    feed: https://www.fixmystreet.com/rss/reports/North+Norfolk
+    status: verified
+  - name: North Northamptonshire
+    label: North Northamptonshire
+    feed: https://www.fixmystreet.com/rss/reports/North+Northamptonshire
+    status: verified
+  - name: Norwich
+    label: Norwich
+    feed: https://www.fixmystreet.com/rss/reports/Norwich
+    status: verified
+  - name: North Somerset
+    label: North Somerset
+    feed: https://www.fixmystreet.com/rss/reports/North+Somerset
+    status: verified
+  - name: North of Tyne
+    label: North of Tyne
+    feed: https://www.fixmystreet.com/rss/reports/North+of+Tyne
+    status: dead
+  - name: Neath Port Talbot
+    label: Neath Port Talbot
+    feed: https://www.fixmystreet.com/rss/reports/Neath+Port+Talbot
+    status: verified
+  - name: Nottinghamshire
+    label: Nottinghamshire
+    feed: https://www.fixmystreet.com/rss/reports/Nottinghamshire
+    status: verified
+  - name: North Tyneside
+    label: North Tyneside
+    feed: https://www.fixmystreet.com/rss/reports/North+Tyneside
+    status: verified
+  - name: Nuneaton and Bedworth
+    label: Nuneaton and Bedworth
+    feed: https://www.fixmystreet.com/rss/reports/Nuneaton+and+Bedworth
+    status: verified
+  - name: North Warwickshire
+    label: North Warwickshire
+    feed: https://www.fixmystreet.com/rss/reports/North+Warwickshire
+    status: verified
+  - name: North West Leicestershire
+    label: North West Leicestershire
+    feed: https://www.fixmystreet.com/rss/reports/North+West+Leicestershire
+    status: verified
+  - name: Newham
+    label: Newham
+    feed: https://www.fixmystreet.com/rss/reports/Newham
+    status: verified
+  - name: Newport
+    label: Newport
+    feed: https://www.fixmystreet.com/rss/reports/Newport
+    status: verified
+  - name: North Yorkshire
+    label: North Yorkshire
+    feed: https://www.fixmystreet.com/rss/reports/North+Yorkshire
+    status: verified
+  - name: Oadby and Wigston
+    label: Oadby and Wigston
+    feed: https://www.fixmystreet.com/rss/reports/Oadby+and+Wigston
+    status: verified
+  - name: Oldham
+    label: Oldham
+    feed: https://www.fixmystreet.com/rss/reports/Oldham
+    status: verified
+  - name: Orkney Islands
+    label: Orkney Islands
+    feed: https://www.fixmystreet.com/rss/reports/Orkney+Islands
+    status: verified
+  - name: Oxfordshire
+    label: Oxfordshire
+    feed: https://www.fixmystreet.com/rss/reports/Oxfordshire
+    status: verified
+  - name: Oxford
+    label: Oxford
+    feed: https://www.fixmystreet.com/rss/reports/Oxford
+    status: verified
+  - name: Pembrokeshire
+    label: Pembrokeshire
+    feed: https://www.fixmystreet.com/rss/reports/Pembrokeshire
+    status: verified
+  - name: Pendle
+    label: Pendle
+    feed: https://www.fixmystreet.com/rss/reports/Pendle
+    status: verified
+  - name: Perth and Kinross
+    label: Perth and Kinross
+    feed: https://www.fixmystreet.com/rss/reports/Perth+and+Kinross
+    status: verified
+  - name: Plymouth
+    label: Plymouth
+    feed: https://www.fixmystreet.com/rss/reports/Plymouth
+    status: verified
+  - name: Portsmouth
+    label: Portsmouth
+    feed: https://www.fixmystreet.com/rss/reports/Portsmouth
+    status: verified
+  - name: Powys
+    label: Powys
+    feed: https://www.fixmystreet.com/rss/reports/Powys
+    status: verified
+  - name: Preston
+    label: Preston
+    feed: https://www.fixmystreet.com/rss/reports/Preston
+    status: verified
+  - name: Peterborough
+    label: Peterborough
+    feed: https://www.fixmystreet.com/rss/reports/Peterborough
+    status: verified
+  - name: Redcar and Cleveland
+    label: Redcar and Cleveland
+    feed: https://www.fixmystreet.com/rss/reports/Redcar+and+Cleveland
+    status: verified
+  - name: Rochdale
+    label: Rochdale
+    feed: https://www.fixmystreet.com/rss/reports/Rochdale
+    status: verified
+  - name: Rhondda Cynon Taff
+    label: Rhondda Cynon Taff
+    feed: https://www.fixmystreet.com/rss/reports/Rhondda+Cynon+Taff
+    status: dead
+  - name: Redbridge
+    label: Redbridge
+    feed: https://www.fixmystreet.com/rss/reports/Redbridge
+    status: verified
+  - name: Reading
+    label: Reading
+    feed: https://www.fixmystreet.com/rss/reports/Reading
+    status: verified
+  - name: Redditch
+    label: Redditch
+    feed: https://www.fixmystreet.com/rss/reports/Redditch
+    status: verified
+  - name: Reigate and Banstead
+    label: Reigate and Banstead
+    feed: https://www.fixmystreet.com/rss/reports/Reigate+and+Banstead
+    status: verified
+  - name: Renfrewshire
+    label: Renfrewshire
+    feed: https://www.fixmystreet.com/rss/reports/Renfrewshire
+    status: verified
+  - name: Ribble Valley
+    label: Ribble Valley
+    feed: https://www.fixmystreet.com/rss/reports/Ribble+Valley
+    status: verified
+  - name: Richmond upon Thames
+    label: Richmond upon Thames
+    feed: https://www.fixmystreet.com/rss/reports/Richmond+upon+Thames
+    status: verified
+  - name: Rochford
+    label: Rochford
+    feed: https://www.fixmystreet.com/rss/reports/Rochford
+    status: verified
+  - name: Rother
+    label: Rother
+    feed: https://www.fixmystreet.com/rss/reports/Rother
+    status: verified
+  - name: Rossendale
+    label: Rossendale
+    feed: https://www.fixmystreet.com/rss/reports/Rossendale
+    status: verified
+  - name: Rotherham
+    label: Rotherham
+    feed: https://www.fixmystreet.com/rss/reports/Rotherham
+    status: verified
+  - name: Rugby
+    label: Rugby
+    feed: https://www.fixmystreet.com/rss/reports/Rugby
+    status: verified
+  - name: Rushmoor
+    label: Rushmoor
+    feed: https://www.fixmystreet.com/rss/reports/Rushmoor
+    status: verified
+  - name: Runnymede
+    label: Runnymede
+    feed: https://www.fixmystreet.com/rss/reports/Runnymede
+    status: verified
+  - name: Rushcliffe
+    label: Rushcliffe
+    feed: https://www.fixmystreet.com/rss/reports/Rushcliffe
+    status: verified
+  - name: Rutland
+    label: Rutland
+    feed: https://www.fixmystreet.com/rss/reports/Rutland
+    status: verified
+  - name: St Albans
+    label: St Albans
+    feed: https://www.fixmystreet.com/rss/reports/St+Albans
+    status: verified
+  - name: Sandwell
+    label: Sandwell
+    feed: https://www.fixmystreet.com/rss/reports/Sandwell
+    status: verified
+  - name: South Ayrshire
+    label: South Ayrshire
+    feed: https://www.fixmystreet.com/rss/reports/South+Ayrshire
+    status: verified
+  - name: South Cambridgeshire
+    label: South Cambridgeshire
+    feed: https://www.fixmystreet.com/rss/reports/South+Cambridgeshire
+    status: verified
+  - name: The Scottish Borders
+    label: The Scottish Borders
+    feed: https://www.fixmystreet.com/rss/reports/The+Scottish+Borders
+    status: dead
+  - name: South Yorkshire Mayoral Combined Authority
+    label: South Yorkshire Mayoral Combined Authority
+    feed: https://www.fixmystreet.com/rss/reports/South+Yorkshire+Mayoral+Combined+Authority
+    status: dead
+  - name: South Derbyshire
+    label: South Derbyshire
+    feed: https://www.fixmystreet.com/rss/reports/South+Derbyshire
+    status: verified
+  - name: Sevenoaks
+    label: Sevenoaks
+    feed: https://www.fixmystreet.com/rss/reports/Sevenoaks
+    status: verified
+  - name: Suffolk
+    label: Suffolk
+    feed: https://www.fixmystreet.com/rss/reports/Suffolk
+    status: verified
+  - name: Sefton
+    label: Sefton
+    feed: https://www.fixmystreet.com/rss/reports/Sefton
+    status: verified
+  - name: South Gloucestershire
+    label: South Gloucestershire
+    feed: https://www.fixmystreet.com/rss/reports/South+Gloucestershire
+    status: verified
+  - name: South Hams
+    label: South Hams
+    feed: https://www.fixmystreet.com/rss/reports/South+Hams
+    status: verified
+  - name: Folkestone and Hythe
+    label: Folkestone and Hythe
+    feed: https://www.fixmystreet.com/rss/reports/Folkestone+and+Hythe
+    status: verified
+  - name: Sheffield
+    label: Sheffield
+    feed: https://www.fixmystreet.com/rss/reports/Sheffield
+    status: verified
+  - name: St. Helens
+    label: St. Helens
+    feed: https://www.fixmystreet.com/rss/reports/St.+Helens
+    status: dead
+  - name: South Holland
+    label: South Holland
+    feed: https://www.fixmystreet.com/rss/reports/South+Holland
+    status: verified
+  - name: Shropshire
+    label: Shropshire
+    feed: https://www.fixmystreet.com/rss/reports/Shropshire
+    status: verified
+  - name: South Kesteven
+    label: South Kesteven
+    feed: https://www.fixmystreet.com/rss/reports/South+Kesteven
+    status: verified
+  - name: Stockport
+    label: Stockport
+    feed: https://www.fixmystreet.com/rss/reports/Stockport
+    status: verified
+  - name: Salford
+    label: Salford
+    feed: https://www.fixmystreet.com/rss/reports/Salford
+    status: verified
+  - name: Slough
+    label: Slough
+    feed: https://www.fixmystreet.com/rss/reports/Slough
+    status: verified
+  - name: South Lanarkshire
+    label: South Lanarkshire
+    feed: https://www.fixmystreet.com/rss/reports/South+Lanarkshire
+    status: verified
+  - name: Somerset
+    label: Somerset
+    feed: https://www.fixmystreet.com/rss/reports/Somerset
+    status: verified
+  - name: Sunderland
+    label: Sunderland
+    feed: https://www.fixmystreet.com/rss/reports/Sunderland
+    status: verified
+  - name: South Norfolk
+    label: South Norfolk
+    feed: https://www.fixmystreet.com/rss/reports/South+Norfolk
+    status: verified
+  - name: Solihull
+    label: Solihull
+    feed: https://www.fixmystreet.com/rss/reports/Solihull
+    status: verified
+  - name: Southend-on-Sea
+    label: Southend-on-Sea
+    feed: https://www.fixmystreet.com/rss/reports/Southend-on-Sea
+    status: verified
+  - name: South Oxfordshire
+    label: South Oxfordshire
+    feed: https://www.fixmystreet.com/rss/reports/South+Oxfordshire
+    status: verified
+  - name: Spelthorne
+    label: Spelthorne
+    feed: https://www.fixmystreet.com/rss/reports/Spelthorne
+    status: verified
+  - name: South Ribble
+    label: South Ribble
+    feed: https://www.fixmystreet.com/rss/reports/South+Ribble
+    status: verified
+  - name: Surrey
+    label: Surrey
+    feed: https://www.fixmystreet.com/rss/reports/Surrey
+    status: verified
+  - name: South Staffordshire
+    label: South Staffordshire
+    feed: https://www.fixmystreet.com/rss/reports/South+Staffordshire
+    status: verified
+  - name: Stafford
+    label: Stafford
+    feed: https://www.fixmystreet.com/rss/reports/Stafford
+    status: verified
+  - name: Stoke-on-Trent
+    label: Stoke-on-Trent
+    feed: https://www.fixmystreet.com/rss/reports/Stoke-on-Trent
+    status: verified
+  - name: Staffordshire Moorlands
+    label: Staffordshire Moorlands
+    feed: https://www.fixmystreet.com/rss/reports/Staffordshire+Moorlands
+    status: verified
+  - name: Stirling
+    label: Stirling
+    feed: https://www.fixmystreet.com/rss/reports/Stirling
+    status: verified
+  - name: Southampton
+    label: Southampton
+    feed: https://www.fixmystreet.com/rss/reports/Southampton
+    status: verified
+  - name: Sutton
+    label: Sutton
+    feed: https://www.fixmystreet.com/rss/reports/Sutton
+    status: verified
+  - name: Stroud
+    label: Stroud
+    feed: https://www.fixmystreet.com/rss/reports/Stroud
+    status: verified
+  - name: Stratford-on-Avon
+    label: Stratford-on-Avon
+    feed: https://www.fixmystreet.com/rss/reports/Stratford-on-Avon
+    status: verified
+  - name: Staffordshire
+    label: Staffordshire
+    feed: https://www.fixmystreet.com/rss/reports/Staffordshire
+    status: verified
+  - name: Stockton-on-Tees
+    label: Stockton-on-Tees
+    feed: https://www.fixmystreet.com/rss/reports/Stockton-on-Tees
+    status: verified
+  - name: Stevenage
+    label: Stevenage
+    feed: https://www.fixmystreet.com/rss/reports/Stevenage
+    status: verified
+  - name: South Tyneside
+    label: South Tyneside
+    feed: https://www.fixmystreet.com/rss/reports/South+Tyneside
+    status: verified
+  - name: Surrey Heath
+    label: Surrey Heath
+    feed: https://www.fixmystreet.com/rss/reports/Surrey+Heath
+    status: verified
+  - name: Swansea
+    label: Swansea
+    feed: https://www.fixmystreet.com/rss/reports/Swansea
+    status: verified
+  - name: Swindon
+    label: Swindon
+    feed: https://www.fixmystreet.com/rss/reports/Swindon
+    status: verified
+  - name: Southwark
+    label: Southwark
+    feed: https://www.fixmystreet.com/rss/reports/Southwark
+    status: verified
+  - name: Swale
+    label: Swale
+    feed: https://www.fixmystreet.com/rss/reports/Swale
+    status: verified
+  - name: Tameside
+    label: Tameside
+    feed: https://www.fixmystreet.com/rss/reports/Tameside
+    status: verified
+  - name: Tandridge
+    label: Tandridge
+    feed: https://www.fixmystreet.com/rss/reports/Tandridge
+    status: verified
+  - name: Tamworth
+    label: Tamworth
+    feed: https://www.fixmystreet.com/rss/reports/Tamworth
+    status: verified
+  - name: Teignbridge
+    label: Teignbridge
+    feed: https://www.fixmystreet.com/rss/reports/Teignbridge
+    status: verified
+  - name: Tendring
+    label: Tendring
+    feed: https://www.fixmystreet.com/rss/reports/Tendring
+    status: verified
+  - name: Test Valley
+    label: Test Valley
+    feed: https://www.fixmystreet.com/rss/reports/Test+Valley
+    status: verified
+  - name: Tewkesbury
+    label: Tewkesbury
+    feed: https://www.fixmystreet.com/rss/reports/Tewkesbury
+    status: verified
+  - name: Telford and Wrekin
+    label: Telford and Wrekin
+    feed: https://www.fixmystreet.com/rss/reports/Telford+and+Wrekin
+    status: verified
+  - name: Thanet
+    label: Thanet
+    feed: https://www.fixmystreet.com/rss/reports/Thanet
+    status: verified
+  - name: Three Rivers
+    label: Three Rivers
+    feed: https://www.fixmystreet.com/rss/reports/Three+Rivers
+    status: verified
+  - name: Thurrock
+    label: Thurrock
+    feed: https://www.fixmystreet.com/rss/reports/Thurrock
+    status: verified
+  - name: Torbay
+    label: Torbay
+    feed: https://www.fixmystreet.com/rss/reports/Torbay
+    status: verified
+  - name: Torfaen
+    label: Torfaen
+    feed: https://www.fixmystreet.com/rss/reports/Torfaen
+    status: verified
+  - name: Tonbridge and Malling
+    label: Tonbridge and Malling
+    feed: https://www.fixmystreet.com/rss/reports/Tonbridge+and+Malling
+    status: verified
+  - name: Torridge
+    label: Torridge
+    feed: https://www.fixmystreet.com/rss/reports/Torridge
+    status: verified
+  - name: Trafford
+    label: Trafford
+    feed: https://www.fixmystreet.com/rss/reports/Trafford
+    status: verified
+  - name: Tunbridge Wells
+    label: Tunbridge Wells
+    feed: https://www.fixmystreet.com/rss/reports/Tunbridge+Wells
+    status: verified
+  - name: Tees Valley
+    label: Tees Valley
+    feed: https://www.fixmystreet.com/rss/reports/Tees+Valley
+    status: dead
+  - name: Tower Hamlets
+    label: Tower Hamlets
+    feed: https://www.fixmystreet.com/rss/reports/Tower+Hamlets
+    status: verified
+  - name: Uttlesford
+    label: Uttlesford
+    feed: https://www.fixmystreet.com/rss/reports/Uttlesford
+    status: verified
+  - name: Vale of White Horse
+    label: Vale of White Horse
+    feed: https://www.fixmystreet.com/rss/reports/Vale+of+White+Horse
+    status: verified
+  - name: The Vale of Glamorgan
+    label: The Vale of Glamorgan
+    feed: https://www.fixmystreet.com/rss/reports/The+Vale+of+Glamorgan
+    status: dead
+  - name: Waverley
+    label: Waverley
+    feed: https://www.fixmystreet.com/rss/reports/Waverley
+    status: verified
+  - name: Westmorland and Furness
+    label: Westmorland and Furness
+    feed: https://www.fixmystreet.com/rss/reports/Westmorland+and+Furness
+    status: verified
+  - name: Warwickshire
+    label: Warwickshire
+    feed: https://www.fixmystreet.com/rss/reports/Warwickshire
+    status: verified
+  - name: Watford
+    label: Watford
+    feed: https://www.fixmystreet.com/rss/reports/Watford
+    status: verified
+  - name: Warwick
+    label: Warwick
+    feed: https://www.fixmystreet.com/rss/reports/Warwick
+    status: verified
+  - name: West Berkshire
+    label: West Berkshire
+    feed: https://www.fixmystreet.com/rss/reports/West+Berkshire
+    status: verified
+  - name: West Devon
+    label: West Devon
+    feed: https://www.fixmystreet.com/rss/reports/West+Devon
+    status: verified
+  - name: West Dunbartonshire
+    label: West Dunbartonshire
+    feed: https://www.fixmystreet.com/rss/reports/West+Dunbartonshire
+    status: verified
+  - name: Wealden
+    label: Wealden
+    feed: https://www.fixmystreet.com/rss/reports/Wealden
+    status: verified
+  - name: West of England
+    label: West of England
+    feed: https://www.fixmystreet.com/rss/reports/West+of+England
+    status: dead
+  - name: Welwyn Hatfield
+    label: Welwyn Hatfield
+    feed: https://www.fixmystreet.com/rss/reports/Welwyn+Hatfield
+    status: verified
+  - name: Wigan
+    label: Wigan
+    feed: https://www.fixmystreet.com/rss/reports/Wigan
+    status: verified
+  - name: Wiltshire
+    label: Wiltshire
+    feed: https://www.fixmystreet.com/rss/reports/Wiltshire
+    status: verified
+  - name: Winchester
+    label: Winchester
+    feed: https://www.fixmystreet.com/rss/reports/Winchester
+    status: verified
+  - name: Wakefield
+    label: Wakefield
+    feed: https://www.fixmystreet.com/rss/reports/Wakefield
+    status: verified
+  - name: West Lancashire
+    label: West Lancashire
+    feed: https://www.fixmystreet.com/rss/reports/West+Lancashire
+    status: verified
+  - name: West Lindsey
+    label: West Lindsey
+    feed: https://www.fixmystreet.com/rss/reports/West+Lindsey
+    status: verified
+  - name: Walsall
+    label: Walsall
+    feed: https://www.fixmystreet.com/rss/reports/Walsall
+    status: verified
+  - name: West Lothian
+    label: West Lothian
+    feed: https://www.fixmystreet.com/rss/reports/West+Lothian
+    status: verified
+  - name: Wolverhampton
+    label: Wolverhampton
+    feed: https://www.fixmystreet.com/rss/reports/Wolverhampton
+    status: dead
+  - name: West Midlands
+    label: West Midlands
+    feed: https://www.fixmystreet.com/rss/reports/West+Midlands
+    status: dead
+  - name: Wandsworth
+    label: Wandsworth
+    feed: https://www.fixmystreet.com/rss/reports/Wandsworth
+    status: verified
+  - name: Windsor and Maidenhead
+    label: Windsor and Maidenhead
+    feed: https://www.fixmystreet.com/rss/reports/Windsor+and+Maidenhead
+    status: verified
+  - name: West Northamptonshire
+    label: West Northamptonshire
+    feed: https://www.fixmystreet.com/rss/reports/West+Northamptonshire
+    status: verified
+  - name: Worcester
+    label: Worcester
+    feed: https://www.fixmystreet.com/rss/reports/Worcester
+    status: verified
+  - name: Woking
+    label: Woking
+    feed: https://www.fixmystreet.com/rss/reports/Woking
+    status: verified
+  - name: Wokingham
+    label: Wokingham
+    feed: https://www.fixmystreet.com/rss/reports/Wokingham
+    status: verified
+  - name: Worcestershire
+    label: Worcestershire
+    feed: https://www.fixmystreet.com/rss/reports/Worcestershire
+    status: verified
+  - name: Worthing
+    label: Worthing
+    feed: https://www.fixmystreet.com/rss/reports/Worthing
+    status: verified
+  - name: West Oxfordshire
+    label: West Oxfordshire
+    feed: https://www.fixmystreet.com/rss/reports/West+Oxfordshire
+    status: verified
+  - name: Wirral
+    label: Wirral
+    feed: https://www.fixmystreet.com/rss/reports/Wirral
+    status: verified
+  - name: Warrington
+    label: Warrington
+    feed: https://www.fixmystreet.com/rss/reports/Warrington
+    status: verified
+  - name: Wrexham
+    label: Wrexham
+    feed: https://www.fixmystreet.com/rss/reports/Wrexham
+    status: verified
+  - name: West Suffolk
+    label: West Suffolk
+    feed: https://www.fixmystreet.com/rss/reports/West+Suffolk
+    status: verified
+  - name: Westminster
+    label: Westminster
+    feed: https://www.fixmystreet.com/rss/reports/Westminster
+    status: verified
+  - name: West Sussex
+    label: West Sussex
+    feed: https://www.fixmystreet.com/rss/reports/West+Sussex
+    status: verified
+  - name: Wychavon
+    label: Wychavon
+    feed: https://www.fixmystreet.com/rss/reports/Wychavon
+    status: verified
+  - name: West Yorkshire
+    label: West Yorkshire
+    feed: https://www.fixmystreet.com/rss/reports/West+Yorkshire
+    status: dead
+  - name: Wyre Forest
+    label: Wyre Forest
+    feed: https://www.fixmystreet.com/rss/reports/Wyre+Forest
+    status: verified
+  - name: Wyre
+    label: Wyre
+    feed: https://www.fixmystreet.com/rss/reports/Wyre
+    status: verified
+  - name: York and North Yorkshire
+    label: York and North Yorkshire
+    feed: https://www.fixmystreet.com/rss/reports/York+and+North+Yorkshire
+    status: dead
+  - name: York
+    label: York
+    feed: https://www.fixmystreet.com/rss/reports/York
+    status: verified
+  - name: Shetland Islands
+    label: Shetland Islands
+    feed: https://www.fixmystreet.com/rss/reports/Shetland+Islands
+    status: verified
+council_news:
+  feeds:
+  - name: gnews-armagh-banbridge-craigavon
+    kind: google_news
+    label: Armagh City, Banbridge and Craigavon
+    url: https://news.google.com/rss/search?q=%22Armagh%20City%2C%20Banbridge%20and%20Craigavon%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-aberdeenshire
+    kind: google_news
+    label: Aberdeenshire
+    url: https://news.google.com/rss/search?q=%22Aberdeenshire%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-aberdeen
+    kind: google_news
+    label: Aberdeen City
+    url: https://news.google.com/rss/search?q=%22Aberdeen%20City%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-adur
+    kind: google_news
+    label: Adur
+    url: https://news.google.com/rss/search?q=%22Adur%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-argyll-and-bute
+    kind: google_news
+    label: Argyll and Bute
+    url: https://news.google.com/rss/search?q=%22Argyll%20and%20Bute%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-isle-of-anglesey
+    kind: google_news
+    label: Isle of Anglesey
+    url: https://news.google.com/rss/search?q=%22Isle%20of%20Anglesey%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-amber-valley
+    kind: google_news
+    label: Amber Valley
+    url: https://news.google.com/rss/search?q=%22Amber%20Valley%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-ards-and-north-down
+    kind: google_news
+    label: Ards and North Down
+    url: https://news.google.com/rss/search?q=%22Ards%20and%20North%20Down%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-antrim-newtownabbey
+    kind: google_news
+    label: Antrim and Newtownabbey
+    url: https://news.google.com/rss/search?q=%22Antrim%20and%20Newtownabbey%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-angus
+    kind: google_news
+    label: Angus
+    url: https://news.google.com/rss/search?q=%22Angus%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-arun
+    kind: google_news
+    label: Arun
+    url: https://news.google.com/rss/search?q=%22Arun%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-ashford
+    kind: google_news
+    label: Ashford
+    url: https://news.google.com/rss/search?q=%22Ashford%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-ashfield
+    kind: google_news
+    label: Ashfield
+    url: https://news.google.com/rss/search?q=%22Ashfield%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-babergh
+    kind: google_news
+    label: Babergh
+    url: https://news.google.com/rss/search?q=%22Babergh%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-bassetlaw
+    kind: google_news
+    label: Bassetlaw
+    url: https://news.google.com/rss/search?q=%22Bassetlaw%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-basildon
+    kind: google_news
+    label: Basildon
+    url: https://news.google.com/rss/search?q=%22Basildon%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-basingstoke-and-deane
+    kind: google_news
+    label: Basingstoke and Deane
+    url: https://news.google.com/rss/search?q=%22Basingstoke%20and%20Deane%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-bath-and-north-east-somerset
+    kind: google_news
+    label: Bath and North East Somerset
+    url: https://news.google.com/rss/search?q=%22Bath%20and%20North%20East%20Somerset%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-blackburn-with-darwen
+    kind: google_news
+    label: Blackburn with Darwen
+    url: https://news.google.com/rss/search?q=%22Blackburn%20with%20Darwen%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-bedford
+    kind: google_news
+    label: Bedford
+    url: https://news.google.com/rss/search?q=%22Bedford%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-barking-and-dagenham
+    kind: google_news
+    label: Barking and Dagenham
+    url: https://news.google.com/rss/search?q=%22Barking%20and%20Dagenham%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-brent
+    kind: google_news
+    label: Brent
+    url: https://news.google.com/rss/search?q=%22Brent%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-bexley
+    kind: google_news
+    label: Bexley
+    url: https://news.google.com/rss/search?q=%22Bexley%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-belfast
+    kind: google_news
+    label: Belfast
+    url: https://news.google.com/rss/search?q=%22Belfast%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-bridgend
+    kind: google_news
+    label: Bridgend
+    url: https://news.google.com/rss/search?q=%22Bridgend%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-blaenau-gwent
+    kind: google_news
+    label: Blaenau Gwent
+    url: https://news.google.com/rss/search?q=%22Blaenau%20Gwent%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-birmingham
+    kind: google_news
+    label: Birmingham
+    url: https://news.google.com/rss/search?q=%22Birmingham%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-blaby
+    kind: google_news
+    label: Blaby
+    url: https://news.google.com/rss/search?q=%22Blaby%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-barnet
+    kind: google_news
+    label: Barnet
+    url: https://news.google.com/rss/search?q=%22Barnet%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-brighton-and-hove
+    kind: google_news
+    label: Brighton and Hove
+    url: https://news.google.com/rss/search?q=%22Brighton%20and%20Hove%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-barnsley
+    kind: google_news
+    label: Barnsley
+    url: https://news.google.com/rss/search?q=%22Barnsley%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-bolton
+    kind: google_news
+    label: Bolton
+    url: https://news.google.com/rss/search?q=%22Bolton%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-bolsover
+    kind: google_news
+    label: Bolsover
+    url: https://news.google.com/rss/search?q=%22Bolsover%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-boston
+    kind: google_news
+    label: Boston
+    url: https://news.google.com/rss/search?q=%22Boston%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-bpc
+    kind: google_news
+    label: Bournemouth, Christchurch and Poole
+    url: https://news.google.com/rss/search?q=%22Bournemouth%2C%20Christchurch%20and%20Poole%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-blackpool
+    kind: google_news
+    label: Blackpool
+    url: https://news.google.com/rss/search?q=%22Blackpool%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-braintree
+    kind: google_news
+    label: Braintree
+    url: https://news.google.com/rss/search?q=%22Braintree%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-bracknell-forest
+    kind: google_news
+    label: Bracknell Forest
+    url: https://news.google.com/rss/search?q=%22Bracknell%20Forest%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-bradford
+    kind: google_news
+    label: Bradford
+    url: https://news.google.com/rss/search?q=%22Bradford%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-breckland
+    kind: google_news
+    label: Breckland
+    url: https://news.google.com/rss/search?q=%22Breckland%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-bromsgrove
+    kind: google_news
+    label: Bromsgrove
+    url: https://news.google.com/rss/search?q=%22Bromsgrove%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-broadland
+    kind: google_news
+    label: Broadland
+    url: https://news.google.com/rss/search?q=%22Broadland%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-broxtowe
+    kind: google_news
+    label: Broxtowe
+    url: https://news.google.com/rss/search?q=%22Broxtowe%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-brentwood
+    kind: google_news
+    label: Brentwood
+    url: https://news.google.com/rss/search?q=%22Brentwood%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-broxbourne
+    kind: google_news
+    label: Broxbourne
+    url: https://news.google.com/rss/search?q=%22Broxbourne%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-bromley
+    kind: google_news
+    label: Bromley
+    url: https://news.google.com/rss/search?q=%22Bromley%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-bristol
+    kind: google_news
+    label: City of Bristol
+    url: https://news.google.com/rss/search?q=%22City%20of%20Bristol%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-buc
+    kind: google_news
+    label: Buckinghamshire
+    url: https://news.google.com/rss/search?q=%22Buckinghamshire%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-burnley
+    kind: google_news
+    label: Burnley
+    url: https://news.google.com/rss/search?q=%22Burnley%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-bury
+    kind: google_news
+    label: Bury
+    url: https://news.google.com/rss/search?q=%22Bury%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-cambridge
+    kind: google_news
+    label: Cambridge
+    url: https://news.google.com/rss/search?q=%22Cambridge%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-cannock-chase
+    kind: google_news
+    label: Cannock Chase
+    url: https://news.google.com/rss/search?q=%22Cannock%20Chase%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-castle-point
+    kind: google_news
+    label: Castle Point
+    url: https://news.google.com/rss/search?q=%22Castle%20Point%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-canterbury
+    kind: google_news
+    label: Canterbury
+    url: https://news.google.com/rss/search?q=%22Canterbury%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-caerphilly
+    kind: google_news
+    label: Caerphilly
+    url: https://news.google.com/rss/search?q=%22Caerphilly%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-cbd
+    kind: google_news
+    label: Cumberland
+    url: https://news.google.com/rss/search?q=%22Cumberland%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-central-bedfordshire
+    kind: google_news
+    label: Central Bedfordshire
+    url: https://news.google.com/rss/search?q=%22Central%20Bedfordshire%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-causeway-coast-and-glens
+    kind: google_news
+    label: Causeway Coast and Glens
+    url: https://news.google.com/rss/search?q=%22Causeway%20Coast%20and%20Glens%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-ceredigion
+    kind: google_news
+    label: Ceredigion
+    url: https://news.google.com/rss/search?q=%22Ceredigion%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-charnwood
+    kind: google_news
+    label: Charnwood
+    url: https://news.google.com/rss/search?q=%22Charnwood%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-cheshire-east
+    kind: google_news
+    label: Cheshire East
+    url: https://news.google.com/rss/search?q=%22Cheshire%20East%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-chichester
+    kind: google_news
+    label: Chichester
+    url: https://news.google.com/rss/search?q=%22Chichester%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-chelmsford
+    kind: google_news
+    label: Chelmsford
+    url: https://news.google.com/rss/search?q=%22Chelmsford%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-chorley
+    kind: google_news
+    label: Chorley
+    url: https://news.google.com/rss/search?q=%22Chorley%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-cherwell
+    kind: google_news
+    label: Cherwell
+    url: https://news.google.com/rss/search?q=%22Cherwell%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-chesterfield
+    kind: google_news
+    label: Chesterfield
+    url: https://news.google.com/rss/search?q=%22Chesterfield%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-cheltenham
+    kind: google_news
+    label: Cheltenham
+    url: https://news.google.com/rss/search?q=%22Cheltenham%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-cheshire-west-and-chester
+    kind: google_news
+    label: Cheshire West and Chester
+    url: https://news.google.com/rss/search?q=%22Cheshire%20West%20and%20Chester%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-calderdale
+    kind: google_news
+    label: Calderdale
+    url: https://news.google.com/rss/search?q=%22Calderdale%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-clackmannanshire
+    kind: google_news
+    label: Clackmannanshire
+    url: https://news.google.com/rss/search?q=%22Clackmannanshire%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-camden
+    kind: google_news
+    label: Camden
+    url: https://news.google.com/rss/search?q=%22Camden%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-carmarthenshire
+    kind: google_news
+    label: Carmarthenshire
+    url: https://news.google.com/rss/search?q=%22Carmarthenshire%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-colchester
+    kind: google_news
+    label: Colchester
+    url: https://news.google.com/rss/search?q=%22Colchester%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-cornwall
+    kind: google_news
+    label: Cornwall
+    url: https://news.google.com/rss/search?q=%22Cornwall%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-cotswold
+    kind: google_news
+    label: Cotswold
+    url: https://news.google.com/rss/search?q=%22Cotswold%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-coventry
+    kind: google_news
+    label: Coventry
+    url: https://news.google.com/rss/search?q=%22Coventry%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-cardiff
+    kind: google_news
+    label: Cardiff
+    url: https://news.google.com/rss/search?q=%22Cardiff%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-crawley
+    kind: google_news
+    label: Crawley
+    url: https://news.google.com/rss/search?q=%22Crawley%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-conwy
+    kind: google_news
+    label: Conwy
+    url: https://news.google.com/rss/search?q=%22Conwy%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-dacorum
+    kind: google_news
+    label: Dacorum
+    url: https://news.google.com/rss/search?q=%22Dacorum%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-darlington
+    kind: google_news
+    label: Darlington
+    url: https://news.google.com/rss/search?q=%22Darlington%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-dartford
+    kind: google_news
+    label: Dartford
+    url: https://news.google.com/rss/search?q=%22Dartford%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-derbyshire-dales
+    kind: google_news
+    label: Derbyshire Dales
+    url: https://news.google.com/rss/search?q=%22Derbyshire%20Dales%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-denbighshire
+    kind: google_news
+    label: Denbighshire
+    url: https://news.google.com/rss/search?q=%22Denbighshire%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-derby
+    kind: google_news
+    label: Derby
+    url: https://news.google.com/rss/search?q=%22Derby%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-dumfries-and-galloway
+    kind: google_news
+    label: Dumfries and Galloway
+    url: https://news.google.com/rss/search?q=%22Dumfries%20and%20Galloway%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-doncaster
+    kind: google_news
+    label: Doncaster
+    url: https://news.google.com/rss/search?q=%22Doncaster%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-dundee
+    kind: google_news
+    label: Dundee City
+    url: https://news.google.com/rss/search?q=%22Dundee%20City%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-dover
+    kind: google_news
+    label: Dover
+    url: https://news.google.com/rss/search?q=%22Dover%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-derry-strabane
+    kind: google_news
+    label: Derry City and Strabane
+    url: https://news.google.com/rss/search?q=%22Derry%20City%20and%20Strabane%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-dst
+    kind: google_news
+    label: Dorset Council
+    url: https://news.google.com/rss/search?q=%22Dorset%20Council%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-dudley
+    kind: google_news
+    label: Dudley
+    url: https://news.google.com/rss/search?q=%22Dudley%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-county-durham
+    kind: google_news
+    label: County Durham
+    url: https://news.google.com/rss/search?q=%22County%20Durham%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-eastbourne
+    kind: google_news
+    label: Eastbourne
+    url: https://news.google.com/rss/search?q=%22Eastbourne%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-eastleigh
+    kind: google_news
+    label: Eastleigh
+    url: https://news.google.com/rss/search?q=%22Eastleigh%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-east-ayrshire
+    kind: google_news
+    label: East Ayrshire
+    url: https://news.google.com/rss/search?q=%22East%20Ayrshire%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-east-cambridgeshire
+    kind: google_news
+    label: East Cambridgeshire
+    url: https://news.google.com/rss/search?q=%22East%20Cambridgeshire%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-east-devon
+    kind: google_news
+    label: East Devon
+    url: https://news.google.com/rss/search?q=%22East%20Devon%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-edinburgh
+    kind: google_news
+    label: City of Edinburgh
+    url: https://news.google.com/rss/search?q=%22City%20of%20Edinburgh%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-east-dunbartonshire
+    kind: google_news
+    label: East Dunbartonshire
+    url: https://news.google.com/rss/search?q=%22East%20Dunbartonshire%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-east-hampshire
+    kind: google_news
+    label: East Hampshire
+    url: https://news.google.com/rss/search?q=%22East%20Hampshire%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-east-hertfordshire
+    kind: google_news
+    label: East Hertfordshire
+    url: https://news.google.com/rss/search?q=%22East%20Hertfordshire%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-east-lindsey
+    kind: google_news
+    label: East Lindsey
+    url: https://news.google.com/rss/search?q=%22East%20Lindsey%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-elmbridge
+    kind: google_news
+    label: Elmbridge
+    url: https://news.google.com/rss/search?q=%22Elmbridge%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-east-lothian
+    kind: google_news
+    label: East Lothian
+    url: https://news.google.com/rss/search?q=%22East%20Lothian%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-eilean-siar
+    kind: google_news
+    label: Eilean Siar
+    url: https://news.google.com/rss/search?q=%22Eilean%20Siar%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-enfield
+    kind: google_news
+    label: Enfield
+    url: https://news.google.com/rss/search?q=%22Enfield%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-epping-forest
+    kind: google_news
+    label: Epping Forest
+    url: https://news.google.com/rss/search?q=%22Epping%20Forest%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-epsom-and-ewell
+    kind: google_news
+    label: Epsom and Ewell
+    url: https://news.google.com/rss/search?q=%22Epsom%20and%20Ewell%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-erewash
+    kind: google_news
+    label: Erewash
+    url: https://news.google.com/rss/search?q=%22Erewash%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-east-renfrewshire
+    kind: google_news
+    label: East Renfrewshire
+    url: https://news.google.com/rss/search?q=%22East%20Renfrewshire%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-east-riding-of-yorkshire
+    kind: google_news
+    label: East Riding of Yorkshire
+    url: https://news.google.com/rss/search?q=%22East%20Riding%20of%20Yorkshire%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-esk
+    kind: google_news
+    label: East Suffolk
+    url: https://news.google.com/rss/search?q=%22East%20Suffolk%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-east-staffordshire
+    kind: google_news
+    label: East Staffordshire
+    url: https://news.google.com/rss/search?q=%22East%20Staffordshire%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-exeter
+    kind: google_news
+    label: Exeter
+    url: https://news.google.com/rss/search?q=%22Exeter%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-falkirk
+    kind: google_news
+    label: Falkirk
+    url: https://news.google.com/rss/search?q=%22Falkirk%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-fareham
+    kind: google_news
+    label: Fareham
+    url: https://news.google.com/rss/search?q=%22Fareham%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-fenland
+    kind: google_news
+    label: Fenland
+    url: https://news.google.com/rss/search?q=%22Fenland%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-fife
+    kind: google_news
+    label: Fife
+    url: https://news.google.com/rss/search?q=%22Fife%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-flintshire
+    kind: google_news
+    label: Flintshire
+    url: https://news.google.com/rss/search?q=%22Flintshire%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-fermanagh-omagh
+    kind: google_news
+    label: Fermanagh and Omagh
+    url: https://news.google.com/rss/search?q=%22Fermanagh%20and%20Omagh%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-forest-of-dean
+    kind: google_news
+    label: Forest of Dean
+    url: https://news.google.com/rss/search?q=%22Forest%20of%20Dean%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-fylde
+    kind: google_news
+    label: Fylde
+    url: https://news.google.com/rss/search?q=%22Fylde%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-gateshead
+    kind: google_news
+    label: Gateshead
+    url: https://news.google.com/rss/search?q=%22Gateshead%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-gedling
+    kind: google_news
+    label: Gedling
+    url: https://news.google.com/rss/search?q=%22Gedling%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-glasgow
+    kind: google_news
+    label: Glasgow City
+    url: https://news.google.com/rss/search?q=%22Glasgow%20City%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-gloucester
+    kind: google_news
+    label: Gloucester
+    url: https://news.google.com/rss/search?q=%22Gloucester%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-gosport
+    kind: google_news
+    label: Gosport
+    url: https://news.google.com/rss/search?q=%22Gosport%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-gravesham
+    kind: google_news
+    label: Gravesham
+    url: https://news.google.com/rss/search?q=%22Gravesham%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-greenwich
+    kind: google_news
+    label: Greenwich
+    url: https://news.google.com/rss/search?q=%22Greenwich%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-guildford
+    kind: google_news
+    label: Guildford
+    url: https://news.google.com/rss/search?q=%22Guildford%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-great-yarmouth
+    kind: google_news
+    label: Great Yarmouth
+    url: https://news.google.com/rss/search?q=%22Great%20Yarmouth%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-gwynedd
+    kind: google_news
+    label: Gwynedd
+    url: https://news.google.com/rss/search?q=%22Gwynedd%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-havant
+    kind: google_news
+    label: Havant
+    url: https://news.google.com/rss/search?q=%22Havant%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-halton
+    kind: google_news
+    label: Halton
+    url: https://news.google.com/rss/search?q=%22Halton%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-harborough
+    kind: google_news
+    label: Harborough
+    url: https://news.google.com/rss/search?q=%22Harborough%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-harlow
+    kind: google_news
+    label: Harlow
+    url: https://news.google.com/rss/search?q=%22Harlow%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-hastings
+    kind: google_news
+    label: Hastings
+    url: https://news.google.com/rss/search?q=%22Hastings%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-hart
+    kind: google_news
+    label: Hart
+    url: https://news.google.com/rss/search?q=%22Hart%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-havering
+    kind: google_news
+    label: Havering
+    url: https://news.google.com/rss/search?q=%22Havering%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-herefordshire
+    kind: google_news
+    label: Herefordshire
+    url: https://news.google.com/rss/search?q=%22Herefordshire%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-hertsmere
+    kind: google_news
+    label: Hertsmere
+    url: https://news.google.com/rss/search?q=%22Hertsmere%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-high-peak
+    kind: google_news
+    label: High Peak
+    url: https://news.google.com/rss/search?q=%22High%20Peak%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-hillingdon
+    kind: google_news
+    label: Hillingdon
+    url: https://news.google.com/rss/search?q=%22Hillingdon%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-hinckley-and-bosworth
+    kind: google_news
+    label: Hinckley and Bosworth
+    url: https://news.google.com/rss/search?q=%22Hinckley%20and%20Bosworth%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-highland
+    kind: google_news
+    label: Highland
+    url: https://news.google.com/rss/search?q=%22Highland%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-hammersmith-and-fulham
+    kind: google_news
+    label: Hammersmith and Fulham
+    url: https://news.google.com/rss/search?q=%22Hammersmith%20and%20Fulham%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-hounslow
+    kind: google_news
+    label: Hounslow
+    url: https://news.google.com/rss/search?q=%22Hounslow%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-horsham
+    kind: google_news
+    label: Horsham
+    url: https://news.google.com/rss/search?q=%22Horsham%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-hartlepool
+    kind: google_news
+    label: Hartlepool
+    url: https://news.google.com/rss/search?q=%22Hartlepool%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-harrow
+    kind: google_news
+    label: Harrow
+    url: https://news.google.com/rss/search?q=%22Harrow%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-haringey
+    kind: google_news
+    label: Haringey
+    url: https://news.google.com/rss/search?q=%22Haringey%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-huntingdonshire
+    kind: google_news
+    label: Huntingdonshire
+    url: https://news.google.com/rss/search?q=%22Huntingdonshire%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-hyndburn
+    kind: google_news
+    label: Hyndburn
+    url: https://news.google.com/rss/search?q=%22Hyndburn%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-isles-of-scilly
+    kind: google_news
+    label: Isles of Scilly
+    url: https://news.google.com/rss/search?q=%22Isles%20of%20Scilly%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-isle-of-wight
+    kind: google_news
+    label: Isle of Wight
+    url: https://news.google.com/rss/search?q=%22Isle%20of%20Wight%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-ipswich
+    kind: google_news
+    label: Ipswich
+    url: https://news.google.com/rss/search?q=%22Ipswich%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-islington
+    kind: google_news
+    label: Islington
+    url: https://news.google.com/rss/search?q=%22Islington%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-inverclyde
+    kind: google_news
+    label: Inverclyde
+    url: https://news.google.com/rss/search?q=%22Inverclyde%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-kensington-and-chelsea
+    kind: google_news
+    label: Kensington and Chelsea
+    url: https://news.google.com/rss/search?q=%22Kensington%20and%20Chelsea%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-kingston-upon-hull
+    kind: google_news
+    label: Kingston upon Hull
+    url: https://news.google.com/rss/search?q=%22Kingston%20upon%20Hull%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-kings-lynn-and-west-norfolk
+    kind: google_news
+    label: Kings Lynn and West Norfolk
+    url: https://news.google.com/rss/search?q=%22Kings%20Lynn%20and%20West%20Norfolk%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-kirklees
+    kind: google_news
+    label: Kirklees
+    url: https://news.google.com/rss/search?q=%22Kirklees%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-kingston-upon-thames
+    kind: google_news
+    label: Kingston upon Thames
+    url: https://news.google.com/rss/search?q=%22Kingston%20upon%20Thames%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-knowsley
+    kind: google_news
+    label: Knowsley
+    url: https://news.google.com/rss/search?q=%22Knowsley%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-lancaster
+    kind: google_news
+    label: Lancaster
+    url: https://news.google.com/rss/search?q=%22Lancaster%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-lisburn-castlereagh
+    kind: google_news
+    label: Lisburn and Castlereagh
+    url: https://news.google.com/rss/search?q=%22Lisburn%20and%20Castlereagh%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-lambeth
+    kind: google_news
+    label: Lambeth
+    url: https://news.google.com/rss/search?q=%22Lambeth%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-leicester
+    kind: google_news
+    label: Leicester
+    url: https://news.google.com/rss/search?q=%22Leicester%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-leeds
+    kind: google_news
+    label: Leeds
+    url: https://news.google.com/rss/search?q=%22Leeds%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-lewes
+    kind: google_news
+    label: Lewes
+    url: https://news.google.com/rss/search?q=%22Lewes%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-lincoln
+    kind: google_news
+    label: City of Lincoln
+    url: https://news.google.com/rss/search?q=%22City%20of%20Lincoln%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-lichfield
+    kind: google_news
+    label: Lichfield
+    url: https://news.google.com/rss/search?q=%22Lichfield%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-liverpool
+    kind: google_news
+    label: Liverpool
+    url: https://news.google.com/rss/search?q=%22Liverpool%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-city-of-london
+    kind: google_news
+    label: City of London
+    url: https://news.google.com/rss/search?q=%22City%20of%20London%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-luton
+    kind: google_news
+    label: Luton
+    url: https://news.google.com/rss/search?q=%22Luton%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-maidstone
+    kind: google_news
+    label: Maidstone
+    url: https://news.google.com/rss/search?q=%22Maidstone%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-maldon
+    kind: google_news
+    label: Maldon
+    url: https://news.google.com/rss/search?q=%22Maldon%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-manchester
+    kind: google_news
+    label: Manchester
+    url: https://news.google.com/rss/search?q=%22Manchester%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-mansfield
+    kind: google_news
+    label: Mansfield
+    url: https://news.google.com/rss/search?q=%22Mansfield%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-malvern-hills
+    kind: google_news
+    label: Malvern Hills
+    url: https://news.google.com/rss/search?q=%22Malvern%20Hills%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-middlesbrough
+    kind: google_news
+    label: Middlesbrough
+    url: https://news.google.com/rss/search?q=%22Middlesbrough%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-mid-devon
+    kind: google_news
+    label: Mid Devon
+    url: https://news.google.com/rss/search?q=%22Mid%20Devon%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-medway
+    kind: google_news
+    label: Medway
+    url: https://news.google.com/rss/search?q=%22Medway%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-mid-and-east-antrim
+    kind: google_news
+    label: Mid and East Antrim
+    url: https://news.google.com/rss/search?q=%22Mid%20and%20East%20Antrim%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-melton
+    kind: google_news
+    label: Melton
+    url: https://news.google.com/rss/search?q=%22Melton%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-milton-keynes
+    kind: google_news
+    label: Milton Keynes
+    url: https://news.google.com/rss/search?q=%22Milton%20Keynes%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-midlothian
+    kind: google_news
+    label: Midlothian
+    url: https://news.google.com/rss/search?q=%22Midlothian%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-mole-valley
+    kind: google_news
+    label: Mole Valley
+    url: https://news.google.com/rss/search?q=%22Mole%20Valley%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-monmouthshire
+    kind: google_news
+    label: Monmouthshire
+    url: https://news.google.com/rss/search?q=%22Monmouthshire%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-merton
+    kind: google_news
+    label: Merton
+    url: https://news.google.com/rss/search?q=%22Merton%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-moray
+    kind: google_news
+    label: Moray
+    url: https://news.google.com/rss/search?q=%22Moray%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-mid-sussex
+    kind: google_news
+    label: Mid Sussex
+    url: https://news.google.com/rss/search?q=%22Mid%20Sussex%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-mid-suffolk
+    kind: google_news
+    label: Mid Suffolk
+    url: https://news.google.com/rss/search?q=%22Mid%20Suffolk%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-merthyr-tydfil
+    kind: google_news
+    label: Merthyr Tydfil
+    url: https://news.google.com/rss/search?q=%22Merthyr%20Tydfil%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-mid-ulster
+    kind: google_news
+    label: Mid Ulster
+    url: https://news.google.com/rss/search?q=%22Mid%20Ulster%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-north-ayrshire
+    kind: google_news
+    label: North Ayrshire
+    url: https://news.google.com/rss/search?q=%22North%20Ayrshire%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-northumberland
+    kind: google_news
+    label: Northumberland
+    url: https://news.google.com/rss/search?q=%22Northumberland%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-north-devon
+    kind: google_news
+    label: North Devon
+    url: https://news.google.com/rss/search?q=%22North%20Devon%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-newark-and-sherwood
+    kind: google_news
+    label: Newark and Sherwood
+    url: https://news.google.com/rss/search?q=%22Newark%20and%20Sherwood%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-newcastle-under-lyme
+    kind: google_news
+    label: Newcastle-under-Lyme
+    url: https://news.google.com/rss/search?q=%22Newcastle-under-Lyme%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-north-east-derbyshire
+    kind: google_news
+    label: North East Derbyshire
+    url: https://news.google.com/rss/search?q=%22North%20East%20Derbyshire%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-north-east-lincolnshire
+    kind: google_news
+    label: North East Lincolnshire
+    url: https://news.google.com/rss/search?q=%22North%20East%20Lincolnshire%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-newcastle-upon-tyne
+    kind: google_news
+    label: Newcastle upon Tyne
+    url: https://news.google.com/rss/search?q=%22Newcastle%20upon%20Tyne%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-new-forest
+    kind: google_news
+    label: New Forest
+    url: https://news.google.com/rss/search?q=%22New%20Forest%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-nottingham
+    kind: google_news
+    label: Nottingham
+    url: https://news.google.com/rss/search?q=%22Nottingham%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-north-hertfordshire
+    kind: google_news
+    label: North Hertfordshire
+    url: https://news.google.com/rss/search?q=%22North%20Hertfordshire%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-north-kesteven
+    kind: google_news
+    label: North Kesteven
+    url: https://news.google.com/rss/search?q=%22North%20Kesteven%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-north-lanarkshire
+    kind: google_news
+    label: North Lanarkshire
+    url: https://news.google.com/rss/search?q=%22North%20Lanarkshire%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-north-lincolnshire
+    kind: google_news
+    label: North Lincolnshire
+    url: https://news.google.com/rss/search?q=%22North%20Lincolnshire%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-newry-mourne-down
+    kind: google_news
+    label: Newry, Mourne and Down
+    url: https://news.google.com/rss/search?q=%22Newry%2C%20Mourne%20and%20Down%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-north-norfolk
+    kind: google_news
+    label: North Norfolk
+    url: https://news.google.com/rss/search?q=%22North%20Norfolk%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-nnt
+    kind: google_news
+    label: North Northamptonshire
+    url: https://news.google.com/rss/search?q=%22North%20Northamptonshire%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-norwich
+    kind: google_news
+    label: Norwich
+    url: https://news.google.com/rss/search?q=%22Norwich%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-north-somerset
+    kind: google_news
+    label: North Somerset
+    url: https://news.google.com/rss/search?q=%22North%20Somerset%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-neath-port-talbot
+    kind: google_news
+    label: Neath Port Talbot
+    url: https://news.google.com/rss/search?q=%22Neath%20Port%20Talbot%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-north-tyneside
+    kind: google_news
+    label: North Tyneside
+    url: https://news.google.com/rss/search?q=%22North%20Tyneside%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-nuneaton-and-bedworth
+    kind: google_news
+    label: Nuneaton and Bedworth
+    url: https://news.google.com/rss/search?q=%22Nuneaton%20and%20Bedworth%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-north-warwickshire
+    kind: google_news
+    label: North Warwickshire
+    url: https://news.google.com/rss/search?q=%22North%20Warwickshire%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-north-west-leicestershire
+    kind: google_news
+    label: North West Leicestershire
+    url: https://news.google.com/rss/search?q=%22North%20West%20Leicestershire%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-newham
+    kind: google_news
+    label: Newham
+    url: https://news.google.com/rss/search?q=%22Newham%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-newport
+    kind: google_news
+    label: Newport
+    url: https://news.google.com/rss/search?q=%22Newport%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-nye
+    kind: google_news
+    label: North Yorkshire
+    url: https://news.google.com/rss/search?q=%22North%20Yorkshire%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-oadby-and-wigston
+    kind: google_news
+    label: Oadby and Wigston
+    url: https://news.google.com/rss/search?q=%22Oadby%20and%20Wigston%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-oldham
+    kind: google_news
+    label: Oldham
+    url: https://news.google.com/rss/search?q=%22Oldham%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-orkney-islands
+    kind: google_news
+    label: Orkney Islands
+    url: https://news.google.com/rss/search?q=%22Orkney%20Islands%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-oxford
+    kind: google_news
+    label: Oxford
+    url: https://news.google.com/rss/search?q=%22Oxford%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-pembrokeshire
+    kind: google_news
+    label: Pembrokeshire
+    url: https://news.google.com/rss/search?q=%22Pembrokeshire%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-pendle
+    kind: google_news
+    label: Pendle
+    url: https://news.google.com/rss/search?q=%22Pendle%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-perth-and-kinross
+    kind: google_news
+    label: Perth and Kinross
+    url: https://news.google.com/rss/search?q=%22Perth%20and%20Kinross%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-plymouth
+    kind: google_news
+    label: Plymouth
+    url: https://news.google.com/rss/search?q=%22Plymouth%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-portsmouth
+    kind: google_news
+    label: Portsmouth
+    url: https://news.google.com/rss/search?q=%22Portsmouth%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-powys
+    kind: google_news
+    label: Powys
+    url: https://news.google.com/rss/search?q=%22Powys%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-preston
+    kind: google_news
+    label: Preston
+    url: https://news.google.com/rss/search?q=%22Preston%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-peterborough
+    kind: google_news
+    label: Peterborough
+    url: https://news.google.com/rss/search?q=%22Peterborough%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-redcar-and-cleveland
+    kind: google_news
+    label: Redcar and Cleveland
+    url: https://news.google.com/rss/search?q=%22Redcar%20and%20Cleveland%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-rochdale
+    kind: google_news
+    label: Rochdale
+    url: https://news.google.com/rss/search?q=%22Rochdale%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-rhondda-cynon-taff
+    kind: google_news
+    label: Rhondda Cynon Taff
+    url: https://news.google.com/rss/search?q=%22Rhondda%20Cynon%20Taff%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-redbridge
+    kind: google_news
+    label: Redbridge
+    url: https://news.google.com/rss/search?q=%22Redbridge%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-reading
+    kind: google_news
+    label: Reading
+    url: https://news.google.com/rss/search?q=%22Reading%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-redditch
+    kind: google_news
+    label: Redditch
+    url: https://news.google.com/rss/search?q=%22Redditch%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-reigate-and-banstead
+    kind: google_news
+    label: Reigate and Banstead
+    url: https://news.google.com/rss/search?q=%22Reigate%20and%20Banstead%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-renfrewshire
+    kind: google_news
+    label: Renfrewshire
+    url: https://news.google.com/rss/search?q=%22Renfrewshire%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-ribble-valley
+    kind: google_news
+    label: Ribble Valley
+    url: https://news.google.com/rss/search?q=%22Ribble%20Valley%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-richmond-upon-thames
+    kind: google_news
+    label: Richmond upon Thames
+    url: https://news.google.com/rss/search?q=%22Richmond%20upon%20Thames%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-rochford
+    kind: google_news
+    label: Rochford
+    url: https://news.google.com/rss/search?q=%22Rochford%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-rother
+    kind: google_news
+    label: Rother
+    url: https://news.google.com/rss/search?q=%22Rother%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-rossendale
+    kind: google_news
+    label: Rossendale
+    url: https://news.google.com/rss/search?q=%22Rossendale%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-rotherham
+    kind: google_news
+    label: Rotherham
+    url: https://news.google.com/rss/search?q=%22Rotherham%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-rugby
+    kind: google_news
+    label: Rugby
+    url: https://news.google.com/rss/search?q=%22Rugby%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-rushmoor
+    kind: google_news
+    label: Rushmoor
+    url: https://news.google.com/rss/search?q=%22Rushmoor%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-runnymede
+    kind: google_news
+    label: Runnymede
+    url: https://news.google.com/rss/search?q=%22Runnymede%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-rushcliffe
+    kind: google_news
+    label: Rushcliffe
+    url: https://news.google.com/rss/search?q=%22Rushcliffe%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-rutland
+    kind: google_news
+    label: Rutland
+    url: https://news.google.com/rss/search?q=%22Rutland%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-st-albans
+    kind: google_news
+    label: St Albans
+    url: https://news.google.com/rss/search?q=%22St%20Albans%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-sandwell
+    kind: google_news
+    label: Sandwell
+    url: https://news.google.com/rss/search?q=%22Sandwell%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-south-ayrshire
+    kind: google_news
+    label: South Ayrshire
+    url: https://news.google.com/rss/search?q=%22South%20Ayrshire%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-south-cambridgeshire
+    kind: google_news
+    label: South Cambridgeshire
+    url: https://news.google.com/rss/search?q=%22South%20Cambridgeshire%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-scottish-borders
+    kind: google_news
+    label: The Scottish Borders
+    url: https://news.google.com/rss/search?q=%22The%20Scottish%20Borders%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-south-derbyshire
+    kind: google_news
+    label: South Derbyshire
+    url: https://news.google.com/rss/search?q=%22South%20Derbyshire%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-sevenoaks
+    kind: google_news
+    label: Sevenoaks
+    url: https://news.google.com/rss/search?q=%22Sevenoaks%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-sefton
+    kind: google_news
+    label: Sefton
+    url: https://news.google.com/rss/search?q=%22Sefton%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-south-gloucestershire
+    kind: google_news
+    label: South Gloucestershire
+    url: https://news.google.com/rss/search?q=%22South%20Gloucestershire%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-south-hams
+    kind: google_news
+    label: South Hams
+    url: https://news.google.com/rss/search?q=%22South%20Hams%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-shepway
+    kind: google_news
+    label: Folkestone and Hythe
+    url: https://news.google.com/rss/search?q=%22Folkestone%20and%20Hythe%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-sheffield
+    kind: google_news
+    label: Sheffield
+    url: https://news.google.com/rss/search?q=%22Sheffield%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-st.-helens
+    kind: google_news
+    label: St. Helens
+    url: https://news.google.com/rss/search?q=%22St.%20Helens%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-south-holland
+    kind: google_news
+    label: South Holland
+    url: https://news.google.com/rss/search?q=%22South%20Holland%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-shropshire
+    kind: google_news
+    label: Shropshire
+    url: https://news.google.com/rss/search?q=%22Shropshire%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-south-kesteven
+    kind: google_news
+    label: South Kesteven
+    url: https://news.google.com/rss/search?q=%22South%20Kesteven%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-stockport
+    kind: google_news
+    label: Stockport
+    url: https://news.google.com/rss/search?q=%22Stockport%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-salford
+    kind: google_news
+    label: Salford
+    url: https://news.google.com/rss/search?q=%22Salford%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-slough
+    kind: google_news
+    label: Slough
+    url: https://news.google.com/rss/search?q=%22Slough%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-south-lanarkshire
+    kind: google_news
+    label: South Lanarkshire
+    url: https://news.google.com/rss/search?q=%22South%20Lanarkshire%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-smt
+    kind: google_news
+    label: Somerset
+    url: https://news.google.com/rss/search?q=%22Somerset%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-sunderland
+    kind: google_news
+    label: Sunderland
+    url: https://news.google.com/rss/search?q=%22Sunderland%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-south-norfolk
+    kind: google_news
+    label: South Norfolk
+    url: https://news.google.com/rss/search?q=%22South%20Norfolk%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-solihull
+    kind: google_news
+    label: Solihull
+    url: https://news.google.com/rss/search?q=%22Solihull%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-southend-on-sea
+    kind: google_news
+    label: Southend-on-Sea
+    url: https://news.google.com/rss/search?q=%22Southend-on-Sea%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-south-oxfordshire
+    kind: google_news
+    label: South Oxfordshire
+    url: https://news.google.com/rss/search?q=%22South%20Oxfordshire%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-spelthorne
+    kind: google_news
+    label: Spelthorne
+    url: https://news.google.com/rss/search?q=%22Spelthorne%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-south-ribble
+    kind: google_news
+    label: South Ribble
+    url: https://news.google.com/rss/search?q=%22South%20Ribble%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-south-staffordshire
+    kind: google_news
+    label: South Staffordshire
+    url: https://news.google.com/rss/search?q=%22South%20Staffordshire%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-stafford
+    kind: google_news
+    label: Stafford
+    url: https://news.google.com/rss/search?q=%22Stafford%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-stoke-on-trent
+    kind: google_news
+    label: Stoke-on-Trent
+    url: https://news.google.com/rss/search?q=%22Stoke-on-Trent%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-staffordshire-moorlands
+    kind: google_news
+    label: Staffordshire Moorlands
+    url: https://news.google.com/rss/search?q=%22Staffordshire%20Moorlands%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-stirling
+    kind: google_news
+    label: Stirling
+    url: https://news.google.com/rss/search?q=%22Stirling%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-southampton
+    kind: google_news
+    label: Southampton
+    url: https://news.google.com/rss/search?q=%22Southampton%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-sutton
+    kind: google_news
+    label: Sutton
+    url: https://news.google.com/rss/search?q=%22Sutton%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-stroud
+    kind: google_news
+    label: Stroud
+    url: https://news.google.com/rss/search?q=%22Stroud%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-stratford-on-avon
+    kind: google_news
+    label: Stratford-on-Avon
+    url: https://news.google.com/rss/search?q=%22Stratford-on-Avon%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-stockton-on-tees
+    kind: google_news
+    label: Stockton-on-Tees
+    url: https://news.google.com/rss/search?q=%22Stockton-on-Tees%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-stevenage
+    kind: google_news
+    label: Stevenage
+    url: https://news.google.com/rss/search?q=%22Stevenage%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-south-tyneside
+    kind: google_news
+    label: South Tyneside
+    url: https://news.google.com/rss/search?q=%22South%20Tyneside%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-surrey-heath
+    kind: google_news
+    label: Surrey Heath
+    url: https://news.google.com/rss/search?q=%22Surrey%20Heath%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-swansea
+    kind: google_news
+    label: Swansea
+    url: https://news.google.com/rss/search?q=%22Swansea%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-swindon
+    kind: google_news
+    label: Swindon
+    url: https://news.google.com/rss/search?q=%22Swindon%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-southwark
+    kind: google_news
+    label: Southwark
+    url: https://news.google.com/rss/search?q=%22Southwark%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-swale
+    kind: google_news
+    label: Swale
+    url: https://news.google.com/rss/search?q=%22Swale%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-tameside
+    kind: google_news
+    label: Tameside
+    url: https://news.google.com/rss/search?q=%22Tameside%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-tandridge
+    kind: google_news
+    label: Tandridge
+    url: https://news.google.com/rss/search?q=%22Tandridge%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-tamworth
+    kind: google_news
+    label: Tamworth
+    url: https://news.google.com/rss/search?q=%22Tamworth%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-teignbridge
+    kind: google_news
+    label: Teignbridge
+    url: https://news.google.com/rss/search?q=%22Teignbridge%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-tendring
+    kind: google_news
+    label: Tendring
+    url: https://news.google.com/rss/search?q=%22Tendring%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-test-valley
+    kind: google_news
+    label: Test Valley
+    url: https://news.google.com/rss/search?q=%22Test%20Valley%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-tewkesbury
+    kind: google_news
+    label: Tewkesbury
+    url: https://news.google.com/rss/search?q=%22Tewkesbury%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-telford-and-wrekin
+    kind: google_news
+    label: Telford and Wrekin
+    url: https://news.google.com/rss/search?q=%22Telford%20and%20Wrekin%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-thanet
+    kind: google_news
+    label: Thanet
+    url: https://news.google.com/rss/search?q=%22Thanet%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-three-rivers
+    kind: google_news
+    label: Three Rivers
+    url: https://news.google.com/rss/search?q=%22Three%20Rivers%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-thurrock
+    kind: google_news
+    label: Thurrock
+    url: https://news.google.com/rss/search?q=%22Thurrock%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-torbay
+    kind: google_news
+    label: Torbay
+    url: https://news.google.com/rss/search?q=%22Torbay%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-torfaen
+    kind: google_news
+    label: Torfaen
+    url: https://news.google.com/rss/search?q=%22Torfaen%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-tonbridge-and-malling
+    kind: google_news
+    label: Tonbridge and Malling
+    url: https://news.google.com/rss/search?q=%22Tonbridge%20and%20Malling%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-torridge
+    kind: google_news
+    label: Torridge
+    url: https://news.google.com/rss/search?q=%22Torridge%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-trafford
+    kind: google_news
+    label: Trafford
+    url: https://news.google.com/rss/search?q=%22Trafford%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-tunbridge-wells
+    kind: google_news
+    label: Tunbridge Wells
+    url: https://news.google.com/rss/search?q=%22Tunbridge%20Wells%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-tower-hamlets
+    kind: google_news
+    label: Tower Hamlets
+    url: https://news.google.com/rss/search?q=%22Tower%20Hamlets%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-uttlesford
+    kind: google_news
+    label: Uttlesford
+    url: https://news.google.com/rss/search?q=%22Uttlesford%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-vale-of-white-horse
+    kind: google_news
+    label: Vale of White Horse
+    url: https://news.google.com/rss/search?q=%22Vale%20of%20White%20Horse%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-vale-of-glamorgan
+    kind: google_news
+    label: The Vale of Glamorgan
+    url: https://news.google.com/rss/search?q=%22The%20Vale%20of%20Glamorgan%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-waverley
+    kind: google_news
+    label: Waverley
+    url: https://news.google.com/rss/search?q=%22Waverley%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-waf
+    kind: google_news
+    label: Westmorland and Furness
+    url: https://news.google.com/rss/search?q=%22Westmorland%20and%20Furness%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-watford
+    kind: google_news
+    label: Watford
+    url: https://news.google.com/rss/search?q=%22Watford%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-warwick
+    kind: google_news
+    label: Warwick
+    url: https://news.google.com/rss/search?q=%22Warwick%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-west-berkshire
+    kind: google_news
+    label: West Berkshire
+    url: https://news.google.com/rss/search?q=%22West%20Berkshire%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-west-devon
+    kind: google_news
+    label: West Devon
+    url: https://news.google.com/rss/search?q=%22West%20Devon%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-west-dunbartonshire
+    kind: google_news
+    label: West Dunbartonshire
+    url: https://news.google.com/rss/search?q=%22West%20Dunbartonshire%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-wealden
+    kind: google_news
+    label: Wealden
+    url: https://news.google.com/rss/search?q=%22Wealden%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-welwyn-hatfield
+    kind: google_news
+    label: Welwyn Hatfield
+    url: https://news.google.com/rss/search?q=%22Welwyn%20Hatfield%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-waltham-forest
+    kind: google_news
+    label: Waltham Forest
+    url: https://news.google.com/rss/search?q=%22Waltham%20Forest%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-wigan
+    kind: google_news
+    label: Wigan
+    url: https://news.google.com/rss/search?q=%22Wigan%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-wiltshire
+    kind: google_news
+    label: Wiltshire
+    url: https://news.google.com/rss/search?q=%22Wiltshire%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-winchester
+    kind: google_news
+    label: Winchester
+    url: https://news.google.com/rss/search?q=%22Winchester%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-wakefield
+    kind: google_news
+    label: Wakefield
+    url: https://news.google.com/rss/search?q=%22Wakefield%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-west-lancashire
+    kind: google_news
+    label: West Lancashire
+    url: https://news.google.com/rss/search?q=%22West%20Lancashire%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-west-lindsey
+    kind: google_news
+    label: West Lindsey
+    url: https://news.google.com/rss/search?q=%22West%20Lindsey%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-walsall
+    kind: google_news
+    label: Walsall
+    url: https://news.google.com/rss/search?q=%22Walsall%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-west-lothian
+    kind: google_news
+    label: West Lothian
+    url: https://news.google.com/rss/search?q=%22West%20Lothian%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-wolverhampton
+    kind: google_news
+    label: Wolverhampton
+    url: https://news.google.com/rss/search?q=%22Wolverhampton%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-wandsworth
+    kind: google_news
+    label: Wandsworth
+    url: https://news.google.com/rss/search?q=%22Wandsworth%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-windsor-and-maidenhead
+    kind: google_news
+    label: Windsor and Maidenhead
+    url: https://news.google.com/rss/search?q=%22Windsor%20and%20Maidenhead%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-wnt
+    kind: google_news
+    label: West Northamptonshire
+    url: https://news.google.com/rss/search?q=%22West%20Northamptonshire%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-worcester
+    kind: google_news
+    label: Worcester
+    url: https://news.google.com/rss/search?q=%22Worcester%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-woking
+    kind: google_news
+    label: Woking
+    url: https://news.google.com/rss/search?q=%22Woking%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-wokingham
+    kind: google_news
+    label: Wokingham
+    url: https://news.google.com/rss/search?q=%22Wokingham%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-worthing
+    kind: google_news
+    label: Worthing
+    url: https://news.google.com/rss/search?q=%22Worthing%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-west-oxfordshire
+    kind: google_news
+    label: West Oxfordshire
+    url: https://news.google.com/rss/search?q=%22West%20Oxfordshire%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-wirral
+    kind: google_news
+    label: Wirral
+    url: https://news.google.com/rss/search?q=%22Wirral%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-warrington
+    kind: google_news
+    label: Warrington
+    url: https://news.google.com/rss/search?q=%22Warrington%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-wrexham
+    kind: google_news
+    label: Wrexham
+    url: https://news.google.com/rss/search?q=%22Wrexham%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-wsk
+    kind: google_news
+    label: West Suffolk
+    url: https://news.google.com/rss/search?q=%22West%20Suffolk%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-westminster
+    kind: google_news
+    label: Westminster
+    url: https://news.google.com/rss/search?q=%22Westminster%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-wychavon
+    kind: google_news
+    label: Wychavon
+    url: https://news.google.com/rss/search?q=%22Wychavon%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-wyre-forest
+    kind: google_news
+    label: Wyre Forest
+    url: https://news.google.com/rss/search?q=%22Wyre%20Forest%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-wyre
+    kind: google_news
+    label: Wyre
+    url: https://news.google.com/rss/search?q=%22Wyre%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-york
+    kind: google_news
+    label: York
+    url: https://news.google.com/rss/search?q=%22York%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-shetland-islands
+    kind: google_news
+    label: Shetland Islands
+    url: https://news.google.com/rss/search?q=%22Shetland%20Islands%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: aberdeencity-audit-risk-and-scrutiny-committee
+    kind: council_agenda
+    label: Aberdeen City
+    url: https://aberdeen.moderngov.co.uk/mgRss.aspx?Type=2&CId=507
+    status: verified
+  - name: aberdeencity-planning-development-management-committe
+    kind: council_agenda
+    label: Aberdeen City
+    url: https://aberdeen.moderngov.co.uk/mgRss.aspx?Type=2&CId=348
+    status: verified
+  - name: aberdeencity-planning-development-management-committe
+    kind: council_agenda
+    label: Aberdeen City
+    url: https://aberdeen.moderngov.co.uk/mgRss.aspx?Type=2&CId=152
+    status: verified
+  - name: arun-full-council
+    kind: council_agenda
+    label: Arun
+    url: https://democracy.arun.gov.uk/mgRss.aspx?Type=2&CId=141
+    status: verified
+  - name: arun-planning-committee
+    kind: council_agenda
+    label: Arun
+    url: https://democracy.arun.gov.uk/mgRss.aspx?Type=2&CId=137
+    status: verified
+  - name: arun-planning-policy-committee
+    kind: council_agenda
+    label: Arun
+    url: https://democracy.arun.gov.uk/mgRss.aspx?Type=2&CId=349
+    status: verified
+  - name: ashford-cabinet
+    kind: council_agenda
+    label: Ashford
+    url: https://ashford.moderngov.co.uk/mgRss.aspx?Type=2&CId=136
+    status: verified
+  - name: ashford-overview-and-scrutiny-committee
+    kind: council_agenda
+    label: Ashford
+    url: https://ashford.moderngov.co.uk/mgRss.aspx?Type=2&CId=138
+    status: verified
+  - name: ashford-planning-committee
+    kind: council_agenda
+    label: Ashford
+    url: https://ashford.moderngov.co.uk/mgRss.aspx?Type=2&CId=139
+    status: verified
+  - name: ashfield-cabinet
+    kind: council_agenda
+    label: Ashfield
+    url: https://democracy.ashfield.gov.uk/mgRss.aspx?Type=2&CId=133
+    status: verified
+  - name: ashfield-planning-committee
+    kind: council_agenda
+    label: Ashfield
+    url: https://democracy.ashfield.gov.uk/mgRss.aspx?Type=2&CId=134
+    status: verified
+  - name: bassetlaw-cabinet
+    kind: council_agenda
+    label: Bassetlaw
+    url: https://bassetlaw.moderngov.co.uk/mgRss.aspx?Type=2&CId=147
+    status: verified
+  - name: bassetlaw-housing-scrutiny-sub-committee
+    kind: council_agenda
+    label: Bassetlaw
+    url: https://bassetlaw.moderngov.co.uk/mgRss.aspx?Type=2&CId=282
+    status: verified
+  - name: bassetlaw-overview-scrutiny-committee
+    kind: council_agenda
+    label: Bassetlaw
+    url: https://bassetlaw.moderngov.co.uk/mgRss.aspx?Type=2&CId=148
+    status: verified
+  - name: bassetlaw-planning-committee
+    kind: council_agenda
+    label: Bassetlaw
+    url: https://bassetlaw.moderngov.co.uk/mgRss.aspx?Type=2&CId=146
+    status: verified
+  - name: bassetlaw-company-governance-sub-committee-of-cabi
+    kind: council_agenda
+    label: Bassetlaw
+    url: https://bassetlaw.moderngov.co.uk/mgRss.aspx?Type=2&CId=279
+    status: verified
+planit:
+  boroughs:
+  - Aberdeen City
+  - Aberdeenshire
+  - Adur
+  - Amber Valley
+  - Angus
+  - Antrim and Newtownabbey
+  - Ards and North Down
+  - Argyll and Bute
+  - Armagh City, Banbridge and Craigavon
+  - Arun
+  - Ashfield
+  - Ashford
+  - Babergh
+  - Barking and Dagenham
+  - Barnet
+  - Barnsley
+  - Basildon
+  - Basingstoke and Deane
+  - Bassetlaw
+  - Bath and North East Somerset
+  - Bedford
+  - Belfast
+  - Bexley
+  - Birmingham
+  - Blaby
+  - Blackburn with Darwen
+  - Blackpool
+  - Blaenau Gwent
+  - Bolsover
+  - Bolton
+  - Boston
+  - Bournemouth, Christchurch and Poole
+  - Bracknell Forest
+  - Bradford
+  - Braintree
+  - Breckland
+  - Brent
+  - Brentwood
+  - Bridgend
+  - Brighton and Hove
+  - Broadland
+  - Bromley
+  - Bromsgrove
+  - Broxbourne
+  - Broxtowe
+  - Buckinghamshire
+  - Burnley
+  - Bury
+  - Caerphilly
+  - Calderdale
+  - Cambridge
+  - Camden
+  - Cannock Chase
+  - Canterbury
+  - Cardiff
+  - Carmarthenshire
+  - Castle Point
+  - Causeway Coast and Glens
+  - Central Bedfordshire
+  - Ceredigion
+  - Charnwood
+  - Chelmsford
+  - Cheltenham
+  - Cherwell
+  - Cheshire East
+  - Cheshire West and Chester
+  - Chesterfield
+  - Chichester
+  - Chorley
+  - City of Bristol
+  - City of Edinburgh
+  - City of Lincoln
+  - City of London
+  - Clackmannanshire
+  - Colchester
+  - Conwy
+  - Cornwall
+  - Cotswold
+  - County Durham
+  - Coventry
+  - Crawley
+  - Croydon
+  - Cumberland
+  - Dacorum
+  - Darlington
+  - Dartford
+  - Denbighshire
+  - Derby
+  - Derbyshire Dales
+  - Derry City and Strabane
+  - Doncaster
+  - Dorset Council
+  - Dover
+  - Dudley
+  - Dumfries and Galloway
+  - Dundee City
+  - Ealing
+  - East Ayrshire
+  - East Cambridgeshire
+  - East Devon
+  - East Dunbartonshire
+  - East Hampshire
+  - East Hertfordshire
+  - East Lindsey
+  - East Lothian
+  - East Renfrewshire
+  - East Riding of Yorkshire
+  - East Staffordshire
+  - East Suffolk
+  - Eastbourne
+  - Eastleigh
+  - Eilean Siar
+  - Elmbridge
+  - Enfield
+  - Epping Forest
+  - Epsom and Ewell
+  - Erewash
+  - Exeter
+  - Falkirk
+  - Fareham
+  - Fenland
+  - Fermanagh and Omagh
+  - Fife
+  - Flintshire
+  - Folkestone and Hythe
+  - Forest of Dean
+  - Fylde
+  - Gateshead
+  - Gedling
+  - Glasgow City
+  - Gloucester
+  - Gosport
+  - Gravesham
+  - Great Yarmouth
+  - Greenwich
+  - Guildford
+  - Gwynedd
+  - Hackney
+  - Halton
+  - Hammersmith and Fulham
+  - Harborough
+  - Haringey
+  - Harlow
+  - Harrow
+  - Hart
+  - Hartlepool
+  - Hastings
+  - Havant
+  - Havering
+  - Herefordshire
+  - Hertsmere
+  - High Peak
+  - Highland
+  - Hillingdon
+  - Hinckley and Bosworth
+  - Horsham
+  - Hounslow
+  - Huntingdonshire
+  - Hyndburn
+  - Inverclyde
+  - Ipswich
+  - Isle of Anglesey
+  - Isle of Wight
+  - Isles of Scilly
+  - Islington
+  - Kensington and Chelsea
+  - Kings Lynn and West Norfolk
+  - Kingston upon Hull
+  - Kingston upon Thames
+  - Kirklees
+  - Knowsley
+  - Lambeth
+  - Lancaster
+  - Leeds
+  - Leicester
+  - Lewes
+  - Lewisham
+  - Lichfield
+  - Lisburn and Castlereagh
+  - Liverpool
+  - Luton
+  - Maidstone
+  - Maldon
+  - Malvern Hills
+  - Manchester
+  - Mansfield
+  - Medway
+  - Melton
+  - Merthyr Tydfil
+  - Merton
+  - Mid Devon
+  - Mid Suffolk
+  - Mid Sussex
+  - Mid Ulster
+  - Mid and East Antrim
+  - Middlesbrough
+  - Midlothian
+  - Milton Keynes
+  - Mole Valley
+  - Monmouthshire
+  - Moray
+  - Neath Port Talbot
+  - New Forest
+  - Newark and Sherwood
+  - Newcastle upon Tyne
+  - Newcastle-under-Lyme
+  - Newham
+  - Newport
+  - Newry, Mourne and Down
+  - North Ayrshire
+  - North Devon
+  - North East Derbyshire
+  - North East Lincolnshire
+  - North Hertfordshire
+  - North Kesteven
+  - North Lanarkshire
+  - North Lincolnshire
+  - North Norfolk
+  - North Northamptonshire
+  - North Somerset
+  - North Tyneside
+  - North Warwickshire
+  - North West Leicestershire
+  - North Yorkshire
+  - Northumberland
+  - Norwich
+  - Nottingham
+  - Nuneaton and Bedworth
+  - Oadby and Wigston
+  - Oldham
+  - Orkney Islands
+  - Oxford
+  - Pembrokeshire
+  - Pendle
+  - Perth and Kinross
+  - Peterborough
+  - Plymouth
+  - Portsmouth
+  - Powys
+  - Preston
+  - Reading
+  - Redbridge
+  - Redcar and Cleveland
+  - Redditch
+  - Reigate and Banstead
+  - Renfrewshire
+  - Rhondda Cynon Taff
+  - Ribble Valley
+  - Richmond upon Thames
+  - Rochdale
+  - Rochford
+  - Rossendale
+  - Rother
+  - Rotherham
+  - Rugby
+  - Runnymede
+  - Rushcliffe
+  - Rushmoor
+  - Rutland
+  - Salford
+  - Sandwell
+  - Sefton
+  - Sevenoaks
+  - Sheffield
+  - Shetland Islands
+  - Shropshire
+  - Slough
+  - Solihull
+  - Somerset
+  - South Ayrshire
+  - South Cambridgeshire
+  - South Derbyshire
+  - South Gloucestershire
+  - South Hams
+  - South Holland
+  - South Kesteven
+  - South Lanarkshire
+  - South Norfolk
+  - South Oxfordshire
+  - South Ribble
+  - South Staffordshire
+  - South Tyneside
+  - Southampton
+  - Southend-on-Sea
+  - Southwark
+  - Spelthorne
+  - St Albans
+  - St. Helens
+  - Stafford
+  - Staffordshire Moorlands
+  - Stevenage
+  - Stirling
+  - Stockport
+  - Stockton-on-Tees
+  - Stoke-on-Trent
+  - Stratford-on-Avon
+  - Stroud
+  - Sunderland
+  - Surrey Heath
+  - Sutton
+  - Swale
+  - Swansea
+  - Swindon
+  - Tameside
+  - Tamworth
+  - Tandridge
+  - Teignbridge
+  - Telford and Wrekin
+  - Tendring
+  - Test Valley
+  - Tewkesbury
+  - Thanet
+  - The Scottish Borders
+  - The Vale of Glamorgan
+  - Three Rivers
+  - Thurrock
+  - Tonbridge and Malling
+  - Torbay
+  - Torfaen
+  - Torridge
+  - Tower Hamlets
+  - Trafford
+  - Tunbridge Wells
+  - Uttlesford
+  - Vale of White Horse
+  - Wakefield
+  - Walsall
+  - Waltham Forest
+  - Wandsworth
+  - Warrington
+  - Warwick
+  - Watford
+  - Waverley
+  - Wealden
+  - Welwyn Hatfield
+  - West Berkshire
+  - West Devon
+  - West Dunbartonshire
+  - West Lancashire
+  - West Lindsey
+  - West Lothian
+  - West Northamptonshire
+  - West Oxfordshire
+  - West Suffolk
+  - Westminster
+  - Westmorland and Furness
+  - Wigan
+  - Wiltshire
+  - Winchester
+  - Windsor and Maidenhead
+  - Wirral
+  - Woking
+  - Wokingham
+  - Wolverhampton
+  - Worcester
+  - Worthing
+  - Wrexham
+  - Wychavon
+  - Wyre
+  - Wyre Forest
+  - York
+petitions:
+  national: true
+  max_constituencies_per_petition: 5
+limits:
+  max_classify_per_run: 300
+  top_n: 40
+  max_items_per_source: 120

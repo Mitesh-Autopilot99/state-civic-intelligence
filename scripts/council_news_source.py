@@ -18,13 +18,20 @@ GDPR/copyright: we read TITLE + LINK only — never article bodies, never
 bylines. Titles are keyword-prefiltered (config/keywords.yaml, same as social)
 then classified in-memory; afterwards only the issue summary + link persist.
 
+Scale: feeds are polled in parallel across HOSTS (ThreadPoolExecutor), but
+strictly sequentially WITHIN each host with SLEEP_BETWEEN between requests —
+politeness is per-host, so hundreds of national feeds finish in minutes
+without ever hammering any one server.
+
 Standalone test:  python scripts/council_news_source.py
 """
 import logging
 import sys
 import time
 import xml.etree.ElementTree as ET
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
+from urllib.parse import urlparse
 
 import requests
 import yaml
@@ -32,16 +39,18 @@ import yaml
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(PROJECT_ROOT / "scripts"))
 import db  # noqa: E402
+import config_loader  # noqa: E402
 
 log = logging.getLogger("council_news")
 HTTP_TIMEOUT = 30
 SLEEP_BETWEEN = 1
 MAX_PER_FEED = 15          # classifier token budget
+MAX_WORKERS = 6            # parallel HOSTS; never parallel requests to one host
 UA = {"User-Agent": "state-civic-listener/1.0 (headline monitoring; contact thakermitesh89@gmail.com)"}
 
 
 def load_config() -> tuple[list, list]:
-    cfg = yaml.safe_load((PROJECT_ROOT / "config" / "targets.yaml").read_text())
+    cfg = config_loader.load_targets()
     cn = cfg.get("council_news") or {}
     feeds = [f for f in cn.get("feeds", []) if f.get("status") == "verified"]
     kw = yaml.safe_load((PROJECT_ROOT / "config" / "keywords.yaml").read_text())["keywords"]
@@ -92,6 +101,41 @@ def _clean_title(title: str, kind: str) -> str:
     return title
 
 
+def _poll_one(f: dict, seen: set, keywords: list) -> list:
+    """Fetch and filter a single feed. Returns [] on any failure (logged)."""
+    kind = f.get("kind", "local_news")
+    try:
+        r = requests.get(f["url"], headers=UA, timeout=HTTP_TIMEOUT)
+        r.raise_for_status()
+        entries = parse_feed(r.text)
+    except Exception as e:
+        log.error("Feed failed %s (%s): %s", f["name"], f["url"], e)
+        return []
+    out, kept = [], 0
+    for e in entries:
+        pid = f"news:{e['link']}"
+        if pid in seen or kept >= MAX_PER_FEED:
+            continue
+        title = _clean_title(e["title"], kind)
+        if not _matches(title, keywords, kind):
+            continue
+        kept += 1
+        out.append({
+            "id": pid,
+            "subreddit": f["name"],            # keeps classifier shape
+            "city": f.get("label", f["name"]),
+            "title": title[:160],
+            "body": "",                        # headlines only, by design
+            "score": 0, "num_comments": 0,
+            "permalink": e["link"],
+            "created_utc": time.time(),
+            "platform": kind, "source_type": kind,
+        })
+    if kept:
+        log.info("%s (%s): %d entries -> %d kept", f["name"], kind, len(entries), kept)
+    return out
+
+
 def scrape(conn) -> list:
     feeds, keywords = load_config()
     if not feeds:
@@ -99,39 +143,26 @@ def scrape(conn) -> list:
                     "scripts/verify_feeds.py first. Skipping.")
         return []
     seen = {row["post_id"] for row in conn.execute("SELECT post_id FROM seen_posts")}
-    out = []
+
+    # politeness is per-host: group feeds by host, poll hosts in parallel,
+    # poll feeds WITHIN a host strictly one at a time with SLEEP_BETWEEN
+    by_host: dict[str, list] = {}
     for f in feeds:
-        kind = f.get("kind", "local_news")
-        try:
-            r = requests.get(f["url"], headers=UA, timeout=HTTP_TIMEOUT)
-            r.raise_for_status()
-            entries = parse_feed(r.text)
-        except Exception as e:
-            log.error("Feed failed %s (%s): %s", f["name"], f["url"], e)
-            continue
-        time.sleep(SLEEP_BETWEEN)
-        kept = 0
-        for e in entries:
-            pid = f"news:{e['link']}"
-            if pid in seen or kept >= MAX_PER_FEED:
-                continue
-            title = _clean_title(e["title"], kind)
-            if not _matches(title, keywords, kind):
-                continue
-            kept += 1
-            out.append({
-                "id": pid,
-                "subreddit": f["name"],            # keeps classifier shape
-                "city": f.get("label", f["name"]),
-                "title": title[:160],
-                "body": "",                        # headlines only, by design
-                "score": 0, "num_comments": 0,
-                "permalink": e["link"],
-                "created_utc": time.time(),
-                "platform": kind, "source_type": kind,
-            })
-        log.info("%s (%s): %d entries -> %d kept", f["name"], kind, len(entries), kept)
-    log.info("council_news: %d items from %d feeds", len(out), len(feeds))
+        by_host.setdefault(urlparse(f["url"]).netloc, []).append(f)
+
+    def _host_worker(group: list) -> list:
+        items = []
+        for f in group:
+            items += _poll_one(f, seen, keywords)
+            time.sleep(SLEEP_BETWEEN)
+        return items
+
+    out = []
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as ex:
+        for items in ex.map(_host_worker, by_host.values()):
+            out += items
+    log.info("council_news: %d items from %d feeds across %d hosts",
+             len(out), len(feeds), len(by_host))
     return out
 
 
