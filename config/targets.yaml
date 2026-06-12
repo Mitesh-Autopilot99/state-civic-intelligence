@@ -1,107 +1,202 @@
-# Target subreddits. Status starts as "candidate"; scripts/verify_targets.py
-# checks each one (exists, public, >=3 posts in 48h) and sets "verified" or "dropped".
-# The pipeline ONLY scrapes subs with status: verified.
-#
-# constituencies: which Westminster constituencies a sub covers. City subs cover
-# several; the classifier's "area" field narrows items down where possible.
-
 subreddits:
-  - name: london
-    status: candidate
-    constituencies: []          # city-wide; resolved per-item via area text
-    city: London
-  - name: manchester
-    status: candidate
-    constituencies: []
-    city: Manchester
-  - name: birmingham
-    status: candidate
-    constituencies: []
-    city: Birmingham
-  - name: bristol
-    status: candidate
-    constituencies: []
-    city: Bristol
-  - name: leeds
-    status: candidate
-    constituencies: []
-    city: Leeds
-  - name: glasgow
-    status: candidate
-    constituencies: []
-    city: Glasgow
-  - name: edinburgh
-    status: candidate
-    constituencies: []
-    city: Edinburgh
-  - name: liverpool
-    status: candidate
-    constituencies: []
-    city: Liverpool
-  - name: sheffield
-    status: candidate
-    constituencies: []
-    city: Sheffield
-  - name: nottingham
-    status: candidate
-    constituencies: []
-    city: Nottingham
-  - name: leicester
-    status: candidate
-    constituencies: []
-    city: Leicester
-  - name: Cardiff
-    status: candidate
-    constituencies: []
-    city: Cardiff
-  - name: brighton
-    status: candidate
-    constituencies: []
-    city: Brighton
-  - name: newcastleupontyne
-    status: candidate
-    constituencies: []
-    city: Newcastle upon Tyne
-  - name: croydon
-    status: candidate
-    constituencies: []
-    city: Croydon (London)
-  - name: lewisham
-    status: candidate
-    constituencies: []
-    city: Lewisham (London)
-  - name: hackney
-    status: candidate
-    constituencies: []
-    city: Hackney (London)
-  - name: walthamstow
-    status: candidate
-    constituencies: []
-    city: Walthamstow (London)
-  - name: Ealing
-    status: candidate
-    constituencies: []
-    city: Ealing (London)
-
-# Public Facebook groups, scraped via Apify (free tier, README §3b).
-# MANUAL verification: Facebook shows a login wall to logged-out visitors even
-# for public groups, so check the group's privacy LABEL instead: open the group
-# while logged in (browsing as a human is fine — only scraping must be logged
-# out, and Apify handles that) and look under the group name. "Public group"
-# -> set status: verified. "Private group" -> leave it out; the scraper cannot
-# and must not access it.
-# The pipeline only scrapes groups with status: verified, and only when
-# APIFY_TOKEN is set in .env. Keep the list small (~5-10) to stay in free credit.
+- name: london
+  status: dropped
+  constituencies: []
+  city: London
+- name: manchester
+  status: dropped
+  constituencies: []
+  city: Manchester
+- name: birmingham
+  status: dropped
+  constituencies: []
+  city: Birmingham
+- name: bristol
+  status: dropped
+  constituencies: []
+  city: Bristol
+- name: leeds
+  status: dropped
+  constituencies: []
+  city: Leeds
+- name: glasgow
+  status: dropped
+  constituencies: []
+  city: Glasgow
+- name: edinburgh
+  status: dropped
+  constituencies: []
+  city: Edinburgh
+- name: liverpool
+  status: dropped
+  constituencies: []
+  city: Liverpool
+- name: sheffield
+  status: dropped
+  constituencies: []
+  city: Sheffield
+- name: nottingham
+  status: dropped
+  constituencies: []
+  city: Nottingham
+- name: leicester
+  status: dropped
+  constituencies: []
+  city: Leicester
+- name: Cardiff
+  status: dropped
+  constituencies: []
+  city: Cardiff
+- name: brighton
+  status: dropped
+  constituencies: []
+  city: Brighton
+- name: newcastleupontyne
+  status: dropped
+  constituencies: []
+  city: Newcastle upon Tyne
+- name: croydon
+  status: dropped
+  constituencies: []
+  city: Croydon (London)
+- name: lewisham
+  status: dropped
+  constituencies: []
+  city: Lewisham (London)
+- name: hackney
+  status: dropped
+  constituencies: []
+  city: Hackney (London)
+- name: walthamstow
+  status: dropped
+  constituencies: []
+  city: Walthamstow (London)
+- name: Ealing
+  status: dropped
+  constituencies: []
+  city: Ealing (London)
 facebook_groups:
-  - name: croydon-community-uk
-    url: https://www.facebook.com/groups/croydoncommunity/
-    city: Croydon (London)
+- name: croydon-community-uk
+  url: https://www.facebook.com/groups/croydoncommunity/
+  city: Croydon (London)
+  status: verified
+- name: lewisham-noticeboard
+  url: https://www.facebook.com/groups/thelewishamnoticeboard/
+  city: Lewisham (London)
+  status: verified
+- name: hackney-community-uk
+  url: https://www.facebook.com/groups/414081830766223/
+  city: Hackney (London)
+  status: verified
+target_constituencies:
+- Croydon East
+- Croydon South
+- Croydon West
+- Streatham and Croydon North
+- Lewisham North
+- Lewisham East
+- Lewisham West and East Dulwich
+- Hackney North and Stoke Newington
+- Hackney South and Shoreditch
+- Walthamstow
+- Leyton and Wanstead
+- Chingford and Woodford Green
+- Ealing Central and Acton
+- Ealing North
+- Ealing Southall
+petitions:
+  enabled: true
+  signature_floor: 500
+  over_index_ratio: 4.0
+  min_local_signatures: 50
+  max_detail_fetches: 150
+planit:
+  enabled: true
+  boroughs:
+  - Croydon
+  - Lewisham
+  - Hackney
+  - Waltham Forest
+  - Ealing
+  recent_days: 3
+  pg_sz: 100
+  min_comments: 3
+  max_per_borough: 8
+fixmystreet:
+  enabled: true
+  trend_ratio: 2.0
+  min_reports_7d: 5
+  baseline_days: 14
+  councils:
+  - name: Croydon
+    label: Croydon (London)
+    feed: https://www.fixmystreet.com/rss/reports/Croydon
     status: verified
-  - name: lewisham-noticeboard
-    url: https://www.facebook.com/groups/thelewishamnoticeboard/
-    city: Lewisham (London)
+  - name: Lewisham
+    label: Lewisham (London)
+    feed: https://www.fixmystreet.com/rss/reports/Lewisham
     status: verified
-  - name: hackney-community-uk
-    url: https://www.facebook.com/groups/414081830766223/
-    city: Hackney (London)
+  - name: Hackney
+    label: Hackney (London)
+    feed: https://www.fixmystreet.com/rss/reports/Hackney
+    status: verified
+  - name: Waltham Forest
+    label: Waltham Forest (London)
+    feed: https://www.fixmystreet.com/rss/reports/Waltham+Forest
+    status: verified
+  - name: Ealing
+    label: Ealing (London)
+    feed: https://www.fixmystreet.com/rss/reports/Ealing
+    status: verified
+council_news:
+  feeds:
+  - name: lewisham-democracy
+    kind: council_agenda
+    label: Lewisham (London)
+    url: https://councilmeetings.lewisham.gov.uk/mgRss.aspx?bcr=1
+    status: dead
+  - name: croydon-democracy
+    kind: council_agenda
+    label: Croydon (London)
+    url: https://democracy.croydon.gov.uk/mgRss.aspx?bcr=1
+    status: dead
+  - name: hackney-democracy
+    kind: council_agenda
+    label: Hackney (London)
+    url: https://hackney.moderngov.co.uk/mgRss.aspx?bcr=1
+    status: dead
+  - name: walthamforest-democracy
+    kind: council_agenda
+    label: Waltham Forest (London)
+    url: https://democracy.walthamforest.gov.uk/mgRss.aspx?bcr=1
+    status: dead
+  - name: ealing-democracy
+    kind: council_agenda
+    label: Ealing (London)
+    url: https://ealing.moderngov.co.uk/mgRss.aspx?bcr=1
+    status: dead
+  - name: inside-croydon
+    kind: local_news
+    label: Croydon (London)
+    url: https://insidecroydon.com/feed/
+    status: verified
+  - name: hackney-citizen
+    kind: local_news
+    label: Hackney (London)
+    url: https://www.hackneycitizen.co.uk/feed/
+    status: verified
+  - name: 853-london
+    kind: local_news
+    label: Lewisham (London)
+    url: https://853.london/feed/
+    status: verified
+  - name: waltham-forest-echo
+    kind: local_news
+    label: Waltham Forest (London)
+    url: https://walthamforestecho.co.uk/feed/
+    status: verified
+  - name: ealing-news
+    kind: local_news
+    label: Ealing (London)
+    url: https://ealing.news/feed/
     status: verified

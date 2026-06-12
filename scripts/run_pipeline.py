@@ -10,6 +10,7 @@ Usage:
 import argparse
 import json
 import logging
+import os
 import sys
 from datetime import date
 from pathlib import Path
@@ -20,6 +21,10 @@ sys.path.insert(0, str(PROJECT_ROOT / "scripts"))
 import db                      # noqa: E402
 import reddit_scraper          # noqa: E402
 import facebook_scraper        # noqa: E402
+import petitions_source        # noqa: E402
+import planit_source           # noqa: E402
+import fixmystreet_source      # noqa: E402
+import council_news_source     # noqa: E402
 import classifier              # noqa: E402
 import constituency_mapper     # noqa: E402
 import scorer                  # noqa: E402
@@ -35,20 +40,32 @@ logging.basicConfig(
 log = logging.getLogger("pipeline")
 
 
+# Every source fails gracefully: one source down never blocks the brief.
+# Temporarily disable sources with e.g. SOURCES_DISABLE=reddit,facebook
+SOURCES = [
+    ("reddit", reddit_scraper.scrape),
+    ("facebook", facebook_scraper.scrape),
+    ("petitions", petitions_source.scrape),
+    ("planning", planit_source.scrape),
+    ("fixmystreet", fixmystreet_source.scrape),
+    ("council_news", council_news_source.scrape),
+]
+
+
 def run() -> dict:
     conn = db.connect()
     errors = []
     posts = []
-    try:
-        posts = reddit_scraper.scrape(conn)
-    except Exception as e:
-        errors.append(f"reddit: {e}")
-        log.exception("Reddit scrape failed")
-    try:
-        posts += facebook_scraper.scrape(conn)   # never blocks the brief
-    except Exception as e:
-        errors.append(f"facebook: {e}")
-        log.exception("Facebook scrape failed")
+    disabled = {s.strip() for s in os.environ.get("SOURCES_DISABLE", "").split(",") if s.strip()}
+    for name, fn in SOURCES:
+        if name in disabled:
+            log.info("Source %s disabled via SOURCES_DISABLE — skipping.", name)
+            continue
+        try:
+            posts += fn(conn)
+        except Exception as e:
+            errors.append(f"{name}: {e}")
+            log.exception("%s scrape failed", name)
 
     items = []
     if posts:
@@ -62,8 +79,9 @@ def run() -> dict:
     top = scorer.group_and_score(conn, items) if items else []
     reddit_scraper.mark_seen(conn, posts)  # discard: only IDs are kept
     conn.execute("INSERT INTO run_log (ran_at, source, posts_pulled, posts_kept, issues_written, errors) "
-                 "VALUES (datetime('now'),'reddit+facebook',?,?,?,?)",
-                 (len(posts), len(items), len(top), "; ".join(errors)))
+                 "VALUES (datetime('now'),?,?,?,?,?)",
+                 ("+".join(n for n, _ in SOURCES if n not in disabled),
+                  len(posts), len(items), len(top), "; ".join(errors)))
     conn.commit()
     conn.close()
 
@@ -83,7 +101,8 @@ def print_human(brief: dict):
         print("⚠ errors:", "; ".join(brief["errors"]), "\n")
     for n, i in enumerate(brief["items"], 1):
         flag = " 🔥TRENDING" if i["trending"] else ""
-        print(f"{n}. [{i['category']}] {i['area']} — {i['summary']}{flag}")
+        src = i.get("source_type", i.get("source_platform", "?"))
+        print(f"{n}. [{i['category']}|{src}] {i['area']} — {i['summary']}{flag}")
         print(f"   {i['constituency']} | MP: {i['mp_name'] or 'n/a'} | "
               f"vol {i['volume']} | eng {i['engagement']} | action: {i['suggested_action']}")
         print(f"   {i['source_link']}\n")

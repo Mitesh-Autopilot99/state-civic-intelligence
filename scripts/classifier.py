@@ -57,10 +57,14 @@ def _extract_json(text: str) -> list:
 
 
 def classify(posts: list[dict]) -> list[dict]:
-    """Attach classification fields to each post dict. Unclassifiable posts dropped."""
+    """Attach classification fields to each post dict. Unclassifiable posts dropped.
+    Items marked preclassified=True (aggregate trend items, e.g. FixMyStreet)
+    already carry category/urgency/specificity/summary and pass straight
+    through — zero LLM tokens."""
+    results = [p for p in posts if p.get("preclassified")]
+    posts = [p for p in posts if not p.get("preclassified")]
     primary = os.environ.get("CLASSIFIER_MODEL", "deepseek/deepseek-chat:free")
     fallback = os.environ.get("CLASSIFIER_FALLBACK_MODEL", "meta-llama/llama-3.3-70b-instruct:free")
-    results = []
     for i in range(0, len(posts), BATCH_SIZE):
         batch = posts[i:i + BATCH_SIZE]
         listing = "\n".join(

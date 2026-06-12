@@ -9,6 +9,19 @@ TOP_N = 15
 SIMILARITY = 0.75      # summary similarity above this = same issue as a prior one
 LOOKBACK_DAYS = 21
 
+# Additive source-intent bonus (proposed in research_new_sources.md — a petition
+# signature or planning objection signals motion-intent more strongly than a
+# social comment). Social stays the 0.0 baseline.
+SOURCE_BONUS = {
+    "petition": 2.0,
+    "planning": 1.5,
+    "fixmystreet": 1.0,
+    "council_agenda": 0.75,
+    "local_news": 0.75,
+    "reddit": 0.0,
+    "facebook": 0.0,
+}
+
 
 def _issue_hash(category: str, constituency: str, summary: str) -> str:
     return hashlib.sha256(f"{category}|{constituency}|{summary[:60].lower()}".encode()).hexdigest()[:16]
@@ -46,6 +59,7 @@ def group_and_score(conn, items: list[dict]) -> list[dict]:
                 "engagement": it["score"] + it["num_comments"],
                 "source_link": it["permalink"],
                 "source_platform": it.get("platform", "reddit"),
+                "source_type": it.get("source_type", it.get("platform", "reddit")),
             })
 
     # 2. uniqueness: check against issues already briefed in the last 3 weeks
@@ -60,14 +74,22 @@ def group_and_score(conn, items: list[dict]) -> list[dict]:
         )
 
     # 3. score & trending
-    avg_eng = (sum(i["engagement"] for i in issues) / len(issues)) if issues else 0
+    # Engagement is normalised WITHIN each source_type pool: petition signature
+    # counts (hundreds) must not swamp Facebook likes (tens). With only social
+    # sources present this behaves exactly as before.
+    pools: dict = {}
+    for i in issues:
+        pools.setdefault(i["source_type"], []).append(i["engagement"])
+    pool_avg = {k: sum(v) / len(v) for k, v in pools.items()}
     for iss in issues:
+        avg_eng = pool_avg[iss["source_type"]]
         eng_norm = min(iss["engagement"] / max(avg_eng, 1), 3.0)
         freshness = 1.0
         uniqueness = 0.2 if iss["repeat"] else 1.0
+        source_bonus = SOURCE_BONUS.get(iss["source_type"], 0.0)
         iss["score"] = round(
             eng_norm * 2 + iss["urgency"] + iss["specificity"] + freshness + uniqueness * 2
-            + min(iss["volume"], 5), 2)
+            + min(iss["volume"], 5) + source_bonus, 2)
         iss["trending"] = int(avg_eng > 0 and iss["engagement"] >= 2 * avg_eng)
         iss["suggested_action"] = (
             "seed_motion" if iss["specificity"] >= 4 and iss["urgency"] >= 3 and not iss["repeat"]

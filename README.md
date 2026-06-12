@@ -88,6 +88,50 @@ stored. If `APIFY_TOKEN` is empty or no groups are verified, the Facebook
 source silently skips and the rest of the pipeline runs normally. If the
 monthly Apify credit runs out, the source errors but the brief still arrives.
 
+## 3c. Structured civic sources (no keys, no cost — built in)
+
+Four additional sources run automatically alongside social. None needs an
+account, key, or payment; all are public, logged-out, and licensed for reuse
+(OGL v3.0 / public record / RSS made for syndication).
+
+| Source | What it surfaces | Tag in brief |
+|---|---|---|
+| UK Parliament petitions | Petitions over-indexing (≥2× national avg) in our 15 target constituencies | `petition` |
+| PlanIt planning apps | Contested applications (high comment counts, large schemes, contention keywords) in the 5 boroughs | `planning` |
+| FixMyStreet trends | Category spikes (e.g. potholes up 3× in Croydon this week) from daily aggregate counts — never individual reports | `fixmystreet` |
+| Council + local news RSS | ModernGov committee agendas and local-press headlines (title + link only) | `council_agenda` / `local_news` |
+
+**One-time setup** — verify the RSS feed URLs (FixMyStreet + council/news start
+as `status: candidate`; only verified feeds are polled):
+
+```bash
+python scripts/verify_feeds.py    # probes each feed once, flips candidate -> verified/dead
+```
+
+**Test each source standalone** (same pattern as Reddit):
+
+```bash
+python scripts/petitions_source.py      # flagged petitions with local counts
+python scripts/planit_source.py         # contested planning apps per borough
+python scripts/fixmystreet_source.py    # records today's counts; trends after 14 days of history
+python scripts/council_news_source.py   # civic headlines + agenda items
+```
+
+Offline tests (no network, run anywhere): `python scripts/test_<source>_offline.py`.
+
+Notes: scoring weights structured sources above social (petition +2.0,
+planning +1.5, fixmystreet +1.0, news/agendas +0.75) because they are
+verified civic signal, not inferred. FixMyStreet needs ~2 weeks of daily runs
+before it can emit trends — silence from it early on is normal. Each source
+fails gracefully: one being down never blocks the brief (errors appear at the
+top of the brief instead). Temporarily disable any source with
+`SOURCES_DISABLE=reddit,facebook python scripts/run_pipeline.py`.
+
+GDPR is structural here too: petitions are aggregate by construction; PlanIt
+is queried with a field list that never requests applicant/agent/officer
+names; FixMyStreet stores only (day, council, category, count); news feeds are
+read title+link only — bylines and bodies are never fetched.
+
 ## 4. Telegram bot (~5 minutes)
 
 1. In Telegram, message **@BotFather** → send `/newbot` → pick a display name
@@ -108,6 +152,7 @@ monthly Apify credit runs out, the source errors but the brief still arrives.
 ```bash
 source .venv/bin/activate
 python scripts/verify_targets.py    # checks every candidate subreddit is real + active
+python scripts/verify_feeds.py      # checks every candidate RSS feed (FixMyStreet + council/news)
 python scripts/run_pipeline.py      # first manual run — prints the brief
 ```
 
@@ -142,6 +187,8 @@ cron:
 | Pulse page | "draft the pulse page for Croydon East" |
 | Approve/reject | Reply approve / edit: ... / reject in chat |
 | Add/remove a subreddit | Edit `config/targets.yaml` (add with `status: candidate`), run `python scripts/verify_targets.py` |
+| Add/remove an RSS feed | Edit `config/targets.yaml` (`fixmystreet:` or `council_news:`, `status: candidate`), run `python scripts/verify_feeds.py` |
+| Disable a source temporarily | `SOURCES_DISABLE=facebook,planning python scripts/run_pipeline.py` (names: reddit, facebook, petitions, planning, fixmystreet, council_news) |
 | Pause the schedule | `/cron pause daily-brief` · resume with `/cron resume daily-brief` |
 
 The 9am schedule only fires if the laptop is awake and the Hermes gateway is
@@ -152,6 +199,12 @@ running. Manual trigger is the reliable path during the pilot.
 - **No brief arrived:** laptop asleep or gateway not running. Run manually:
   `python scripts/run_pipeline.py`. Check `logs/pipeline_<today>.log`.
 - **"No verified subreddits":** run `python scripts/verify_targets.py`.
+- **"No VERIFIED ... feeds" in the log:** run `python scripts/verify_feeds.py` once.
+- **One source erroring (e.g. PlanIt 429):** the brief still arrives with the
+  error listed at the top; the source usually recovers next run. Persistent?
+  Disable it (`SOURCES_DISABLE=planning`) and investigate via its standalone script.
+- **FixMyStreet emits nothing:** normal for the first ~14 days — it needs
+  baseline history before it can call something a spike.
 - **Classifier errors / model gone:** free models rotate. Update the two model
   names in `.env` (see §2) — or ask Hermes to diagnose; approve its patch.
 - **Reddit 401/403:** check the three REDDIT_ values in `.env`; regenerate the
@@ -182,7 +235,8 @@ running. Manual trigger is the reliable path during the pilot.
 
 No autonomous posting anywhere · public logged-out sources only · aggregate and
 discard (no authors, no raw bodies — the DB schema physically has no columns for
-them) · disclosure in every state.com mention · all drafts pass through human
+them; planning applicants, FixMyStreet reporters and journalist bylines are
+never even fetched) · disclosure in every state.com mention · all drafts pass through human
 approval · write the one-page Legitimate Interests Assessment before switch-on
 (template task: ICO LIA template + this system's data flows) · Nextdoor only via
 the official developer programme application.
