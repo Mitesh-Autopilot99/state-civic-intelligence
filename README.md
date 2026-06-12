@@ -100,12 +100,18 @@ account, key, or payment; all are public, logged-out, and licensed for reuse
 | PlanIt planning apps | Contested applications (high comment counts, large schemes, contention keywords) in the 5 boroughs | `planning` |
 | FixMyStreet trends | Category spikes (e.g. potholes up 3× in Croydon this week) from daily aggregate counts — never individual reports | `fixmystreet` |
 | Council + local news RSS | ModernGov committee agendas and local-press headlines (title + link only) | `council_agenda` / `local_news` |
+| Google News RSS | One query feed per borough (`"Croydon" AND (council OR planning OR ...) when:2d`) — catches outlets we don't subscribe to directly. Publisher names stripped from titles; Google redirect links stored as-is | `google_news` |
 
-**One-time setup** — verify the RSS feed URLs (FixMyStreet + council/news start
-as `status: candidate`; only verified feeds are polled):
+**One-time setup** — verify the RSS feed URLs (FixMyStreet + council/news +
+Google News start as `status: candidate`; only verified feeds are polled):
 
 ```bash
-python scripts/verify_feeds.py    # probes each feed once, flips candidate -> verified/dead
+python scripts/verify_feeds.py            # probes each feed once, flips candidate -> verified/dead
+python scripts/discover_council_feeds.py  # finds REAL per-committee ModernGov feeds (the
+                                          # site-wide bcr=1 feed is dead on all 5 councils):
+                                          # learns the URL pattern from Lewisham's published
+                                          # index, probes the other hosts, writes only what
+                                          # verifies into config/targets.yaml
 ```
 
 **Test each source standalone** (same pattern as Reddit):
@@ -120,7 +126,7 @@ python scripts/council_news_source.py   # civic headlines + agenda items
 Offline tests (no network, run anywhere): `python scripts/test_<source>_offline.py`.
 
 Notes: scoring weights structured sources above social (petition +2.0,
-planning +1.5, fixmystreet +1.0, news/agendas +0.75) because they are
+planning +1.5, fixmystreet +1.0, news/agendas/google_news +0.75) because they are
 verified civic signal, not inferred. FixMyStreet needs ~2 weeks of daily runs
 before it can emit trends — silence from it early on is normal. Each source
 fails gracefully: one being down never blocks the brief (errors appear at the

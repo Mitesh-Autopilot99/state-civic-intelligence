@@ -200,3 +200,148 @@ council_news:
     label: Ealing (London)
     url: https://ealing.news/feed/
     status: verified
+  - name: gnews-croydon
+    kind: google_news
+    label: Croydon (London)
+    url: https://news.google.com/rss/search?q=%22Croydon%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-lewisham
+    kind: google_news
+    label: Lewisham (London)
+    url: https://news.google.com/rss/search?q=%22Lewisham%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-hackney
+    kind: google_news
+    label: Hackney (London)
+    url: https://news.google.com/rss/search?q=%22Hackney%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-walthamforest
+    kind: google_news
+    label: Waltham Forest (London)
+    url: https://news.google.com/rss/search?q=%22Waltham+Forest%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: gnews-ealing
+    kind: google_news
+    label: Ealing (London)
+    url: https://news.google.com/rss/search?q=%22Ealing%22+(council+OR+planning+OR+housing+OR+bins+OR+crime+OR+NHS+OR+roadworks)+when:2d&hl=en-GB&gl=GB&ceid=GB:en
+    status: verified
+  - name: croydon-cabinet
+    kind: council_agenda
+    label: Croydon (London)
+    url: https://democracy.croydon.gov.uk/mgRss.aspx?Type=2&CId=183
+    status: verified
+  - name: croydon-civic-mayoralty-38-honorary-freedom-sele
+    kind: council_agenda
+    label: Croydon (London)
+    url: https://democracy.croydon.gov.uk/mgRss.aspx?Type=2&CId=482
+    status: dropped
+  - name: croydon-council-tax-setting-committee
+    kind: council_agenda
+    label: Croydon (London)
+    url: https://democracy.croydon.gov.uk/mgRss.aspx?Type=2&CId=505
+    status: dropped
+  - name: croydon-planning-committee
+    kind: council_agenda
+    label: Croydon (London)
+    url: https://democracy.croydon.gov.uk/mgRss.aspx?Type=2&CId=136
+    status: verified
+  - name: croydon-planning-sub-committee
+    kind: council_agenda
+    label: Croydon (London)
+    url: https://democracy.croydon.gov.uk/mgRss.aspx?Type=2&CId=165
+    status: verified
+  - name: croydon-scrutiny-38-overview-committee
+    kind: council_agenda
+    label: Croydon (London)
+    url: https://democracy.croydon.gov.uk/mgRss.aspx?Type=2&CId=166
+    status: verified
+  - name: hackney-planning-sub-committee
+    kind: council_agenda
+    label: Hackney (London)
+    url: https://hackney.moderngov.co.uk/mgRss.aspx?Type=2&CId=125
+    status: verified
+  - name: hackney-planning-sub-committee-pre-application
+    kind: council_agenda
+    label: Hackney (London)
+    url: https://hackney.moderngov.co.uk/mgRss.aspx?Type=2&CId=587
+    status: dropped
+  - name: hackney-cabinet
+    kind: council_agenda
+    label: Hackney (London)
+    url: https://hackney.moderngov.co.uk/mgRss.aspx?Type=2&CId=111
+    status: verified
+  - name: hackney-cabinet-procurement-and-insourcing-commi
+    kind: council_agenda
+    label: Hackney (London)
+    url: https://hackney.moderngov.co.uk/mgRss.aspx?Type=2&CId=113
+    status: dropped
+  - name: hackney-child-q-special-joint-scrutiny-40-living
+    kind: council_agenda
+    label: Hackney (London)
+    url: https://hackney.moderngov.co.uk/mgRss.aspx?Type=2&CId=603
+    status: dropped
+  - name: hackney-children-and-young-people-scrutiny-commi
+    kind: council_agenda
+    label: Hackney (London)
+    url: https://hackney.moderngov.co.uk/mgRss.aspx?Type=2&CId=121
+    status: verified
+  - name: ealing-cabinet
+    kind: council_agenda
+    label: Ealing (London)
+    url: https://ealing.moderngov.co.uk/mgRss.aspx?Type=2&CId=137
+    status: verified
+  - name: ealing-housing-delivery-cabinet-committee
+    kind: council_agenda
+    label: Ealing (London)
+    url: https://ealing.moderngov.co.uk/mgRss.aspx?Type=2&CId=142
+    status: verified
+  - name: ealing-planning-advisory-committee
+    kind: council_agenda
+    label: Ealing (London)
+    url: https://ealing.moderngov.co.uk/mgRss.aspx?Type=2&CId=166
+    status: verified
+  - name: ealing-planning-committee
+    kind: council_agenda
+    label: Ealing (London)
+    url: https://ealing.moderngov.co.uk/mgRss.aspx?Type=2&CId=186
+    status: verified
+  - name: ealing-children-39-s-services-scrutiny-panel
+    kind: council_agenda
+    label: Ealing (London)
+    url: https://ealing.moderngov.co.uk/mgRss.aspx?Type=2&CId=402
+    status: verified
+  - name: ealing-economy-and-sustainability-scrutiny-pane
+    kind: council_agenda
+    label: Ealing (London)
+    url: https://ealing.moderngov.co.uk/mgRss.aspx?Type=2&CId=401
+    status: verified
+  - name: lewisham-council-urgency-committee
+    kind: council_agenda
+    label: Lewisham (London)
+    url: https://councilmeetings.lewisham.gov.uk/mgRss.aspx?Type=2&CId=151
+    status: dropped
+  - name: lewisham-standing-advisory-council-on-religious-e
+    kind: council_agenda
+    label: Lewisham (London)
+    url: https://councilmeetings.lewisham.gov.uk/mgRss.aspx?Type=2&CId=396
+    status: dropped
+  - name: lewisham-mayor-and-cabinet
+    kind: council_agenda
+    label: Lewisham (London)
+    url: https://councilmeetings.lewisham.gov.uk/mgRss.aspx?Type=2&CId=139
+    status: verified
+  - name: lewisham-overview-and-scrutiny-committee
+    kind: council_agenda
+    label: Lewisham (London)
+    url: https://councilmeetings.lewisham.gov.uk/mgRss.aspx?Type=2&CId=119
+    status: verified
+  - name: lewisham-overview-and-scrutiny-committee-40-call-
+    kind: council_agenda
+    label: Lewisham (London)
+    url: https://councilmeetings.lewisham.gov.uk/mgRss.aspx?Type=2&CId=499
+    status: dropped
+  - name: lewisham-south-east-london-joint-health-overview-
+    kind: council_agenda
+    label: Lewisham (London)
+    url: https://councilmeetings.lewisham.gov.uk/mgRss.aspx?Type=2&CId=363
+    status: verified

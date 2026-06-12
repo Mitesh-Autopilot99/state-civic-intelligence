@@ -22,16 +22,27 @@ NEWS_RSS = """<?xml version="1.0"?><rss version="2.0"><channel>
 <link>https://insidecroydon.com/2026/06/10/flytipping/</link></item>
 </channel></rss>"""
 
-AGENDA_ATOM = """<?xml version="1.0"?><feed xmlns="http://www.w3.org/2005/Atom">
+# mis-decoded UTF-8 BOM prefix ('ï»¿'), exactly as ModernGov serves it via requests
+AGENDA_ATOM = """ï»¿<?xml version="1.0"?><feed xmlns="http://www.w3.org/2005/Atom">
 <title>Lewisham Council - Browse meetings</title>
 <entry><title>Planning Committee A - Agenda published, 18/06/2026</title>
 <link href="https://councilmeetings.lewisham.gov.uk/ieListDocuments.aspx?CId=139"/>
 <id>https://councilmeetings.lewisham.gov.uk/ieListDocuments.aspx?CId=139</id></entry>
 </feed>"""
 
+GOOGLE_RSS = """<?xml version="1.0"?><rss version="2.0"><channel>
+<item><title>Croydon council tax to rise as housing budget overspends - Inside Croydon</title>
+<link>https://news.google.com/rss/articles/CBMiAAA?oc=5</link></item>
+<item><title>New bakery opens in Croydon town centre - MyLondon</title>
+<link>https://news.google.com/rss/articles/CBMiBBB?oc=5</link></item>
+<item><title>Roadworks chaos on Brighton Road - Croydon Advertiser</title>
+<link>https://news.google.com/rss/articles/CBMiCCC?oc=5</link></item>
+</channel></rss>"""
+
 FEEDS = {
     "https://news/feed": NEWS_RSS,
     "https://agenda/feed": AGENDA_ATOM,
+    "https://gnews/feed": GOOGLE_RSS,
 }
 
 
@@ -46,8 +57,10 @@ cn.load_config = lambda: (
     [{"name": "inside-croydon", "kind": "local_news", "label": "Croydon (London)",
       "url": "https://news/feed", "status": "verified"},
      {"name": "lewisham-democracy", "kind": "council_agenda", "label": "Lewisham (London)",
-      "url": "https://agenda/feed", "status": "verified"}],
-    ["housing", "fly-tipping", "planning"],
+      "url": "https://agenda/feed", "status": "verified"},
+     {"name": "gnews-croydon", "kind": "google_news", "label": "Croydon (London)",
+      "url": "https://gnews/feed", "status": "verified"}],
+    ["housing", "fly-tipping", "planning", "council tax", "roadworks"],
 )
 
 conn = db.connect()
@@ -60,11 +73,20 @@ checks = {
     "second keyword headline kept": any("Fly-tipping" in t for t in titles),
     "agenda item kept WITHOUT keyword gate": any("Planning Committee A" in t for t in titles),
     "Atom (ModernGov) parsing works": any(i["source_type"] == "council_agenda" for i in items),
-    "kinds tagged correctly": {i["source_type"] for i in items} == {"local_news", "council_agenda"},
+    "BOM-prefixed ModernGov XML parsed": True,  # AGENDA_ATOM carries the BOM; above check proves it
+    "kinds tagged correctly": {i["source_type"] for i in items}
+        == {"local_news", "council_agenda", "google_news"},
     "headlines only — no bodies": all(i["body"] == "" for i in items),
     "GDPR: bylines never read or stored": all(
         "Journalist" not in str(i.values()) for i in items),
     "every item has a source link": all(i["permalink"].startswith("https://") for i in items),
+    "google_news: civic headline kept": any("council tax to rise" in t for t in titles),
+    "google_news: publisher suffix stripped": not any(
+        "Inside Croydon" in t or "Croydon Advertiser" in t
+        for i in items if i["source_type"] == "google_news" for t in [i["title"]]),
+    "google_news: keyword gate applies (bakery dropped)": not any("bakery" in t for t in titles),
+    "google_news: redirect link stored as-is": any(
+        i["permalink"].startswith("https://news.google.com/") for i in items),
 }
 for i in items:
     conn.execute("INSERT OR IGNORE INTO seen_posts VALUES (?, datetime('now'))", (i["id"],))

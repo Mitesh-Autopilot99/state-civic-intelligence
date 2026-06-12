@@ -1,8 +1,15 @@
 """Council democracy + local news RSS source (headlines/agenda titles ONLY).
 
-Two kinds of feed, both configured in config/targets.yaml under council_news:
+Three kinds of feed, all configured in config/targets.yaml under council_news:
   - kind: council_agenda -> ModernGov/CMIS committee feeds (agendas, decisions)
   - kind: local_news     -> LDRS-partner / independent local titles (/feed)
+  - kind: google_news    -> Google News RSS query feed, one per borough
+                            (rss/search?q=... — plain query feeds don't redirect,
+                            see research_tier2_tier3.md §4). Titles arrive as
+                            "Headline - Publisher"; the publisher suffix is
+                            stripped before classification (byline/source name
+                            never stored). Links are Google redirect URLs and
+                            are stored as-is — they resolve for the reader.
 
 Feeds start as status: candidate; scripts/verify_feeds.py probes each once on
 the Mac and flips them to verified/dead. Only verified feeds are polled.
@@ -43,6 +50,11 @@ def load_config() -> tuple[list, list]:
 
 def parse_feed(xml_text: str) -> list[dict]:
     """[{title, link}] from RSS or Atom. Titles + links only — nothing else."""
+    # ModernGov serves a UTF-8 BOM; requests can mis-decode it as 'ï»¿'.
+    # Either form makes ET.fromstring raise — strip both before parsing.
+    xml_text = xml_text.lstrip('\ufeff')
+    if xml_text.startswith("ï»¿"):
+        xml_text = xml_text[3:]
     root = ET.fromstring(xml_text)
     out = []
     for item in root.iter():
@@ -64,11 +76,20 @@ def parse_feed(xml_text: str) -> list[dict]:
 
 def _matches(title: str, keywords: list, kind: str) -> bool:
     # agenda item titles are sparse ("Planning Committee A — agenda published");
-    # they're civic by construction, so agenda feeds skip the keyword gate
+    # they're civic by construction, so agenda feeds skip the keyword gate.
+    # local_news AND google_news both go through the gate.
     if kind == "council_agenda":
         return True
     t = title.lower()
     return any(k in t for k in keywords)
+
+
+def _clean_title(title: str, kind: str) -> str:
+    # Google News titles end " - Publisher"; strip it so the classifier sees
+    # the headline only and no publisher/byline is ever stored.
+    if kind == "google_news" and " - " in title:
+        return title.rsplit(" - ", 1)[0].strip()
+    return title
 
 
 def scrape(conn) -> list:
@@ -94,14 +115,15 @@ def scrape(conn) -> list:
             pid = f"news:{e['link']}"
             if pid in seen or kept >= MAX_PER_FEED:
                 continue
-            if not _matches(e["title"], keywords, kind):
+            title = _clean_title(e["title"], kind)
+            if not _matches(title, keywords, kind):
                 continue
             kept += 1
             out.append({
                 "id": pid,
                 "subreddit": f["name"],            # keeps classifier shape
                 "city": f.get("label", f["name"]),
-                "title": e["title"][:160],
+                "title": title[:160],
                 "body": "",                        # headlines only, by design
                 "score": 0, "num_comments": 0,
                 "permalink": e["link"],

@@ -18,6 +18,7 @@ SOURCE_BONUS = {
     "fixmystreet": 1.0,
     "council_agenda": 0.75,
     "local_news": 0.75,
+    "google_news": 0.75,
     "reddit": 0.0,
     "facebook": 0.0,
 }

@@ -19,6 +19,11 @@ UA = {"User-Agent": "state-civic-listener/1.0 (feed verification; contact thaker
 
 
 def is_feed(text: str) -> bool:
+    # ModernGov serves a UTF-8 BOM; requests can mis-decode it as 'ï»¿'.
+    # Either form makes ET.fromstring raise — strip both before parsing.
+    text = text.lstrip('\ufeff')
+    if text.startswith("ï»¿"):
+        text = text[3:]
     try:
         root = ET.fromstring(text)
     except ET.ParseError:
