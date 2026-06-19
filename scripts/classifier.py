@@ -94,6 +94,6 @@ def classify(posts: list[dict]) -> list[dict]:
                             "specificity": int(item.get("specificity", 2)),
                             "area": (item.get("area") or "").strip(),
                             "summary": (item.get("summary") or p["title"])[:140]})
-        time.sleep(3)  # stay under 20 req/min free-tier limit with margin
+        time.sleep(1)  # paid tier has high rate limits; small pause for politeness
     log.info("Classified %d posts -> %d civic items", len(posts), len(results))
     return results

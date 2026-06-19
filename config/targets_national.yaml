@@ -8786,9 +8786,9 @@ petitions:
   national: true
   max_constituencies_per_petition: 5
 limits:
-  max_classify_per_run: 300
+  max_classify_per_run: 3000
   top_n: 40
-  max_items_per_source: 120
+  max_items_per_source: 2500
 cmis_agendas:
   sites:
   - name: dudley
