@@ -5,6 +5,24 @@
 
 ---
 
+## STATUS — this has already been built (June 2026). Treat the below as reference.
+
+The site builder is DONE and wired in. Files that exist: `scripts/site_builder.py` (pure
+`build(brief, out_dir)`, dark-navy/pink State branding, mobile-friendly, disclosure + noindex
+on every page), `scripts/deploy_netlify.py` (opt-in, self-disables without `NETLIFY_*` env
+vars), `scripts/test_site_builder_offline.py` (218 checks passing), `netlify.toml`, plus site
++ deploy stages in `run_pipeline.py` (both guarded). The pipeline builds the site from the
+FULL per-council set (`all_issues`, via `site_brief = {**brief, "items": all_issues}` at the
+site stage), NOT the top-40 brief — so council pages have full depth.
+
+What REMAINS for the user (one-time, on the Mac): `npm install -g netlify-cli`, then
+`netlify login` / `sites:create` / `link`, paste `NETLIFY_AUTH_TOKEN` + `NETLIFY_SITE_ID` into
+`.env`, and `python scripts/site_builder.py && python scripts/deploy_netlify.py` to first
+publish. After that the daily cron auto-rebuilds and redeploys. Optional nicety not yet done:
+append the live dashboard URL to the Telegram brief.
+
+Everything below is the original build brief, kept for reference.
+
 You are picking up an established Python project called **State Civic Intelligence** and
 adding a new output stage to it. Read this whole brief before touching anything, then build.
 
@@ -47,20 +65,16 @@ Add a **site builder** stage that turns the daily brief into a static website:
 Then wire it up so the site **regenerates every day** when the pipeline runs, and **deploys to
 Netlify** automatically.
 
-## CRITICAL — the brief only holds the top 40 items; the site needs the full set
+## READ FROM `civic_items_<date>.json`, NOT the brief
 
-`data/brief_<date>.json` contains only the top-scored items (config `limits.top_n`, currently
-40) — that's right for the Telegram digest but far too thin for per-council pages (40 items
-across all UK = mostly empty council pages). A real run produces ~1,600 civic items, but the
-pipeline discards everything below the top 40 before writing to disk.
-
-**Your FIRST task** is therefore a small pipeline change: in `scripts/run_pipeline.py`, after
-classification/mapping/scoring, write the FULL mapped+classified civic item list (the `items`
-variable, ~1,600 rows, before the `top_n` cut) to a new file `data/civic_items_<date>.json`
-(same per-item shape as below). Leave the existing top-40 `brief_<date>.json` untouched so the
-Telegram path is unaffected. The site builder reads `civic_items_<date>.json`, NOT the brief.
-Confirm with the user before changing pipeline behaviour, and guard the new write so it can't
-break the existing flow.
+`data/brief_<date>.json` holds only the top-scored items (config `limits.top_n`, 40) — right
+for the Telegram digest, far too thin for per-council pages. This has ALREADY been solved: the
+pipeline now also writes **`data/civic_items_<date>.json`**, containing EVERY scored, deduped
+issue across all councils (hundreds of rows), in the clean shape shown below. `scorer.py`
+fills this via a `full_sink` argument and `run_pipeline.py` writes the file (guarded). You do
+NOT need to touch the pipeline for data — just build the site off `civic_items_<date>.json`.
+If that file is missing, the user simply needs to run `python scripts/run_pipeline.py` once to
+generate it.
 
 ## Input data shape (read a real file first)
 

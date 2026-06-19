@@ -30,14 +30,24 @@ import cmis_source             # noqa: E402
 import classifier              # noqa: E402
 import constituency_mapper     # noqa: E402
 import scorer                  # noqa: E402
+import presenter               # noqa: E402
+import site_builder            # noqa: E402
+import deploy_netlify          # noqa: E402
 
 LOG_DIR = PROJECT_ROOT / "logs"
 LOG_DIR.mkdir(exist_ok=True)
+# In --cron mode Hermes only consumes the single JSON line on stdout and does
+# not necessarily drain stderr; a national run emits thousands of log lines, so
+# streaming them to stderr can fill and break the pipe ("Broken pipe"). The file
+# log captures everything regardless, so in cron mode we log to FILE ONLY.
+_CRON_MODE = "--cron" in sys.argv
+_handlers = [logging.FileHandler(LOG_DIR / f"pipeline_{date.today()}.log")]
+if not _CRON_MODE:
+    _handlers.append(logging.StreamHandler(sys.stderr))
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s %(name)s %(levelname)s %(message)s",
-    handlers=[logging.FileHandler(LOG_DIR / f"pipeline_{date.today()}.log"),
-              logging.StreamHandler(sys.stderr)],
+    handlers=_handlers,
 )
 log = logging.getLogger("pipeline")
 
@@ -125,7 +135,8 @@ def run() -> dict:
             errors.append(f"classify/map: {e}")
             log.exception("Classification failed")
 
-    top = scorer.group_and_score(conn, items) if items else []
+    all_issues: list = []
+    top = scorer.group_and_score(conn, items, full_sink=all_issues) if items else []
     # discard: only IDs are kept. Cap-deferred posts are NOT marked seen,
     # so they can come back tomorrow while still recent.
     reddit_scraper.mark_seen(conn, to_classify)
@@ -142,6 +153,59 @@ def run() -> dict:
     out.parent.mkdir(exist_ok=True)
     out.write_text(json.dumps(brief, indent=2))
     brief["path"] = str(out)
+
+    # Full per-council export for the website: ALL scored issues, not just the
+    # top_n digest. The Telegram brief above is untouched. Guarded so a failure
+    # here never affects brief delivery.
+    try:
+        full_out = PROJECT_ROOT / "data" / f"civic_items_{date.today()}.json"
+        full_out.write_text(json.dumps(
+            {"date": str(date.today()), "posts_scanned": len(posts),
+             "civic_items": len(items), "issue_count": len(all_issues),
+             "items": all_issues}, indent=2))
+        brief["civic_items_path"] = str(full_out)
+        log.info("Full civic-items export: %d issues -> %s",
+                 len(all_issues), full_out.name)
+    except Exception:  # noqa: BLE001
+        log.exception("Full civic-items export failed (brief delivery unaffected)")
+
+    # Presenter stage: turn the raw scored brief into a polished, Telegram-ready
+    # message that Hermes sends VERBATIM. Failures here never block delivery —
+    # presenter.present() falls back to a deterministic render internally, and
+    # we guard the whole stage so a bad day still ships the JSON path.
+    try:
+        message = presenter.present(brief)
+    except Exception as e:  # noqa: BLE001
+        log.exception("Presenter failed — delivering deterministic render")
+        message = presenter.render_fallback(brief)
+    msg_out = PROJECT_ROOT / "data" / f"brief_message_{date.today()}.md"
+    msg_out.write_text(message)
+    brief["message_path"] = str(msg_out)
+
+    # Site builder stage: regenerate the static dashboard + per-council pages
+    # from the brief, for Netlify to serve. Pure/deterministic (no network, no
+    # LLM). Guarded like the presenter stage so a site failure NEVER blocks the
+    # brief — the JSON and Telegram message are already safely on disk above.
+    try:
+        site_dir = PROJECT_ROOT / "site"
+        # The website is built from the FULL per-council set (all_issues), not the
+        # top_n Telegram digest in brief["items"]. Same dict shape, just every
+        # issue — so council pages have real depth. Telegram brief is untouched.
+        site_brief = {**brief, "items": all_issues}
+        site_builder.build(site_brief, site_dir)
+        brief["site_path"] = str(site_dir)
+        log.info("Site rebuilt at %s", site_dir)
+        # Publish to Netlify (opt-in: only runs if NETLIFY_* env vars + CLI are
+        # present). Self-disabling and non-raising, but guarded again here so a
+        # deploy hiccup can never affect the brief.
+        try:
+            url = deploy_netlify.deploy(site_dir)
+            if url:
+                brief["site_url"] = url
+        except Exception:  # noqa: BLE001
+            log.exception("Netlify deploy failed — brief delivery unaffected")
+    except Exception:  # noqa: BLE001
+        log.exception("Site builder failed — brief delivery unaffected")
     return brief
 
 
@@ -199,6 +263,8 @@ def print_human(brief: dict):
                 print(f"  • [{i['category']}|{src}] {i['summary']}{flag}")
                 print(f"    vol {i['volume']} | eng {i['engagement']} | "
                       f"action: {i['suggested_action']} | {i['source_link']}")
+    if brief.get("message_path"):
+        print(f"\nPolished Telegram brief written to: {brief['message_path']}")
 
 
 if __name__ == "__main__":
@@ -209,9 +275,20 @@ if __name__ == "__main__":
     if args.cron:
         # Wake the agent only if there is something to brief (or an error to report).
         wake = bool(b["items"]) or bool(b["errors"])
-        print(json.dumps({"wakeAgent": wake,
-                          "context": {"brief_path": b["path"],
-                                      "item_count": len(b["items"]),
-                                      "errors": b["errors"]}}))
+        payload = json.dumps({"wakeAgent": wake,
+                              "context": {"brief_path": b["path"],
+                                          "message_path": b.get("message_path"),
+                                          "item_count": len(b["items"]),
+                                          "errors": b["errors"]}})
+        # The full brief is already safely on disk (JSON + message file). The
+        # stdout handshake is best-effort: if Hermes has already closed the pipe
+        # (e.g. it timed out), don't die with an unhandled BrokenPipeError —
+        # exit cleanly so the run still counts as a success on disk.
+        try:
+            sys.stdout.write(payload + "\n")
+            sys.stdout.flush()
+        except BrokenPipeError:
+            log.warning("stdout pipe closed before handshake (Hermes may have "
+                        "timed out); brief is on disk at %s", b.get("message_path"))
     else:
         print_human(b)
